@@ -1,0 +1,177 @@
+
+2021-10-20 09:03:03,966 [1] [INFO ] [GameServer] £∫Game Server Init
+2021-10-20 09:03:05,134 [1] [INFO ] [GameServer] £∫DataManager > DataManager()
+2021-10-20 09:03:05,417 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:1:∞¬Ãÿ¿º
+2021-10-20 09:03:05,449 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:2:“∞Õ‚1
+2021-10-20 09:03:05,450 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:3:“∞Õ‚2
+2021-10-20 09:03:05,450 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:4:∏±±æ1
+2021-10-20 09:03:05,451 [1] [WARN ] [GameServer] £∫Starting Listener...
+2021-10-20 09:03:05,497 [9] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:05,497 [6] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:05,497 [8] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:05,498 [7] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:06,493 [10] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:06,991 [11] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:07,995 [12] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:08,990 [13] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 09:03:09,014 [1] [WARN ] [GameServer] £∫NetService Started
+2021-10-20 09:03:21,957 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:2459]] Connected
+2021-10-20 09:03:22,023 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:03:22,147 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:03:34,657 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 09:03:34,660 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:12:hello Map:1
+2021-10-20 09:03:34,667 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:03:47,491 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:38:01,344 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:4348]] Connected
+2021-10-20 09:38:01,414 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:38:01,415 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:38:16,057 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:43:53,743 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:4621]] Connected
+2021-10-20 09:43:53,808 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:43:53,809 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:44:00,199 [85] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 09:44:00,201 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 09:44:00,202 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:45:16,842 [85] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:45:39,526 [85] [WARN ] [GameServer] £∫Client[127.0.0.1:4701]] Connected
+2021-10-20 09:45:39,590 [85] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:45:39,591 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:45:41,591 [87] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 09:45:41,592 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:12:hello Map:1
+2021-10-20 09:45:41,592 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:46:28,843 [87] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:48:44,105 [87] [WARN ] [GameServer] £∫Client[127.0.0.1:4846]] Connected
+2021-10-20 09:48:44,177 [87] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:48:44,178 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:48:45,750 [79] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 09:48:45,750 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 09:48:45,751 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:49:13,185 [79] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:50:16,260 [79] [WARN ] [GameServer] £∫Client[127.0.0.1:4936]] Connected
+2021-10-20 09:50:16,331 [79] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:50:16,332 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:50:18,623 [74] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 09:50:18,627 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:12:hello Map:1
+2021-10-20 09:50:18,627 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:51:26,640 [79] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:52:08,056 [71] [WARN ] [GameServer] £∫Client[127.0.0.1:5014]] Connected
+2021-10-20 09:52:08,118 [71] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:52:08,119 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:52:10,269 [69] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 09:52:10,270 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 09:52:10,271 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:52:22,621 [71] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:57:22,608 [71] [WARN ] [GameServer] £∫Client[127.0.0.1:13134]] Connected
+2021-10-20 09:57:22,676 [71] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:57:22,678 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:57:24,675 [69] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 09:57:24,676 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 09:57:24,676 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:58:18,062 [69] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 09:58:44,747 [69] [WARN ] [GameServer] £∫Client[127.0.0.1:9743]] Connected
+2021-10-20 09:58:44,819 [69] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 09:58:44,820 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 09:58:46,494 [72] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 09:58:46,495 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 09:58:46,495 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 09:59:36,810 [72] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:00:32,222 [72] [WARN ] [GameServer] £∫Client[127.0.0.1:5368]] Connected
+2021-10-20 10:00:32,299 [72] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:00:32,300 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:00:34,683 [71] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 10:00:34,684 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 10:00:34,684 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:00:44,029 [71] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:03:45,270 [71] [WARN ] [GameServer] £∫Client[127.0.0.1:9561]] Connected
+2021-10-20 10:03:45,339 [71] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:03:45,340 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:03:47,288 [71] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 10:03:47,289 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 10:03:47,289 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:06:24,492 [71] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:06:54,830 [78] [WARN ] [GameServer] £∫Client[127.0.0.1:12487]] Connected
+2021-10-20 10:06:54,894 [78] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:06:54,895 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:06:57,351 [80] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 10:06:57,351 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 10:06:57,352 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:07:32,530 [80] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:10:11,978 [80] [WARN ] [GameServer] £∫Client[127.0.0.1:7684]] Connected
+2021-10-20 10:10:12,044 [80] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:10:12,045 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:10:14,069 [57] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 10:10:14,069 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 10:10:14,070 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:10:49,488 [57] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:11:15,871 [57] [WARN ] [GameServer] £∫Client[127.0.0.1:14035]] Connected
+2021-10-20 10:11:15,936 [57] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:11:15,937 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:11:18,352 [55] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 10:11:18,353 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 10:11:18,354 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:11:25,361 [57] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 10:11:49,737 [57] [WARN ] [GameServer] £∫Client[127.0.0.1:14988]] Connected
+2021-10-20 10:11:49,802 [57] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 10:11:49,803 [6] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 10:11:51,808 [53] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 10:11:51,809 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 10:11:51,809 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 10:12:21,038 [53] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 19:41:05,286 [1] [INFO ] [GameServer] £∫Game Server Init
+2021-10-20 19:41:06,247 [1] [INFO ] [GameServer] £∫DataManager > DataManager()
+2021-10-20 19:41:06,611 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:1:∞¬Ãÿ¿º
+2021-10-20 19:41:06,618 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:2:“∞Õ‚1
+2021-10-20 19:41:06,618 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:3:“∞Õ‚2
+2021-10-20 19:41:06,618 [1] [INFO ] [GameServer] £∫MapManager.Init > Map:4:∏±±æ1
+2021-10-20 19:41:06,619 [1] [WARN ] [GameServer] £∫Starting Listener...
+2021-10-20 19:41:06,782 [6] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:06,782 [5] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:06,782 [7] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:06,783 [8] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:07,743 [9] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:08,744 [10] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:09,743 [11] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:10,834 [12] [WARN ] [GameServer] £∫MessageDistribute thread start
+2021-10-20 19:41:10,939 [1] [WARN ] [GameServer] £∫NetService Started
+2021-10-20 19:41:31,768 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:9961]] Connected
+2021-10-20 19:41:31,838 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 19:41:31,970 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 19:41:37,440 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 19:41:37,442 [6] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 19:41:37,450 [6] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 19:42:49,139 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 19:43:11,985 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:10017]] Connected
+2021-10-20 19:43:12,055 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 19:43:12,057 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 19:43:14,504 [15] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 19:43:14,505 [5] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 19:43:14,506 [5] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 19:43:24,454 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 19:45:29,602 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:12297]] Connected
+2021-10-20 19:45:29,666 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 19:45:29,667 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 19:45:31,663 [18] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 19:45:31,664 [5] [INFO ] [GameServer] £∫UserGameRequest: characterID:12:hello Map:1
+2021-10-20 19:45:31,665 [5] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 19:45:37,422 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 19:49:23,952 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:7850]] Connected
+2021-10-20 19:49:24,017 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 19:49:24,018 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 19:49:26,238 [26] [WARN ] [GameServer] £∫Client[] DataReceived Len:10
+2021-10-20 19:49:26,239 [5] [INFO ] [GameServer] £∫UserGameRequest: characterID:2:fashi Map:1
+2021-10-20 19:49:26,240 [5] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 19:49:33,342 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 19:54:04,599 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:8550]] Connected
+2021-10-20 19:54:04,671 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 19:54:04,672 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 19:54:07,330 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 19:54:07,331 [5] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 19:54:07,332 [5] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 19:54:37,944 [3] [WARN ] [GameServer] £∫Client[] Disconnected
+2021-10-20 20:00:12,242 [3] [WARN ] [GameServer] £∫Client[127.0.0.1:2968]] Connected
+2021-10-20 20:00:12,310 [3] [WARN ] [GameServer] £∫Client[] DataReceived Len:20
+2021-10-20 20:00:12,311 [5] [INFO ] [GameServer] £∫UserLoginRequest: User:tsing  Pass:123
+2021-10-20 20:00:14,530 [24] [WARN ] [GameServer] £∫Client[] DataReceived Len:8
+2021-10-20 20:00:14,531 [5] [INFO ] [GameServer] £∫UserGameRequest: characterID:1: ‘ ‘ Map:1
+2021-10-20 20:00:14,532 [5] [INFO ] [GameServer] £∫CharacterEnter: Map:1 characterId:0
+2021-10-20 20:00:39,787 [24] [WARN ] [GameServer] £∫Client[] Disconnected

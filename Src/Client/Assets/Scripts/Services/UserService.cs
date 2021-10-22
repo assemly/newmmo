@@ -7,6 +7,7 @@ using Network;
 using UnityEngine;
 
 using SkillBridge.Message;
+using Models;
 
 namespace Services
 {
@@ -21,6 +22,8 @@ namespace Services
 
         bool connected = false;
 
+        bool isQuitGame = false;
+
         public UserService()
         {
             NetClient.Instance.OnConnect += OnGameServerConnect;
@@ -28,17 +31,27 @@ namespace Services
             MessageDistributer.Instance.Subscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Subscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
-            
+            MessageDistributer.Instance.Subscribe<UserGameEnterResponse>(this.OnGameEnter);
+            MessageDistributer.Instance.Subscribe<UserGameLeaveResponse>(this.OnGameLeave);
+            //MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnCharacterEnter);
+
         }
+
+       
 
         public void Dispose()
         {
             MessageDistributer.Instance.Unsubscribe<UserLoginResponse>(this.OnUserLogin);
             MessageDistributer.Instance.Unsubscribe<UserRegisterResponse>(this.OnUserRegister);
             MessageDistributer.Instance.Unsubscribe<UserCreateCharacterResponse>(this.OnUserCreateCharacter);
+            MessageDistributer.Instance.Unsubscribe<UserGameEnterResponse>(this.OnGameEnter);
+            MessageDistributer.Instance.Unsubscribe<UserGameLeaveResponse>(this.OnGameLeave);
+           // MessageDistributer.Instance.Unsubscribe<MapCharacterEnterResponse>(this.OnCharacterEnter); 应该放在mapService中
             NetClient.Instance.OnConnect -= OnGameServerConnect;
             NetClient.Instance.OnDisconnect -= OnGameServerDisconnect;
         }
+
+        
 
         public void Init()
         {
@@ -208,6 +221,7 @@ namespace Services
             if(response.Result == Result.Success)
             {
                 Models.User.Instance.Info.Player.Characters.Clear();
+                Debug.Log("Models.User.Instance.Info.Player.Characters:"+response.Characters.Count);
                 Models.User.Instance.Info.Player.Characters.AddRange(response.Characters);
             }
 
@@ -218,6 +232,63 @@ namespace Services
             }
         }
 
+        public void SendGameEnter(int characterIdx)
+        {
+            Debug.LogFormat("UserGameEnterRequest::characterId :{0}",characterIdx);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.gameEnter = new UserGameEnterRequest();
+            message.Request.gameEnter.characterIdx = characterIdx;
+            NetClient.Instance.SendMessage(message);
+        }
 
+
+        private void OnGameEnter(object sender, UserGameEnterResponse response)
+        {
+            Debug.LogFormat("OnGameEnter:{0}", response.Result);
+            if(response.Result == Result.Success)
+            {
+                if (response.Character != null)
+                {
+                    User.Instance.CurrentCharacter = response.Character;
+                    Debug.LogFormat("OnGameEnter:{0}", User.Instance.CurrentCharacter.Class);
+                }
+            }
+        }
+
+        public void SendGameLeave(bool isQuitGame = false)
+        {
+            this.isQuitGame = isQuitGame;
+            Debug.Log("UserGameLeaveRequest");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.gameLeave = new UserGameLeaveRequest();
+            NetClient.Instance.SendMessage(message);
+            
+        }
+        private void OnGameLeave(object sender, UserGameLeaveResponse response)
+        {
+            MapService.Instance.CurrentMapId = 0;
+            User.Instance.CurrentCharacter = null;
+            Debug.LogFormat("OnGameLeave:{0} [{1}]", response.Result, response.Errormsg);
+            if (this.isQuitGame)
+            {
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#else
+                Application.Quit();
+#endif
+            }
+        }
+    
+
+        //private void OnCharacterEnter(object sender, MapCharacterEnterResponse message)
+        //{
+        //    Debug.LogFormat("OnCharacterEnter:{0}", message.mapId);
+        //    NCharacterInfo info = message.Characters[0];
+        //    User.Instance.CurrentCharacter = info;
+          
+        //    SceneManager.Instance.LoadScene(DataManager.Instance.Maps[message.mapId].Resource);
+        //}
     }
 }

@@ -1,0 +1,40 @@
+2021-10-22 21:01:28,742 [ 1] INFO  Unity: LoadingManager start
+2021-10-22 21:01:32,251 [ 1] INFO  Unity: DataManager > DataManager()
+2021-10-22 21:01:38,436 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-10-22 21:01:38,446 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-10-22 21:01:38,447 [ 1] INFO  Unity: DoConnect
+2021-10-22 21:01:38,449 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 21:01:38,451 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-10-22 21:01:38,463 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-10-22 21:01:41,289 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-10-22 21:01:41,296 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-10-22 21:01:41,599 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-22 21:01:43,465 [ 1] INFO  Unity: Select Char:[1] ‘ ‘[Warrior]
+2021-10-22 21:01:44,259 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-10-22 21:01:44,260 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-10-22 21:02:19,061 [ 1] INFO  Unity: OnGameEnter:Success
+2021-10-22 21:02:19,062 [ 1] INFO  Unity: OnGameEnter:Warrior
+2021-10-22 21:05:04,409 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-10-22 21:05:04,410 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID0
+2021-10-22 21:05:18,602 [ 1] INFO  Unity: AddCharacter:1: ‘ ‘ Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£∫0
+2021-10-22 21:05:42,991 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-10-22 21:05:43,503 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-22 21:05:43,503 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-22 21:05:43,621 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-22 21:05:43,638 [ 1] WARN  Unity: UIMinimap Start 105990
+UnityEngine.Debug:LogWarning(Object)
+UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
+
+2021-10-22 21:05:43,642 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[105990] Set
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
+UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
+
+2021-10-22 21:06:03,579 [ 1] INFO  Unity: Character_1_ ‘ ‘ OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-10-22 21:06:03,581 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-10-22 21:06:03,581 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

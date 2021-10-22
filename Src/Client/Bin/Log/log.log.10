@@ -1,0 +1,91 @@
+2021-10-22 19:27:03,330 [ 1] INFO  Unity: LoadingManager start
+2021-10-22 19:27:06,352 [ 1] INFO  Unity: DataManager > DataManager()
+2021-10-22 19:27:16,671 [ 1] INFO  Unity: UserLoginRequest::user :mier psw:123
+2021-10-22 19:27:16,671 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-10-22 19:27:16,674 [ 1] INFO  Unity: DoConnect
+2021-10-22 19:27:16,674 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 19:27:16,675 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-10-22 19:27:16,679 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-10-22 19:27:16,773 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-10-22 19:27:16,774 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-10-22 19:27:16,938 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-22 19:27:18,134 [ 1] INFO  Unity: Select Char:[13]试试[Warrior]
+2021-10-22 19:27:19,034 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-10-22 19:27:19,034 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-10-22 19:27:19,070 [ 1] INFO  Unity: OnGameEnter:Success
+2021-10-22 19:27:19,070 [ 1] INFO  Unity: OnGameEnter:Warrior
+2021-10-22 19:27:19,070 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2
+2021-10-22 19:27:19,071 [ 1] INFO  Unity:  CharacterManager:0
+2021-10-22 19:27:19,072 [ 1] INFO  Unity: AddCharacter:1:试试 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-10-22 19:27:19,073 [ 1] INFO  Unity:  CharacterManager:1
+2021-10-22 19:27:19,073 [ 1] INFO  Unity: AddCharacter:13:试试 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-10-22 19:27:19,073 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-10-22 19:27:19,433 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-22 19:27:19,433 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-22 19:27:19,438 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-22 19:27:19,443 [ 1] WARN  Unity: UIMinimap Start 10668
+
+2021-10-22 19:27:19,443 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[10668] Set
+
+2021-10-22 19:27:24,402 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-10-22 19:27:24,402 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-10-22 19:27:24,503 [ 1] INFO  Unity: Character_13_试试 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-10-22 19:27:24,506 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-22 19:33:06,146 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00000] in <filename unknown>:0 
+
+2021-10-22 19:33:06,147 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+
+2021-10-22 19:33:06,153 [ 1] INFO  Unity: DoConnect
+2021-10-22 19:33:06,153 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 19:33:06,154 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-10-22 19:33:08,160 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2021-10-22 19:33:08,161 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+
+2021-10-22 19:33:08,169 [ 1] INFO  Unity: DoConnect
+2021-10-22 19:33:08,169 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 19:33:08,169 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2021-10-22 19:33:10,171 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2021-10-22 19:33:10,171 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+
+2021-10-22 19:33:10,175 [ 1] INFO  Unity: DoConnect
+2021-10-22 19:33:10,175 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 19:33:10,175 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2021-10-22 19:33:10,176 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-10-22 19:37:27,173 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00000] in <filename unknown>:0 
+
+2021-10-22 19:37:27,173 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+
+2021-10-22 19:37:27,181 [ 1] INFO  Unity: DoConnect
+2021-10-22 19:37:27,181 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-22 19:37:27,182 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2021-10-22 19:37:29,185 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2021-10-22 19:37:29,185 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+
+2021-10-22 19:37:29,186 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2021-10-22 19:38:08,836 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-22 19:38:08,837 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-10-22 19:38:08,837 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+

@@ -57,14 +57,16 @@ message NPlayerInfo {
 }
 
 message NCharacterInfo {
-	int32 id = 1;
-	int32 tid = 2;
-	string name = 3;
-	CHARACTER_TYPE type = 4;
-	CHARACTER_CLASS class = 5;
-	int32 level = 6;
-	int32 mapId = 7;
-	NEntity entity = 8;
+	int32 id = 1;//db id
+	int32 config_id = 2;//config id
+	int32 entity_id = 3;//entity id
+	string name = 4;
+	CHARACTER_TYPE type = 5;
+	CHARACTER_CLASS class = 6;
+	int32 level = 7;
+
+	int32 mapId = 8;
+	NEntity entity = 9;
 }
 
 message NVector3
@@ -119,6 +121,8 @@ message NetMessageRequest{
 
 	MapEntitySyncRequest mapEntitySync = 8;
 	MapTeleportRequest mapTeleport = 9;
+
+	FirstTestRequest firstRequest = 10;
 }
 
 message NetMessageResponse{
@@ -137,6 +141,11 @@ message NetMessageResponse{
 
 
 // User Protocol
+
+message FirstTestRequest {
+	string helloworld = 1;
+}
+
 message UserLoginRequest {
 	string user = 1;
 	string passward = 2;
@@ -153,6 +162,7 @@ message UserRegisterRequest
 {
 	string user = 1;
 	string passward = 2;
+	int32 age = 18;
 }
 
 message UserRegisterResponse {
@@ -180,6 +190,7 @@ message UserGameEnterRequest
 message UserGameEnterResponse {
 	RESULT result = 1;
 	string errormsg = 2;
+	NCharacterInfo character = 3;
 }
 
 message UserGameLeaveRequest
@@ -205,7 +216,7 @@ message MapCharacterEnterResponse
 
 message MapCharacterLeaveResponse
 {
-	int32 characterId = 1;
+	int32 entityId = 1;
 }
 
 

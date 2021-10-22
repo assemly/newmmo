@@ -1,0 +1,207 @@
+
+2021-10-17 12:36:44,743 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 12:36:45,433 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-10-17 12:36:45,481 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:45,500 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:45,500 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:45,501 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:46,174 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:47,674 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:48,674 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:49,672 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:36:49,707 [1] [WARN ] [GameServer] ：NetService Started
+2021-10-17 12:38:02,313 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9028]] Connected
+2021-10-17 12:38:02,384 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2021-10-17 12:38:02,524 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123456
+2021-10-17 12:38:22,947 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:23
+2021-10-17 12:38:22,947 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123456
+2021-10-17 12:38:36,033 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 12:38:36,034 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 12:38:43,461 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 12:38:43,465 [7] [INFO ] [GameServer] ：UserRegisterRequest: User:tsing  Pass:123
+2021-10-17 12:38:46,524 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 12:38:46,524 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 12:38:57,967 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-10-17 12:38:57,970 [7] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:试试  Class:Warrior
+2021-10-17 12:39:06,985 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 12:39:20,463 [15] [WARN ] [GameServer] ：Client[127.0.0.1:9054]] Connected
+2021-10-17 12:39:20,532 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 12:39:20,533 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 12:39:23,268 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-10-17 12:39:23,271 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:1:试试 Map:1
+2021-10-17 12:39:23,351 [7] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 29
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 148
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-10-17 12:39:54,451 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 12:54:11,176 [4] [WARN ] [GameServer] ：Client[127.0.0.1:9497]] Connected
+2021-10-17 12:54:11,249 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 12:54:11,254 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 12:54:13,552 [40] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-10-17 12:54:13,554 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:试试 Map:1
+2021-10-17 12:54:13,575 [6] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 29
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 148
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-10-17 12:58:57,340 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 12:58:59,629 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-10-17 12:59:40,877 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 12:59:42,506 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-10-17 12:59:43,235 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-10-17 12:59:43,263 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-10-17 12:59:43,314 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-10-17 12:59:43,356 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-10-17 12:59:43,405 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-10-17 12:59:43,469 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:43,474 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:43,475 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:43,475 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:44,479 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:45,458 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:46,457 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:47,458 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 12:59:47,483 [1] [WARN ] [GameServer] ：NetService Started
+2021-10-17 13:00:18,396 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9583]] Connected
+2021-10-17 13:00:18,461 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 13:00:18,623 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 13:00:24,377 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-10-17 13:00:24,379 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:试试 Map:1
+2021-10-17 13:00:24,384 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-10-17 13:01:03,939 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 13:02:46,550 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9641]] Connected
+2021-10-17 13:02:46,618 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 13:02:46,619 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 13:02:51,365 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-10-17 13:02:51,366 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:1:试试 Map:1
+2021-10-17 13:02:51,368 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-10-17 13:02:59,506 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:18:16,102 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 22:18:16,634 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-10-17 22:18:17,283 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-10-17 22:18:17,288 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-10-17 22:18:17,288 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-10-17 22:18:17,288 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-10-17 22:18:17,289 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-10-17 22:18:17,341 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:17,347 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:17,357 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:17,358 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:18,337 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:19,817 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:20,816 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:21,818 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 22:18:21,869 [1] [WARN ] [GameServer] ：NetService Started
+2021-10-17 22:18:46,845 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1553]] Connected
+2021-10-17 22:18:46,915 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:18:47,051 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:18:59,847 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:20:16,389 [13] [WARN ] [GameServer] ：Client[127.0.0.1:1634]] Connected
+2021-10-17 22:20:16,456 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:20:16,457 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:20:28,561 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:25:51,128 [15] [WARN ] [GameServer] ：Client[127.0.0.1:1923]] Connected
+2021-10-17 22:25:51,199 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:25:51,199 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:25:57,887 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2021-10-17 22:25:57,891 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:fashi  Class:Wizard
+2021-10-17 22:27:58,925 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:28:20,077 [15] [WARN ] [GameServer] ：Client[127.0.0.1:1995]] Connected
+2021-10-17 22:28:20,151 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:28:20,152 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:28:28,948 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-10-17 22:28:28,949 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:试试  Class:Warrior
+2021-10-17 22:28:49,308 [27] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:29:30,233 [27] [WARN ] [GameServer] ：Client[127.0.0.1:2036]] Connected
+2021-10-17 22:29:30,304 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:29:30,305 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:29:38,634 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2021-10-17 22:29:38,635 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:test  Class:Archer
+2021-10-17 22:30:02,845 [27] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:31:48,248 [27] [WARN ] [GameServer] ：Client[127.0.0.1:2118]] Connected
+2021-10-17 22:31:48,320 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:31:48,321 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:33:03,082 [36] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:33:21,947 [36] [WARN ] [GameServer] ：Client[127.0.0.1:2154]] Connected
+2021-10-17 22:33:22,020 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:33:22,021 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:33:28,582 [39] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2021-10-17 22:33:28,584 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:的   Class:Archer
+2021-10-17 22:39:33,896 [36] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 22:40:25,073 [36] [WARN ] [GameServer] ：Client[127.0.0.1:2339]] Connected
+2021-10-17 22:40:25,138 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 22:40:25,139 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 22:40:31,865 [55] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-10-17 22:40:31,866 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:shishi1  Class:Warrior
+2021-10-17 22:41:23,957 [36] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:06:26,567 [36] [WARN ] [GameServer] ：Client[127.0.0.1:3160]] Connected
+2021-10-17 23:06:26,635 [36] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:06:26,637 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:06:45,451 [76] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:06:58,000 [74] [WARN ] [GameServer] ：Client[127.0.0.1:2468]] Connected
+2021-10-17 23:06:58,066 [74] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:06:58,067 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:08:00,096 [76] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:08:29,404 [76] [WARN ] [GameServer] ：Client[127.0.0.1:1085]] Connected
+2021-10-17 23:08:29,484 [76] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:08:29,485 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:09:27,819 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 23:09:28,120 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-10-17 23:09:28,409 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-10-17 23:09:28,411 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-10-17 23:09:28,412 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-10-17 23:09:28,412 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-10-17 23:09:28,412 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-10-17 23:09:28,464 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:28,490 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:28,491 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:28,491 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:28,725 [3] [WARN ] [GameServer] ：Client[127.0.0.1:14960]] Connected
+2021-10-17 23:09:31,423 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:31,931 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:32,935 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:33,924 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:09:33,965 [1] [WARN ] [GameServer] ：NetService Started
+2021-10-17 23:09:39,246 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:10:02,509 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12308]] Connected
+2021-10-17 23:10:02,575 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:10:02,738 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:10:12,891 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2021-10-17 23:10:12,894 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大萨达  Class:Warrior
+2021-10-17 23:10:58,457 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:11:17,390 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3374]] Connected
+2021-10-17 23:11:17,456 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:11:17,457 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:11:24,110 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-10-17 23:11:24,112 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大  Class:Wizard
+2021-10-17 23:13:26,129 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-10-17 23:13:48,934 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2322]] Connected
+2021-10-17 23:13:48,999 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:13:49,000 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:13:56,218 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2021-10-17 23:13:56,220 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:是的是的  Class:Archer
+2021-10-17 23:21:47,531 [1] [INFO ] [GameServer] ：Game Server Init
+2021-10-17 23:21:48,316 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-10-17 23:21:49,048 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-10-17 23:21:49,089 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-10-17 23:21:49,115 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-10-17 23:21:49,117 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-10-17 23:21:49,120 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-10-17 23:21:49,140 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:49,145 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:49,146 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:49,148 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:50,133 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:50,634 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:51,631 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:52,134 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-10-17 23:21:52,151 [1] [WARN ] [GameServer] ：NetService Started
+2021-10-17 23:22:07,448 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9884]] Connected
+2021-10-17 23:22:07,509 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-10-17 23:22:07,632 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-10-17 23:22:15,953 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:21
+2021-10-17 23:22:15,957 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大萨达  Class:Warrior
+2021-10-17 23:22:31,038 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-10-17 23:22:31,038 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:大萨达撒大萨达撒  Class:Warrior
+2021-10-17 23:22:37,801 [14] [WARN ] [GameServer] ：Client[] Disconnected

@@ -1,5 +1,6 @@
 ﻿using Common.Data;
 using GameServer.Core;
+using GameServer.Managers;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -14,10 +15,9 @@ namespace GameServer.Entities
 
         public int Id
         {
-            get
-            {
-                return this.entityId;
-            }
+            get;
+           
+            set;
         }
         public NCharacterInfo Info;
         public CharacterDefine Define;
@@ -33,9 +33,10 @@ namespace GameServer.Entities
             this.Info = new NCharacterInfo();
             this.Info.Type = type;
             this.Info.Level = level;
-            this.Info.Tid = tid;
+            this.Info.ConfigId = tid;
             this.Info.Entity = this.EntityData;
-            //this.Define = DataManager.Instance.Characters[this.Info.Tid];
+            this.Info.EntityId = this.entityId;
+            this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
             this.Info.Name = this.Define.Name;
         }
     }
