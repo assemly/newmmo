@@ -198,7 +198,7 @@ namespace GameServer.Services
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
             Log.InfoFormat("UserGameRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
-            Log.InfoFormat("OnGameEnter Character EntityId{0}", character.entityId);
+            Log.InfoFormat("OnGameEnter Character EntityId{0}:", character.entityId);
             //NetMessage message = new NetMessage();
             //message.Response = new NetMessageResponse();
             //message.Response.gameEnter = new UserGameEnterResponse();

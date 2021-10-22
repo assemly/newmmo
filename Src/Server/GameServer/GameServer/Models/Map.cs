@@ -55,51 +55,55 @@ namespace GameServer.Models
         /// 角色进入地图
         /// </summary>
         /// <param name="character"></param>
+        //internal void CharacterEnter(NetConnection<NetSession> conn, Character character)
+        //{
+        //    Log.InfoFormat("CharacterEnter: Map:{0} characterId:{1}", this.Define.ID, character.Id);
+        //    character.Info.mapId = this.ID;
+
+        //    NetMessage message = new NetMessage();
+        //    message.Response = new NetMessageResponse();
+
+        //    message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+        //    message.Response.mapCharacterEnter.mapId = this.Define.ID;
+        //    character.Info.EntityId = character.entityId;
+        //    message.Response.mapCharacterEnter.Characters.Add(character.Info);
+
+        //    this.MapCharacters[character.Id] = new MapCharacter(conn, character);
+
+        //    foreach (var kv in this.MapCharacters)
+        //    {
+        //        message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
+        //        this.SendCharaterEnterMap(kv.Value.connection, character.Info);
+        //    }
+
+        //    this.MapCharacters[character.Id] = new MapCharacter(conn, character);
+
+        //    byte[] data = PackageHandler.PackMessage(message);
+        //    conn.SendData(data, 0, data.Length);
+
+        //}
+
         internal void CharacterEnter(NetConnection<NetSession> conn, Character character)
         {
-            Log.InfoFormat("CharacterEnter: Map:{0} characterId:{1}", this.Define.ID, character.Id);
+            Log.InfoFormat("CharaterEnter: Map{0} characterId:{1}", this.Define.ID, character.Id);
             character.Info.mapId = this.ID;
-
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
-
-            message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-            message.Response.mapCharacterEnter.mapId = this.Define.ID;
             character.Info.EntityId = character.entityId;
-            message.Response.mapCharacterEnter.Characters.Add(character.Info);
-
             this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-
+            conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+            conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
+            conn.Session.Response.mapCharacterEnter.Characters.Add(character.Info);
             foreach (var kv in this.MapCharacters)
             {
-                message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-                this.SendCharaterEnterMap(kv.Value.connection, character.Info);
+                //加入entityID；
+                //kv.Value.character.Info.EntityId = character.entityId;
+                //conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+                //conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
+                //conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
+                if (kv.Value.character != character)
+                    this.AddCharacterEnterMap(kv.Value.connection, character.Info);
             }
-
-            this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-
-            byte[] data = PackageHandler.PackMessage(message);
-            conn.SendData(data, 0, data.Length);
-
+            conn.SendResponse();
         }
-
-        //internal void CharacterEnter(NetConnection<NetSession> conn,Character character)
-        //{
-        //    Log.InfoFormat("CharaterEnter: Map{0} characterId:{1}", this.Define.ID, character.Id);
-        //    character.Info.mapId = this.ID;
-        //    this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-        //    conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-        //    conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
-        //    foreach(var kv in this.MapCharacters)
-        //    {
-        //        //加入entityID；
-        //        //kv.Value.character.Info.EntityId = character.entityId;
-        //        conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-        //        if (kv.Value.character != character)
-        //            this.AddCharacterEnterMap(kv.Value.connection, character.Info);
-        //    }
-        //    conn.SendResponse();
-        //}
 
         internal void CharacterLeave(Character cha)
         {
