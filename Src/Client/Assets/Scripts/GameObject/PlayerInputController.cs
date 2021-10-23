@@ -134,7 +134,8 @@ public class PlayerInputController : MonoBehaviour {
     public void SendEntityEvent(EntityEvent entityEvent, int param = 0)
     {
         if (entityController != null)
-            entityController.OnEntityEvent(entityEvent, param);
+            entityController.OnEntityEvent(entityEvent);
+        MapService.Instance.SendMapEntitySync(entityEvent, this.character.EntityData);
        // MapService.Instance.SendMapEntitySync(entityEvent, this.character.EntityData, param);
     }
 }

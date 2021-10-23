@@ -26,11 +26,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         CharacterManager.Instance.OnCharacterLeave -= OnCharacterLeave;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+ 
 
     void OnCharacterEnter(Character cha)
     {
@@ -78,8 +74,10 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
     private void InitGameObject(GameObject go, Character character)
     {
+        
         go.transform.position = GameObjectTool.LogicToWorld(character.position);
         go.transform.forward = GameObjectTool.LogicToWorld(character.direction);
+        UIWorldElementManager.Instance.AddCharacterNameBar(go.transform, character);
         EntityController ec = go.GetComponent<EntityController>();
         if (ec != null)
         {

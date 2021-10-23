@@ -92,6 +92,8 @@ namespace GameServer.Models
             conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
             conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
             conn.Session.Response.mapCharacterEnter.Characters.Add(character.Info);
+            conn.SendResponse();
+
             foreach (var kv in this.MapCharacters)
             {
                 //加入entityID；
@@ -99,10 +101,11 @@ namespace GameServer.Models
                 //conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
                 //conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
                 //conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-                if (kv.Value.character != character)
-                    this.AddCharacterEnterMap(kv.Value.connection, character.Info);
+                //if (kv.Value.character != character)
+                  this.AddCharacterEnterMap(kv.Value.connection, this.ReturnMapCharacters(character));
+                //this.AddCharacterEnterMap(kv.Value.connection, character.Info);
             }
-            conn.SendResponse();
+            
         }
 
         internal void CharacterLeave(Character cha)
@@ -114,16 +117,33 @@ namespace GameServer.Models
             }
             this.MapCharacters.Remove(cha.Id);
         }
-        private void AddCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
+        private void AddCharacterEnterMap(NetConnection<NetSession> conn, List<NCharacterInfo> character)
         {
             if(conn.Session.Response.mapCharacterEnter == null)
             {
                 conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
                 conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
             }
-            conn.Session.Response.mapCharacterEnter.Characters.Add(character);
+
+
+            conn.Session.Response.mapCharacterEnter.Characters.AddRange(character);
+            
             conn.SendResponse();
         }
+
+        private List<NCharacterInfo> ReturnMapCharacters(Character character) 
+        {
+            List<NCharacterInfo> NMapCharacter = new List<NCharacterInfo>();
+            foreach(var kv in this.MapCharacters)
+            {
+                //if(character!= kv.Value.character)
+                //{
+                    NMapCharacter.Add(kv.Value.character.Info);
+                //}
+            }
+            return NMapCharacter;
+        }
+            
 
         private void SendCharaterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
         {
@@ -171,7 +191,7 @@ namespace GameServer.Models
                 }
                 else
                 {
-                   // MapService.Instance.SendEntityUpdate(kv.Value.connection, entity);
+                   MapService.Instance.SendEntityUpdate(kv.Value.connection, entity);
                 }
             }
         }

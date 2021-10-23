@@ -81,20 +81,22 @@ public class EntityController : MonoBehaviour , IEntityNotify
         }
     }
 	
-	public void OnEntityChanged(Entity entity)
-    {
-        Debug.LogFormat("OnEntityChanged :ID:{0} POS:{1} DIR:{2} SPD:{3} ", entity.entityId, entity.position, entity.direction, entity.speed);
-    }
+	
 
 
     public void OnEntityRemoved()
     {
         if (UIWorldElementManager.Instance != null)
             UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
     }
 
-    public void OnEntityEvent(EntityEvent entityEvent, int param)
+    public void OnEntityChanged(Entity entity)
+    {
+        Debug.LogFormat("OnEntityChanged :ID:{0} POS:{1} DIR:{2} SPD:{3} ", entity.entityId, entity.position, entity.direction, entity.speed);
+    }
+
+    public void OnEntityEvent(EntityEvent entityEvent)
     {
         switch(entityEvent)
         {
@@ -151,4 +153,7 @@ public class EntityController : MonoBehaviour , IEntityNotify
     {
         this.anim.transform.position = position + (this.anim.transform.position - this.rideBone.position);
     }
+
+
+
 }
