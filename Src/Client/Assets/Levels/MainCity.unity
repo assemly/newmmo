@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859e1b76e999da240bed376bdb314fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  global: 0
+  global: 1
   nameBarPrefab: {fileID: 491385757}
 --- !u!114 &27049361
 MonoBehaviour:
@@ -11662,7 +11662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428fe96767c5bcb4981199d9ab9c964b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  global: 0
+  global: 1
 --- !u!4 &365456250
 Transform:
   m_ObjectHideFlags: 0
@@ -50298,7 +50298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5e920946313837418e3b6eedeac2ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  global: 0
+  global: 1
   camera: {fileID: 648841286}
   viewPoint: {fileID: 1676218592}
   player: {fileID: 0}

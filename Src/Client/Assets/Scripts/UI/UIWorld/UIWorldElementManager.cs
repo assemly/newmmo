@@ -9,7 +9,7 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
 
     private Dictionary<Transform, GameObject> elementNames = new Dictionary<Transform, GameObject>();
     // Start is called before the first frame update
-    void Start()
+    protected  override void OnStart()
     {
         if (nameBarPrefab != null)
             nameBarPrefab.SetActive(false);

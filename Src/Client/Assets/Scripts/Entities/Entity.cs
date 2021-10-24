@@ -17,6 +17,7 @@ namespace Entities
         {
             get
             {
+                this.UpdateEntityData();
                 return entityData;
             }
             set
@@ -48,6 +49,13 @@ namespace Entities
             this.position = this.position.FromNVector3(entity.Position);
             this.direction = this.direction.FromNVector3(entity.Direction);
             this.speed = entity.Speed;
+        }
+
+        private void UpdateEntityData()
+        {
+            entityData.Position.FromVector3Int(this.position);
+            entityData.Direction.FromVector3Int(this.direction);
+            entityData.Speed = this.speed;
         }
     }
 }
