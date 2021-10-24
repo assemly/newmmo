@@ -17,7 +17,8 @@ public class UIMinimap : MonoBehaviour
     {
         Debug.LogWarning("UIMinimap Start " + this.GetInstanceID());
         MiniMapManager.Instance.Minimap = this;
-
+        
+        UpdateMap();
     }
 
     // Update is called once per frame
@@ -25,8 +26,11 @@ public class UIMinimap : MonoBehaviour
     {
         if (playerTransform == null)
             playerTransform = MiniMapManager.Instance.PlayerTransform;
-        if (playerTransform == null || minimapBoundingBox == null)
-            return;
+        if (this.minimapBoundingBox == null)
+        {
+            UpdateMap();
+            //return;
+        }
 
         float realWidth = minimapBoundingBox.bounds.size.x;
         float realHeight = minimapBoundingBox.bounds.size.z;

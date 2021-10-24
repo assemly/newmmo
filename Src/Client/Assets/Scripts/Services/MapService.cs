@@ -38,7 +38,7 @@ namespace Services
         private void OnMapCharacterEnter(object sender, MapCharacterEnterResponse response)
         {
             Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
-            foreach(var cha in response.Characters)
+              foreach(var cha in response.Characters)
             {
                 if((cha.Type == CharacterType.Player && User.Instance.CurrentCharacter.Id == cha.Id) || User.Instance.CurrentCharacter == null)
                 {

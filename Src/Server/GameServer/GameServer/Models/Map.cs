@@ -72,11 +72,15 @@ namespace GameServer.Models
 
             foreach (var kv in this.MapCharacters)
             {
-                message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-                this.SendCharaterEnterMap(kv.Value.connection, character.Info);
+                if (kv.Value.character != character)
+                {
+                    message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
+                    this.SendCharaterEnterMap(kv.Value.connection, character.Info);
+                }
+                
             }
 
-            this.MapCharacters[character.Id] = new MapCharacter(conn, character);
+            //this.MapCharacters[character.Id] = new MapCharacter(conn, character);
 
             byte[] data = PackageHandler.PackMessage(message);
             conn.SendData(data, 0, data.Length);
@@ -147,14 +151,14 @@ namespace GameServer.Models
 
         private void SendCharaterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)
         {
-            NetMessage message = new NetMessage();
-            message.Response = new NetMessageResponse();
+            NetMessage sendOtherCharactermessage = new NetMessage();
+            sendOtherCharactermessage.Response = new NetMessageResponse();
 
-            message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-            message.Response.mapCharacterEnter.mapId = this.Define.ID;
-            message.Response.mapCharacterEnter.Characters.Add(character);
+            sendOtherCharactermessage.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+            sendOtherCharactermessage.Response.mapCharacterEnter.mapId = this.Define.ID;
+            sendOtherCharactermessage.Response.mapCharacterEnter.Characters.Add(character);
 
-            byte[] data = PackageHandler.PackMessage(message);
+            byte[] data = PackageHandler.PackMessage(sendOtherCharactermessage);
             conn.SendData(data, 0, data.Length);
         }
 
