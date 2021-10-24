@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Demo magiс circles Vol 2\CameraHolder.cs" />
     <Compile Include="Assets\Login.cs" />
     <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
     <Compile Include="Assets\Scripts\Entities\Character.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\GameObject\GameObjectTool.cs" />
     <Compile Include="Assets\Scripts\GameObject\MainPlayerCamera.cs" />
     <Compile Include="Assets\Scripts\GameObject\PlayerInputController.cs" />
+    <Compile Include="Assets\Scripts\GameObject\TeleporterObjecet.cs" />
     <Compile Include="Assets\Scripts\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
     <Compile Include="Assets\Scripts\Managers\CharacterManager.cs" />
@@ -103,12 +105,18 @@
     <Compile Include="Assets\Scripts\Utilities\Singleton.cs" />
     <None Include="Assets\Shader\UITest.shader" />
     <None Include="Assets\Shader\Lightmap\Lightmap.shader" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Distortion.shader" />
     <None Include="Assets\Shader\Particle\ParticleAdditive.shader" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Blend_CenterGlow.shader" />
     <None Include="Assets\References\log4net.xml" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Electricity.shader" />
     <None Include="Assets\Resources\log4net.xml" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\Shader\DepthBloom.shader" />
     <None Include="Assets\Shader\MyMobile Particles AddNoMask Diff.shader" />
     <None Include="Assets\JsonDotNet\link.xml" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Demo magiс circles Vol 2\Readme.txt" />
+    <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Blend_TwoSides.shader" />
     <None Include="Assets\Shader\MyMobile VertexLit Diffuse.shader" />
     <None Include="Assets\References\protobuf-net.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
