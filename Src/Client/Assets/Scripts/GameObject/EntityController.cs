@@ -16,10 +16,10 @@ public class EntityController : MonoBehaviour , IEntityNotify
 
     public Vector3 position;
     public Vector3 direction;
-    Quaternion rotation;
+    //Quaternion rotation;
 
     public UnityEngine.Vector3 lastPosition;
-    Quaternion lastRotation;
+    //Quaternion lastRotation;
 
     public float speed;
     public float animSpeed = 1.5f;
@@ -53,7 +53,7 @@ public class EntityController : MonoBehaviour , IEntityNotify
         this.rb.MovePosition(this.position);
         this.transform.forward = this.direction;
         this.lastPosition = this.position;
-        this.lastRotation = this.rotation;
+        //this.lastRotation = this.rotation;
     }
 	
     void OnDestroy()

@@ -111,7 +111,7 @@ public class PlayerInputController : MonoBehaviour {
         //Debug.LogFormat("velocity {0}", this.rb.velocity.magnitude);
     }
     Vector3 lastPos;
-    float lastSync = 0;
+    //float lastSync = 0;
     private void LateUpdate()
     {
         if (this.character == null) return;

@@ -96,8 +96,11 @@
     <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />
     <Compile Include="Assets\Scripts\UI\UICharInfo.cs" />
     <Compile Include="Assets\Scripts\UI\UILogin.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\UI\UIMessageBox.cs" />
     <Compile Include="Assets\Scripts\UI\UIRegister.cs" />
+    <Compile Include="Assets\Scripts\UI\UITest.cs" />
+    <Compile Include="Assets\Scripts\UI\UIWindow.cs" />
     <Compile Include="Assets\Scripts\UI\UIWorld\UINameBar.cs" />
     <Compile Include="Assets\Scripts\UI\UIWorld\UIWorldElement.cs" />
     <Compile Include="Assets\Scripts\UI\UIWorld\UIWorldElementManager.cs" />
