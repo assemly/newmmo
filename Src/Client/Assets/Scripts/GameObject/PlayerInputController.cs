@@ -95,7 +95,9 @@ public class PlayerInputController : MonoBehaviour {
         float h = Input.GetAxis("Horizontal");
         if (h<-0.1 || h>0.1)
         {
+            //Debug.LogFormat("h * rotateSpeed:{0}", h * rotateSpeed);
             this.transform.Rotate(0, h * rotateSpeed, 0);
+            //Debug.LogFormat("transform.forward:{0}", this.transform.forward);
             Vector3 dir = GameObjectTool.LogicToWorld(character.direction);
             Quaternion rot = new Quaternion();
             rot.SetFromToRotation(dir, this.transform.forward);
@@ -106,7 +108,7 @@ public class PlayerInputController : MonoBehaviour {
                 rb.transform.forward = this.transform.forward;
                 this.SendEntityEvent(EntityEvent.None);
             }
-
+            //Debug.LogFormat("transform.forward:{0}", rb.transform.rotation);
         }
         //Debug.LogFormat("velocity {0}", this.rb.velocity.magnitude);
     }
