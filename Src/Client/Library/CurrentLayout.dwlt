@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1920
-    y: 53
+    x: 1595
+    y: 178
     width: 1920
     height: 997
   m_ShowMode: 4
@@ -65,11 +65,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 455
-    width: 557
-    height: 492
-  m_MinSize: {x: 104, y: 124}
-  m_MaxSize: {x: 4004, y: 4024}
+    y: 281
+    width: 560
+    height: 666
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,12 +94,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1084
     y: 0
-    width: 557
+    width: 560
     height: 947
-  m_MinSize: {x: 200, y: 324}
-  m_MaxSize: {x: 4004, y: 8024}
+  m_MinSize: {x: 204, y: 348}
+  m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
-  controlID: 71
+  controlID: 129
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &6
 MonoBehaviour:
@@ -168,10 +168,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 498}
+  m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 70
+  controlID: 31
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,10 +235,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 557
-    height: 455
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 560
+    height: 281
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -259,12 +259,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1641
+    x: 1644
     y: 0
-    width: 279
+    width: 276
     height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -539,10 +539,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3004
-    y: 538
-    width: 553
-    height: 472
+    x: 2
+    y: 303
+    width: 556
+    height: 642
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -565,31 +565,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3004
-    y: 83
-    width: 553
-    height: 435
+    x: 2
+    y: 22
+    width: 556
+    height: 257
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 544d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e0e5fdff3607feff1c2cfeff6640feff385cfeff3872feff3c88feff268efeff5ed1feff98defeffcef3feff100fffffa823ffff863cffff3240ffff0243ffff9458ffff7071ffff2694ffff4e9fffff9adaffff48e8ffff50eaffff04faffffc0fbfffff4ffffff0c3d0000863f0000c28d00004490000008f80000e6fa0000ecfa000072ab0100f4ad0100a0d6010022d9010056e40100d8e6010066200200e82202006a520200ec540200
+      m_ExpandedIDs: c0fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: taskNPC
-        m_OriginalName: taskNPC
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -106412
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -620,10 +620,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3561
-    y: 83
-    width: 277
-    height: 927
+    x: 1646
+    y: 22
+    width: 274
+    height: 923
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -655,10 +655,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 567
+    x: 0
+    y: 506
     width: 1082
-    height: 443
+    height: 439
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -672,20 +672,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/NPCs/Treasure_poter
+    - Assets/Scripts/Managers
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/NPCs/Treasure_poter
+  - Assets/Scripts/Managers
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\MMORPG\MMO\Src\Client
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e140000
-    m_LastClickedID: 5246
-    m_ExpandedIDs: 00000000fa050000820a0000d20a0000f20a0000100b00009a0b0000c80b0000000d00000e0d0000100d0000500d00008e0d00009e0d0000a00d0000ac0d0000ca0d0000de0e0000ce100000e0100000581100006a1100008011000092110000d811000004120000541200009a120000a0120000f01200007e14000050360000
+    scrollPos: {x: 0, y: 410}
+    m_SelectedIDs: 920e0000
+    m_LastClickedID: 3730
+    m_ExpandedIDs: 00000000fc050000900a0000e20a0000020b0000200b0000ac0b0000da0b0000160d0000240d0000260d0000660d0000a40d0000b40d0000b60d0000c40d0000e20d0000f60e0000ee10000000110000781100008a110000a0110000b2110000f81100002412000074120000ba120000c012000010130000a2140000a6360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,21 +713,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 290}
     m_SelectedIDs: b40a0000
     m_LastClickedID: 2740
-    m_ExpandedIDs: ffffffff00000000fa050000820a0000b40a0000d20a0000f20a0000100b0000280b0000c80b0000000d00000e0d0000100d0000500d00008e0d00009e0d0000a00d0000ac0d0000ca0d0000d60d00007a0e0000de0e0000ce10000022110000581100006a11000080110000921100000412000054120000a01200007e1400003415000050360000
+    m_ExpandedIDs: 00000000fc050000900a0000e20a0000020b0000200b0000ac0b0000da0b0000160d0000240d0000260d0000660d0000a40d0000b40d0000b60d0000c40d0000e20d0000f60e0000ee10000000110000781100008a110000a0110000b2110000f81100002412000074120000ba120000c012000010130000a2140000a6360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DeliveryNPC
-      m_OriginalName: DeliveryNPC
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 5052
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_SearchString: 
@@ -789,8 +789,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 83
+    x: 2036
+    y: 224
     width: 1082
     height: 464
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -868,8 +868,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 83
+    x: 1595
+    y: 208
     width: 1082
     height: 464
   m_PersistentViewDataDictionary: {fileID: 0}

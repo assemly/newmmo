@@ -46,6 +46,13 @@ enum ENTITY_EVENT
 	JUMP = 4;
 }
 
+enum ITEM_TYPE
+{
+	NORMAL = 0;
+	MATERIAL = 1;
+	TASK = 2;
+}
+
 message NUserInfo {
 	int32 id = 1;
 	NPlayerInfo player = 2;
@@ -67,8 +74,15 @@ message NCharacterInfo {
 
 	int32 mapId = 8;
 	NEntity entity = 9;
+
+	repeated NItemInfo Items = 10;
 }
 
+message NItemInfo
+{
+	int32 id = 1;
+	int32 count = 2;
+}
 message NVector3
 {
 	int32 x = 1;

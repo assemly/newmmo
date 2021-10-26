@@ -213,6 +213,22 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter = new UserGameEnterResponse();
             sender.Session.Response.gameEnter.Result = Result.Success;
             sender.Session.Response.gameEnter.Errormsg = "None";
+            sender.Session.Response.gameEnter.Character = character.Info;
+
+            //道具系统测试
+            int itemId = 2;
+            bool hasItem = character.ItemManager.HasItem(itemId);
+            Log.InfoFormat("HasItem:[{0}]{1}", itemId, hasItem);
+            if (hasItem)
+            {
+                character.ItemManager.RemoveItem(itemId, 1);
+            }
+            else
+            {
+                character.ItemManager.AddItem(itemId, 5);
+            }
+            Models.Item item = character.ItemManager.GetItem(itemId);
+            Log.InfoFormat("Item:[{0}][{1}]", itemId, item);
 
             //进入成功，发送初始角色信息
             sender.Session.Character = character;

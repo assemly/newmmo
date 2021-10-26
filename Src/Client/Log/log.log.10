@@ -1,89 +1,2223 @@
-2021-10-25 11:29:03,072 [ 1] INFO  Unity: LoadingManager start
-2021-10-25 11:29:06,321 [ 1] INFO  Unity: DataManager > DataManager()
-2021-10-25 11:29:10,388 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-10-25 11:29:10,389 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-10-25 11:29:10,390 [ 1] INFO  Unity: DoConnect
-2021-10-25 11:29:10,392 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-10-25 11:29:10,394 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-10-25 21:10:19,529 [ 1] INFO  Unity: LoadingManager start
+2021-10-25 21:10:22,767 [ 1] INFO  Unity: DataManager > DataManager()
+2021-10-25 21:10:28,267 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-10-25 21:10:28,269 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-10-25 21:10:28,270 [ 1] INFO  Unity: DoConnect
+2021-10-25 21:10:28,272 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-25 21:10:28,275 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-10-25 11:29:10,397 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-10-25 11:29:10,521 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-10-25 11:29:10,523 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-10-25 11:29:10,702 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-10-25 11:29:11,724 [ 1] INFO  Unity: Select Char:[1] ‘ ‘[Warrior]
-2021-10-25 11:29:12,393 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-10-25 11:29:12,394 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-10-25 11:29:12,416 [ 1] INFO  Unity: OnGameEnter:Success
-2021-10-25 11:29:12,417 [ 1] INFO  Unity: OnGameEnter:Warrior
-2021-10-25 11:29:12,418 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-10-25 11:29:12,419 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:4
-2021-10-25 11:29:12,421 [ 1] INFO  Unity: AddCharacter:1: ‘ ‘ Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£∫4
-2021-10-25 11:29:12,423 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-10-25 11:29:12,768 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-10-25 11:29:12,769 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-10-25 11:29:12,859 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-10-25 11:29:12,860 [ 1] WARN  Unity: UIMinimap Start -60684
+2021-10-25 21:10:28,278 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-10-25 21:10:31,251 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-10-25 21:10:31,253 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-10-25 21:10:31,426 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-25 21:10:32,440 [ 1] INFO  Unity: Select Char:[1] ‘ ‘[Warrior]
+2021-10-25 21:10:33,285 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-10-25 21:10:33,286 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-10-25 21:10:33,322 [ 1] INFO  Unity: OnGameEnter:Success
+2021-10-25 21:10:33,323 [ 1] INFO  Unity: OnGameEnter:Warrior
+2021-10-25 21:10:33,324 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-10-25 21:10:33,325 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:1
+2021-10-25 21:10:33,327 [ 1] INFO  Unity: AddCharacter:1: ‘ ‘ Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£∫1
+2021-10-25 21:10:33,329 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-10-25 21:10:33,725 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-25 21:10:33,725 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-25 21:10:33,821 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-25 21:10:33,822 [ 1] WARN  Unity: UIMinimap Start -68310
 UnityEngine.Debug:LogWarning(Object)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
 
-2021-10-25 11:29:12,861 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-60684] Set
+2021-10-25 21:10:33,823 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-68310] Set
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
 
-2021-10-25 11:29:12,869 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-10-25 11:29:19,548 [ 1] INFO  Unity: MoveForward
-2021-10-25 11:29:19,549 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,058 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2021-10-25 11:29:20,059 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5150,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,148 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2021-10-25 11:29:20,149 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5180,3994,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,251 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
-2021-10-25 11:29:20,252 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5210,3982,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,337 [ 1] INFO  Unity: SetDirection:(73, -68, 0)
-2021-10-25 11:29:20,337 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5230,3967,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,433 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2021-10-25 11:29:20,434 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5254,3949,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,540 [ 1] INFO  Unity: SetDirection:(39, -92, 0)
-2021-10-25 11:29:20,541 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5272,3925,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,641 [ 1] INFO  Unity: SetDirection:(21, -98, 0)
-2021-10-25 11:29:20,642 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5284,3895,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:20,805 [ 1] INFO  Unity: SetDirection:(3, -100, 0)
-2021-10-25 11:29:20,805 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5294,3845,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:21,177 [ 1] INFO  Unity: Stop
-2021-10-25 11:29:21,178 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5294,3735,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-10-25 11:29:27,419 [ 1] INFO  Unity: MoveForward
-2021-10-25 11:29:27,420 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5294,3735,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,115 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
-2021-10-25 11:29:28,116 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5294,3525,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,218 [ 1] INFO  Unity: SetDirection:(-34, -94, 0)
-2021-10-25 11:29:28,219 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5288,3495,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,325 [ 1] INFO  Unity: SetDirection:(-52, -85, 0)
-2021-10-25 11:29:28,326 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5276,3465,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,413 [ 1] INFO  Unity: SetDirection:(-66, -75, 0)
-2021-10-25 11:29:28,413 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5261,3445,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,430 [ 1] INFO  Unity: Stop
-2021-10-25 11:29:28,431 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5258,3441,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-10-25 11:29:28,494 [ 1] INFO  Unity: MoveForward
-2021-10-25 11:29:28,494 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5258,3441,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,495 [ 1] INFO  Unity: SetDirection:(-78, -62, 0)
-2021-10-25 11:29:28,496 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5258,3441,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,566 [ 1] INFO  Unity: SetDirection:(-88, -48, 0)
-2021-10-25 11:29:28,567 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5238,3426,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:28,684 [ 1] INFO  Unity: SetDirection:(-95, -30, 0)
-2021-10-25 11:29:28,685 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5210,3412,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:29,317 [ 1] INFO  Unity: SetDirection:(-88, -47, 0)
-2021-10-25 11:29:29,318 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(5020,3336,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:29,581 [ 1] INFO  Unity: SetDirection:(-96, -30, 0)
-2021-10-25 11:29:29,582 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(4960,3306,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:29,671 [ 1] INFO  Unity: SetDirection:(-99, -13, 0)
-2021-10-25 11:29:29,672 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(4930,3294,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-10-25 11:29:30,581 [ 1] INFO  Unity: Stop
-2021-10-25 11:29:30,581 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:4 POS:(4660,3240,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-10-25 11:29:31,325 [ 1] INFO  Unity: Character_1_ ‘ ‘ OnDestroy :ID:4 POS:(4660, 3240, 820) DIR:(-99, -13, 0) SPD:0 
-2021-10-25 11:29:31,327 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-10-25 11:29:31,328 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-10-25 21:10:33,835 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-10-25 21:10:34,375 [ 1] INFO  Unity: h * rotateSpeed:0.2961588
+2021-10-25 21:10:34,376 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:34,377 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,392 [ 1] INFO  Unity: h * rotateSpeed:0.395229
+2021-10-25 21:10:34,392 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:34,392 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,408 [ 1] INFO  Unity: h * rotateSpeed:0.4947378
+2021-10-25 21:10:34,409 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:34,409 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,425 [ 1] INFO  Unity: h * rotateSpeed:0.5962392
+2021-10-25 21:10:34,426 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:34,426 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,442 [ 1] INFO  Unity: h * rotateSpeed:0.697986
+2021-10-25 21:10:34,443 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:34,443 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,458 [ 1] INFO  Unity: h * rotateSpeed:0.7937562
+2021-10-25 21:10:34,459 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:34,459 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,475 [ 1] INFO  Unity: h * rotateSpeed:0.8945952
+2021-10-25 21:10:34,476 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:34,476 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,492 [ 1] INFO  Unity: h * rotateSpeed:0.9976056
+2021-10-25 21:10:34,493 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:34,493 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,508 [ 1] INFO  Unity: h * rotateSpeed:1.093291
+2021-10-25 21:10:34,508 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:34,509 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:34,525 [ 1] INFO  Unity: h * rotateSpeed:1.194967
+2021-10-25 21:10:34,526 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:34,526 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.7)
+2021-10-25 21:10:34,541 [ 1] INFO  Unity: h * rotateSpeed:1.291939
+2021-10-25 21:10:34,542 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:34,542 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.7)
+2021-10-25 21:10:34,557 [ 1] INFO  Unity: h * rotateSpeed:1.389138
+2021-10-25 21:10:34,558 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:34,558 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2021-10-25 21:10:34,559 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:34,560 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,574 [ 1] INFO  Unity: h * rotateSpeed:1.48967
+2021-10-25 21:10:34,575 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:34,575 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,590 [ 1] INFO  Unity: h * rotateSpeed:1.587934
+2021-10-25 21:10:34,591 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:34,591 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,607 [ 1] INFO  Unity: h * rotateSpeed:1.687333
+2021-10-25 21:10:34,607 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:34,608 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,624 [ 1] INFO  Unity: h * rotateSpeed:1.786732
+2021-10-25 21:10:34,624 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:34,624 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,640 [ 1] INFO  Unity: h * rotateSpeed:1.887346
+2021-10-25 21:10:34,641 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.3)
+2021-10-25 21:10:34,641 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,657 [ 1] INFO  Unity: h * rotateSpeed:1.987664
+2021-10-25 21:10:34,657 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:34,658 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2021-10-25 21:10:34,658 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:34,659 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,673 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,674 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:34,674 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:34,690 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,691 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:34,691 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:34,706 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,707 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:34,707 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:34,723 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,724 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:34,724 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:34,740 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,741 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:34,741 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
+2021-10-25 21:10:34,742 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:34,742 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:34,756 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,757 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:34,757 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:34,773 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,773 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:34,774 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:34,790 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,790 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:34,791 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,806 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,806 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:34,807 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,822 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,823 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.7)
+2021-10-25 21:10:34,823 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,839 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,839 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:34,840 [ 1] INFO  Unity: SetDirection:(74, -68, 0)
+2021-10-25 21:10:34,840 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:34,841 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,856 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,857 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:34,857 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,872 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,873 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:34,873 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,888 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,889 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:34,889 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:34,905 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,905 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:34,906 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:34,922 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,923 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:34,923 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:34,938 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,939 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:34,939 [ 1] INFO  Unity: SetDirection:(58, -81, 0)
+2021-10-25 21:10:34,940 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:34,940 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:34,955 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,956 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:34,956 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:34,972 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,973 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:34,973 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:34,989 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:34,990 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:34,990 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:35,005 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:35,005 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:35,006 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,021 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:35,022 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:35,022 [ 1] INFO  Unity: SetDirection:(43, -90, 0)
+2021-10-25 21:10:35,023 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:35,023 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,038 [ 1] INFO  Unity: h * rotateSpeed:1.900357
+2021-10-25 21:10:35,039 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:35,039 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,055 [ 1] INFO  Unity: h * rotateSpeed:1.801204
+2021-10-25 21:10:35,055 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:35,055 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,071 [ 1] INFO  Unity: h * rotateSpeed:1.701166
+2021-10-25 21:10:35,071 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:35,072 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,088 [ 1] INFO  Unity: h * rotateSpeed:1.599206
+2021-10-25 21:10:35,088 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:35,089 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:35,104 [ 1] INFO  Unity: h * rotateSpeed:1.50282
+2021-10-25 21:10:35,105 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:35,105 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,121 [ 1] INFO  Unity: h * rotateSpeed:1.403611
+2021-10-25 21:10:35,121 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:35,122 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
+2021-10-25 21:10:35,123 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:35,123 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,138 [ 1] INFO  Unity: h * rotateSpeed:1.29976
+2021-10-25 21:10:35,139 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,139 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,154 [ 1] INFO  Unity: h * rotateSpeed:1.203688
+2021-10-25 21:10:35,155 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,155 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,170 [ 1] INFO  Unity: h * rotateSpeed:1.105401
+2021-10-25 21:10:35,171 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,172 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,188 [ 1] INFO  Unity: h * rotateSpeed:1.000626
+2021-10-25 21:10:35,188 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,189 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,204 [ 1] INFO  Unity: h * rotateSpeed:0.9066085
+2021-10-25 21:10:35,204 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,204 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,220 [ 1] INFO  Unity: h * rotateSpeed:0.8072047
+2021-10-25 21:10:35,221 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:35,221 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,254 [ 1] INFO  Unity: h * rotateSpeed:0.6059179
+2021-10-25 21:10:35,255 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:35,255 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,256 [ 1] INFO  Unity: h * rotateSpeed:0.6059179
+2021-10-25 21:10:35,256 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:35,256 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,271 [ 1] INFO  Unity: h * rotateSpeed:0.5037925
+2021-10-25 21:10:35,272 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:35,272 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,302 [ 1] INFO  Unity: h * rotateSpeed:0.3102024
+2021-10-25 21:10:35,303 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:35,304 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:35,319 [ 1] INFO  Unity: h * rotateSpeed:0.2108053
+2021-10-25 21:10:35,320 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:35,320 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:37,092 [ 1] INFO  Unity: h * rotateSpeed:0.3005454
+2021-10-25 21:10:37,093 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,093 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:37,108 [ 1] INFO  Unity: h * rotateSpeed:0.3975294
+2021-10-25 21:10:37,109 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,109 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:37,125 [ 1] INFO  Unity: h * rotateSpeed:0.496929
+2021-10-25 21:10:37,125 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,126 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:37,141 [ 1] INFO  Unity: h * rotateSpeed:0.5963322
+2021-10-25 21:10:37,142 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,142 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
+2021-10-25 21:10:37,143 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:37,143 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,158 [ 1] INFO  Unity: h * rotateSpeed:0.6960864
+2021-10-25 21:10:37,159 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,159 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,175 [ 1] INFO  Unity: h * rotateSpeed:0.7951338
+2021-10-25 21:10:37,175 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:37,176 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,191 [ 1] INFO  Unity: h * rotateSpeed:0.8945286
+2021-10-25 21:10:37,192 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:37,192 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,208 [ 1] INFO  Unity: h * rotateSpeed:0.9947352
+2021-10-25 21:10:37,209 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:37,209 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,225 [ 1] INFO  Unity: h * rotateSpeed:1.097014
+2021-10-25 21:10:37,226 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:37,226 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,241 [ 1] INFO  Unity: h * rotateSpeed:1.192853
+2021-10-25 21:10:37,242 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:37,242 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,258 [ 1] INFO  Unity: h * rotateSpeed:1.293319
+2021-10-25 21:10:37,259 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:37,259 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,274 [ 1] INFO  Unity: h * rotateSpeed:1.391534
+2021-10-25 21:10:37,275 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:37,275 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,291 [ 1] INFO  Unity: h * rotateSpeed:1.490924
+2021-10-25 21:10:37,291 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:37,292 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:37,324 [ 1] INFO  Unity: h * rotateSpeed:1.691422
+2021-10-25 21:10:37,324 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:37,325 [ 1] INFO  Unity: SetDirection:(-11, -99, 0)
+2021-10-25 21:10:37,325 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:37,326 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,327 [ 1] INFO  Unity: h * rotateSpeed:1.691422
+2021-10-25 21:10:37,327 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:37,327 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,357 [ 1] INFO  Unity: h * rotateSpeed:1.88853
+2021-10-25 21:10:37,357 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:37,358 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,373 [ 1] INFO  Unity: h * rotateSpeed:1.789139
+2021-10-25 21:10:37,374 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:37,374 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,390 [ 1] INFO  Unity: h * rotateSpeed:1.689021
+2021-10-25 21:10:37,391 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:37,391 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,407 [ 1] INFO  Unity: h * rotateSpeed:1.590333
+2021-10-25 21:10:37,407 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:37,407 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,423 [ 1] INFO  Unity: h * rotateSpeed:1.490933
+2021-10-25 21:10:37,424 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:37,424 [ 1] INFO  Unity: SetDirection:(-28, -96, 0)
+2021-10-25 21:10:37,425 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:37,425 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:37,440 [ 1] INFO  Unity: h * rotateSpeed:1.390191
+2021-10-25 21:10:37,440 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:37,441 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,457 [ 1] INFO  Unity: h * rotateSpeed:1.288872
+2021-10-25 21:10:37,458 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:37,458 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,473 [ 1] INFO  Unity: h * rotateSpeed:1.192727
+2021-10-25 21:10:37,474 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:37,474 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,490 [ 1] INFO  Unity: h * rotateSpeed:1.091305
+2021-10-25 21:10:37,491 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,491 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,507 [ 1] INFO  Unity: h * rotateSpeed:0.989885
+2021-10-25 21:10:37,507 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,508 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,523 [ 1] INFO  Unity: h * rotateSpeed:0.8941268
+2021-10-25 21:10:37,523 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,524 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,540 [ 1] INFO  Unity: h * rotateSpeed:0.7923884
+2021-10-25 21:10:37,541 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,541 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,556 [ 1] INFO  Unity: h * rotateSpeed:0.6957278
+2021-10-25 21:10:37,557 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,557 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,572 [ 1] INFO  Unity: h * rotateSpeed:0.5963324
+2021-10-25 21:10:37,573 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,573 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,589 [ 1] INFO  Unity: h * rotateSpeed:0.4959656
+2021-10-25 21:10:37,589 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,590 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,605 [ 1] INFO  Unity: h * rotateSpeed:0.397532
+2021-10-25 21:10:37,606 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,606 [ 1] INFO  Unity: SetDirection:(-44, -90, 0)
+2021-10-25 21:10:37,607 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:37,607 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:37,622 [ 1] INFO  Unity: h * rotateSpeed:0.2978648
+2021-10-25 21:10:37,622 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:37,623 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,434 [ 1] INFO  Unity: h * rotateSpeed:-0.2966712
+2021-10-25 21:10:38,435 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,435 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,451 [ 1] INFO  Unity: h * rotateSpeed:-0.3970698
+2021-10-25 21:10:38,452 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,452 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,468 [ 1] INFO  Unity: h * rotateSpeed:-0.498834
+2021-10-25 21:10:38,469 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,469 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,484 [ 1] INFO  Unity: h * rotateSpeed:-0.5949708
+2021-10-25 21:10:38,485 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,486 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,501 [ 1] INFO  Unity: h * rotateSpeed:-0.6963828
+2021-10-25 21:10:38,502 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,502 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,517 [ 1] INFO  Unity: h * rotateSpeed:-0.7930974
+2021-10-25 21:10:38,518 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,518 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,534 [ 1] INFO  Unity: h * rotateSpeed:-0.8925012
+2021-10-25 21:10:38,534 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,535 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,550 [ 1] INFO  Unity: h * rotateSpeed:-0.99528
+2021-10-25 21:10:38,551 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:38,551 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,567 [ 1] INFO  Unity: h * rotateSpeed:-1.0922
+2021-10-25 21:10:38,567 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:38,567 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,584 [ 1] INFO  Unity: h * rotateSpeed:-1.193911
+2021-10-25 21:10:38,584 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:38,584 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,600 [ 1] INFO  Unity: h * rotateSpeed:-1.294643
+2021-10-25 21:10:38,601 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:38,601 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:38,616 [ 1] INFO  Unity: h * rotateSpeed:-1.390523
+2021-10-25 21:10:38,617 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:38,617 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,633 [ 1] INFO  Unity: h * rotateSpeed:-1.488899
+2021-10-25 21:10:38,633 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:38,634 [ 1] INFO  Unity: SetDirection:(-26, -97, 0)
+2021-10-25 21:10:38,634 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:38,635 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,649 [ 1] INFO  Unity: h * rotateSpeed:-1.588298
+2021-10-25 21:10:38,650 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:38,650 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,666 [ 1] INFO  Unity: h * rotateSpeed:-1.687704
+2021-10-25 21:10:38,666 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:38,667 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,682 [ 1] INFO  Unity: h * rotateSpeed:-1.787097
+2021-10-25 21:10:38,683 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:38,683 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,699 [ 1] INFO  Unity: h * rotateSpeed:-1.886987
+2021-10-25 21:10:38,700 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:38,700 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,716 [ 1] INFO  Unity: h * rotateSpeed:-1.985899
+2021-10-25 21:10:38,716 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:38,717 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:38,732 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,733 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:38,733 [ 1] INFO  Unity: SetDirection:(-7, -100, 0)
+2021-10-25 21:10:38,733 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:38,734 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:38,749 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,749 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:38,750 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:38,765 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,766 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:38,766 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:38,782 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,782 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:38,783 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:38,799 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,800 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:38,800 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:38,815 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,815 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:38,816 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,832 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,832 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:38,833 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
+2021-10-25 21:10:38,833 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:38,834 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,848 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,849 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:38,849 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,865 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,866 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:38,866 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,881 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,882 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:38,882 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,898 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,899 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:38,899 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:38,915 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,915 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:38,916 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:38,931 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,932 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:38,932 [ 1] INFO  Unity: SetDirection:(34, -94, 0)
+2021-10-25 21:10:38,933 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:38,933 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:38,948 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,948 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:38,949 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:38,965 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,966 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:38,966 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:38,981 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,981 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:38,981 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:38,997 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:38,997 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:38,998 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:39,014 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,014 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:39,015 [ 1] INFO  Unity: SetDirection:(50, -87, 0)
+2021-10-25 21:10:39,015 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:39,016 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:39,030 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,030 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:39,031 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:39,047 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,047 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:39,047 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:39,063 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,064 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:39,064 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:39,080 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,080 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:39,081 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:39,096 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,097 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:39,098 [ 1] INFO  Unity: SetDirection:(64, -77, 0)
+2021-10-25 21:10:39,098 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:39,099 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:39,113 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:39,113 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:39,114 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,130 [ 1] INFO  Unity: h * rotateSpeed:-1.898286
+2021-10-25 21:10:39,131 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:39,131 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,146 [ 1] INFO  Unity: h * rotateSpeed:-1.801194
+2021-10-25 21:10:39,147 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:39,147 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,163 [ 1] INFO  Unity: h * rotateSpeed:-1.700839
+2021-10-25 21:10:39,163 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:39,164 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,180 [ 1] INFO  Unity: h * rotateSpeed:-1.598716
+2021-10-25 21:10:39,180 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.7)
+2021-10-25 21:10:39,181 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,196 [ 1] INFO  Unity: h * rotateSpeed:-1.503002
+2021-10-25 21:10:39,196 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,197 [ 1] INFO  Unity: SetDirection:(77, -64, 0)
+2021-10-25 21:10:39,197 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:39,198 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,213 [ 1] INFO  Unity: h * rotateSpeed:-1.401697
+2021-10-25 21:10:39,213 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,214 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,230 [ 1] INFO  Unity: h * rotateSpeed:-1.299984
+2021-10-25 21:10:39,230 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,231 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:39,246 [ 1] INFO  Unity: h * rotateSpeed:-1.203498
+2021-10-25 21:10:39,246 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,247 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,263 [ 1] INFO  Unity: h * rotateSpeed:-1.102544
+2021-10-25 21:10:39,263 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,264 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,279 [ 1] INFO  Unity: h * rotateSpeed:-1.005765
+2021-10-25 21:10:39,280 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:39,280 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,296 [ 1] INFO  Unity: h * rotateSpeed:-0.9007382
+2021-10-25 21:10:39,297 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:39,297 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,312 [ 1] INFO  Unity: h * rotateSpeed:-0.8057168
+2021-10-25 21:10:39,313 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:39,313 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,329 [ 1] INFO  Unity: h * rotateSpeed:-0.7064828
+2021-10-25 21:10:39,329 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,330 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,346 [ 1] INFO  Unity: h * rotateSpeed:-0.60371
+2021-10-25 21:10:39,347 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,347 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,362 [ 1] INFO  Unity: h * rotateSpeed:-0.5089898
+2021-10-25 21:10:39,362 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,363 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,395 [ 1] INFO  Unity: h * rotateSpeed:-0.3101822
+2021-10-25 21:10:39,396 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,396 [ 1] INFO  Unity: SetDirection:(87, -50, 0)
+2021-10-25 21:10:39,397 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:39,397 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,412 [ 1] INFO  Unity: h * rotateSpeed:-0.2088554
+2021-10-25 21:10:39,413 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,413 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:39,414 [ 1] INFO  Unity: h * rotateSpeed:-0.2088554
+2021-10-25 21:10:39,414 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:39,415 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,720 [ 1] INFO  Unity: h * rotateSpeed:0.2939436
+2021-10-25 21:10:40,720 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:40,721 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,737 [ 1] INFO  Unity: h * rotateSpeed:0.3933408
+2021-10-25 21:10:40,737 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:40,737 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,753 [ 1] INFO  Unity: h * rotateSpeed:0.492744
+2021-10-25 21:10:40,754 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:40,754 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,770 [ 1] INFO  Unity: h * rotateSpeed:0.593394
+2021-10-25 21:10:40,770 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:40,771 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,786 [ 1] INFO  Unity: h * rotateSpeed:0.6915396
+2021-10-25 21:10:40,787 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:40,787 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,803 [ 1] INFO  Unity: h * rotateSpeed:0.7920846
+2021-10-25 21:10:40,804 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:40,804 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,820 [ 1] INFO  Unity: h * rotateSpeed:0.8930526
+2021-10-25 21:10:40,821 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,821 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,836 [ 1] INFO  Unity: h * rotateSpeed:0.9898236
+2021-10-25 21:10:40,837 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,837 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,853 [ 1] INFO  Unity: h * rotateSpeed:1.089893
+2021-10-25 21:10:40,854 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,854 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:40,870 [ 1] INFO  Unity: h * rotateSpeed:1.188572
+2021-10-25 21:10:40,870 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,871 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,886 [ 1] INFO  Unity: h * rotateSpeed:1.288927
+2021-10-25 21:10:40,887 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,887 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,903 [ 1] INFO  Unity: h * rotateSpeed:1.390438
+2021-10-25 21:10:40,903 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:40,904 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,921 [ 1] INFO  Unity: h * rotateSpeed:1.499416
+2021-10-25 21:10:40,922 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.7)
+2021-10-25 21:10:40,922 [ 1] INFO  Unity: SetDirection:(76, -65, 0)
+2021-10-25 21:10:40,923 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:40,923 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,938 [ 1] INFO  Unity: h * rotateSpeed:1.600156
+2021-10-25 21:10:40,939 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:40,939 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,954 [ 1] INFO  Unity: h * rotateSpeed:1.69826
+2021-10-25 21:10:40,955 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:40,955 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,971 [ 1] INFO  Unity: h * rotateSpeed:1.797685
+2021-10-25 21:10:40,972 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:40,972 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:40,987 [ 1] INFO  Unity: h * rotateSpeed:1.697865
+2021-10-25 21:10:40,988 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:40,988 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:41,004 [ 1] INFO  Unity: h * rotateSpeed:1.598941
+2021-10-25 21:10:41,004 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.8)
+2021-10-25 21:10:41,004 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:41,021 [ 1] INFO  Unity: h * rotateSpeed:1.494006
+2021-10-25 21:10:41,022 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:41,022 [ 1] INFO  Unity: SetDirection:(63, -77, 0)
+2021-10-25 21:10:41,023 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:41,023 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:41,037 [ 1] INFO  Unity: h * rotateSpeed:1.398981
+2021-10-25 21:10:41,038 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:41,038 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:41,053 [ 1] INFO  Unity: h * rotateSpeed:1.300738
+2021-10-25 21:10:41,054 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:41,054 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:41,070 [ 1] INFO  Unity: h * rotateSpeed:1.201346
+2021-10-25 21:10:41,070 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:41,071 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,087 [ 1] INFO  Unity: h * rotateSpeed:1.101943
+2021-10-25 21:10:41,088 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:41,088 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,103 [ 1] INFO  Unity: h * rotateSpeed:1.001397
+2021-10-25 21:10:41,103 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:41,104 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,119 [ 1] INFO  Unity: h * rotateSpeed:0.9031423
+2021-10-25 21:10:41,120 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:41,120 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,136 [ 1] INFO  Unity: h * rotateSpeed:0.8037403
+2021-10-25 21:10:41,136 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,137 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,153 [ 1] INFO  Unity: h * rotateSpeed:0.7043377
+2021-10-25 21:10:41,153 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,153 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,169 [ 1] INFO  Unity: h * rotateSpeed:0.6049411
+2021-10-25 21:10:41,170 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,170 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,186 [ 1] INFO  Unity: h * rotateSpeed:0.5055403
+2021-10-25 21:10:41,186 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,187 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,203 [ 1] INFO  Unity: h * rotateSpeed:0.4029535
+2021-10-25 21:10:41,203 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,204 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,220 [ 1] INFO  Unity: h * rotateSpeed:0.3061045
+2021-10-25 21:10:41,220 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,220 [ 1] INFO  Unity: SetDirection:(48, -87, 0)
+2021-10-25 21:10:41,221 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:41,221 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:41,236 [ 1] INFO  Unity: h * rotateSpeed:0.2043751
+2021-10-25 21:10:41,237 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,237 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:41,965 [ 1] INFO  Unity: h * rotateSpeed:0.2981982
+2021-10-25 21:10:41,966 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,966 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:41,981 [ 1] INFO  Unity: h * rotateSpeed:0.3976374
+2021-10-25 21:10:41,981 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,982 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:41,998 [ 1] INFO  Unity: h * rotateSpeed:0.5002524
+2021-10-25 21:10:41,998 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:41,999 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,014 [ 1] INFO  Unity: h * rotateSpeed:0.5964006
+2021-10-25 21:10:42,015 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:42,015 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,031 [ 1] INFO  Unity: h * rotateSpeed:0.6976697
+2021-10-25 21:10:42,032 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,032 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,047 [ 1] INFO  Unity: h * rotateSpeed:0.7951986
+2021-10-25 21:10:42,048 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,048 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,064 [ 1] INFO  Unity: h * rotateSpeed:0.8952414
+2021-10-25 21:10:42,065 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,065 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,080 [ 1] INFO  Unity: h * rotateSpeed:0.9939966
+2021-10-25 21:10:42,081 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,081 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,097 [ 1] INFO  Unity: h * rotateSpeed:1.093395
+2021-10-25 21:10:42,098 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,098 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,114 [ 1] INFO  Unity: h * rotateSpeed:1.194434
+2021-10-25 21:10:42,114 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:42,115 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,131 [ 1] INFO  Unity: h * rotateSpeed:1.29675
+2021-10-25 21:10:42,132 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:42,132 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,147 [ 1] INFO  Unity: h * rotateSpeed:1.392561
+2021-10-25 21:10:42,148 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:42,148 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
+2021-10-25 21:10:42,149 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:42,149 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:42,163 [ 1] INFO  Unity: h * rotateSpeed:1.490999
+2021-10-25 21:10:42,164 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:42,164 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,180 [ 1] INFO  Unity: h * rotateSpeed:1.590416
+2021-10-25 21:10:42,181 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:42,181 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,197 [ 1] INFO  Unity: h * rotateSpeed:1.692068
+2021-10-25 21:10:42,198 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:42,198 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,214 [ 1] INFO  Unity: h * rotateSpeed:1.793768
+2021-10-25 21:10:42,214 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:42,215 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,230 [ 1] INFO  Unity: h * rotateSpeed:1.889862
+2021-10-25 21:10:42,231 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:42,231 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,247 [ 1] INFO  Unity: h * rotateSpeed:1.991247
+2021-10-25 21:10:42,247 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:42,248 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
+2021-10-25 21:10:42,248 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:42,249 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,264 [ 1] INFO  Unity: h * rotateSpeed:1.889509
+2021-10-25 21:10:42,264 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:42,265 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:42,280 [ 1] INFO  Unity: h * rotateSpeed:1.793722
+2021-10-25 21:10:42,280 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:42,281 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,297 [ 1] INFO  Unity: h * rotateSpeed:1.691263
+2021-10-25 21:10:42,298 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:42,298 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,313 [ 1] INFO  Unity: h * rotateSpeed:1.596308
+2021-10-25 21:10:42,313 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:42,314 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,329 [ 1] INFO  Unity: h * rotateSpeed:1.49749
+2021-10-25 21:10:42,329 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:42,330 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,346 [ 1] INFO  Unity: h * rotateSpeed:1.398094
+2021-10-25 21:10:42,346 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:42,346 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,362 [ 1] INFO  Unity: h * rotateSpeed:1.298693
+2021-10-25 21:10:42,363 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,363 [ 1] INFO  Unity: SetDirection:(-5, -100, 0)
+2021-10-25 21:10:42,364 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:42,364 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,379 [ 1] INFO  Unity: h * rotateSpeed:1.199303
+2021-10-25 21:10:42,379 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,380 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,395 [ 1] INFO  Unity: h * rotateSpeed:1.099892
+2021-10-25 21:10:42,396 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,396 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:42,412 [ 1] INFO  Unity: h * rotateSpeed:1.000496
+2021-10-25 21:10:42,413 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,413 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,429 [ 1] INFO  Unity: h * rotateSpeed:0.8989134
+2021-10-25 21:10:42,430 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,430 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,446 [ 1] INFO  Unity: h * rotateSpeed:0.7972368
+2021-10-25 21:10:42,446 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:42,447 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,462 [ 1] INFO  Unity: h * rotateSpeed:0.7014408
+2021-10-25 21:10:42,462 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,463 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,478 [ 1] INFO  Unity: h * rotateSpeed:0.602901
+2021-10-25 21:10:42,479 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,479 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,495 [ 1] INFO  Unity: h * rotateSpeed:0.5022984
+2021-10-25 21:10:42,495 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,496 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,512 [ 1] INFO  Unity: h * rotateSpeed:0.4040999
+2021-10-25 21:10:42,512 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,512 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,528 [ 1] INFO  Unity: h * rotateSpeed:0.3042665
+2021-10-25 21:10:42,529 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,529 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,545 [ 1] INFO  Unity: h * rotateSpeed:0.2035571
+2021-10-25 21:10:42,546 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,546 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,976 [ 1] INFO  Unity: h * rotateSpeed:-0.2988696
+2021-10-25 21:10:42,977 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,977 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:42,992 [ 1] INFO  Unity: h * rotateSpeed:-0.3947346
+2021-10-25 21:10:42,993 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:42,993 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,009 [ 1] INFO  Unity: h * rotateSpeed:-0.4940598
+2021-10-25 21:10:43,009 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:43,010 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,025 [ 1] INFO  Unity: h * rotateSpeed:-0.5934504
+2021-10-25 21:10:43,026 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:43,026 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,042 [ 1] INFO  Unity: h * rotateSpeed:-0.6936768
+2021-10-25 21:10:43,042 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,043 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,059 [ 1] INFO  Unity: h * rotateSpeed:-0.7922592
+2021-10-25 21:10:43,059 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,060 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,075 [ 1] INFO  Unity: h * rotateSpeed:-0.89166
+2021-10-25 21:10:43,076 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,076 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:43,092 [ 1] INFO  Unity: h * rotateSpeed:-0.9910668
+2021-10-25 21:10:43,092 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,093 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,107 [ 1] INFO  Unity: h * rotateSpeed:-1.090457
+2021-10-25 21:10:43,108 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,108 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,124 [ 1] INFO  Unity: h * rotateSpeed:-1.190194
+2021-10-25 21:10:43,125 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:43,125 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,141 [ 1] INFO  Unity: h * rotateSpeed:-1.289263
+2021-10-25 21:10:43,141 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:43,142 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,157 [ 1] INFO  Unity: h * rotateSpeed:-1.388659
+2021-10-25 21:10:43,158 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:43,158 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,174 [ 1] INFO  Unity: h * rotateSpeed:-1.489418
+2021-10-25 21:10:43,174 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:43,175 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,191 [ 1] INFO  Unity: h * rotateSpeed:-1.587458
+2021-10-25 21:10:43,191 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:43,192 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,207 [ 1] INFO  Unity: h * rotateSpeed:-1.686871
+2021-10-25 21:10:43,207 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:43,208 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:43,224 [ 1] INFO  Unity: h * rotateSpeed:-1.78874
+2021-10-25 21:10:43,225 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:43,225 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,241 [ 1] INFO  Unity: h * rotateSpeed:-1.88956
+2021-10-25 21:10:43,242 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:43,242 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
+2021-10-25 21:10:43,243 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,243 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,257 [ 1] INFO  Unity: h * rotateSpeed:-1.985363
+2021-10-25 21:10:43,258 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:43,258 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,274 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,274 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:43,275 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,291 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,291 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:43,291 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,307 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,307 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:43,308 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:43,324 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,324 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:43,325 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,340 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,340 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:43,341 [ 1] INFO  Unity: SetDirection:(34, -94, 0)
+2021-10-25 21:10:43,341 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,342 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,357 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,357 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:43,357 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,373 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,374 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:43,374 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,390 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,391 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:43,391 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,406 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,407 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:43,407 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:43,423 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,423 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:43,423 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:43,439 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,440 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:43,440 [ 1] INFO  Unity: SetDirection:(53, -85, 0)
+2021-10-25 21:10:43,441 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,441 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:43,456 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,456 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:43,457 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:43,473 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,474 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:43,474 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:43,489 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,490 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:43,490 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:43,505 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,506 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:43,506 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:43,522 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,523 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:43,523 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,539 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,540 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:43,540 [ 1] INFO  Unity: SetDirection:(69, -72, 0)
+2021-10-25 21:10:43,541 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,541 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,555 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,556 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:43,556 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,572 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,572 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:43,573 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,588 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,589 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:43,589 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,606 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,606 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:43,607 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:43,621 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,621 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:43,622 [ 1] INFO  Unity: SetDirection:(81, -59, 0)
+2021-10-25 21:10:43,623 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,623 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:43,638 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,638 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:43,638 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:43,654 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,655 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:43,655 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:43,671 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,672 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:43,672 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:43,687 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,688 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:43,688 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:43,704 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,705 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:43,705 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:43,721 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,721 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:43,722 [ 1] INFO  Unity: SetDirection:(91, -41, 0)
+2021-10-25 21:10:43,722 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,723 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:43,738 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,739 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:43,739 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,754 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,754 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.3)
+2021-10-25 21:10:43,755 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,771 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,771 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:43,772 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,787 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,787 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:43,788 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,820 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,820 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:43,821 [ 1] INFO  Unity: SetDirection:(97, -24, 0)
+2021-10-25 21:10:43,822 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,822 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,836 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,837 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:43,837 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,853 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,853 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:43,854 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:43,870 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,870 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:43,871 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.7)
+2021-10-25 21:10:43,887 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,888 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:43,888 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,903 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,903 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:43,903 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,919 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,920 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:43,920 [ 1] INFO  Unity: SetDirection:(100, -4, 0)
+2021-10-25 21:10:43,921 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:43,921 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,936 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,936 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:43,937 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,952 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,953 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:43,953 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,969 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,969 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:43,970 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:43,986 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:43,987 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:43,987 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:44,002 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,003 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:44,003 [ 1] INFO  Unity: SetDirection:(99, 14, 0)
+2021-10-25 21:10:44,004 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,004 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.8)
+2021-10-25 21:10:44,019 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,020 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:44,020 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,036 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,036 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:44,037 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,052 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,053 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:44,053 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,069 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,070 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.3)
+2021-10-25 21:10:44,071 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,085 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,086 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.3)
+2021-10-25 21:10:44,086 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,102 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,103 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.3)
+2021-10-25 21:10:44,103 [ 1] INFO  Unity: SetDirection:(94, 34, 0)
+2021-10-25 21:10:44,104 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,104 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,118 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,119 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:44,119 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:44,135 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,136 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:44,136 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:44,152 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,152 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:44,153 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:44,168 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,169 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:44,169 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:44,185 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,186 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:44,186 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:44,202 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,203 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.5)
+2021-10-25 21:10:44,203 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2021-10-25 21:10:44,204 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,204 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:44,218 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,219 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:44,219 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:44,235 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,235 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:44,236 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:44,251 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,252 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:44,252 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,268 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,268 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:44,269 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,285 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,285 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:44,286 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,301 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,302 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:44,302 [ 1] INFO  Unity: SetDirection:(72, 69, 0)
+2021-10-25 21:10:44,303 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,304 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,317 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,319 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:44,320 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,333 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,334 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:44,334 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:44,350 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,351 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:44,351 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:44,367 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,367 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:44,368 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:44,383 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,384 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:44,384 [ 1] INFO  Unity: SetDirection:(59, 81, 0)
+2021-10-25 21:10:44,385 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,385 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:44,400 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,401 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:44,401 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:44,416 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,417 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.8)
+2021-10-25 21:10:44,417 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:44,433 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,433 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:44,434 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:44,450 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,451 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:44,451 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,466 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,467 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:44,467 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,483 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,484 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:44,484 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
+2021-10-25 21:10:44,485 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,485 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,500 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,501 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:44,501 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,516 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,516 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 0.9)
+2021-10-25 21:10:44,517 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,533 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,533 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:44,533 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:44,549 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,550 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:44,550 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,566 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,566 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:44,567 [ 1] INFO  Unity: SetDirection:(24, 97, 0)
+2021-10-25 21:10:44,568 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,568 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,582 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,583 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:44,583 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,599 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,600 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:44,600 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,616 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,616 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:44,617 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,632 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,633 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:44,633 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:44,649 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,650 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:44,650 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:44,666 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,667 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:44,667 [ 1] INFO  Unity: SetDirection:(4, 100, 0)
+2021-10-25 21:10:44,668 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,668 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:44,682 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,682 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:44,683 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:44,699 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,699 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:44,699 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:44,716 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,716 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:44,716 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:44,731 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,732 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:44,732 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,748 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,748 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:44,748 [ 1] INFO  Unity: SetDirection:(-14, 99, 0)
+2021-10-25 21:10:44,749 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,749 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,764 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,765 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, 1.0)
+2021-10-25 21:10:44,765 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,781 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,782 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, 1.0)
+2021-10-25 21:10:44,782 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,797 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,798 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, 1.0)
+2021-10-25 21:10:44,798 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,814 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,814 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, 1.0)
+2021-10-25 21:10:44,815 [ 1] INFO  Unity: transform.forward:(0.0, -0.1, 0.0, 1.0)
+2021-10-25 21:10:44,831 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,832 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, 1.0)
+2021-10-25 21:10:44,832 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,847 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,848 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, 0.9)
+2021-10-25 21:10:44,848 [ 1] INFO  Unity: SetDirection:(-34, 94, 0)
+2021-10-25 21:10:44,849 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,849 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,864 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,865 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, 0.9)
+2021-10-25 21:10:44,865 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,881 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,881 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, 0.9)
+2021-10-25 21:10:44,882 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,897 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,898 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, 0.9)
+2021-10-25 21:10:44,898 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,914 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,915 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, 0.9)
+2021-10-25 21:10:44,915 [ 1] INFO  Unity: transform.forward:(0.0, -0.2, 0.0, 1.0)
+2021-10-25 21:10:44,931 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,932 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, 0.9)
+2021-10-25 21:10:44,932 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 1.0)
+2021-10-25 21:10:44,947 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,948 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, 0.8)
+2021-10-25 21:10:44,948 [ 1] INFO  Unity: SetDirection:(-53, 85, 0)
+2021-10-25 21:10:44,949 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:44,949 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 1.0)
+2021-10-25 21:10:44,964 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,964 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, 0.8)
+2021-10-25 21:10:44,965 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 1.0)
+2021-10-25 21:10:44,980 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,981 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, 0.8)
+2021-10-25 21:10:44,981 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 1.0)
+2021-10-25 21:10:44,996 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:44,996 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, 0.8)
+2021-10-25 21:10:44,997 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 0.9)
+2021-10-25 21:10:45,014 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,014 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, 0.8)
+2021-10-25 21:10:45,014 [ 1] INFO  Unity: transform.forward:(0.0, -0.3, 0.0, 0.9)
+2021-10-25 21:10:45,030 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,030 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, 0.7)
+2021-10-25 21:10:45,031 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,046 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,046 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, 0.7)
+2021-10-25 21:10:45,047 [ 1] INFO  Unity: SetDirection:(-69, 72, 0)
+2021-10-25 21:10:45,047 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,048 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,062 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,063 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, 0.7)
+2021-10-25 21:10:45,063 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,079 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,079 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, 0.7)
+2021-10-25 21:10:45,080 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,096 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,097 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, 0.6)
+2021-10-25 21:10:45,097 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,112 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,113 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, 0.6)
+2021-10-25 21:10:45,113 [ 1] INFO  Unity: transform.forward:(0.0, -0.4, 0.0, 0.9)
+2021-10-25 21:10:45,129 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,129 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, 0.6)
+2021-10-25 21:10:45,130 [ 1] INFO  Unity: SetDirection:(-81, 59, 0)
+2021-10-25 21:10:45,131 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,131 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.9)
+2021-10-25 21:10:45,145 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,146 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, 0.6)
+2021-10-25 21:10:45,146 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.9)
+2021-10-25 21:10:45,162 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,163 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, 0.5)
+2021-10-25 21:10:45,163 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.9)
+2021-10-25 21:10:45,179 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,180 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.5)
+2021-10-25 21:10:45,180 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.9)
+2021-10-25 21:10:45,195 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,196 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.5)
+2021-10-25 21:10:45,196 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.9)
+2021-10-25 21:10:45,212 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,212 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.4)
+2021-10-25 21:10:45,213 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.8)
+2021-10-25 21:10:45,229 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,229 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.4)
+2021-10-25 21:10:45,230 [ 1] INFO  Unity: SetDirection:(-91, 41, 0)
+2021-10-25 21:10:45,230 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,231 [ 1] INFO  Unity: transform.forward:(0.0, -0.5, 0.0, 0.8)
+2021-10-25 21:10:45,245 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,245 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.4)
+2021-10-25 21:10:45,246 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,262 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,263 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, 0.3)
+2021-10-25 21:10:45,263 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,278 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,279 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.3)
+2021-10-25 21:10:45,279 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,295 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,295 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.3)
+2021-10-25 21:10:45,296 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,311 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,311 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.2)
+2021-10-25 21:10:45,312 [ 1] INFO  Unity: SetDirection:(-97, 24, 0)
+2021-10-25 21:10:45,312 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,312 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,328 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,329 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.2)
+2021-10-25 21:10:45,329 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,345 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,345 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.2)
+2021-10-25 21:10:45,346 [ 1] INFO  Unity: transform.forward:(0.0, -0.6, 0.0, 0.8)
+2021-10-25 21:10:45,362 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,362 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.1)
+2021-10-25 21:10:45,363 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.8)
+2021-10-25 21:10:45,378 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,378 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.1)
+2021-10-25 21:10:45,379 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,394 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,394 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.1)
+2021-10-25 21:10:45,394 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,410 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,411 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.0)
+2021-10-25 21:10:45,411 [ 1] INFO  Unity: SetDirection:(-100, 4, 0)
+2021-10-25 21:10:45,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,412 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,427 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,427 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.0)
+2021-10-25 21:10:45,428 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,443 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,444 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, 0.0)
+2021-10-25 21:10:45,444 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,460 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,461 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:45,461 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,477 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,477 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:45,478 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:45,493 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,494 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:45,494 [ 1] INFO  Unity: SetDirection:(-99, -14, 0)
+2021-10-25 21:10:45,495 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,495 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.7)
+2021-10-25 21:10:45,510 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,511 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:45,511 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,527 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,527 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:45,528 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,544 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,544 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:45,545 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,560 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,560 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.3)
+2021-10-25 21:10:45,561 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,577 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,577 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.3)
+2021-10-25 21:10:45,577 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,593 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,594 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.3)
+2021-10-25 21:10:45,594 [ 1] INFO  Unity: SetDirection:(-94, -34, 0)
+2021-10-25 21:10:45,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,595 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,610 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,610 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:45,611 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:45,626 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,626 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:45,627 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.5)
+2021-10-25 21:10:45,642 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,642 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:45,643 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.5)
+2021-10-25 21:10:45,659 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,659 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.5)
+2021-10-25 21:10:45,660 [ 1] INFO  Unity: transform.forward:(0.0, -0.9, 0.0, 0.5)
+2021-10-25 21:10:45,675 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,676 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.5)
+2021-10-25 21:10:45,676 [ 1] INFO  Unity: transform.forward:(0.0, -0.9, 0.0, 0.5)
+2021-10-25 21:10:45,692 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,692 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.5)
+2021-10-25 21:10:45,693 [ 1] INFO  Unity: SetDirection:(-85, -53, 0)
+2021-10-25 21:10:45,693 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,694 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:45,709 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,710 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:45,710 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:45,726 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,726 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:45,726 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:45,742 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,743 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:45,743 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,759 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,760 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:45,760 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,775 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,776 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:45,776 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,792 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,793 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:45,793 [ 1] INFO  Unity: SetDirection:(-72, -69, 0)
+2021-10-25 21:10:45,793 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,794 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,809 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,810 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:45,810 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,825 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,825 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:45,826 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:45,842 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,842 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:45,843 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.3)
+2021-10-25 21:10:45,858 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,859 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:45,859 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.3)
+2021-10-25 21:10:45,875 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,876 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:45,877 [ 1] INFO  Unity: SetDirection:(-59, -81, 0)
+2021-10-25 21:10:45,877 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,878 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:45,893 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,894 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:45,894 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:45,908 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,908 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.8)
+2021-10-25 21:10:45,909 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:45,924 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,925 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.9)
+2021-10-25 21:10:45,925 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:45,942 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,942 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.9)
+2021-10-25 21:10:45,943 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:45,958 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,958 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:45,959 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:45,991 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:45,991 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:45,992 [ 1] INFO  Unity: SetDirection:(-41, -91, 0)
+2021-10-25 21:10:45,993 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:45,993 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:46,008 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,008 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:46,009 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:46,010 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,010 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:46,011 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:46,041 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,042 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:46,042 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:46,057 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,058 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:46,058 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,074 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,074 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:46,075 [ 1] INFO  Unity: SetDirection:(-24, -97, 0)
+2021-10-25 21:10:46,075 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,076 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,090 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,091 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:46,091 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,107 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,108 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:46,108 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,124 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,125 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:46,125 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,140 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,141 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:46,141 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:46,157 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,158 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:46,158 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:46,174 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,174 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:46,175 [ 1] INFO  Unity: SetDirection:(-4, -100, 0)
+2021-10-25 21:10:46,175 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,176 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:46,190 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,191 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:46,191 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:46,207 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,207 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:46,208 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:46,224 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,225 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:46,225 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:46,240 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,240 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:46,241 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,257 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,258 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:46,258 [ 1] INFO  Unity: SetDirection:(14, -99, 0)
+2021-10-25 21:10:46,258 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,259 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,274 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,274 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:46,275 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,289 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,290 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:46,290 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,306 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,306 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:46,307 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,323 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,323 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:46,324 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:46,340 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,341 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:46,341 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,356 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,357 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:46,357 [ 1] INFO  Unity: SetDirection:(34, -94, 0)
+2021-10-25 21:10:46,358 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,358 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,372 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,373 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:46,373 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,389 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,390 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:46,390 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,406 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,407 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:46,407 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,422 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,423 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:46,423 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:46,439 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,439 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:46,440 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:46,456 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,456 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:46,457 [ 1] INFO  Unity: SetDirection:(53, -85, 0)
+2021-10-25 21:10:46,457 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,458 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:46,472 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,473 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:46,473 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:46,488 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,488 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:46,489 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:46,505 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,505 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:46,506 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:46,521 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,521 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:46,522 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:46,538 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,538 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:46,539 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,554 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,555 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:46,555 [ 1] INFO  Unity: SetDirection:(69, -72, 0)
+2021-10-25 21:10:46,556 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,556 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,571 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,572 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:46,572 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,588 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,589 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:46,589 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,604 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,604 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:46,605 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,621 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,622 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:46,622 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:46,637 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,638 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:46,638 [ 1] INFO  Unity: SetDirection:(81, -59, 0)
+2021-10-25 21:10:46,639 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,639 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:46,654 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,655 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:46,655 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:46,670 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,671 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.5)
+2021-10-25 21:10:46,671 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:46,687 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,687 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:46,688 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:46,704 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,705 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:46,705 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:46,720 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,721 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:46,721 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:46,737 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,737 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:46,738 [ 1] INFO  Unity: SetDirection:(91, -41, 0)
+2021-10-25 21:10:46,738 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,739 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:46,754 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,755 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:46,755 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,770 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,770 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.3)
+2021-10-25 21:10:46,771 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,787 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,787 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:46,787 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,803 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,804 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:46,804 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,819 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,820 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:46,820 [ 1] INFO  Unity: SetDirection:(97, -24, 0)
+2021-10-25 21:10:46,821 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,821 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,836 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,837 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:46,837 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,853 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,853 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:46,853 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:46,869 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,870 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:46,870 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.7)
+2021-10-25 21:10:46,886 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,887 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:46,887 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,903 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,904 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:46,905 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,919 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,920 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:46,920 [ 1] INFO  Unity: SetDirection:(100, -4, 0)
+2021-10-25 21:10:46,921 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:46,921 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,936 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,936 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:46,937 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,952 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,953 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:46,953 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,969 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,969 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:46,970 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:46,985 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:46,986 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:46,986 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:47,002 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,003 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:47,003 [ 1] INFO  Unity: SetDirection:(99, 14, 0)
+2021-10-25 21:10:47,004 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,004 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.8)
+2021-10-25 21:10:47,018 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,018 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:47,019 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,035 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,036 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:47,036 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,052 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,052 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:47,053 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,068 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,069 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.3)
+2021-10-25 21:10:47,069 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,084 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,085 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.3)
+2021-10-25 21:10:47,085 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,101 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,102 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.3)
+2021-10-25 21:10:47,102 [ 1] INFO  Unity: SetDirection:(94, 34, 0)
+2021-10-25 21:10:47,103 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,103 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,118 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,118 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:47,118 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:47,134 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,135 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:47,135 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:47,151 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,151 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:47,152 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:47,168 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,168 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:47,169 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:47,184 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,185 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:47,185 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:47,201 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,202 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.5)
+2021-10-25 21:10:47,202 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2021-10-25 21:10:47,203 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,203 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:47,217 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,217 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:47,218 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:47,234 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,234 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:47,235 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:47,250 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,251 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:47,251 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,267 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,268 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:47,268 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,283 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,284 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:47,284 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,300 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,301 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:47,302 [ 1] INFO  Unity: SetDirection:(72, 69, 0)
+2021-10-25 21:10:47,302 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,303 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,318 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,319 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:47,319 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,335 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,335 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:47,335 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:47,351 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,352 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:47,352 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:47,368 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,368 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:47,369 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:47,383 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,384 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:47,384 [ 1] INFO  Unity: SetDirection:(59, 81, 0)
+2021-10-25 21:10:47,385 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,386 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:47,400 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,401 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:47,401 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:47,417 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,418 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.8)
+2021-10-25 21:10:47,418 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:47,433 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,434 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:47,434 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:47,450 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,451 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:47,451 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,466 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,467 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:47,467 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,483 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,484 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:47,484 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
+2021-10-25 21:10:47,485 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,485 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,499 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,500 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:47,500 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,516 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,517 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 0.9)
+2021-10-25 21:10:47,517 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,533 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,534 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:47,535 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:47,549 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,550 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:47,550 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,566 [ 1] INFO  Unity: h * rotateSpeed:-2
+2021-10-25 21:10:47,567 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:47,567 [ 1] INFO  Unity: SetDirection:(24, 97, 0)
+2021-10-25 21:10:47,568 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,568 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,583 [ 1] INFO  Unity: h * rotateSpeed:-1.89961
+2021-10-25 21:10:47,584 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:47,584 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,599 [ 1] INFO  Unity: h * rotateSpeed:-1.802288
+2021-10-25 21:10:47,600 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:47,600 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,615 [ 1] INFO  Unity: h * rotateSpeed:-1.702883
+2021-10-25 21:10:47,616 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:47,616 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,632 [ 1] INFO  Unity: h * rotateSpeed:-1.602732
+2021-10-25 21:10:47,632 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:47,633 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:47,648 [ 1] INFO  Unity: h * rotateSpeed:-1.504072
+2021-10-25 21:10:47,649 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:47,650 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,665 [ 1] INFO  Unity: h * rotateSpeed:-1.404691
+2021-10-25 21:10:47,666 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:47,666 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,682 [ 1] INFO  Unity: h * rotateSpeed:-1.303335
+2021-10-25 21:10:47,683 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:47,683 [ 1] INFO  Unity: SetDirection:(5, 100, 0)
+2021-10-25 21:10:47,684 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:47,685 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,698 [ 1] INFO  Unity: h * rotateSpeed:-1.205886
+2021-10-25 21:10:47,699 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,699 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,715 [ 1] INFO  Unity: h * rotateSpeed:-1.105884
+2021-10-25 21:10:47,715 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,716 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,732 [ 1] INFO  Unity: h * rotateSpeed:-1.004428
+2021-10-25 21:10:47,732 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,733 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,748 [ 1] INFO  Unity: h * rotateSpeed:-0.9076946
+2021-10-25 21:10:47,748 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,749 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,765 [ 1] INFO  Unity: h * rotateSpeed:-0.8067884
+2021-10-25 21:10:47,765 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,766 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,782 [ 1] INFO  Unity: h * rotateSpeed:-0.7044716
+2021-10-25 21:10:47,783 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:47,783 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,798 [ 1] INFO  Unity: h * rotateSpeed:-0.6094544
+2021-10-25 21:10:47,798 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:47,799 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,814 [ 1] INFO  Unity: h * rotateSpeed:-0.5100908
+2021-10-25 21:10:47,815 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:47,815 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,831 [ 1] INFO  Unity: MoveForward
+2021-10-25 21:10:47,832 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:47,833 [ 1] INFO  Unity: h * rotateSpeed:-0.4106876
+2021-10-25 21:10:47,833 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:47,833 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,848 [ 1] INFO  Unity: h * rotateSpeed:-0.3112802
+2021-10-25 21:10:47,849 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:47,849 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:47,865 [ 1] INFO  Unity: h * rotateSpeed:-0.2064656
+2021-10-25 21:10:47,866 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:47,866 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,444 [ 1] INFO  Unity: h * rotateSpeed:0.2951976
+2021-10-25 21:10:48,445 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:48,445 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,461 [ 1] INFO  Unity: h * rotateSpeed:0.3961668
+2021-10-25 21:10:48,462 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:48,462 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,478 [ 1] INFO  Unity: h * rotateSpeed:0.493998
+2021-10-25 21:10:48,478 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:48,478 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,494 [ 1] INFO  Unity: h * rotateSpeed:0.593403
+2021-10-25 21:10:48,495 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, 1.0)
+2021-10-25 21:10:48,495 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,511 [ 1] INFO  Unity: h * rotateSpeed:0.6943512
+2021-10-25 21:10:48,511 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,511 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,527 [ 1] INFO  Unity: h * rotateSpeed:0.7921974
+2021-10-25 21:10:48,527 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,527 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,543 [ 1] INFO  Unity: h * rotateSpeed:0.8917308
+2021-10-25 21:10:48,543 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,544 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,560 [ 1] INFO  Unity: h * rotateSpeed:0.9934788
+2021-10-25 21:10:48,561 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,561 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,576 [ 1] INFO  Unity: h * rotateSpeed:1.09039
+2021-10-25 21:10:48,577 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,577 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,593 [ 1] INFO  Unity: h * rotateSpeed:1.190923
+2021-10-25 21:10:48,593 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 1.0)
+2021-10-25 21:10:48,594 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,609 [ 1] INFO  Unity: h * rotateSpeed:1.289199
+2021-10-25 21:10:48,610 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:48,610 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,626 [ 1] INFO  Unity: h * rotateSpeed:1.388599
+2021-10-25 21:10:48,626 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:48,627 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, 0.0, 1.0)
+2021-10-25 21:10:48,643 [ 1] INFO  Unity: h * rotateSpeed:1.487999
+2021-10-25 21:10:48,643 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:48,643 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,659 [ 1] INFO  Unity: h * rotateSpeed:1.587397
+2021-10-25 21:10:48,660 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, 1.0)
+2021-10-25 21:10:48,660 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,676 [ 1] INFO  Unity: h * rotateSpeed:1.6868
+2021-10-25 21:10:48,676 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:48,676 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,693 [ 1] INFO  Unity: h * rotateSpeed:1.787069
+2021-10-25 21:10:48,693 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:48,693 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,709 [ 1] INFO  Unity: h * rotateSpeed:1.887378
+2021-10-25 21:10:48,710 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, 1.0)
+2021-10-25 21:10:48,710 [ 1] INFO  Unity: SetDirection:(24, 97, 0)
+2021-10-25 21:10:48,711 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4260,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:48,711 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,725 [ 1] INFO  Unity: h * rotateSpeed:1.985024
+2021-10-25 21:10:48,726 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:48,726 [ 1] INFO  Unity: transform.forward:(0.0, 0.1, 0.0, 1.0)
+2021-10-25 21:10:48,742 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,742 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 1.0)
+2021-10-25 21:10:48,743 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,759 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,759 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, 0.9)
+2021-10-25 21:10:48,759 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,775 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,776 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:48,776 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,792 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,792 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:48,793 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,808 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,809 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, 0.9)
+2021-10-25 21:10:48,809 [ 1] INFO  Unity: SetDirection:(43, 90, 0)
+2021-10-25 21:10:48,810 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5006,4290,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:48,811 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,825 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,826 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:48,826 [ 1] INFO  Unity: transform.forward:(0.0, 0.2, 0.0, 1.0)
+2021-10-25 21:10:48,842 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,842 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:48,842 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:48,858 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,859 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, 0.9)
+2021-10-25 21:10:48,859 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:48,875 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,875 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:48,876 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:48,891 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,891 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:48,892 [ 1] INFO  Unity: SetDirection:(58, 81, 0)
+2021-10-25 21:10:48,892 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5016,4315,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:48,900 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 1.0)
+2021-10-25 21:10:48,910 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,911 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:48,911 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:48,927 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,928 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, 0.8)
+2021-10-25 21:10:48,928 [ 1] INFO  Unity: transform.forward:(0.0, 0.3, 0.0, 0.9)
+2021-10-25 21:10:48,944 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,945 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:48,945 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:48,960 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,961 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:48,961 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:48,977 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,977 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:48,978 [ 1] INFO  Unity: SetDirection:(72, 70, 0)
+2021-10-25 21:10:48,978 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5031,4335,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:48,979 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:48,993 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:48,994 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, 0.7)
+2021-10-25 21:10:48,994 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:49,010 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,011 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:49,011 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:49,027 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,028 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:49,028 [ 1] INFO  Unity: transform.forward:(0.0, 0.4, 0.0, 0.9)
+2021-10-25 21:10:49,043 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,044 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:49,044 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:49,060 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,060 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.6)
+2021-10-25 21:10:49,061 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:49,077 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,077 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, 0.5)
+2021-10-25 21:10:49,077 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2021-10-25 21:10:49,078 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5055,4359,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,078 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:49,093 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,094 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:49,094 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:49,110 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,110 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.5)
+2021-10-25 21:10:49,111 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.9)
+2021-10-25 21:10:49,126 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,127 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:49,127 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:49,143 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,143 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:49,144 [ 1] INFO  Unity: transform.forward:(0.0, 0.5, 0.0, 0.8)
+2021-10-25 21:10:49,160 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,160 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.4)
+2021-10-25 21:10:49,161 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,176 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,177 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.3)
+2021-10-25 21:10:49,177 [ 1] INFO  Unity: SetDirection:(94, 35, 0)
+2021-10-25 21:10:49,178 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5079,4377,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,178 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,193 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,193 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, 0.3)
+2021-10-25 21:10:49,194 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,209 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,210 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.3)
+2021-10-25 21:10:49,210 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,226 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,227 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:49,227 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,243 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,243 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:49,244 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,259 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,260 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.2)
+2021-10-25 21:10:49,260 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2021-10-25 21:10:49,261 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5104,4387,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,261 [ 1] INFO  Unity: transform.forward:(0.0, 0.6, 0.0, 0.8)
+2021-10-25 21:10:49,276 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,276 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:49,277 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.8)
+2021-10-25 21:10:49,291 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,292 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:49,292 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,308 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,308 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.1)
+2021-10-25 21:10:49,309 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,325 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,326 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:49,326 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,342 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,342 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:49,343 [ 1] INFO  Unity: SetDirection:(100, 1, 0)
+2021-10-25 21:10:49,343 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5129,4392,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,344 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,358 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,359 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, 0.0)
+2021-10-25 21:10:49,359 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,375 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,375 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:49,376 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,392 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,392 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:49,392 [ 1] INFO  Unity: transform.forward:(0.0, 0.7, 0.0, 0.7)
+2021-10-25 21:10:49,408 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,408 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.1)
+2021-10-25 21:10:49,409 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.7)
+2021-10-25 21:10:49,425 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,426 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:49,426 [ 1] INFO  Unity: SetDirection:(99, -17, 0)
+2021-10-25 21:10:49,427 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5154,4392,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,427 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,442 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,443 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:49,443 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,458 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,458 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.2)
+2021-10-25 21:10:49,459 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,475 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,476 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:49,476 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,492 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,492 [ 1] INFO  Unity: transform.forward:(1.0, 0.0, -0.3)
+2021-10-25 21:10:49,493 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,508 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,509 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.3)
+2021-10-25 21:10:49,509 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,524 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,525 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:49,525 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2021-10-25 21:10:49,526 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5184,4386,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,526 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.6)
+2021-10-25 21:10:49,540 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,541 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:49,541 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:49,557 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,557 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.4)
+2021-10-25 21:10:49,558 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, 0.5)
+2021-10-25 21:10:49,574 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,574 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:49,575 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:49,590 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,590 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:49,591 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:49,606 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,607 [ 1] INFO  Unity: transform.forward:(0.9, 0.0, -0.5)
+2021-10-25 21:10:49,607 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:49,623 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,623 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:49,624 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
+2021-10-25 21:10:49,624 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5214,4374,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,625 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:49,640 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,641 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:49,641 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.5)
+2021-10-25 21:10:49,656 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,657 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:49,657 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,673 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,674 [ 1] INFO  Unity: transform.forward:(0.8, 0.0, -0.6)
+2021-10-25 21:10:49,674 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,690 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,691 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:49,691 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,706 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,707 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:49,707 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2021-10-25 21:10:49,708 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5234,4359,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,708 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,723 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,723 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:49,724 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,739 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,740 [ 1] INFO  Unity: transform.forward:(0.7, 0.0, -0.7)
+2021-10-25 21:10:49,741 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.4)
+2021-10-25 21:10:49,756 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,757 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:49,757 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:49,773 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,773 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:49,773 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, 0.3)
+2021-10-25 21:10:49,789 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,790 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:49,790 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:49,806 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,806 [ 1] INFO  Unity: transform.forward:(0.6, 0.0, -0.8)
+2021-10-25 21:10:49,807 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
+2021-10-25 21:10:49,807 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5258,4341,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,808 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:49,822 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,823 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.8)
+2021-10-25 21:10:49,823 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:49,839 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,840 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:49,840 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.3)
+2021-10-25 21:10:49,856 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,857 [ 1] INFO  Unity: transform.forward:(0.5, 0.0, -0.9)
+2021-10-25 21:10:49,857 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,872 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,873 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:49,873 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,888 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,888 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:49,889 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,905 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,906 [ 1] INFO  Unity: transform.forward:(0.4, 0.0, -0.9)
+2021-10-25 21:10:49,906 [ 1] INFO  Unity: SetDirection:(38, -93, 0)
+2021-10-25 21:10:49,907 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5276,4317,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:49,907 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,922 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,923 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:49,923 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,938 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,939 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -0.9)
+2021-10-25 21:10:49,939 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.2)
+2021-10-25 21:10:49,955 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,955 [ 1] INFO  Unity: transform.forward:(0.3, 0.0, -1.0)
+2021-10-25 21:10:49,956 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:49,972 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,972 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:49,973 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:49,988 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:49,988 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:49,989 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:50,005 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,005 [ 1] INFO  Unity: transform.forward:(0.2, 0.0, -1.0)
+2021-10-25 21:10:50,006 [ 1] INFO  Unity: SetDirection:(18, -98, 0)
+2021-10-25 21:10:50,006 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5288,4287,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,007 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:50,021 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,022 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:50,022 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:50,037 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,038 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:50,038 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.1)
+2021-10-25 21:10:50,054 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,055 [ 1] INFO  Unity: transform.forward:(0.1, 0.0, -1.0)
+2021-10-25 21:10:50,055 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,071 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,072 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:50,072 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,088 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,088 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:50,089 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2021-10-25 21:10:50,089 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5293,4262,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,090 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,104 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,104 [ 1] INFO  Unity: transform.forward:(0.0, 0.0, -1.0)
+2021-10-25 21:10:50,105 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,120 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,121 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:50,121 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,137 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,137 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:50,138 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, 0.0)
+2021-10-25 21:10:50,153 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,154 [ 1] INFO  Unity: transform.forward:(-0.1, 0.0, -1.0)
+2021-10-25 21:10:50,154 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:50,170 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,170 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:50,171 [ 1] INFO  Unity: SetDirection:(-17, -99, 0)
+2021-10-25 21:10:50,171 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5293,4237,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,172 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:50,187 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,187 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:50,188 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:50,203 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,203 [ 1] INFO  Unity: transform.forward:(-0.2, 0.0, -1.0)
+2021-10-25 21:10:50,204 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:50,220 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,220 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:50,221 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.1)
+2021-10-25 21:10:50,237 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,237 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -1.0)
+2021-10-25 21:10:50,238 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,252 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,253 [ 1] INFO  Unity: transform.forward:(-0.3, 0.0, -0.9)
+2021-10-25 21:10:50,253 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,269 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,269 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:50,270 [ 1] INFO  Unity: SetDirection:(-37, -93, 0)
+2021-10-25 21:10:50,271 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5287,4207,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,271 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,286 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,286 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:50,286 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,302 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,303 [ 1] INFO  Unity: transform.forward:(-0.4, 0.0, -0.9)
+2021-10-25 21:10:50,303 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,319 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,320 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.9)
+2021-10-25 21:10:50,320 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.2)
+2021-10-25 21:10:50,336 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,337 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.9)
+2021-10-25 21:10:50,337 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:50,352 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,353 [ 1] INFO  Unity: transform.forward:(-0.5, 0.0, -0.9)
+2021-10-25 21:10:50,353 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:50,369 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,369 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:50,370 [ 1] INFO  Unity: SetDirection:(-55, -83, 0)
+2021-10-25 21:10:50,370 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5275,4177,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,371 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:50,386 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,386 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:50,387 [ 1] INFO  Unity: transform.forward:(0.0, 1.0, 0.0, -0.3)
+2021-10-25 21:10:50,402 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,403 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:50,403 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.3)
+2021-10-25 21:10:50,419 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,419 [ 1] INFO  Unity: transform.forward:(-0.6, 0.0, -0.8)
+2021-10-25 21:10:50,420 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.3)
+2021-10-25 21:10:50,435 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,436 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:50,436 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,452 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,453 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:50,453 [ 1] INFO  Unity: SetDirection:(-69, -72, 0)
+2021-10-25 21:10:50,454 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5260,4157,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,454 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,468 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,468 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:50,469 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,484 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,485 [ 1] INFO  Unity: transform.forward:(-0.7, 0.0, -0.7)
+2021-10-25 21:10:50,485 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,501 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,501 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:50,502 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,517 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,518 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:50,518 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.4)
+2021-10-25 21:10:50,534 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,535 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:50,535 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:50,551 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,551 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.6)
+2021-10-25 21:10:50,552 [ 1] INFO  Unity: SetDirection:(-83, -56, 0)
+2021-10-25 21:10:50,552 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5242,4133,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,553 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:50,567 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,568 [ 1] INFO  Unity: transform.forward:(-0.8, 0.0, -0.5)
+2021-10-25 21:10:50,568 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:50,584 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,584 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.5)
+2021-10-25 21:10:50,585 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:50,601 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,601 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.5)
+2021-10-25 21:10:50,602 [ 1] INFO  Unity: transform.forward:(0.0, 0.9, 0.0, -0.5)
+2021-10-25 21:10:50,634 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,635 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:50,635 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, -0.5)
+2021-10-25 21:10:50,636 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,636 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:50,636 [ 1] INFO  Unity: transform.forward:(0.0, 0.8, 0.0, -0.5)
+2021-10-25 21:10:50,651 [ 1] INFO  Unity: h * rotateSpeed:2
+2021-10-25 21:10:50,651 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:50,652 [ 1] INFO  Unity: SetDirection:(-93, -38, 0)
+2021-10-25 21:10:50,652 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5218,4115,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,653 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,684 [ 1] INFO  Unity: h * rotateSpeed:1.80303
+2021-10-25 21:10:50,685 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.4)
+2021-10-25 21:10:50,685 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,700 [ 1] INFO  Unity: h * rotateSpeed:1.70631
+2021-10-25 21:10:50,701 [ 1] INFO  Unity: transform.forward:(-0.9, 0.0, -0.3)
+2021-10-25 21:10:50,701 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,717 [ 1] INFO  Unity: h * rotateSpeed:1.605588
+2021-10-25 21:10:50,718 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.3)
+2021-10-25 21:10:50,718 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,733 [ 1] INFO  Unity: h * rotateSpeed:1.507528
+2021-10-25 21:10:50,734 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.3)
+2021-10-25 21:10:50,734 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,750 [ 1] INFO  Unity: h * rotateSpeed:1.40792
+2021-10-25 21:10:50,751 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,751 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,767 [ 1] INFO  Unity: h * rotateSpeed:1.308729
+2021-10-25 21:10:50,767 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,768 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,783 [ 1] INFO  Unity: h * rotateSpeed:1.209288
+2021-10-25 21:10:50,784 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,784 [ 1] INFO  Unity: SetDirection:(-98, -20, 0)
+2021-10-25 21:10:50,785 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5183,4101,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-10-25 21:10:50,785 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,800 [ 1] INFO  Unity: h * rotateSpeed:1.108957
+2021-10-25 21:10:50,800 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,801 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,817 [ 1] INFO  Unity: h * rotateSpeed:1.006945
+2021-10-25 21:10:50,818 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,818 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.6)
+2021-10-25 21:10:50,833 [ 1] INFO  Unity: h * rotateSpeed:0.9111122
+2021-10-25 21:10:50,834 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.2)
+2021-10-25 21:10:50,834 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.7)
+2021-10-25 21:10:50,850 [ 1] INFO  Unity: h * rotateSpeed:0.8091854
+2021-10-25 21:10:50,851 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,851 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.7)
+2021-10-25 21:10:50,867 [ 1] INFO  Unity: h * rotateSpeed:0.7077182
+2021-10-25 21:10:50,868 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,868 [ 1] INFO  Unity: transform.forward:(0.0, -0.8, 0.0, 0.7)
+2021-10-25 21:10:50,882 [ 1] INFO  Unity: h * rotateSpeed:0.6129158
+2021-10-25 21:10:50,883 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,883 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:50,899 [ 1] INFO  Unity: h * rotateSpeed:0.5135288
+2021-10-25 21:10:50,900 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,900 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:50,915 [ 1] INFO  Unity: h * rotateSpeed:0.4141214
+2021-10-25 21:10:50,916 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,916 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:50,932 [ 1] INFO  Unity: h * rotateSpeed:0.3147308
+2021-10-25 21:10:50,932 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,933 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:50,949 [ 1] INFO  Unity: h * rotateSpeed:0.214046
+2021-10-25 21:10:50,950 [ 1] INFO  Unity: transform.forward:(-1.0, 0.0, -0.1)
+2021-10-25 21:10:50,950 [ 1] INFO  Unity: transform.forward:(0.0, -0.7, 0.0, 0.7)
+2021-10-25 21:10:50,966 [ 1] INFO  Unity: Stop
+2021-10-25 21:10:50,967 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5128,4090,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-10-25 21:10:51,644 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-10-25 21:10:51,645 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
+2021-10-25 21:10:51,650 [ 1] INFO  Unity: Character_1_ ‘ ‘ OnDestroy :ID:1 POS:(5128, 4090, 820) DIR:(-98, -20, 0) SPD:0 

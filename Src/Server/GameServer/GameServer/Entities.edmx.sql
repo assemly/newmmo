@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 10/11/2021 09:46:07
+-- Date Created: 10/26/2021 13:47:03
 -- Generated from EDMX file: C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
@@ -23,6 +23,9 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_PlayerCharacter]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[Characters] DROP CONSTRAINT [FK_PlayerCharacter];
 GO
+IF OBJECT_ID(N'[dbo].[FK_TCharacterTCharItem]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[CharItems] DROP CONSTRAINT [FK_TCharacterTCharItem];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -36,6 +39,9 @@ IF OBJECT_ID(N'[dbo].[Players]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[Characters]', 'U') IS NOT NULL
     DROP TABLE [dbo].[Characters];
+GO
+IF OBJECT_ID(N'[dbo].[CharItems]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharItems];
 GO
 
 -- --------------------------------------------------
@@ -72,10 +78,12 @@ CREATE TABLE [dbo].[Characters] (
 );
 GO
 
--- Creating table 'TCharItems'
-CREATE TABLE [dbo].[TCharItems] (
+-- Creating table 'CharItems'
+CREATE TABLE [dbo].[CharItems] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [Name] nvarchar(max)  NOT NULL
+    [ItemID] int  NOT NULL,
+    [ItemCount] int  NOT NULL,
+    [CharacterID] int  NOT NULL
 );
 GO
 
@@ -101,9 +109,9 @@ ADD CONSTRAINT [PK_Characters]
     PRIMARY KEY CLUSTERED ([ID] ASC);
 GO
 
--- Creating primary key on [Id] in table 'TCharItems'
-ALTER TABLE [dbo].[TCharItems]
-ADD CONSTRAINT [PK_TCharItems]
+-- Creating primary key on [Id] in table 'CharItems'
+ALTER TABLE [dbo].[CharItems]
+ADD CONSTRAINT [PK_CharItems]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -139,6 +147,21 @@ GO
 CREATE INDEX [IX_FK_PlayerCharacter]
 ON [dbo].[Characters]
     ([Player_ID]);
+GO
+
+-- Creating foreign key on [CharacterID] in table 'CharItems'
+ALTER TABLE [dbo].[CharItems]
+ADD CONSTRAINT [FK_TCharacterTCharItem]
+    FOREIGN KEY ([CharacterID])
+    REFERENCES [dbo].[Characters]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_TCharacterTCharItem'
+CREATE INDEX [IX_FK_TCharacterTCharItem]
+ON [dbo].[CharItems]
+    ([CharacterID]);
 GO
 
 -- --------------------------------------------------

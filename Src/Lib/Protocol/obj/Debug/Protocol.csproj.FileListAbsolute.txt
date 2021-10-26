@@ -5,5 +5,5 @@ C:\MMORPG\MMO\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
 C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
 C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.dll
 C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
+C:\MMORPG\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete

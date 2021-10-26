@@ -8,6 +8,7 @@ using UnityEngine;
 
 using SkillBridge.Message;
 using Models;
+using Managers;
 
 namespace Services
 {
@@ -251,6 +252,7 @@ namespace Services
                 if (response.Character != null)
                 {
                     User.Instance.CurrentCharacter = response.Character;
+                    ItemManager.Instance.Init(response.Character.Items);
                     Debug.LogFormat("OnGameEnter:{0}", User.Instance.CurrentCharacter.Class);
                 }
             }
