@@ -26,11 +26,11 @@ public class UIMinimap : MonoBehaviour
     {
         if (playerTransform == null)
             playerTransform = MiniMapManager.Instance.PlayerTransform;
-        if (this.minimapBoundingBox == null)
-        {
-            UpdateMap();
-            //return;
-        }
+        //if (this.minimapBoundingBox == null)
+        //{
+        //    UpdateMap();
+        //    //return;
+        //}
         if(playerTransform == null || this.minimapBoundingBox == null)
         {
             return;

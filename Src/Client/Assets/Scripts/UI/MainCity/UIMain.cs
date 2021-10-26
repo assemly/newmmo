@@ -31,4 +31,9 @@ public class UIMain : MonoSingleton<UIMain>
     {
         MessageBox.Show("关闭测试窗口:" + result, "对话框相应结果", MessageBoxType.Information);
     }
+
+    public void OnClickBag()
+    {
+        UIManager.Instance.Show<UIBag>();
+    }
 }

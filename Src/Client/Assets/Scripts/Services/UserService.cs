@@ -251,9 +251,10 @@ namespace Services
             {
                 if (response.Character != null)
                 {
-                    User.Instance.CurrentCharacter = response.Character;
+                    //User.Instance.CurrentCharacter = response.Character;
                     ItemManager.Instance.Init(response.Character.Items);
-                    Debug.LogFormat("OnGameEnter:{0}", User.Instance.CurrentCharacter.Class);
+                    BagManager.Instance.Init(response.Character.Bag);
+                    //Debug.LogFormat("OnGameEnter:{0}", User.Instance.CurrentCharacter.Class);
                 }
             }
         }

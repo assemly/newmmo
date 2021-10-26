@@ -18,11 +18,11 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
     }
 
-    void Start()
+    private void Awake()
     {
         if (global)
         {
-            if(instance != this.gameObject.GetComponent<T>() && instance!= null)
+            if (instance != this.gameObject.GetComponent<T>() && instance != null)
             {
                 Destroy(this.gameObject);
                 return;
@@ -30,6 +30,10 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
             instance = this.GetComponent<T>();
         }
+    }
+
+    void Start()
+    {
         this.OnStart();
     }
 
