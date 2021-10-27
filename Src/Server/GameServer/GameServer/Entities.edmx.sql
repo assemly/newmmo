@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 10/26/2021 22:40:58
+-- Date Created: 10/27/2021 16:29:58
 -- Generated from EDMX file: C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
@@ -26,6 +26,9 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_TCharacterTCharItem]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[CharItems] DROP CONSTRAINT [FK_TCharacterTCharItem];
 GO
+IF OBJECT_ID(N'[dbo].[FK_TCharacterTBag]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[Characters] DROP CONSTRAINT [FK_TCharacterTBag];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -42,6 +45,9 @@ IF OBJECT_ID(N'[dbo].[Characters]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[CharItems]', 'U') IS NOT NULL
     DROP TABLE [dbo].[CharItems];
+GO
+IF OBJECT_ID(N'[dbo].[CharacterBags]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterBags];
 GO
 
 -- --------------------------------------------------
@@ -74,6 +80,7 @@ CREATE TABLE [dbo].[Characters] (
     [MapPosX] int  NOT NULL,
     [MapPosY] int  NOT NULL,
     [MapPosZ] int  NOT NULL,
+    [Gold] bigint  NOT NULL,
     [Player_ID] int  NOT NULL,
     [Bag_Id] int  NOT NULL
 );

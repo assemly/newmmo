@@ -31,6 +31,7 @@ namespace GameServer
             UserService.Instance.Init();
             DataManager.Instance.Load();
             MapService.Instance.Init();
+            ItemService.Instance.Init();
             // MapManager.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
@@ -40,7 +41,7 @@ namespace GameServer
         public void Start()
         {
             network.Start();
-            HelloWorldService.Instance.Start();
+            //HelloWorldService.Instance.Start();
             running = true;
             thread.Start();
         }

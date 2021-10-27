@@ -1,0 +1,76 @@
+{
+  "1": {
+    "1": {
+      "ItemID": 1,
+      "Count": 1,
+      "Price": 10,
+      "Status": 1,
+      "Remark": "小型治疗药水"
+    },
+    "2": {
+      "ItemID": 1,
+      "Count": 10,
+      "Price": 100,
+      "Status": 1,
+      "Remark": "小型治疗药水X10"
+    },
+    "3": {
+      "ItemID": 2,
+      "Count": 1,
+      "Price": 10,
+      "Status": 1,
+      "Remark": "小型法力药水"
+    },
+    "4": {
+      "ItemID": 2,
+      "Count": 10,
+      "Price": 100,
+      "Status": 1,
+      "Remark": "小型法力药水X10"
+    },
+    "5": {
+      "ItemID": 3,
+      "Count": 1,
+      "Price": 20,
+      "Status": 1,
+      "Remark": "面包"
+    },
+    "6": {
+      "ItemID": 3,
+      "Count": 10,
+      "Price": 200,
+      "Status": 1,
+      "Remark": "面包X10"
+    },
+    "7": {
+      "ItemID": 4,
+      "Count": 1,
+      "Price": 20,
+      "Status": 1,
+      "Remark": "海鲜汤"
+    },
+    "8": {
+      "ItemID": 4,
+      "Count": 10,
+      "Price": 200,
+      "Status": 1,
+      "Remark": "海鲜汤X10"
+    }
+  },
+  "2": {
+    "9": {
+      "ItemID": 9,
+      "Count": 1,
+      "Price": 300,
+      "Status": 1,
+      "Remark": "10级装备盒"
+    },
+    "10": {
+      "ItemID": 10,
+      "Count": 1,
+      "Price": 200,
+      "Status": 1,
+      "Remark": "技能书"
+    }
+  }
+}

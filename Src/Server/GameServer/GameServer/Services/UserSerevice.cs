@@ -161,6 +161,7 @@ namespace GameServer.Services
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+                Gold = 1000000,
             };
 
             var bag = new TCharacterBag();

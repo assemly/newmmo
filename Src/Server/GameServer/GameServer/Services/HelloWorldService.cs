@@ -15,15 +15,15 @@ namespace GameServer.Services
         {
 
         }
-        public void Start()
-        {
-            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<FirstTestRequest>(this.OnFirstTestRequest);
-        }
+        //public void Start()
+        //{
+        //    MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<FirstTestRequest>(this.OnFirstTestRequest);
+        //}
 
-        private void OnFirstTestRequest(NetConnection<NetSession> sender, FirstTestRequest message)
-        {
-            Log.InfoFormat("UserLoginRequest: HelloWorld:{0}", message.Helloworld);
-        }
+        //private void OnFirstTestRequest(NetConnection<NetSession> sender, FirstTestRequest message)
+        //{
+        //    Log.InfoFormat("UserLoginRequest: HelloWorld:{0}", message.Helloworld);
+        //}
 
         public void Stop()
         {

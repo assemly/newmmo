@@ -16,6 +16,7 @@ public class LoadingManager : MonoBehaviour {
     public GameObject UILogin;
 
     public Slider progressBar;
+
     public Text progressText;
     public Text progressNumber;
 
@@ -42,11 +43,18 @@ public class LoadingManager : MonoBehaviour {
         UserService.Instance.Init();
         TestManager.Instance.Init();
 
+        ShopManager.Instance.Init();
         // Fake Loading Simulate
         for (float i = 50; i < 100;)
         {
             i += Random.Range(0.1f, 1.5f);
             progressBar.value = i;
+            if (i <= 100)
+            {
+                int val = (int)i;
+                progressNumber.text = val.ToString() + "%";
+            }
+            
             yield return new WaitForEndOfFrame();
         }
 

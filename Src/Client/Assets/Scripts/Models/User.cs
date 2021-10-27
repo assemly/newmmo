@@ -28,7 +28,9 @@ namespace Models
 
         public MapDefine CurrentMapData { get; set; }
 
-
-
+        internal void AddGold(int gold)
+        {
+            this.CurrentCharacter.Gold += gold;
+        }
     }
 }

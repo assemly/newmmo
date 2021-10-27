@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class SceneManager : MonoSingleton<SceneManager>
 {
     public UnityAction<float> onProgress = null;
 
     public UnityAction onSceneLoadDone = null;
+
+    //public Slider progressBar;
     // Use this for initialization
     protected override void OnStart()
     {
@@ -26,16 +29,29 @@ public class SceneManager : MonoSingleton<SceneManager>
 
     IEnumerator LoadLevel(string name)
     {
+        //if (progressBar != null)
+        //{
+        //    progressBar.gameObject.SetActive(true);
+        //}
         Debug.LogFormat("LoadLevel: {0}", name);
         AsyncOperation async = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(name);
+
         //async.allowSceneActivation = true;
         async.completed += LevelLoadCompleted;
         while (!async.isDone)
         {
+            //if (progressBar != null)
+            //{
+            //    progressBar.value = async.progress;
+            //    Debug.Log("async.progress:"+async.progress);
+            //    yield return new WaitForEndOfFrame();
+            //}
             if (onProgress != null)
                 onProgress(async.progress);
             yield return null;
         }
+
+        
     }
 
     private void LevelLoadCompleted(AsyncOperation obj)

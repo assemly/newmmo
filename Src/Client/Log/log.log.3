@@ -1,41 +1,14 @@
-2021-10-27 00:22:45,114 [ 1] INFO  Unity: LoadingManager start
-2021-10-27 00:22:48,450 [ 1] INFO  Unity: DataManager > DataManager()
-2021-10-27 00:22:55,552 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-10-27 00:22:55,554 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-10-27 00:22:55,555 [ 1] INFO  Unity: DoConnect
-2021-10-27 00:22:55,557 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-10-27 00:22:55,559 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-10-27 22:34:41,907 [ 1] INFO  Unity: LoadingManager start
+2021-10-27 22:34:45,965 [ 1] INFO  Unity: DataManager > DataManager()
+2021-10-27 22:35:16,632 [ 1] WARN  Unity: Assets/Scripts/GameObject/NpcController.cs(12,25): warning CS0108: `NpcController.renderer' hides inherited member `UnityEngine.Component.renderer'. Use the new keyword if hiding was intended
 
-2021-10-27 00:22:55,562 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-10-27 00:22:55,676 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-10-27 00:22:55,678 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-10-27 00:22:55,804 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-10-27 00:22:56,766 [ 1] INFO  Unity: Select Char:[1]nice[Warrior]
-2021-10-27 00:22:57,378 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-10-27 00:22:57,379 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-10-27 00:22:57,401 [ 1] INFO  Unity: OnGameEnter:Success
-2021-10-27 00:22:57,404 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
-2021-10-27 00:22:57,405 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
-2021-10-27 00:22:57,406 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
-2021-10-27 00:22:57,406 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
-2021-10-27 00:22:57,407 [ 1] INFO  Unity: ItemManager:Init[Id:5,Count:3]
-2021-10-27 00:22:57,408 [ 1] INFO  Unity: ItemManager:Init[Id:6,Count:160]
-2021-10-27 00:22:57,410 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-10-27 00:22:57,411 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:2
-2021-10-27 00:22:57,413 [ 1] INFO  Unity: AddCharacter:1:nice Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º2
-2021-10-27 00:22:57,416 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-10-27 00:22:57,748 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-10-27 00:22:57,749 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-10-27 00:22:57,860 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-10-27 00:22:57,861 [ 1] WARN  Unity: UIMinimap Start -201080
+2021-10-27 22:35:16,633 [ 1] ERROR Unity: Assets/Scripts/LoadingManager.cs(57,35): error CS0103: The name `val' does not exist in the current context
+
+2021-10-27 22:35:16,634 [ 1] WARN  Unity: Assets/Scripts/Models/Item.cs(25,18): warning CS1717: Assignment made to same variable; did you mean to assign something else?
+
+2021-10-27 22:35:38,509 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-10-27 22:35:38,510 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
-
-2021-10-27 00:22:57,861 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-201080] Set
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
-UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
-
-2021-10-27 00:22:57,870 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-10-27 00:24:31,376 [ 1] WARN  Unity: Assets/Scripts/GameObject/NpcController.cs(12,25): warning CS0108: `NpcController.renderer' hides inherited member `UnityEngine.Component.renderer'. Use the new keyword if hiding was intended
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:180)
 

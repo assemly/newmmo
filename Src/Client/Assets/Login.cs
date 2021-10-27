@@ -12,8 +12,8 @@ public class Login : MonoBehaviour
 
         SkillBridge.Message.NetMessage msg = new SkillBridge.Message.NetMessage();
         msg.Request = new SkillBridge.Message.NetMessageRequest();
-        msg.Request.firstRequest  = new SkillBridge.Message.FirstTestRequest();
-        msg.Request.firstRequest.Helloworld = "Hello World";
+        //msg.Request.firstRequest  = new SkillBridge.Message.FirstTestRequest();
+        //msg.Request.firstRequest.Helloworld = "Hello World";
         Network.NetClient.Instance.SendMessage(msg);
     }
 
