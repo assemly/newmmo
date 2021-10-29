@@ -1,5 +1,5 @@
 json-excel\json-excel json Tables\ Data\
-
+excel2csharp\json2csharp .\Tables .\CSharp
 @copy Data\CharacterDefine.txt ..\Client\Data\
 @copy Data\MapDefine.txt ..\Client\Data\
 @copy Data\LevelUpDefine.txt ..\Client\Data\
