@@ -24,7 +24,7 @@ namespace Common.Data
         public ItemType Type { get; set; }// 类型
         public string Category { get; set; }// 类别
         public int Level { get; set; }// 道具等级
-        public string LimitClass { get; set; }// 限制职业
+        public CharacterClass LimitClass { get; set; }// 限制职业
         public bool CanUse { get; set; }// 
         public float UseCD { get; set; }// 使用CD(秒)
         public int Price { get; set; }// 购买价格

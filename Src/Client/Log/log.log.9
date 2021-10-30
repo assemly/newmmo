@@ -1,20 +1,55 @@
-2021-10-27 22:16:30,422 [ 1] INFO  Unity: LoadingManager start
-2021-10-27 22:16:34,367 [ 1] INFO  Unity: DataManager > DataManager()
-2021-10-27 22:16:38,310 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-10-27 22:16:38,318 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-10-27 22:16:38,319 [ 1] INFO  Unity: DoConnect
-2021-10-27 22:16:38,321 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-10-27 22:16:38,323 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-10-30 10:22:52,901 [ 1] INFO  Unity: LoadingManager start
+2021-10-30 10:22:56,215 [ 1] INFO  Unity: DataManager > DataManager()
+2021-10-30 10:23:01,036 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-10-30 10:23:01,038 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-10-30 10:23:01,039 [ 1] INFO  Unity: DoConnect
+2021-10-30 10:23:01,041 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-10-30 10:23:01,044 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-10-27 22:16:38,331 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-10-27 22:16:38,595 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-10-27 22:16:38,601 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-10-27 22:16:38,610 [ 1] INFO  Unity: async.progress:0
-2021-10-27 22:16:40,721 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-10-27 22:17:20,216 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-10-27 22:17:20,221 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-10-27 22:17:20,222 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-10-30 10:23:01,047 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-10-30 10:23:04,332 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-10-30 10:23:04,334 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-10-30 10:23:04,536 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-30 10:23:09,273 [ 1] INFO  Unity: UserCreateCharacterRequest::name :ts class:Warrior
+2021-10-30 10:23:09,782 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2021-10-30 10:23:09,783 [ 1] INFO  Unity: Models.User.Instance.Info.Player.Characters:1
+2021-10-30 10:23:10,604 [ 1] INFO  Unity: Select Char:[1]ts[Warrior]
+2021-10-30 10:23:11,312 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-10-30 10:23:11,313 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-10-30 10:23:11,353 [ 1] INFO  Unity: OnGameEnter:Success
+2021-10-30 10:23:11,355 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-10-30 10:23:11,356 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-10-30 10:23:11,361 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at Managers.EquipManager.ParaseEquipData (System.Byte[] data) [0x00036] in C:\MMORPG\MMO\Src\Client\Assets\Scripts\Managers\EquipManager.cs:47 
+  at Managers.EquipManager.Init (System.Byte[] data) [0x0000a] in C:\MMORPG\MMO\Src\Client\Assets\Scripts\Managers\EquipManager.cs:24 
+  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00071] in C:\MMORPG\MMO\Src\Client\Assets\Scripts\Services\UserService.cs:257 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00044] in C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:105 
+2021-10-30 10:23:11,362 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Managers.EquipManager.ParaseEquipData (System.Byte[] data) (at Assets/Scripts/Managers/EquipManager.cs:47)
+Managers.EquipManager.Init (System.Byte[] data) (at Assets/Scripts/Managers/EquipManager.cs:24)
+Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:257)
+Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) (at C:/MMORPG/MMO/Src/Lib/Common/Network/MessageDistributer.cs:105)
+}</args></log4net.Error>
+2021-10-30 10:23:11,373 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-10-30 10:23:11,374 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:1
+2021-10-30 10:23:11,376 [ 1] INFO  Unity: AddCharacter:1:ts Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º1
+2021-10-30 10:23:11,378 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-10-30 10:23:11,915 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-30 10:23:11,915 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-10-30 10:23:12,023 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-10-30 10:23:12,023 [ 1] WARN  Unity: UIMinimap Start -37896
+UnityEngine.Debug:LogWarning(Object)
+UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
+
+2021-10-30 10:23:12,024 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-37896] Set
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
+UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
+
+2021-10-30 10:23:12,033 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-10-30 10:24:19,680 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-10-30 10:24:19,680 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:180)
 
+2021-10-30 10:24:19,683 [ 1] INFO  Unity: Character_1_ts OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
