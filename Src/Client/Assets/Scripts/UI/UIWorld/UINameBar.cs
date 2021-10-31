@@ -4,16 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[ExecuteInEditMode]
 public class UINameBar : MonoBehaviour
 {
-    public Text avatarName;
+    public Image avatar;
+    public Text CharacterName;
     public Character character;
     // Start is called before the first frame update
     void Start()
     {
         if (this.character != null)
         {
-
+            if (character.Info.Type == SkillBridge.Message.CharacterType.Monster)
+                this.avatar.gameObject.SetActive(false);
+            else
+                this.avatar.gameObject.SetActive(true);
         }
     }
 
@@ -28,9 +33,9 @@ public class UINameBar : MonoBehaviour
         if (this.character != null)
         {
             string name = this.character.Name + " Lv." + this.character.Info.Level;
-            if (name != this.avatarName.text)
+            if (name != this.CharacterName.text)
             {
-                this.avatarName.text = name;
+                this.CharacterName.text = name;
             }
         }
     }

@@ -37,11 +37,11 @@ namespace Managers
 
         public bool Interactive(NpcDefine npc)
         {
-            if(npc.Type == NpcType.Task)
+            if (DoTaskInteractive(npc))
             {
-                return DoTaskInteractive(npc);
-            }
-            else if(npc.Type == NpcType.Functional)
+                return true;
+            }   
+            else if (npc.Type == NpcType.Functional)
             {
                 return DoFunctionInteractive(npc);
             }
@@ -50,8 +50,13 @@ namespace Managers
 
         private bool DoTaskInteractive(NpcDefine npc)
         {
-            MessageBox.Show("点击了NPC：" + npc.Name, "NPC对话");
-            return true;
+            //MessageBox.Show("点击了NPC：" + npc.Name, "NPC对话");
+            //return true;
+            var status = QuestManager.Instance.GetQuestStatusByNpc(npc.ID);
+            if (status == NpcQuestStatus.None)
+                return false;
+
+            return QuestManager.Instance.OpenNpcQuest(npc.ID);
         }
         private bool DoFunctionInteractive(NpcDefine npc)
         {

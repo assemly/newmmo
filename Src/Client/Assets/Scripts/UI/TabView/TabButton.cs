@@ -30,6 +30,7 @@ public class TabButton : MonoBehaviour
 
     void OnClick()
     {
+        //this.tabView.index = this.tabIndex;
         this.tabView.SelectTab(this.tabIndex);
     }
 }

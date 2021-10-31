@@ -32,7 +32,7 @@ public abstract class UIWindow:MonoBehaviour
 
     public virtual void OnCloseClick()
     {
-        this.Close();
+        this.Close(WindowResult.No);
     }
 
     public virtual void OnYesClick()

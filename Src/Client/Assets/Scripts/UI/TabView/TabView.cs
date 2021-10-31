@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ public class TabView : MonoBehaviour
     public GameObject[] tabPages;
 
     public int index = -1;
+
+    public Action<int> OnTabSelect;
 
     // Start is called before the first frame update
     IEnumerator Start()
@@ -28,7 +31,10 @@ public class TabView : MonoBehaviour
             for(int i = 0; i < tabButtons.Length; i++)
             {
                 tabButtons[i].Select(i == index);
-                tabPages[i].SetActive(i == index);
+                if(tabPages[i]!=null)
+                    tabPages[i].SetActive(i == index);
+                if (OnTabSelect != null)
+                    OnTabSelect.Invoke(index);
             }
         }
     }

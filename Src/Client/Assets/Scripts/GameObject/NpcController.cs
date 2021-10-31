@@ -21,6 +21,7 @@ public class NpcController : MonoBehaviour
         anim = this.gameObject.GetComponent<Animator>();
         orignColor = renderer.sharedMaterial.color;
         npc = NpcManager.Instance.GetNpcDefine(npcID);
+        UIWorldElementManager.Instance.AddNpcQuestStatus(transform, QuestManager.Instance.GetQuestStatusByNpc(npc.ID));
         this.StartCoroutine(Acitons());
     }
     void Update()
