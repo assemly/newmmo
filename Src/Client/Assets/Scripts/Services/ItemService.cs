@@ -17,6 +17,11 @@ namespace Services
             MessageDistributer.Instance.Subscribe<ItemBuyResponse>(this.OnItemBuy);
             MessageDistributer.Instance.Subscribe<ItemEquipResponse>(this.OnItemEquip);
         }
+
+        public void Init()
+        {
+
+        }
         public void Dispose()
         {
             MessageDistributer.Instance.Unsubscribe<ItemBuyResponse>(this.OnItemBuy);

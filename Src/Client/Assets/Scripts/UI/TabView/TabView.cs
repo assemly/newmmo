@@ -21,7 +21,7 @@ public class TabView : MonoBehaviour
             tabButtons[i].tabIndex = i;
         }
         yield return new WaitForEndOfFrame();
-        SelectTab(0);
+        SelectTab(1);
     }
 
     public void SelectTab(int index)
@@ -33,10 +33,11 @@ public class TabView : MonoBehaviour
                 tabButtons[i].Select(i == index);
                 if(tabPages[i]!=null)
                     tabPages[i].SetActive(i == index);
-                if (OnTabSelect != null)
-                    OnTabSelect.Invoke(index);
+                
             }
         }
+        if (OnTabSelect != null)
+            OnTabSelect.Invoke(index);
     }
 
     // Update is called once per frame

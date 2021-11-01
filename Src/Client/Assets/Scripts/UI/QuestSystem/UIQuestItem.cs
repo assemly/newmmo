@@ -24,6 +24,7 @@ public class UIQuestItem : ListView.ListViewItem
     {
         this.quest = item;
         if (this.title != null)
-            this.title.text = this.quest.Define.Name;
+            this.title.text = string.Format("<color=yellow>[{0}]</color>{1}", this.quest.GetTypeName(), this.quest.Define.Name);
+        
     }
 }

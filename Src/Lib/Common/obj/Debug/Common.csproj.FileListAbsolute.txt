@@ -11,3 +11,4 @@ C:\MMORPG\MMO\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\MMORPG\MMO\Src\Lib\Common\obj\Debug\Common.dll
 C:\MMORPG\MMO\Src\Lib\Common\obj\Debug\Common.pdb
 C:\MMORPG\MMO\Src\Lib\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\MMORPG\MMO\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete

@@ -78,6 +78,7 @@ class UIQuestSystem:UIWindow
     }
     public void OnQuestSelected(ListView.ListViewItem item)
     {
+        RefreshUI();
         UIQuestItem questItem = item as UIQuestItem;
         this.questInfo.SetQuestInfo(questItem.quest);
     }

@@ -32656,9 +32656,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusImage:
   - {fileID: 0}
-  - {fileID: 429603519}
-  - {fileID: 1273200625}
   - {fileID: 1297121149}
+  - {fileID: 1273200625}
+  - {fileID: 429603519}
 --- !u!224 &1042711603
 RectTransform:
   m_ObjectHideFlags: 0

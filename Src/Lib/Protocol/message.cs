@@ -266,6 +266,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(13)]
         public QuestAcceptRequest questAccept { get; set; }
 
+        [global::ProtoBuf.ProtoMember(14)]
+        public QuestSubmitRequest questSubmit { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -310,6 +313,9 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(13)]
         public QuestAcceptResponse questAccept { get; set; }
+
+        [global::ProtoBuf.ProtoMember(14)]
+        public QuestSubmitResponse questSubmit { get; set; }
 
         [global::ProtoBuf.ProtoMember(100)]
         public StatusNotify statusNotify { get; set; }
@@ -713,6 +719,68 @@ namespace SkillBridge.Message
 
     [global::ProtoBuf.ProtoContract()]
     public partial class QuestAcceptResponse : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"result")]
+        public Result Result { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"erromsg")]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string Erromsg { get; set; } = "";
+
+        [global::ProtoBuf.ProtoMember(3, Name = @"quest")]
+        public NQuestInfo Quest { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class QuestSubmitRequest : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"quest_id")]
+        public int QuestId { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class QuestSubmitResponse : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"result")]
+        public Result Result { get; set; }
+
+        [global::ProtoBuf.ProtoMember(2, Name = @"erromsg")]
+        [global::System.ComponentModel.DefaultValue("")]
+        public string Erromsg { get; set; } = "";
+
+        [global::ProtoBuf.ProtoMember(3, Name = @"quest")]
+        public NQuestInfo Quest { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class QuestAbandonRequest : global::ProtoBuf.IExtensible
+    {
+        private global::ProtoBuf.IExtension __pbn__extensionData;
+        global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+            => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
+
+        [global::ProtoBuf.ProtoMember(1, Name = @"quest_id")]
+        public int QuestId { get; set; }
+
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public partial class QuestAbandonResponse : global::ProtoBuf.IExtensible
     {
         private global::ProtoBuf.IExtension __pbn__extensionData;
         global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
