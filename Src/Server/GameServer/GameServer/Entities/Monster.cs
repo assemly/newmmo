@@ -12,7 +12,7 @@ namespace GameServer.Entities
     {
         public Monster(int configId, int level, Vector3Int pos, Vector3Int dir) : base(CharacterType.Monster, configId, level, pos, dir)
         {
-
+            this.Id = configId;
         }
     }
 }

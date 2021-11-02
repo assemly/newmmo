@@ -43,9 +43,9 @@ namespace Managers
 
         public void AddCharacter(NCharacterInfo cha)
         {
-            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.Id);
+            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.EntityId);
             Character character = new Character(cha);
-            this.Characters[cha.Id] = character;
+            this.Characters[cha.EntityId] = character;
             EntityManager.Instance.AddEntity(character);
             if(OnCharacterEnter!=null)
             {

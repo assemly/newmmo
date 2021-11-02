@@ -35,7 +35,7 @@ namespace GameServer.Entities
             this.Info.Level = level;
             this.Info.ConfigId = configId;
             this.Info.Entity = this.EntityData;
-            this.Info.EntityId = this.entityId;
+            //this.Info.EntityId = this.entityId;
             this.Info.Id = configId;
             this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
             this.Info.Name = this.Define.Name;
