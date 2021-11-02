@@ -72,24 +72,16 @@ namespace GameServer.Models
             Log.InfoFormat("CharacterEnter: Map:{0} characterId:{1}", this.Define.ID, character.Id);
             character.Info.mapId = this.ID;
             this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-            //NetMessage message = new NetMessage();
-            //message.Response = new NetMessageResponse();
+           
             
             conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
             conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
             
-            //message.Response.mapCharacterEnter.Characters.Add(character.Info);
-
-            //this.MapCharacters[character.Id] = new MapCharacter(conn, character);
 
 
             foreach (var kv in this.MapCharacters)
             {
-                //if (kv.Value.character != character)
-                //{
-                //    message.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-                //    this.SendCharaterEnterMap(kv.Value.connection, character.Info);
-                //}
+                
                 conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
                 if (kv.Value.character != character)
                     this.AddCharacterEnterMap(kv.Value.connection, character.Info);
@@ -101,37 +93,9 @@ namespace GameServer.Models
             }
             conn.SendResponse();
 
-            //this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-
-            //byte[] data = PackageHandler.PackMessage(message);
-            //conn.SendData(data, 0, data.Length);
 
         }
 
-        //internal void CharacterEnter(NetConnection<NetSession> conn, Character character)
-        //{
-        //    Log.InfoFormat("CharaterEnter: Map{0} characterId:{1}", this.Define.ID, character.Id);
-        //    character.Info.mapId = this.ID;
-        //    character.Info.EntityId = character.entityId;
-        //    this.MapCharacters[character.Id] = new MapCharacter(conn, character);
-        //    conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-        //    conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
-        //    conn.Session.Response.mapCharacterEnter.Characters.Add(character.Info);
-        //    conn.SendResponse();
-
-        //    foreach (var kv in this.MapCharacters)
-        //    {
-        //        //加入entityID；
-        //        //kv.Value.character.Info.EntityId = character.entityId;
-        //        //conn.Session.Response.mapCharacterEnter = new MapCharacterEnterResponse();
-        //        //conn.Session.Response.mapCharacterEnter.mapId = this.Define.ID;
-        //        //conn.Session.Response.mapCharacterEnter.Characters.Add(kv.Value.character.Info);
-        //        if (kv.Value.character != character)
-        //            this.AddCharacterEnterMap(kv.Value.connection, character.Info);
-        //        //this.AddCharacterEnterMap(kv.Value.connection, character.Info);
-        //    }
-
-        //}
 
         internal void CharacterLeave(Character cha)
         {
@@ -151,7 +115,7 @@ namespace GameServer.Models
             }
 
             conn.Session.Response.mapCharacterEnter.Characters.Add(character);
-            //conn.Session.Response.mapCharacterEnter.Characters.AddRange(character);
+            
 
             conn.SendResponse();
         }
@@ -185,21 +149,11 @@ namespace GameServer.Models
 
         void  SendCharacterLeaveMap(NetConnection<NetSession> conn,Character character)
         {
-            // 早期方案
-            //NetMessage message = new NetMessage();
-            //message.Response = new NetMessageResponse();
-            //message.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
-            //message.Response.mapCharacterLeave.entityId = character.entityId;
             
-            //byte[] data = PackageHandler.PackMessage(message);
-            //conn.SendData(data, 0, data.Length);
-
-            // 这个或许改成ID；
             Log.InfoFormat("SendCharacterLeaveMap To {0}:{1} : Map:{2} Character:{3}:{4}", conn.Session.Character.Id, conn.Session.Character.Info.Name, this.Define.ID, character.entityId, character.Info.Name);
             conn.Session.Response.mapCharacterLeave = new MapCharacterLeaveResponse();
             conn.Session.Response.mapCharacterLeave.entityId = character.Id;
-            //conn.Session.Response.mapCharacterEnter.Characters.Add(character);
-            //conn.Session.Response.mapCharacterEnter.Characters.Remove(character);
+            
             conn.SendResponse();
         }
 

@@ -61,7 +61,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             Object obj = Resloader.Load<Object>(character.Define.Resource);
             if (obj == null)
             {
-                Debug.LogErrorFormat("Character[{0}] Resource[{1}] not existed.", character.Define.TID, character.Define.Resource);
+                Debug.LogErrorFormat("Character[{0}] Resource[{1}] not existed.", character.Define.ConfigID, character.Define.Resource);
                 return;
             }
             GameObject go = (GameObject)Instantiate(obj, this.transform);

@@ -202,3 +202,6 @@ fcc82568a072a43683db830a8f3547ef Assembly-CSharp.dll:.UICharEquip
 046f90afc2b8a3f40167919cbb5a1ade Assembly-CSharp.dll:.UIWorldElement
 81ece8d42ce7dffcf3d9e705d7d4100c Assembly-CSharp.dll:.UIQuestItem
 3149e68b62b82493254e1c995849f227 Assembly-CSharp.dll:.UICharacterView
+693d60b04c7cd1c12ec338071a9ac03d Assembly-CSharp.dll:.UIInputBox
+7d2fdecc3c34f6dba1ed6ec3a2c2b7d5 Assembly-CSharp.dll:.UIFriends
+b376a229d1733d0e1672aa923e20a7e4 Assembly-CSharp.dll:.UIFriendItem

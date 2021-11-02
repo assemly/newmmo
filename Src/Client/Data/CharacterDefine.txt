@@ -1,6 +1,6 @@
 {
   "1": {
-    "TID": 1,
+    "ConfigID": 1,
     "Name": "战士",
     "Type": "Normal",
     "Class": "WARRIOR",
@@ -10,7 +10,7 @@
     "Speed": 300.0
   },
   "2": {
-    "TID": 2,
+    "ConfigID": 2,
     "Name": "法师",
     "Type": "Normal",
     "Class": "WIZARD",
@@ -20,7 +20,7 @@
     "Speed": 300.0
   },
   "3": {
-    "TID": 3,
+    "ConfigID": 3,
     "Name": "弓箭手",
     "Type": "Normal",
     "Class": "ARCHER",
@@ -30,7 +30,7 @@
     "Speed": 300.0
   },
   "1001": {
-    "TID": 1001,
+    "ConfigID": 1001,
     "Name": "恶鬼",
     "Type": "Normal",
     "Class": "WARRIOR",
@@ -39,7 +39,7 @@
     "Speed": 1.8
   },
   "1002": {
-    "TID": 1002,
+    "ConfigID": 1002,
     "Name": "山丘巨人",
     "Type": "Normal",
     "Class": "WARRIOR",
@@ -48,7 +48,7 @@
     "Speed": 2.5
   },
   "1003": {
-    "TID": 1003,
+    "ConfigID": 1003,
     "Name": "小恶魔",
     "Type": "Normal",
     "Class": "WARRIOR",
@@ -57,7 +57,7 @@
     "Speed": 2.0
   },
   "1004": {
-    "TID": 1004,
+    "ConfigID": 1004,
     "Name": "骷髅兵",
     "Type": "Normal",
     "Class": "ARCHER",
@@ -66,7 +66,7 @@
     "Speed": 1.5
   },
   "1005": {
-    "TID": 1005,
+    "ConfigID": 1005,
     "Name": "死神",
     "Type": "Normal",
     "Class": "WIZARD",

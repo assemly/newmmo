@@ -9,7 +9,7 @@ namespace Common.Data
 {
 	public class CharacterDefine
 	{
-		public int TID { get; set;} 	// TypeID
+		public int ConfigID { get; set;} 	// TypeID
 		public string Name { get; set;} 	// Column2
 		public string Type { get; set;} 	// 类型
 		public string Class { get; set;} 	// 子类型

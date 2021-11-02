@@ -34,7 +34,7 @@ namespace Entities
         {
             get
             {
-                return this.Info.Id == User.Instance.CurrentCharacter.Id;
+                return this.Info.Type == CharacterType.Player;
             }
         }
 

@@ -93,14 +93,12 @@ namespace GameServer.Services
                 TPlayer player = DBService.Instance.Entities.Players.Add(new TPlayer());
                 DBService.Instance.Entities.Users.Add(new TUser() { Username = request.User, Password = request.Passward, Player = player });
                 DBService.Instance.Entities.SaveChanges();
-                //message.Response.userRegister.Result = Result.Success;
-                //message.Response.userRegister.Errormsg = "None";
+                
                 conn.Session.Response.userRegister.Result = Result.Success;
                 conn.Session.Response.userRegister.Errormsg = "None";
             }
 
-            //byte[] data = PackageHandler.PackMessage(message);
-            //sender.SendData(data, 0, data.Length);
+           
             conn.SendResponse();
         }
 
@@ -123,6 +121,7 @@ namespace GameServer.Services
                     Name = request.Name,
                     Class = (int)request.Class,
                     TID = (int)request.Class,
+                    Level = 1,
                     MapID = 1,
                     MapPosX = 5000,
                     MapPosY = 4000,
@@ -179,7 +178,7 @@ namespace GameServer.Services
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
             Log.InfoFormat("UserGameRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
-            Log.InfoFormat("OnGameEnter Character EntityId{0}:", character.entityId);
+            SessionManager.Instance.AddSession(character.Id, sender);
            
 
             sender.Session.Response.gameEnter = new UserGameEnterResponse();
@@ -187,27 +186,8 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter.Errormsg = "None";
             sender.Session.Response.gameEnter.Character = character.Info;
 
-            //道具系统测试
-            //int itemId = 2;
-            //bool hasItem = character.ItemManager.HasItem(itemId);
-            //Log.InfoFormat("HasItem:[{0}]{1}", itemId, hasItem);
-            //if (hasItem)
-            //{
-            //    //character.ItemManager.RemoveItem(itemId, 1);
-            //}
-            //else
-            //{
-            //    character.ItemManager.AddItem(1, 200);
-            //    character.ItemManager.AddItem(2, 100);
-            //    character.ItemManager.AddItem(3, 30);
-            //    character.ItemManager.AddItem(4, 120);
-            //}
-            //Models.Item item = character.ItemManager.GetItem(itemId);
-            //Log.InfoFormat("Item:[{0}][{1}]", itemId, item);
-            //DBService.Instance.Save();
-            //进入成功，发送初始角色信息
             sender.Session.Character = character;
-            //sender.Session.PostResponser = character;
+            sender.Session.PostResponser = character;
 
             sender.Session.Response.gameEnter.Character = character.Info;
             sender.SendResponse();
@@ -219,21 +199,23 @@ namespace GameServer.Services
         {
             Character character = sender.Session.Character;
             Log.InfoFormat("UserGameLeaveRequest: characterID:{0}:{1} Map{2}", character.Id, character.Info.Name, character.Info.mapId);
+            
             this.CharacterLeave(character);
-           // CharacterManager.Instance.RemoveCharacter(character.entityId);
+           
             sender.Session.Response.gameLeave = new UserGameLeaveResponse();
             sender.Session.Response.gameLeave.Result = Result.Success;
             sender.Session.Response.gameLeave.Errormsg = "None";
 
             sender.SendResponse();
+            SessionManager.Instance.RemoveSession(character.Id);
         }
 
         public void CharacterLeave(Character character)
         {
-            Log.InfoFormat("CharacterLeave： characterID:{0}:{1}", character.entityId, character.Info.Name);
+            Log.InfoFormat("CharacterLeave： characterID:{0}:{1}", character.Id, character.Info.Name);
             CharacterManager.Instance.RemoveCharacter(character.Id);
-            //character.Clear();
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+            character.Clear();
         }
     }
 }
