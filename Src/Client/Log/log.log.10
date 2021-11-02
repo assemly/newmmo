@@ -1,49 +1,133 @@
-2021-11-01 13:14:40,482 [ 1] INFO  Unity: LoadingManager start
-2021-11-01 13:14:44,126 [ 1] INFO  Unity: DataManager > DataManager()
-2021-11-01 13:14:48,659 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-01 13:14:48,661 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-11-01 13:14:48,662 [ 1] INFO  Unity: DoConnect
-2021-11-01 13:14:48,665 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-01 13:14:48,667 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-11-02 10:02:31,486 [ 1] INFO  Unity: LoadingManager start
+2021-11-02 10:02:34,753 [ 1] INFO  Unity: DataManager > DataManager()
+2021-11-02 10:02:48,896 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-11-02 10:02:48,898 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-11-02 10:02:48,899 [ 1] INFO  Unity: DoConnect
+2021-11-02 10:02:48,901 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-02 10:02:48,903 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-11-01 13:14:48,670 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-11-01 13:14:48,819 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-11-01 13:14:48,821 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-01 13:14:48,921 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-01 13:14:50,280 [ 1] INFO  Unity: Select Char:[1]test[Archer]
-2021-11-01 13:14:50,866 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-11-01 13:14:50,867 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-11-01 13:14:50,894 [ 1] INFO  Unity: OnGameEnter:Success
-2021-11-01 13:14:50,897 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2021-11-01 13:14:50,898 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2021-11-01 13:14:50,899 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:10]
-2021-11-01 13:14:50,900 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:20]
-2021-11-01 13:14:50,910 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-11-01 13:14:50,911 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:3
-2021-11-01 13:14:50,913 [ 1] INFO  Unity: AddCharacter:1:test Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º3
-2021-11-01 13:14:50,915 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-11-01 13:14:51,279 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-01 13:14:51,372 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-01 13:14:51,373 [ 1] WARN  Unity: UIMinimap Start -292300
+2021-11-02 10:02:48,906 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-11-02 10:02:52,030 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-11-02 10:02:52,031 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-02 10:02:52,219 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-02 10:02:53,103 [ 1] INFO  Unity: Select Char:[1]test[Archer]
+2021-11-02 10:02:54,135 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-02 10:02:54,136 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-02 10:02:54,302 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-02 10:02:54,303 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-02 10:02:54,304 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-02 10:02:54,305 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:15]
+2021-11-02 10:02:54,306 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:30]
+2021-11-02 10:02:54,322 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-02 10:02:54,323 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:1
+2021-11-02 10:02:54,325 [ 1] INFO  Unity: AddCharacter:1:test Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º1
+2021-11-02 10:02:54,327 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-02 10:02:54,827 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-02 10:02:54,924 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-02 10:02:54,925 [ 1] WARN  Unity: UIMinimap Start -41692
 UnityEngine.Debug:LogWarning(Object)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
 
-2021-11-01 13:14:51,374 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-292300] Set
+2021-11-02 10:02:54,926 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-41692] Set
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
 
-2021-11-01 13:14:51,385 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-11-01 13:14:53,087 [ 1] INFO  Unity: SetDirection:(98, 20, 0)
-2021-11-01 13:14:53,088 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:3 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-01 13:14:53,192 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
-2021-11-01 13:14:53,193 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:3 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-01 13:14:53,323 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
-2021-11-01 13:14:53,324 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:3 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-01 13:15:52,083 [ 1] INFO  Unity: Character_1_test OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(85, 53, 0) SPD:0 
-2021-11-01 13:15:52,085 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-11-01 13:15:52,086 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-11-02 10:02:54,937 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-02 10:02:55,499 [ 1] INFO  Unity: MoveForward
+2021-11-02 10:02:55,502 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,067 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2021-11-02 10:02:56,068 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5170,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,166 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2021-11-02 10:02:56,167 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5200,3994,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,266 [ 1] INFO  Unity: Stop
+2021-11-02 10:02:56,267 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5230,3982,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:02:56,268 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
+2021-11-02 10:02:56,268 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5230,3982,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:02:56,350 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2021-11-02 10:02:56,351 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5230,3982,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:02:56,453 [ 1] INFO  Unity: MoveForward
+2021-11-02 10:02:56,453 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5230,3982,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,454 [ 1] INFO  Unity: SetDirection:(56, -83, 0)
+2021-11-02 10:02:56,455 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5230,3982,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,552 [ 1] INFO  Unity: SetDirection:(38, -92, 0)
+2021-11-02 10:02:56,553 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5248,3958,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,635 [ 1] INFO  Unity: SetDirection:(21, -98, 0)
+2021-11-02 10:02:56,635 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5258,3933,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,734 [ 1] INFO  Unity: SetDirection:(1, -100, 0)
+2021-11-02 10:02:56,735 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5264,3903,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,835 [ 1] INFO  Unity: SetDirection:(-19, -98, 0)
+2021-11-02 10:02:56,835 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5264,3873,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:56,967 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
+2021-11-02 10:02:56,967 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5256,3833,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:57,366 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
+2021-11-02 10:02:57,367 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5208,3713,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:57,485 [ 1] INFO  Unity: SetDirection:(-69, -73, 0)
+2021-11-02 10:02:57,486 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5187,3685,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:57,583 [ 1] INFO  Unity: SetDirection:(-82, -57, 0)
+2021-11-02 10:02:57,584 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5169,3661,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:57,701 [ 1] INFO  Unity: SetDirection:(-91, -41, 0)
+2021-11-02 10:02:57,701 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5141,3640,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:58,084 [ 1] INFO  Unity: SetDirection:(-97, -23, 0)
+2021-11-02 10:02:58,085 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5026,3594,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:58,225 [ 1] INFO  Unity: SetDirection:(-100, -4, 0)
+2021-11-02 10:02:58,226 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4986,3586,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:58,318 [ 1] INFO  Unity: SetDirection:(-99, 16, 0)
+2021-11-02 10:02:58,319 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4956,3586,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:58,738 [ 1] INFO  Unity: Stop
+2021-11-02 10:02:58,739 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4831,3611,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:02:58,880 [ 1] INFO  Unity: MoveForward
+2021-11-02 10:02:58,881 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4831,3611,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:59,561 [ 1] INFO  Unity: SetDirection:(-94, 34, 0)
+2021-11-02 10:02:59,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4626,3652,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:59,628 [ 1] INFO  Unity: SetPostion:(4706, 3637, 816)
+2021-11-02 10:02:59,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4706,3637,816) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:02:59,692 [ 1] INFO  Unity: Stop
+2021-11-02 10:02:59,693 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:03,429 [ 1] INFO  Unity: SetDirection:(-99, 16, 0)
+2021-11-02 10:03:03,430 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:03,528 [ 1] INFO  Unity: SetDirection:(-100, -4, 0)
+2021-11-02 10:03:03,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:03,613 [ 1] INFO  Unity: SetDirection:(-98, -22, 0)
+2021-11-02 10:03:03,614 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:03,730 [ 1] INFO  Unity: SetDirection:(-92, -40, 0)
+2021-11-02 10:03:03,731 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:05,805 [ 1] INFO  Unity: SetDirection:(-98, -22, 0)
+2021-11-02 10:03:05,806 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:05,899 [ 1] INFO  Unity: SetDirection:(-100, -1, 0)
+2021-11-02 10:03:05,900 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,000 [ 1] INFO  Unity: SetDirection:(-98, 19, 0)
+2021-11-02 10:03:06,001 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,090 [ 1] INFO  Unity: SetDirection:(-93, 36, 0)
+2021-11-02 10:03:06,091 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,167 [ 1] INFO  Unity: SetDirection:(-86, 52, 0)
+2021-11-02 10:03:06,168 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,251 [ 1] INFO  Unity: SetDirection:(-75, 66, 0)
+2021-11-02 10:03:06,252 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,352 [ 1] INFO  Unity: SetDirection:(-60, 80, 0)
+2021-11-02 10:03:06,353 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,441 [ 1] INFO  Unity: SetDirection:(-45, 89, 0)
+2021-11-02 10:03:06,442 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,525 [ 1] INFO  Unity: SetDirection:(-29, 96, 0)
+2021-11-02 10:03:06,526 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,608 [ 1] INFO  Unity: SetDirection:(-12, 99, 0)
+2021-11-02 10:03:06,609 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,702 [ 1] INFO  Unity: SetDirection:(8, 100, 0)
+2021-11-02 10:03:06,703 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:06,819 [ 1] INFO  Unity: MoveForward
+2021-11-02 10:03:06,820 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3645,816) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:03:06,852 [ 1] INFO  Unity: SetDirection:(25, 97, 0)
+2021-11-02 10:03:06,853 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4686,3655,816) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:03:07,490 [ 1] INFO  Unity: Stop
+2021-11-02 10:03:07,491 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4724,3845,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:09,643 [ 1] INFO  Unity: MoveForward
+2021-11-02 10:03:09,644 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4724,3845,816) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-02 10:03:10,111 [ 1] INFO  Unity: Stop
+2021-11-02 10:03:10,112 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(4752,3985,816) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-02 10:03:11,560 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-11-02 10:03:11,561 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:180)
 
+2021-11-02 10:03:11,562 [ 1] INFO  Unity: Character_1_test OnDestroy :ID:1 POS:(4752, 3985, 816) DIR:(25, 97, 0) SPD:0 

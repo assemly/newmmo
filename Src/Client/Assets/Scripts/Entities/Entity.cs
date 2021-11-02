@@ -10,7 +10,7 @@ namespace Entities
 
         public Vector3Int position;
         public Vector3Int direction;
-        public int speed;
+        public float speed;
 
         private NEntity entityData;
         public NEntity EntityData

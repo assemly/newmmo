@@ -160,7 +160,7 @@ message NEntity {
 	int32 id = 1;
 	NVector3 position = 2;
 	NVector3 direction = 3;
-	int32 speed = 4;
+	float speed = 4;
 }
 
 message NEntitySync {

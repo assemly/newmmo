@@ -22,9 +22,11 @@ namespace GameServer.Entities
         public Character(CharacterType type, TCharacter cha) :
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ), new Core.Vector3Int(100, 0, 0))
         {
+            
             this.Id = cha.ID;
             this.Data = cha;
             this.Info = new NCharacterInfo();
+            this.Info.EntityId = this.entityId;
             this.Info.Type = type;
             this.Info.Id = cha.ID;
             this.Info.Name = cha.Name;

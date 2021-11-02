@@ -16,7 +16,7 @@ namespace Common.Data
 		public string Resource { get; set;} 	// 模型资源
 		public string Description { get; set;} 	// 描述
 		public int InitLevel { get; set;} 	// 初始等级
-		public int Speed { get; set;} 	// 速度
+		public float Speed { get; set;} 	// 速度
 	}
 }
 

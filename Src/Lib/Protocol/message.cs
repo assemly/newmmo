@@ -186,7 +186,7 @@ namespace SkillBridge.Message
         public NVector3 Direction { get; set; }
 
         [global::ProtoBuf.ProtoMember(4, Name = @"speed")]
-        public int Speed { get; set; }
+        public float Speed { get; set; }
 
     }
 

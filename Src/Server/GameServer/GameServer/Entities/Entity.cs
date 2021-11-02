@@ -39,8 +39,8 @@ namespace GameServer.Entities
             }
         }
 
-        private int speed;
-        public int Speed
+        private float speed;
+        public float Speed
         {
             get { return speed; }
             set

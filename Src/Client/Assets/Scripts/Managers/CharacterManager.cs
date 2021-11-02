@@ -43,9 +43,9 @@ namespace Managers
 
         public void AddCharacter(NCharacterInfo cha)
         {
-            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.EntityId);
+            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.Id);
             Character character = new Character(cha);
-            this.Characters[cha.EntityId] = character;
+            this.Characters[cha.Id] = character;
             EntityManager.Instance.AddEntity(character);
             if(OnCharacterEnter!=null)
             {
@@ -54,17 +54,17 @@ namespace Managers
         }
 
 
-        public void RemoveCharacter(int entityId)
+        public void RemoveCharacter(int chaId)
         {
-            Debug.LogFormat("RemoveCharacter:{0}", entityId);
-            if (this.Characters.ContainsKey(entityId))
+            Debug.LogFormat("RemoveCharacter:{0}", chaId);
+            if (this.Characters.ContainsKey(chaId))
             {
-                 EntityManager.Instance.RemoveEntity(this.Characters[entityId].Info.Entity);
+                 EntityManager.Instance.RemoveEntity(this.Characters[chaId].Info.Entity);
                 if (OnCharacterLeave != null)
                 {
-                    OnCharacterLeave(this.Characters[entityId]);
+                    OnCharacterLeave(this.Characters[chaId]);
                 }
-                this.Characters.Remove(entityId);
+                this.Characters.Remove(chaId);
             }
         }
 
