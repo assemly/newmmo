@@ -7719,3 +7719,51 @@
 2021-11-03 07:14:44,911 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
 2021-11-03 07:14:44,912 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:1
 2021-11-03 07:14:44,912 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-03 23:57:13,477 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-03 23:57:14,040 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-03 23:57:14,589 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-03 23:57:14,661 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-03 23:57:14,773 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-03 23:57:14,824 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-03 23:57:14,916 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-03 23:57:14,971 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:14,971 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:14,977 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:14,979 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:15,946 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:16,951 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:17,946 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:18,946 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-03 23:57:18,991 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-03 23:57:40,903 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3383]] Connected
+2021-11-03 23:57:40,977 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-03 23:57:41,115 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-03 23:57:45,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-03 23:57:45,702 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-03 23:57:45,892 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-03 23:58:07,305 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:test
+2021-11-03 23:58:07,307 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-03 23:58:07,308 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:1
+2021-11-03 23:58:07,309 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-03 23:58:19,140 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-03 23:58:19,142 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-03 23:58:19,143 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-03 23:58:19,144 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-03 23:58:19,144 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-03 23:58:19,145 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-03 23:58:19,146 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-03 23:58:19,146 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-03 23:58:19,147 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-03 23:58:19,147 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-03 23:58:19,147 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-03 23:58:19,148 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-03 23:58:19,148 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-03 23:58:19,149 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-03 23:58:19,149 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-03 23:58:19,151 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-03 23:59:38,230 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3562]] Connected
+2021-11-03 23:59:38,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-03 23:59:38,306 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-03 23:59:40,060 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-03 23:59:40,063 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-03 23:59:40,064 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
