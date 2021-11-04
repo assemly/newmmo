@@ -59,10 +59,11 @@ namespace GameServer.Services
         {
             Character character = sender.Session.Character;
             Log.InfoFormat("OnTeamInviteResponse::charcter:{0} Result:{1} FromId:{2} ToID:{3}", character.Id, response.Result, response.Request.FromId, response.Request.ToId);
-            sender.Session.Response.teamInviteRes = response;
+            
             
             if (response.Result == Result.Success)
             {
+                sender.Session.Response.teamInviteRes = response;
                 //接受了组队请求
                 var requester = SessionManager.Instance.GetSession(response.Request.FromId);
                 if (requester == null)
@@ -76,24 +77,24 @@ namespace GameServer.Services
                     requester.Session.Response.teamInviteRes = response;
                     requester.SendResponse();
                 }
-                
+                sender.SendResponse();
             }
-            //else
-            //{
-               
-            //    requester.Session.Response.teamInviteRes = response;
-            //    requester.Session.Response.teamInviteRes.Result = Result.Failed;
-            //    requester.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
-            //    requester.SendResponse();
-            //    //sender.Session.Response.teamInviteRes.Result = Result.Failed;
-            //    //sender.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
-            //    //responseter.Session.Response.teamInviteRes = new TeamInviteResponse();
-            //    //responseter.Session.Response.teamInviteRes.Result = Result.Failed;
-            //    //responseter.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
-            //    //responseter.SendResponse();
+            else
+            {
+                var toResponse = SessionManager.Instance.GetSession(response.Request.FromId);
+                toResponse.Session.Response.teamInviteRes = response;
+                toResponse.Session.Response.teamInviteRes.Result = Result.Failed;
+                toResponse.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
+                toResponse.SendResponse();
+                //sender.Session.Response.teamInviteRes.Result = Result.Failed;
+                //sender.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
+                //responseter.Session.Response.teamInviteRes = new TeamInviteResponse();
+                //responseter.Session.Response.teamInviteRes.Result = Result.Failed;
+                //responseter.Session.Response.teamInviteRes.Erromsg = "对方拒绝组队";
+                //responseter.SendResponse();
 
-            //}
-            sender.SendResponse();
+            }
+            
         }
 
         private void OnTeamLeave(NetConnection<NetSession> sender, TeamLeaveRequest request)

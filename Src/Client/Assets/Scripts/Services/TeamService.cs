@@ -74,6 +74,7 @@ namespace Services
 
         private void OnTeamInviteResponse(object sender, TeamInviteResponse message)
         {
+            Debug.Log("OnTeamInviteResponse");
             if (message.Result == Result.Success)
                 MessageBox.Show(message.Request.ToName + "加入您的队伍", "邀请组队成功");
             else

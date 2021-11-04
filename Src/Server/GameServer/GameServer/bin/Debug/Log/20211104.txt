@@ -4880,3 +4880,654 @@
 2021-11-04 14:02:56,670 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
 2021-11-04 14:02:56,670 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:1
 2021-11-04 14:02:56,671 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:18:16,804 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-04 17:18:17,836 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-04 17:18:18,244 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-04 17:18:18,250 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-04 17:18:18,252 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-04 17:18:18,259 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-04 17:18:18,262 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-04 17:18:18,314 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:18,314 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:18,314 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:18,315 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:19,286 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:20,283 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:21,283 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:22,281 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:18:22,304 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-04 17:18:59,015 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1329]] Connected
+2021-11-04 17:18:59,082 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:18:59,204 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:19:05,217 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:19:05,220 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:19:05,359 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:0
+2021-11-04 17:19:05,362 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:05,378 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:19:05,379 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:22,508 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:19:22,510 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-04 17:19:22,511 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:19:22,512 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-04 17:19:22,512 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:19:22,513 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-04 17:19:22,514 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:19:22,515 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-04 17:19:22,515 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:19:22,516 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-04 17:19:22,516 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:19:22,517 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-04 17:19:22,517 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:19:22,517 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-04 17:19:22,518 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:19:22,519 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-04 17:19:24,413 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1343]] Connected
+2021-11-04 17:19:24,469 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-04 17:19:24,470 [5] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-04 17:19:26,296 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:19:26,297 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:2:mier Map:1
+2021-11-04 17:19:26,301 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:19:26,301 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:19:26,302 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-04 17:19:26,302 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:26,302 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:26,304 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:19:26,306 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:19:26,307 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:19:26,307 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:19:28,095 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-04 17:19:28,100 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2021-11-04 17:19:28,103 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:28,103 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:28,104 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:19:28,195 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-04 17:19:28,196 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2021-11-04 17:19:28,198 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:28,296 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-04 17:19:28,297 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(84,-54,0),spd:0
+2021-11-04 17:19:28,298 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:28,395 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-04 17:19:28,396 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(73,-68,0),spd:0
+2021-11-04 17:19:28,398 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:32,945 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:19:32,948 [10] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:19:32,949 [10] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:19:32,951 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:34,044 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:19:34,047 [11] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:19:34,048 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:19:51,662 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:19:51,663 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:19:51,664 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:19:51,665 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:20:11,479 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:20:11,479 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:20:11,481 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:23:34,847 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-04 17:23:35,109 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-04 17:23:35,349 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-04 17:23:35,352 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-04 17:23:35,352 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-04 17:23:35,352 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-04 17:23:35,354 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-04 17:23:35,360 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:35,360 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:35,362 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:35,363 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:35,697 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1445]] Connected
+2021-11-04 17:23:35,731 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1446]] Connected
+2021-11-04 17:23:37,359 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:38,359 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:39,360 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:40,360 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:23:40,370 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-04 17:23:46,403 [9] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:23:51,575 [9] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:24:18,231 [9] [WARN ] [GameServer] ：Client[127.0.0.1:1479]] Connected
+2021-11-04 17:24:18,284 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:24:18,403 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:24:22,325 [9] [WARN ] [GameServer] ：Client[127.0.0.1:1480]] Connected
+2021-11-04 17:24:22,402 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-04 17:24:22,408 [6] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-04 17:24:24,194 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:24:24,198 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:2:mier Map:1
+2021-11-04 17:24:24,318 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:0
+2021-11-04 17:24:24,321 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:24,330 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-04 17:24:24,332 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:27,218 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:24:27,219 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:24:27,227 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:24:27,228 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:24:27,238 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:24:27,239 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:27,239 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:27,240 [6] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:24:27,241 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:24:27,242 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:24:27,243 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:24:31,136 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:24:31,139 [7] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:24:31,140 [7] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:24:31,141 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:31,141 [7] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:31,142 [7] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:24:32,129 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:24:32,131 [8] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:2 Result:Failed FromId:1 ToID:2
+2021-11-04 17:24:32,132 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:24:40,574 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:24:40,576 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-04 17:24:40,577 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:24:40,578 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-04 17:24:40,578 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:24:40,579 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-04 17:24:40,579 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:24:40,580 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-04 17:24:40,580 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:24:40,580 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-04 17:24:40,581 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:24:40,581 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-04 17:24:40,582 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:24:40,583 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-04 17:24:40,586 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:24:40,588 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-04 17:24:56,085 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:24:56,086 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:24:56,087 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:24:56,088 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:25:11,353 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:25:11,354 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:2 Result:Failed FromId:1 ToID:2
+2021-11-04 17:25:11,355 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:02,858 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-04 17:26:03,100 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-04 17:26:03,364 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-04 17:26:03,420 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-04 17:26:03,426 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-04 17:26:03,426 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-04 17:26:03,432 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-04 17:26:03,478 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:03,511 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:03,521 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:03,521 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:03,609 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1498]] Connected
+2021-11-04 17:26:03,642 [10] [WARN ] [GameServer] ：Client[127.0.0.1:1499]] Connected
+2021-11-04 17:26:04,956 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:05,956 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:06,956 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:07,957 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:26:08,020 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-04 17:26:08,030 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:26:32,971 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1514]] Connected
+2021-11-04 17:26:33,065 [9] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:26:33,259 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:26:36,442 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1523]] Connected
+2021-11-04 17:26:36,501 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-04 17:26:36,511 [6] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-04 17:26:38,214 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:26:38,217 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:2:mier Map:1
+2021-11-04 17:26:38,335 [7] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:0
+2021-11-04 17:26:38,337 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:38,348 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-04 17:26:38,349 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:40,383 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:26:40,385 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:26:40,395 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:26:40,395 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:26:40,405 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:26:40,406 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:40,406 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:40,407 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:26:40,408 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:26:40,409 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:26:40,409 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:26:46,153 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:26:46,157 [6] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:26:46,159 [6] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:26:46,159 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:46,159 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:46,160 [6] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:26:47,564 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:26:47,568 [8] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:2 Result:Failed FromId:1 ToID:2
+2021-11-04 17:26:47,568 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:26:47,568 [8] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:26:47,569 [8] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:26:52,140 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:26:52,141 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:26:52,141 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:1 FromName:test ToID:2 ToName:mier
+2021-11-04 17:26:52,142 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:52,144 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:26:52,146 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:27:05,331 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:41
+2021-11-04 17:27:05,335 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:2 Result:Success FromId:1 ToID:2
+2021-11-04 17:27:05,337 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:05,337 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:05,337 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:27:05,338 [5] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:1:test 0<1636018025
+2021-11-04 17:27:05,341 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:05,342 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:05,342 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:27:05,342 [5] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:2:mier 0<1636018025
+2021-11-04 17:27:08,146 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:27:08,149 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-04 17:27:08,149 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:27:08,150 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-04 17:27:08,150 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:27:08,151 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-04 17:27:08,151 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:27:08,151 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-04 17:27:08,151 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:27:08,152 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-04 17:27:08,152 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:27:08,152 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-04 17:27:08,153 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:27:08,154 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-04 17:27:08,154 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:27:08,155 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-04 17:27:19,113 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-11-04 17:27:19,115 [5] [INFO ] [GameServer] ：OnFriendRemove::character:2 TeamID:1:2
+2021-11-04 17:27:19,116 [5] [INFO ] [GameServer] ：Leave Team:2:mier
+2021-11-04 17:27:19,116 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:20,848 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:27:20,855 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:27:20,857 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:20,857 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:20,858 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:27:20,858 [5] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:1:test 1636018025<1636018039
+2021-11-04 17:27:21,396 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-04 17:27:21,397 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:Idle Entity:(1:pos:(5165,4000,820),dir:(100,0,0),spd:0
+2021-11-04 17:27:21,397 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:21,398 [6] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:1:test 1636018039<1636018039
+2021-11-04 17:27:21,729 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:27:21,730 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:MoveBack Entity:(1:pos:(5165,4000,820),dir:(100,0,0),spd:-300
+2021-11-04 17:27:21,730 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:21,730 [7] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:1:test 1636018039<1636018039
+2021-11-04 17:27:22,533 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-04 17:27:22,534 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:Idle Entity:(1:pos:(4925,4000,820),dir:(100,0,0),spd:0
+2021-11-04 17:27:22,534 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:22,534 [5] [INFO ] [GameServer] ：PostProcess > Team :CharacteID:1:test 1636018039<1636018039
+2021-11-04 17:27:24,990 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-11-04 17:27:24,991 [6] [INFO ] [GameServer] ：OnFriendRemove::character:1 TeamID:1:1
+2021-11-04 17:27:24,992 [6] [INFO ] [GameServer] ：Leave Team:1:test
+2021-11-04 17:27:24,992 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:26,266 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:27:26,267 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:27:26,268 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:26,268 [7] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:26,268 [7] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:27:26,647 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-04 17:27:26,649 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:Idle Entity:(2:pos:(5115,4000,820),dir:(100,0,0),spd:0
+2021-11-04 17:27:26,650 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:26,961 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-04 17:27:26,964 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5115,4000,820),dir:(98,-18,0),spd:0
+2021-11-04 17:27:26,968 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:38,296 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:27:38,296 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:27:38,298 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:27:38,300 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:38,300 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:27:38,300 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:27:40,197 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:27:40,198 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:27:40,198 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:40,198 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:27:40,199 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:28:41,361 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:28:41,362 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:28:41,362 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:28:41,363 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:28:41,363 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:28:41,363 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:29:01,545 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:29:01,548 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:29:01,550 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:29:01,551 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:29:01,551 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:29:22,626 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:29:22,627 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:29:22,628 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:29:22,628 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:29:22,629 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:29:22,629 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:29:34,810 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:29:34,810 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:29:34,812 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:29:34,812 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:29:34,814 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:29:49,708 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:29:49,711 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:29:49,711 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:29:49,713 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:29:49,713 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:29:49,714 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:31:44,626 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:31:44,627 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:31:44,627 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:31:44,628 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:31:44,629 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:31:55,956 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:31:55,957 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:31:55,957 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:31:55,958 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:31:55,959 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:31:55,959 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:32:10,697 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:32:10,699 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:32:10,700 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:32:10,706 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:32:10,707 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:32:45,119 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:32:45,210 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:32:45,221 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:32:45,222 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:32:45,222 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:32:45,223 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:33:16,807 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:33:16,808 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:33:16,808 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:33:16,809 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:33:16,811 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:34:18,826 [22] [INFO ] [GameServer] ：CharacterLeave： characterID:1:test
+2021-11-04 17:34:18,830 [22] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-04 17:34:18,831 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:mier : Map:1 CharacterID:1:test:EntityId:2
+2021-11-04 17:34:18,834 [22] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:34:18,834 [22] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:34:18,835 [22] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:0
+2021-11-04 17:34:18,836 [22] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:2
+2021-11-04 17:34:18,837 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:35:26,685 [22] [WARN ] [GameServer] ：Client[127.0.0.1:1646]] Connected
+2021-11-04 17:35:26,759 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:35:26,759 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:35:28,388 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:35:28,389 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:35:28,390 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:35:28,390 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:28,390 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:35:28,391 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:35:28,391 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:35:28,392 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:35:28,393 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:28,393 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:28,395 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:35:36,332 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:35:36,333 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:35:36,333 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:35:36,333 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:38,657 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:35:38,658 [6] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:35:38,658 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:35:38,659 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:35:38,659 [6] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:35:49,216 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:35:49,219 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:35:49,219 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:35:49,222 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:49,225 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:35:49,225 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:37:52,032 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:37:52,034 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:37:52,034 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:37:52,035 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:37:52,035 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:38:20,057 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:38:20,058 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:38:20,059 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:38:20,060 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:38:20,060 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:38:20,061 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:38:29,142 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:38:47,891 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:38:47,891 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:38:47,892 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:38:47,892 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:38:57,772 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:38:57,773 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:38:57,773 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:38:57,774 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:38:57,774 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:38:57,774 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:39:13,561 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:39:16,291 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:39:16,292 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:39:16,293 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:39:16,293 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:45:21,225 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:45:21,226 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:45:21,226 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:45:21,227 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:45:21,227 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:45:21,228 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:45:25,891 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:45:33,210 [5] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:45:33,213 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:45:33,213 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:45:33,213 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:47:33,612 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-04 17:47:34,000 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-04 17:47:34,521 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-04 17:47:34,526 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-04 17:47:34,526 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-04 17:47:34,527 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-04 17:47:34,531 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-04 17:47:34,563 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:34,563 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:34,582 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:34,583 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:34,989 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1769]] Connected
+2021-11-04 17:47:34,997 [9] [WARN ] [GameServer] ：Client[127.0.0.1:1770]] Connected
+2021-11-04 17:47:36,555 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:37,549 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:38,553 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:38,701 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:47:39,549 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:47:39,572 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-04 17:47:46,450 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:48:07,269 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1792]] Connected
+2021-11-04 17:48:07,345 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:48:07,471 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:48:12,183 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:48:12,187 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:48:12,329 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:0
+2021-11-04 17:48:12,337 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:12,359 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:48:12,360 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:19,297 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1795]] Connected
+2021-11-04 17:48:19,357 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-04 17:48:19,359 [5] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-04 17:48:21,935 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:48:21,937 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:2:mier Map:1
+2021-11-04 17:48:21,941 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:48:21,941 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:21,942 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-04 17:48:21,943 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:21,943 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:21,943 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:48:21,946 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:21,946 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:21,947 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:48:24,251 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:48:24,256 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:48:24,258 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:24,259 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:24,260 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:48:24,802 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-04 17:48:24,803 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:2 Evt:Idle Entity:(2:pos:(5165,4000,820),dir:(100,0,0),spd:0
+2021-11-04 17:48:24,803 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:27,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:48:27,838 [7] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:48:27,839 [7] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:48:27,839 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:28,917 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:48:32,075 [8] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:48:32,075 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:32,076 [8] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:32,077 [8] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:48:38,502 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-04 17:48:38,503 [5] [INFO ] [GameServer] ：OnTeamInviteRequest::FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:48:38,503 [5] [INFO ] [GameServer] ：ForwardTeamInviteRequestRequest:: FromId:2 FromName:mier ToID:1 ToName:test
+2021-11-04 17:48:38,503 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:38,503 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:48:38,504 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:48:39,749 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:48:39,753 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-04 17:48:39,753 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:48:39,754 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-04 17:48:39,754 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:48:39,754 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-04 17:48:39,754 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:48:39,755 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-04 17:48:39,755 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:48:39,755 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-04 17:48:39,756 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:48:39,756 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-04 17:48:39,757 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:48:39,757 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-04 17:48:39,758 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:48:39,758 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-04 17:48:39,785 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-04 17:48:39,786 [7] [INFO ] [GameServer] ：OnTeamInviteResponse::charcter:1 Result:Failed FromId:2 ToID:1
+2021-11-04 17:48:39,786 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:39,786 [7] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:48:39,787 [7] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:51:02,522 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-04 17:51:04,298 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-04 17:51:04,684 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-04 17:51:04,691 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-04 17:51:04,691 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-04 17:51:04,691 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-04 17:51:04,697 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-04 17:51:04,718 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:04,721 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:04,721 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:04,721 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:07,203 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:08,203 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:09,203 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:10,204 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-04 17:51:10,225 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-04 17:51:19,804 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1850]] Connected
+2021-11-04 17:51:19,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-04 17:51:19,993 [5] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-04 17:51:26,573 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1853]] Connected
+2021-11-04 17:51:26,626 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-04 17:51:26,628 [6] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-04 17:51:28,245 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:51:28,247 [5] [INFO ] [GameServer] ：UserGameRequest: characterID:2:mier Map:1
+2021-11-04 17:51:28,373 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:0
+2021-11-04 17:51:28,376 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:28,385 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-04 17:51:28,386 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:30,166 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-04 17:51:30,167 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-04 17:51:30,175 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:51:30,175 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:30,185 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-04 17:51:30,186 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:30,187 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:30,188 [6] [INFO ] [GameServer] ：2:mier GetFriendInfo:36:test Status:1
+2021-11-04 17:51:30,189 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:30,190 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:30,191 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:35:mier Status:1
+2021-11-04 17:51:33,612 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-11-04 17:51:33,615 [5] [INFO ] [GameServer] ：OnFriendRemove::character:2 FriendReletionID:36
+2021-11-04 17:51:33,884 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:33,884 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:39,113 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:51:39,118 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:51:39,121 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:39,122 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:39,428 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-04 17:51:39,433 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:Idle Entity:(1:pos:(5095,4000,820),dir:(100,0,0),spd:0
+2021-11-04 17:51:39,433 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:45,961 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-11-04 17:51:45,964 [8] [INFO ] [GameServer] ：OnFriendAddRequest::FromId:1 FromName:test ToID:2 ToName:
+2021-11-04 17:51:45,965 [8] [INFO ] [GameServer] ：ForwardRequest:: FromId:1 FromName:test ToID:2 ToName:
+2021-11-04 17:51:45,965 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:51:47,178 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:52
+2021-11-04 17:51:47,183 [9] [INFO ] [GameServer] ：OnFriendAddRequest::charcter:2 Result:Failed FromId:1 ToID:2
+2021-11-04 17:51:47,183 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:51:59,930 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-11-04 17:51:59,931 [5] [INFO ] [GameServer] ：OnFriendAddRequest::FromId:1 FromName:test ToID:2 ToName:
+2021-11-04 17:51:59,931 [5] [INFO ] [GameServer] ：ForwardRequest:: FromId:1 FromName:test ToID:2 ToName:
+2021-11-04 17:51:59,932 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:01,497 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2021-11-04 17:52:01,498 [5] [INFO ] [GameServer] ：OnFriendAddRequest::charcter:2 Result:Success FromId:1 ToID:2
+2021-11-04 17:52:01,622 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:01,623 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:01,623 [5] [INFO ] [GameServer] ：1:test GetFriendInfo:37:mier Status:1
+2021-11-04 17:52:01,624 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:01,624 [5] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:01,624 [5] [INFO ] [GameServer] ：2:mier GetFriendInfo:38:test Status:1
+2021-11-04 17:52:05,594 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:52:05,595 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5095,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:52:05,596 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:05,597 [6] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:05,597 [6] [INFO ] [GameServer] ：1:test GetFriendInfo:37:mier Status:1
+2021-11-04 17:52:06,077 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:06,078 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:None Entity:(1:pos:(5240,4000,820),dir:(98,-18,0),spd:300
+2021-11-04 17:52:06,079 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:06,177 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:06,178 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:None Entity:(1:pos:(5270,3994,820),dir:(93,-36,0),spd:300
+2021-11-04 17:52:06,179 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:06,277 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:06,278 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:None Entity:(1:pos:(5300,3982,820),dir:(84,-54,0),spd:300
+2021-11-04 17:52:06,279 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:06,361 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:06,362 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:None Entity:(1:pos:(5320,3967,820),dir:(73,-68,0),spd:300
+2021-11-04 17:52:06,362 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:06,811 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-04 17:52:06,812 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:mier,Enity.Id:1 Evt:Idle Entity:(1:pos:(5424,3889,820),dir:(73,-68,0),spd:0
+2021-11-04 17:52:06,812 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-04 17:52:08,841 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-04 17:52:08,842 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-04 17:52:08,843 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:08,843 [12] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:08,845 [12] [INFO ] [GameServer] ：2:mier GetFriendInfo:38:test Status:1
+2021-11-04 17:52:09,221 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,230 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5115,4000,820),dir:(98,-18,0),spd:300
+2021-11-04 17:52:09,232 [5] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:09,321 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,323 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5145,3994,820),dir:(94,-35,0),spd:300
+2021-11-04 17:52:09,324 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:09,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,404 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5170,3984,820),dir:(86,-51,0),spd:300
+2021-11-04 17:52:09,405 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:09,503 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,504 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5194,3966,820),dir:(74,-67,0),spd:300
+2021-11-04 17:52:09,504 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:09,619 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,620 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5222,3945,820),dir:(60,-80,0),spd:300
+2021-11-04 17:52:09,621 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:09,917 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-04 17:52:09,918 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:None Entity:(2:pos:(5276,3873,820),dir:(45,-89,0),spd:300
+2021-11-04 17:52:09,920 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:10,282 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-04 17:52:10,283 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:2 Evt:Idle Entity:(2:pos:(5320,3785,820),dir:(45,-89,0),spd:0
+2021-11-04 17:52:10,283 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:10,368 [4] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:52:10,370 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-04 17:52:10,370 [4] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:52:10,371 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-04 17:52:10,371 [4] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:52:10,371 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-04 17:52:10,372 [4] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:52:10,372 [4] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-04 17:52:10,372 [4] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-04 17:52:10,372 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-04 17:52:10,373 [4] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-04 17:52:10,373 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-04 17:52:10,373 [4] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-04 17:52:10,373 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-04 17:52:10,373 [4] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-04 17:52:10,374 [4] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-04 17:52:10,634 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:test
+2021-11-04 17:52:10,636 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-04 17:52:10,637 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:mier : Map:1 CharacterID:1:test:EntityId:2
+2021-11-04 17:52:10,637 [3] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:10,637 [3] [INFO ] [GameServer] ：PostProcess > FriendManager :CharacteID:2:mier
+2021-11-04 17:52:10,638 [3] [INFO ] [GameServer] ：2:mier GetFriendInfo:38:test Status:0
+2021-11-04 17:52:10,639 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:2
+2021-11-04 17:52:10,639 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-04 17:52:19,779 [13] [INFO ] [GameServer] ：CharacterLeave： characterID:2:mier
+2021-11-04 17:52:19,780 [13] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-11-04 17:52:19,780 [13] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:mier : Map:1 CharacterID:2:mier:EntityId:1
+2021-11-04 17:52:19,780 [13] [WARN ] [GameServer] ：Client[] Disconnected
