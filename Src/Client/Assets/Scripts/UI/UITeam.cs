@@ -12,19 +12,21 @@ public class UITeam:MonoBehaviour
 
     private void Start()
     {
+        
         if(User.Instance.TeamInfo == null)
         {
             this.gameObject.SetActive(false);
             return;
         }
-        foreach(var item in Members)
-        {
-            this.list.AddItem(item);
-        }
+        
     }
 
     private void OnEnable()
     {
+        foreach (var item in Members)
+        {
+            this.list.AddItem(item);
+        }
         UpdateTeamUI();
     }
     public void Show(bool show)

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Levels/MainCity.unity
+- path: Assets/Levels/Loading.unity
   isLoaded: 1
   isActive: 1

@@ -1,25 +1,111 @@
-﻿using System;
+﻿using Managers;
+using Models;
+using Network;
+using SkillBridge.Message;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Services
 {
-    class TeamService:Singleton<TeamService>
+    class TeamService:Singleton<TeamService>,IDisposable
     {
         public void Init()
         {
 
         }
 
-        internal void SendTeamInviteRequest(int id, string name)
+        public TeamService()
         {
-            throw new NotImplementedException();
+            MessageDistributer.Instance.Subscribe<TeamInviteRequest>(this.OnTeamInviteRequest);
+            MessageDistributer.Instance.Subscribe<TeamInviteResponse>(this.OnTeamInviteResponse);
+            MessageDistributer.Instance.Subscribe<TeamInfoResponse>(this.OnTeamInfo);
+            MessageDistributer.Instance.Subscribe<TeamLeaveResponse>(this.OnTeamLeave);
         }
 
-        internal void SendTeamLeaveRequest(int id)
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            MessageDistributer.Instance.Unsubscribe<TeamInviteRequest>(this.OnTeamInviteRequest);
+            MessageDistributer.Instance.Unsubscribe<TeamInviteResponse>(this.OnTeamInviteResponse);
+            MessageDistributer.Instance.Unsubscribe<TeamInfoResponse>(this.OnTeamInfo);
+            MessageDistributer.Instance.Unsubscribe<TeamLeaveResponse>(this.OnTeamLeave);
         }
+
+
+        public void SendTeamInviteRequest(int frienid, string friendname)
+        {
+            Debug.Log("SendTeamInviteRequest");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.teamInviteReq = new TeamInviteRequest();
+            message.Request.teamInviteReq.FromId = User.Instance.CurrentCharacter.Id;
+            message.Request.teamInviteReq.FromName = User.Instance.CurrentCharacter.Name;
+            message.Request.teamInviteReq.ToId = frienid;
+            message.Request.teamInviteReq.ToName = friendname;
+            NetClient.Instance.SendMessage(message);
+        }
+
+        public void SendTeamInviteResonse(bool accept, TeamInviteRequest request)
+        {
+            Debug.Log("SendTeamInviteResonse");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.teamInviteRes = new TeamInviteResponse();
+            message.Request.teamInviteRes.Result = accept ? Result.Success : Result.Failed;
+            message.Request.teamInviteRes.Erromsg = accept ? "组队成功" : "对方拒绝了组队请求";
+            message.Request.teamInviteRes.Request = request;
+            NetClient.Instance.SendMessage(message);
+        }
+
+        private void OnTeamInviteRequest(object sender, TeamInviteRequest request)
+        {
+            var confirm = MessageBox.Show(string.Format("{0} 邀请你加入队伍", request.FromName), "组队请求", MessageBoxType.Confirm, "接受", "拒绝");
+            confirm.OnYes = () =>
+            {
+                this.SendTeamInviteResonse(true, request);
+            };
+            confirm.OnNo = () =>
+            {
+                this.SendTeamInviteResonse(false, request);
+            };
+        }
+
+        private void OnTeamInviteResponse(object sender, TeamInviteResponse message)
+        {
+            if (message.Result == Result.Success)
+                MessageBox.Show(message.Request.ToName + "加入您的队伍", "邀请组队成功");
+            else
+                MessageBox.Show(message.Erromsg, "邀请组队失败");
+        }
+
+        private void OnTeamInfo(object sender, TeamInfoResponse message)
+        {
+            Debug.Log("OnTeamInfo");
+            TeamManager.Instance.UpdateTeamInfo(message.Team);
+        }
+        public void SendTeamLeaveRequest(int id)
+        {
+            Debug.Log("SendTeamLeaveRequest");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.teamLeave = new TeamLeaveRequest();
+            message.Request.teamLeave.TeamId = User.Instance.TeamInfo.Id;
+            message.Request.teamLeave.characterId = User.Instance.CurrentCharacter.Id;
+            NetClient.Instance.SendMessage(message);
+        }
+        private void OnTeamLeave(object sender, TeamLeaveResponse message)
+        {
+            if (message.Result == Result.Success)
+            {
+                TeamManager.Instance.UpdateTeamInfo(null);
+                MessageBox.Show("退出成功", "退出队伍");
+            }
+              
+            else
+                MessageBox.Show(message.Erromsg, "邀请组队失败");
+        }
+               
     }
 }

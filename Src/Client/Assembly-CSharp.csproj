@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Managers\QuestManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ShopManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SpriteManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\TeamManager.cs" />
     <Compile Include="Assets\Scripts\Managers\TestManager.cs" />
     <Compile Include="Assets\Scripts\Models\BagItem.cs" />
     <Compile Include="Assets\Scripts\Models\Item.cs" />
