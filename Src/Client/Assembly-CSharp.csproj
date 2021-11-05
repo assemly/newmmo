@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\Managers\EntityManager.cs" />
     <Compile Include="Assets\Scripts\Managers\EquipManager.cs" />
     <Compile Include="Assets\Scripts\Managers\FriendManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GuildManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ItemManager.cs" />
     <Compile Include="Assets\Scripts\Managers\MiniMapManager.cs" />
     <Compile Include="Assets\Scripts\Managers\NPCManager.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\Scripts\Network\NetClient.cs" />
     <Compile Include="Assets\Scripts\Scene\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Services\FriendService.cs" />
+    <Compile Include="Assets\Scripts\Services\GuildService.cs" />
     <Compile Include="Assets\Scripts\Services\ItemService.cs" />
     <Compile Include="Assets\Scripts\Services\MapService.cs" />
     <Compile Include="Assets\Scripts\Services\QuestService.cs" />
@@ -111,6 +113,13 @@
     <Compile Include="Assets\Scripts\UI\CharEquip\UICharEquip.cs" />
     <Compile Include="Assets\Scripts\UI\CharEquip\UIEquipItem.cs" />
     <Compile Include="Assets\Scripts\UI\Firends\UIFriendItem.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuild.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildInfo.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildItem.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildList.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildMemberItem.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildPopCreate.cs" />
+    <Compile Include="Assets\Scripts\UI\Guild\UIGuildPopNoGuild.cs" />
     <Compile Include="Assets\Scripts\UI\InputBox.cs" />
     <Compile Include="Assets\Scripts\UI\ListView\ListView.cs" />
     <Compile Include="Assets\Scripts\UI\MainCity\UIAvatarInfo.cs" />
@@ -148,6 +157,7 @@
     <Compile Include="Assets\Scripts\Utilities\GameUtil.cs" />
     <Compile Include="Assets\Scripts\Utilities\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\Utilities\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Utilities\TimeUtil.cs" />
     <None Include="Assets\Shader\UITest.shader" />
     <None Include="Assets\Shader\Lightmap\Lightmap.shader" />
     <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Distortion.shader" />

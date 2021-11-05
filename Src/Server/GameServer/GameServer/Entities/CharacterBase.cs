@@ -19,6 +19,7 @@ namespace GameServer.Entities
            
             set;
         }
+        public string Name { get { return this.Info.Name; } }
         public NCharacterInfo Info;
         public CharacterDefine Define;
 

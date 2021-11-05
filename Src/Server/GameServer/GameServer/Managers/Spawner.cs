@@ -55,7 +55,7 @@ namespace GameServer.Managers
         {
             if (this.spawned)
                 return false;
-            if (this.unspawnTime + this.Define.SpawnPeriod > Time.time)
+            if (this.unspawnTime + this.Define.SpawnPeriod > TimeUtil.time)
                 return false;
             return true;
         }

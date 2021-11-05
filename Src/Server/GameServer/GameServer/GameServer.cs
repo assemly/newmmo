@@ -36,6 +36,7 @@ namespace GameServer
             FriendService.Instance.Init();
             TeamService.Instance.Init();
             // MapManager.Instance.Init();
+            GuildService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;
@@ -62,7 +63,7 @@ namespace GameServer
             while (running)
             {
                 var mapManager = MapManager.Instance;
-                Time.Tick();
+                TimeUtil.Tick();
                 Thread.Sleep(100);
                 //Console.WriteLine("{0} {1} {2} {3} {4}", Time.deltaTime, Time.frameCount, Time.ticks, Time.time, Time.realtimeSinceStartup);
                 mapManager.Update();

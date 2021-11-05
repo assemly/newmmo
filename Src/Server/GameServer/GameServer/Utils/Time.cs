@@ -31,14 +31,14 @@
 
 using System;
 using System.Runtime.InteropServices;
-class Time
+class TimeUtil
 {
     [DllImport("kernel32.dll")]
     static extern bool QueryPerformanceCounter([In, Out] ref long lpPerformanceCount);
     [DllImport("kernel32.dll")]
     static extern bool QueryPerformanceFrequency([In, Out] ref long lpFrequency);
 
-    static Time()
+    static TimeUtil()
     {
         startupTicks = ticks;
     }

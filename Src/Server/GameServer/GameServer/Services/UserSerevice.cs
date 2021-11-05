@@ -127,7 +127,8 @@ namespace GameServer.Services
                     MapPosY = 4000,
                     MapPosZ = 820,
                     Gold = 1000000,
-                    Equips = new byte[28]
+                    Equips = new byte[28],
+                    GuildId = 0
                 };
 
                 var bag = new TCharacterBag();
@@ -186,11 +187,13 @@ namespace GameServer.Services
             sender.Session.Response.gameEnter.Errormsg = "None";
             sender.Session.Response.gameEnter.Character = character.Info;
 
+
             sender.Session.Character = character;
             sender.Session.PostResponser = character;
 
             sender.Session.Response.gameEnter.Character = character.Info;
             sender.SendResponse();
+            
 
             MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
         }

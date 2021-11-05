@@ -31,7 +31,7 @@ namespace GameServer.Models
             }
             this.Members.Add(member);
             member.Team = this;
-            timestamp = Time.timestamp;
+            timestamp = TimeUtil.timestamp;
         }
 
         public void Leave(Character member)
@@ -47,7 +47,7 @@ namespace GameServer.Models
             }
             member.Team = null;
          
-            timestamp = Time.timestamp;
+            timestamp = TimeUtil.timestamp;
         }
 
         //public void LeaveTeamNotify()

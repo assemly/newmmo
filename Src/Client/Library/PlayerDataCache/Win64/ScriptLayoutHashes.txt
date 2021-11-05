@@ -193,7 +193,7 @@ df575f35d2d396362deb2d2620dcf566 Assembly-CSharp.dll:.UILogin
 1f67d061567b637ffc47c9aaffe42e71 Assembly-CSharp.dll:.TeleporterObjecet
 b376a229d1733d0e1672aa923e20a7e4 Assembly-CSharp.dll:.UIFriendItem
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-056e4c637b3c7e40b57cc71c0b5f256b Assembly-CSharp.dll:.NpcController
+723c51c5f66a61679cb1b1fc9e19b162 Assembly-CSharp.dll:.NpcController
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 8e5bf47976744281db7e2f4e29e2c14b Assembly-CSharp.dll:.TabButton
 9905d43f0732a14e05abc54c52404508 Assembly-CSharp.dll:.UIBag
@@ -208,3 +208,10 @@ fcc82568a072a43683db830a8f3547ef Assembly-CSharp.dll:.UICharEquip
 046f90afc2b8a3f40167919cbb5a1ade Assembly-CSharp.dll:.UIWorldElement
 81ece8d42ce7dffcf3d9e705d7d4100c Assembly-CSharp.dll:.UIQuestItem
 3149e68b62b82493254e1c995849f227 Assembly-CSharp.dll:.UICharacterView
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UIGuildPopNoGuild
+f1d8d342bafad3b5c344b687e5a6c879 Assembly-CSharp.dll:.UIGuildPopCreate
+3ce8d131f84c6667fe90861af33d45ec Assembly-CSharp.dll:.UIGuildInfo
+101ece241a1e1284790e76350f203d10 Assembly-CSharp.dll:.UIGuildList
+5a71f0f48b922cf416c74784eba7dc6a Assembly-CSharp.dll:.UIGuildItem
+a2d58a8ab1586fc8420eb4a9276ea023 Assembly-CSharp.dll:.UIGuildMemberItem
+1bc3e0f036af985547ff445fab421dfe Assembly-CSharp.dll:.UIGuild

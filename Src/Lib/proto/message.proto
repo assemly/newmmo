@@ -75,8 +75,11 @@ message NPlayerInfo {
 	int32 id = 1;
 	repeated NCharacterInfo characters = 2;
 }
-///// 角色
-/////
+////////////////////////////////////////////////////////////////
+//
+//  Character
+//
+////////////////////////////////////////////////////////////////
 message NCharacterInfo {
 	int32 id = 1;//db id
 	int32 config_id = 2;//config id
@@ -96,6 +99,7 @@ message NCharacterInfo {
 	bytes Equips = 13;
 	repeated NQuestInfo quests = 14;
 	repeated NFriendInfo friends = 15;
+	NGuildInfo guild = 16;
 }
 
 message NItemInfo
@@ -212,6 +216,13 @@ message NetMessageRequest{
 	TeamInviteRequest teamInviteReq = 20;
 	TeamInfoRequest teamInfo = 21;
 	TeamLeaveRequest teamLeave = 22;
+
+	GuildCreateRequest guildCreate = 23;
+	GuildJoinRequest guildJoinReq = 24;
+	GuildJoinResponse guildJoinRes = 25;
+	GuildRequest guild = 26;
+	GuildLeaveRequest guildLeave = 27;
+	GuildListRequest guildList = 28;
 	
 }
 
@@ -244,12 +255,22 @@ message NetMessageResponse{
 	TeamInfoResponse teamInfo = 21;
 	TeamLeaveResponse teamLeave = 22;
 
+	GuildCreateResponse guildCreate = 23;
+	GuildJoinRequest guildJoinReq = 24;
+	GuildJoinResponse guildJoinRes = 25;
+	GuildResponse guild = 26;
+	GuildLeaveResponse guildLeave = 27;
+	GuildListResponse guildList = 28;
+
 	StatusNotify statusNotify = 100;
 }
 
 
-// User Protocol
-
+////////////////////////////////////////////////////////////////
+//
+//  User Protocol
+//
+////////////////////////////////////////////////////////////////
 
 message UserLoginRequest {
 	string user = 1;
@@ -307,7 +328,12 @@ message UserGameLeaveResponse {
 	string errormsg = 2;
 }
 
-// Map Protocol
+////////////////////////////////////////////////////////////////
+//
+//  Map Protocol
+//
+////////////////////////////////////////////////////////////////
+
 message MapCharacterEnterRequest
 {
 	int32 mapId = 1;
@@ -353,7 +379,12 @@ message ItemBuyResponse
 	string errormsg = 2;
 }
 
-//背包保存
+////////////////////////////////////////////////////////////////
+//
+//  Bag Protocol
+//
+////////////////////////////////////////////////////////////////
+
 message BagSaveRequest
 {
 	NBagInfo BagInfo = 1;
@@ -365,7 +396,12 @@ message BagSaveResponse
 	string errormsg = 2;
 }
 
-//装备
+////////////////////////////////////////////////////////////////
+//
+//  Equipment Protocol
+//
+////////////////////////////////////////////////////////////////
+
 message ItemEquipRequest
 {
 	int32 slot = 1;
@@ -379,7 +415,11 @@ message ItemEquipResponse
 	string errormsg = 2;
 }
 
-// Quest System
+////////////////////////////////////////////////////////////////
+//
+//  Quest System
+//
+////////////////////////////////////////////////////////////////
 
 enum QUEST_STATUS
 {
@@ -451,7 +491,12 @@ message QuestAbandonResponse
 	string erromsg = 2;
 }
 
-// Friend System
+////////////////////////////////////////////////////////////////
+//
+//  Friend System
+//
+////////////////////////////////////////////////////////////////
+
 message NFriendInfo
 {
 	int32 id = 1;
@@ -499,7 +544,12 @@ message FriendRemoveResponse
 	int32 id = 3;
 }
 
-// Team System
+////////////////////////////////////////////////////////////////
+//
+//  Team System
+//
+////////////////////////////////////////////////////////////////
+
 message NTeamInfo
 {
 	int32 id = 1;
@@ -546,4 +596,119 @@ message TeamLeaveResponse
 	RESULT result = 1;
 	string erromsg = 2;
 	int32 characterId = 3;
+}
+
+////////////////////////////////////////////////////////////////
+//
+//  Guild System
+//
+////////////////////////////////////////////////////////////////
+
+enum GUILD_TITLE
+{
+	NONE = 0;
+	PRESIDENT = 1;
+	VICE_PRESIDENT = 2;
+}
+
+enum APPLY_RESULT
+{
+	NONE = 0;
+	ACCEPT = 1;
+	REJECT = 2;
+}
+
+message NGuildInfo
+{
+	int32 id = 1;
+	string guild_name = 2;
+	int32 leaderId = 3;
+	string leaderName = 4;
+	string notice = 5;
+	int32 memberCount = 6;
+	repeated NGuildMemberInfo members = 7;
+	repeated NGuildApplyInfo applies = 8;
+	int64 createTime = 9;
+}
+
+message NGuildMemberInfo
+{
+	int32 id = 1;
+	int32 characterId = 2;
+	GUILD_TITLE title = 3;
+	NCharacterInfo info = 4;
+	int64 joinTime = 5;
+	int64 lastTime = 6;
+	int32 status = 7;
+}
+
+message NGuildApplyInfo
+{
+	int32 guild_id = 1;
+	int32 characterId = 2;
+	string name = 3;
+	int32 class = 4;
+	int32 level = 5;
+	APPLY_RESULT result = 6;
+}
+
+message GuildCreateRequest
+{
+	string guild_name = 1;
+	string guild_notice = 2;
+}
+
+message GuildCreateResponse
+{
+	RESULT result = 1;
+	string erromsg = 2;
+	NGuildInfo guildInfo = 3;
+}
+//加入公会申请 [member -> server -> leader]
+message GuildJoinRequest
+{
+	NGuildApplyInfo apply = 1;
+}
+
+message GuildJoinResponse
+{
+	RESULT result = 1;
+	string erromsg = 2;
+	NGuildApplyInfo apply = 3;
+}
+
+message GuildListRequest
+{
+
+}
+
+message GuildListResponse
+{
+	RESULT result = 1;
+	string erromsg = 2;
+	repeated NGuildInfo guilds = 3;
+}
+
+//公会信息
+message GuildRequest
+{
+
+}
+
+message GuildResponse
+{
+	RESULT result = 1;
+	string erromsg = 2;
+	NGuildInfo guildInfo = 3;
+}
+
+message GuildLeaveRequest
+{
+
+}
+
+message GuildLeaveResponse
+{
+	RESULT result = 1;
+	string erromsg = 2;
 }

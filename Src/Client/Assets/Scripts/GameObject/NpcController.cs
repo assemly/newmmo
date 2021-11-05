@@ -9,7 +9,7 @@ using UnityEngine;
 public class NpcController : MonoBehaviour
 {
     public int npcID;
-    SkinnedMeshRenderer renderer;
+    public new SkinnedMeshRenderer renderer;
     Animator anim;
     Color orignColor;
     private bool inInteractive = false;
