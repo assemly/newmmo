@@ -1,152 +1,2617 @@
-2021-11-05 20:46:23,953 [ 1] INFO  Unity: LoadingManager start
-2021-11-05 20:46:27,365 [ 1] INFO  Unity: DataManager > DataManager()
-2021-11-05 20:46:35,816 [ 1] INFO  Unity: UserRegisterRequest::user :mier psw:123
-2021-11-05 20:46:35,817 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-11-05 20:46:35,820 [ 1] INFO  Unity: DoConnect
-2021-11-05 20:46:35,821 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-05 20:46:35,824 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-11-06 10:21:19,428 [ 1] INFO  Unity: LoadingManager start
+2021-11-06 10:21:22,584 [ 1] INFO  Unity: DataManager > DataManager()
+2021-11-06 10:21:29,587 [ 1] INFO  Unity: UserLoginRequest::user :mier psw:123
+2021-11-06 10:21:29,587 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-11-06 10:21:29,590 [ 1] INFO  Unity: DoConnect
+2021-11-06 10:21:29,591 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-06 10:21:29,593 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-11-05 20:46:35,828 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-11-05 20:46:36,003 [ 1] INFO  Unity: OnUserRegister:Success [None]
-2021-11-05 20:46:40,516 [ 1] INFO  Unity: UserLoginRequest::user :mier psw:123
-2021-11-05 20:46:40,556 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-11-05 20:46:40,556 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-05 20:46:40,754 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-05 20:46:46,830 [ 1] INFO  Unity: UserCreateCharacterRequest::name :试试 class:Archer
-2021-11-05 20:46:46,888 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
-2021-11-05 20:46:46,889 [ 1] INFO  Unity: Models.User.Instance.Info.Player.Characters:1
-2021-11-05 20:46:47,664 [ 1] INFO  Unity: Select Char:[2]试试[Archer]
-2021-11-05 20:46:52,247 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-11-05 20:46:52,248 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-11-05 20:46:52,289 [ 1] INFO  Unity: OnGameEnter:Success
-2021-11-05 20:46:52,290 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2021-11-05 20:46:52,290 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2021-11-05 20:46:52,298 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2021-11-05 20:46:52,298 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:10
-2021-11-05 20:46:52,299 [ 1] INFO  Unity: AddCharacter:1:test Map:1 Entity:(10:pos:(5195,3995,820),dir:(57,-82,0),spd:0,EntityID：10
-2021-11-05 20:46:52,300 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:11
-2021-11-05 20:46:52,300 [ 1] INFO  Unity: AddCharacter:2:试试 Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：11
-2021-11-05 20:46:52,300 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-11-05 20:46:52,797 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-05 20:46:52,797 [ 1] INFO  Unity: Wizard OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-05 20:46:52,797 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-05 20:46:52,807 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-05 20:46:52,812 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-11-05 20:46:52,813 [ 1] WARN  Unity: UIMinimap Start 18432
+2021-11-06 10:21:29,597 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-11-06 10:21:30,622 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-11-06 10:21:30,623 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:21:30,788 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:21:31,734 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:21:32,417 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:21:32,417 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:21:32,571 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:21:32,573 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:21:32,573 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:21:32,585 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-06 10:21:32,585 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:9
+2021-11-06 10:21:32,587 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：9
+2021-11-06 10:21:32,588 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:21:33,033 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:21:33,033 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:21:33,041 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:21:33,046 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:21:33,047 [ 1] WARN  Unity: UIMinimap Start 18388
 
-2021-11-05 20:46:52,813 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[18432] Set
+2021-11-06 10:21:33,047 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[18388] Set
 
-2021-11-05 20:46:53,613 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:46:53,616 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:46:54,047 [ 1] INFO  Unity: Stop
-2021-11-05 20:46:54,048 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5130,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:46:55,840 [ 1] INFO  Unity: SendGuildListRequest
-2021-11-05 20:47:00,482 [ 1] INFO  Unity: SendGuildJoinRequest
-2021-11-05 20:47:57,045 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:47:57,045 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5130,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:47:57,429 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2021-11-05 20:47:57,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5245,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:47:57,496 [ 1] INFO  Unity: Stop
-2021-11-05 20:47:57,497 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:57,611 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2021-11-05 20:47:57,611 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:57,712 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
-2021-11-05 20:47:57,712 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:57,796 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
-2021-11-05 20:47:57,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:57,879 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2021-11-05 20:47:57,880 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:57,978 [ 1] INFO  Unity: SetDirection:(43, -90, 0)
-2021-11-05 20:47:57,978 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:58,079 [ 1] INFO  Unity: SetDirection:(26, -96, 0)
-2021-11-05 20:47:58,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:58,196 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:47:58,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5265,3996,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:47:58,912 [ 1] INFO  Unity: Stop
-2021-11-05 20:47:58,912 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5307,3786,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:47:59,680 [ 1] INFO  Unity: SendGuildListRequest
-2021-11-05 20:47:59,731 [ 1] INFO  Unity: OnGuildJoinResponse:Success
-2021-11-05 20:48:01,345 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:48:01,345 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5307,3786,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:01,779 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
-2021-11-05 20:48:01,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5333,3656,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:01,979 [ 1] INFO  Unity: SetDirection:(-9, -100, 0)
-2021-11-05 20:48:01,979 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5333,3596,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:02,078 [ 1] INFO  Unity: SetDirection:(-27, -96, 0)
-2021-11-05 20:48:02,078 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5333,3566,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:02,096 [ 1] INFO  Unity: Stop
-2021-11-05 20:48:02,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5332,3561,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:02,179 [ 1] INFO  Unity: SetDirection:(-44, -90, 0)
-2021-11-05 20:48:02,179 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5332,3561,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:02,379 [ 1] INFO  Unity: SetDirection:(-59, -81, 0)
-2021-11-05 20:48:02,379 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5332,3561,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:04,796 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:48:04,797 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5332,3561,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:05,378 [ 1] INFO  Unity: Stop
-2021-11-05 20:48:05,378 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5227,3421,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:08,845 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:48:08,845 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5227,3421,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:09,444 [ 1] INFO  Unity: SetDirection:(-73, -68, 0)
-2021-11-05 20:48:09,444 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5119,3277,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:09,545 [ 1] INFO  Unity: SetDirection:(-84, -54, 0)
-2021-11-05 20:48:09,546 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5095,3259,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:09,595 [ 1] INFO  Unity: Stop
-2021-11-05 20:48:09,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:09,629 [ 1] INFO  Unity: SetDirection:(-92, -38, 0)
-2021-11-05 20:48:09,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:09,729 [ 1] INFO  Unity: SetDirection:(-98, -18, 0)
-2021-11-05 20:48:09,729 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:09,830 [ 1] INFO  Unity: SetDirection:(-100, 3, 0)
-2021-11-05 20:48:09,830 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:09,929 [ 1] INFO  Unity: SetDirection:(-97, 23, 0)
-2021-11-05 20:48:09,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:10,012 [ 1] INFO  Unity: SetDirection:(-92, 40, 0)
-2021-11-05 20:48:10,012 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:10,112 [ 1] INFO  Unity: SetDirection:(-82, 57, 0)
-2021-11-05 20:48:10,112 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:10,277 [ 1] INFO  Unity: SetDirection:(-71, 71, 0)
-2021-11-05 20:48:10,277 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:10,596 [ 1] INFO  Unity: MoveForward
-2021-11-05 20:48:10,596 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5083,3250,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:11,295 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
-2021-11-05 20:48:11,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4915,3418,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-05 20:48:11,311 [ 1] INFO  Unity: Stop
-2021-11-05 20:48:11,312 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4912,3422,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:11,396 [ 1] INFO  Unity: SetDirection:(-42, 91, 0)
-2021-11-05 20:48:11,396 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4912,3422,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:11,496 [ 1] INFO  Unity: SetDirection:(-24, 97, 0)
-2021-11-05 20:48:11,496 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4912,3422,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:11,645 [ 1] INFO  Unity: SetDirection:(-6, 100, 0)
-2021-11-05 20:48:11,645 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4912,3422,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-05 20:48:13,030 [ 1] INFO  Unity: SendGuildListRequest
-2021-11-05 20:49:03,444 [ 1] INFO  Unity: SendGuildListRequest
-2021-11-05 20:49:51,692 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-05 20:49:51,693 [ 1] INFO  Unity: UserGameLeaveRequest
-2021-11-05 20:49:51,760 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:11
-2021-11-05 20:49:51,761 [ 1] INFO  Unity: RemoveCharacter:10
-2021-11-05 20:49:51,763 [ 1] INFO  Unity: RemoveCharacter:11
-2021-11-05 20:49:51,763 [ 1] INFO  Unity: OnGameLeave:Success [None]
-2021-11-05 20:49:51,765 [ 1] INFO  Unity: Character_1_test OnDestroy :ID:10 POS:(5195, 3995, 820) DIR:(57, -82, 0) SPD:0 
-2021-11-05 20:49:51,766 [ 1] INFO  Unity: Character_2_试试 OnDestroy :ID:11 POS:(4912, 3422, 820) DIR:(-6, 100, 0) SPD:0 
-2021-11-05 20:49:51,798 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-05 20:49:52,590 [ 1] INFO  Unity: Select Char:[2]试试[Archer]
-2021-11-05 20:49:53,324 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-11-05 20:49:53,324 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-11-05 20:49:53,357 [ 1] INFO  Unity: OnGameEnter:Success
-2021-11-05 20:49:53,357 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2021-11-05 20:49:53,357 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2021-11-05 20:49:53,357 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2021-11-05 20:49:53,357 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:10
-2021-11-05 20:49:53,357 [ 1] INFO  Unity: AddCharacter:1:test Map:1 Entity:(10:pos:(5195,3995,820),dir:(57,-82,0),spd:0,EntityID：10
-2021-11-05 20:49:53,359 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:12
-2021-11-05 20:49:53,359 [ 1] INFO  Unity: AddCharacter:2:试试 Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：12
-2021-11-05 20:49:53,360 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-11-05 20:49:53,750 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-05 20:49:53,770 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-05 20:49:53,771 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-11-05 20:49:56,695 [ 1] INFO  Unity: SendGuildListRequest
-2021-11-05 20:50:06,091 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-11-05 20:50:06,092 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-11-06 10:21:34,772 [ 1] INFO  Unity: SendGuildListRequest
+2021-11-06 10:21:39,051 [ 1] INFO  Unity: SendGuildJoinRequest
+2021-11-06 10:21:39,118 [ 1] INFO  Unity: OnGuildJoinResponse:Failed
+2021-11-06 10:22:28,500 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-06 10:22:28,500 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:10
+2021-11-06 10:22:28,500 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：10
+2021-11-06 10:24:43,344 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:24:43,345 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:24:43,379 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:9
+2021-11-06 10:24:43,381 [ 1] INFO  Unity: RemoveCharacter:9
+2021-11-06 10:24:43,382 [ 1] INFO  Unity: RemoveCharacter:10
+2021-11-06 10:24:43,383 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:24:43,383 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:9 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:24:43,383 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:10 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:24:43,449 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:24:47,727 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:24:48,678 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:24:48,678 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:24:48,711 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:24:48,712 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:24:48,712 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:24:48,712 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:24:48,712 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:11
+2021-11-06 10:24:48,712 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：11
+2021-11-06 10:24:48,714 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:10
+2021-11-06 10:24:48,714 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：10
+2021-11-06 10:24:48,715 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:24:49,124 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:24:49,124 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:24:49,130 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:24:49,131 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:24:57,478 [ 1] INFO  Unity: MoveForward
+2021-11-06 10:24:57,479 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-06 10:24:57,994 [ 1] INFO  Unity: Stop
+2021-11-06 10:24:57,994 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,544 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
+2021-11-06 10:24:58,544 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,644 [ 1] INFO  Unity: SetDirection:(94, 35, 0)
+2021-11-06 10:24:58,644 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,727 [ 1] INFO  Unity: SetDirection:(86, 51, 0)
+2021-11-06 10:24:58,727 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,810 [ 1] INFO  Unity: SetDirection:(76, 65, 0)
+2021-11-06 10:24:58,810 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,894 [ 1] INFO  Unity: SetDirection:(63, 77, 0)
+2021-11-06 10:24:58,894 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:58,993 [ 1] INFO  Unity: SetDirection:(46, 89, 0)
+2021-11-06 10:24:58,994 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:24:59,127 [ 1] INFO  Unity: SetDirection:(29, 96, 0)
+2021-11-06 10:24:59,127 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:00,845 [ 1] INFO  Unity: SetDirection:(10, 99, 0)
+2021-11-06 10:25:00,845 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:00,961 [ 1] INFO  Unity: SetDirection:(-8, 100, 0)
+2021-11-06 10:25:00,961 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:01,045 [ 1] INFO  Unity: SetDirection:(-25, 97, 0)
+2021-11-06 10:25:01,045 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:01,127 [ 1] INFO  Unity: SetDirection:(-42, 91, 0)
+2021-11-06 10:25:01,127 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:01,227 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
+2021-11-06 10:25:01,227 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:01,411 [ 1] INFO  Unity: SetDirection:(-71, 71, 0)
+2021-11-06 10:25:01,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:01,461 [ 1] INFO  Unity: MoveForward
+2021-11-06 10:25:01,461 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5155,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-06 10:25:02,127 [ 1] INFO  Unity: Stop
+2021-11-06 10:25:02,127 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4995,4160,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:04,328 [ 1] INFO  Unity: MoveBack
+2021-11-06 10:25:04,328 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(4995,4160,820) DIR:SkillBridge.Message.NVector3 SPD:-300
+2021-11-06 10:25:05,428 [ 1] INFO  Unity: Stop
+2021-11-06 10:25:05,428 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:11 POS:(5259,3896,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:25:06,178 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:25:06,178 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:25:06,211 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:11
+2021-11-06 10:25:06,211 [ 1] INFO  Unity: RemoveCharacter:11
+2021-11-06 10:25:06,211 [ 1] INFO  Unity: RemoveCharacter:10
+2021-11-06 10:25:06,212 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:25:06,212 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:11 POS:(5259, 3896, 820) DIR:(-71, 71, 0) SPD:0 
+2021-11-06 10:25:06,212 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:10 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:25:06,282 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:25:25,877 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:25:27,994 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:25:27,994 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:25:28,026 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:25:28,026 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:25:28,026 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:25:28,026 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:25:28,027 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:12
+2021-11-06 10:25:28,027 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：12
+2021-11-06 10:25:28,028 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:10
+2021-11-06 10:25:28,028 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：10
+2021-11-06 10:25:28,029 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:25:28,441 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:25:28,442 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:25:28,448 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:25:28,449 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:25:41,227 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:10
+2021-11-06 10:25:41,227 [ 1] INFO  Unity: RemoveCharacter:10
+2021-11-06 10:25:41,227 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:10 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:25:50,259 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-06 10:25:50,260 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:13
+2021-11-06 10:25:50,260 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：13
+2021-11-06 10:26:53,607 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:26:53,608 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:26:53,641 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:12
+2021-11-06 10:26:53,641 [ 1] INFO  Unity: RemoveCharacter:12
+2021-11-06 10:26:53,641 [ 1] INFO  Unity: RemoveCharacter:13
+2021-11-06 10:26:53,641 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:26:53,642 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:12 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:26:53,642 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:13 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:26:53,711 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:26:55,373 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:26:58,190 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:26:58,190 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:26:58,224 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:26:58,224 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:26:58,224 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:26:58,224 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:26:58,224 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:14
+2021-11-06 10:26:58,224 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(14:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：14
+2021-11-06 10:26:58,226 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:13
+2021-11-06 10:26:58,226 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：13
+2021-11-06 10:26:58,228 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:26:58,618 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:26:58,618 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:26:58,625 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:26:58,625 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:27:04,640 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:27:04,640 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:27:04,675 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:14
+2021-11-06 10:27:04,675 [ 1] INFO  Unity: RemoveCharacter:14
+2021-11-06 10:27:04,675 [ 1] INFO  Unity: RemoveCharacter:13
+2021-11-06 10:27:04,675 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:27:04,675 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:14 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:27:04,676 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:13 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:27:04,746 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:27:08,573 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:27:09,357 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:27:09,357 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:27:09,390 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:27:09,390 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:27:09,390 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:27:09,390 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:27:09,390 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:15
+2021-11-06 10:27:09,390 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(15:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：15
+2021-11-06 10:27:09,392 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:13
+2021-11-06 10:27:09,393 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：13
+2021-11-06 10:27:09,394 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:27:09,786 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:27:09,786 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:27:09,794 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:27:09,794 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:29:14,953 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:29:14,953 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:29:14,987 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:15
+2021-11-06 10:29:14,987 [ 1] INFO  Unity: RemoveCharacter:15
+2021-11-06 10:29:14,987 [ 1] INFO  Unity: RemoveCharacter:13
+2021-11-06 10:29:14,987 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:15 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:29:14,987 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:13 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:29:15,060 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:29:30,086 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:29:40,551 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:29:41,651 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:29:41,651 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:29:41,684 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:29:41,684 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:29:41,684 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:30:43,350 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:30:43,350 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:16
+2021-11-06 10:30:43,350 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(16:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：16
+2021-11-06 10:30:43,353 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:13
+2021-11-06 10:30:43,353 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(13:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：13
+2021-11-06 10:30:43,354 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:30:43,759 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:30:43,759 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:30:43,766 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:30:43,767 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:30:58,783 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:13
+2021-11-06 10:30:58,783 [ 1] INFO  Unity: RemoveCharacter:13
+2021-11-06 10:30:58,783 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:13 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:31:11,052 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,36),dir:(100,0,0),spd:0
 
-2021-11-05 20:50:06,093 [ 1] INFO  Unity: Character_1_test OnDestroy :ID:10 POS:(5195, 3995, 820) DIR:(57, -82, 0) SPD:0 
-2021-11-05 20:50:06,093 [ 1] INFO  Unity: Character_2_试试 OnDestroy :ID:12 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:31:11,052 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,494),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:14,619 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-71),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:14,619 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-511),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:14,619 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-621),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:14,619 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-736),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,799 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-854),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,799 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-406),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,799 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-305),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,816 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-1339),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,816 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-978),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,816 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-1550),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,816 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-1237),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,833 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-2120),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,833 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-1659),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,849 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-1770),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,849 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-2242),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,849 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3022),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,849 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-2752),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,849 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-2621),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,866 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-2886),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,866 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3841),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,866 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3942),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,866 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3446),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,866 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3592),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-3740),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-4683),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-4794),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-4359),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5017),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5131),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5246),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-4574),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5478),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,884 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5596),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,899 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5715),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,899 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-5835),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,899 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6327),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,899 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6452),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,900 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6579),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,900 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-7096),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,915 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6079),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,916 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6202),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,916 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-6835),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,932 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-7768),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,932 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-7496),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,932 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-8044),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,933 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-7632),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,933 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-7906),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,933 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-9046),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,933 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-9194),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,933 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-9342),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,949 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-8325),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,949 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-8184),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,949 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-9794),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,949 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-8610),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,949 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-8900),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,965 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-10413),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,965 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-9947),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,981 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-10888),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,981 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-11702),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,981 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-11868),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,981 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12035),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,981 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-10728),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,998 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12373),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,998 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12543),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,998 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-13061),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,998 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12203),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:20,998 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-13589),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,015 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12715),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,016 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-12887),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,016 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-14490),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,016 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-14308),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,031 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-13946),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,031 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-14126),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,031 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-14674),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,048 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-15798),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,048 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-16375),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,048 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-16182),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,048 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-16570),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,048 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-17359),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-16765),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-17962),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-16962),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-18678),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-18885),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,065 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-18575),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,082 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-18165),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,082 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-18370),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,082 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-19303),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,082 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-19513),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,098 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-20151),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,098 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-20799),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,098 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-22123),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,098 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-22574),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,098 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-21236),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,099 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-21456),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,099 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-23488),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-23719),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-23951),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-21900),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-24419),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-24654),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,115 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-23028),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,116 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-25129),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,116 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-24184),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,116 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-25849),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,131 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-26091),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-25368),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-26578),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-27070),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-27567),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-27816),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-28067),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,132 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-24891),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,149 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-26824),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,149 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-27318),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,149 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-28319),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,149 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-28572),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-29338),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-29854),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-30899),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-30374),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-30636),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,166 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-31962),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-32500),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-33042),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-31163),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-33863),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-32770),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,182 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-31428),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,198 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-31694),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-32230),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-35395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-34001),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-35961),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-34834),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-35677),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-36245),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-37393),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-36530),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-37104),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-38852),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-39148),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-39444),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-37683),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-40339),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-40640),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-40942),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-37973),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,233 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-41549),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-41854),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-38558),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-43395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-44020),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-44333),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-43707),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,249 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-42160),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-42467),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-45919),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-44648),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-44964),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-47207),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,265 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-45600),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-48513),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-46561),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-46883),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-49503),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-47532),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-48185),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,282 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-50504),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,301 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-51176),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,301 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-49172),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,301 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-52877),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,301 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-50839),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-52193),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-54083),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-53392),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-55128),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-55830),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,316 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-54430),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,331 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-54779),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,331 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-55478),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,332 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-57604),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,348 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-59043),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,348 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-59769),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,348 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-58322),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,348 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-58682),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,348 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-60134),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-62345),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-63091),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-61235),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-61974),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-64218),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,365 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-64975),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,381 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-65355),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-62718),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-66501),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-64596),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-66118),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-66886),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,382 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-69215),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,398 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-69607),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,398 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-67658),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,398 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,398 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-68046),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,398 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,416 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70000),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,416 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,416 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,432 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,449 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,466 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,466 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,466 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,482 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,482 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,482 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,482 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,498 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,499 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,499 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,499 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,499 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,515 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,532 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,532 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,532 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,532 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,565 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,581 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,582 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,598 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,615 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,631 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,632 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,632 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,649 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,649 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,650 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,650 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,665 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,665 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,665 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,665 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,665 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,682 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,699 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,715 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,731 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:31:21,748 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [13]evt:None entity:(13:pos:(5000,4000,-70395),dir:(100,0,0),spd:0
+
+2021-11-06 10:32:03,964 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-06 10:32:03,964 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:17
+2021-11-06 10:32:03,964 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(17:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：17
+2021-11-06 10:36:52,272 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:36:52,272 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:36:52,304 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:16
+2021-11-06 10:36:52,304 [ 1] INFO  Unity: RemoveCharacter:16
+2021-11-06 10:36:52,304 [ 1] INFO  Unity: RemoveCharacter:17
+2021-11-06 10:36:52,305 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:16 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:36:52,305 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:17 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:36:52,377 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:36:57,537 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:37:01,903 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:37:02,838 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:37:02,838 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:37:02,870 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:37:02,870 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:37:02,870 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:37:04,554 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:37:04,554 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:18
+2021-11-06 10:37:04,554 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(18:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：18
+2021-11-06 10:37:04,556 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:17
+2021-11-06 10:37:04,556 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(17:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：17
+2021-11-06 10:37:04,557 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:37:04,963 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:37:04,963 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:37:04,970 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:37:04,970 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:37:11,074 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:17
+2021-11-06 10:37:11,074 [ 1] INFO  Unity: RemoveCharacter:17
+2021-11-06 10:37:11,074 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:17 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:37:12,821 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [17]evt:None entity:(17:pos:(5000,4000,712),dir:(100,0,0),spd:0
+
+2021-11-06 10:37:14,270 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [17]evt:None entity:(17:pos:(5000,4000,-208),dir:(100,0,0),spd:0
+
+2021-11-06 10:37:14,270 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [17]evt:None entity:(17:pos:(5000,4000,-329),dir:(100,0,0),spd:0
+
+2021-11-06 10:37:30,587 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-06 10:37:30,587 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
+2021-11-06 10:37:30,587 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：19
+2021-11-06 10:38:31,301 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:38:31,302 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:38:31,336 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:18
+2021-11-06 10:38:31,336 [ 1] INFO  Unity: RemoveCharacter:18
+2021-11-06 10:38:31,336 [ 1] INFO  Unity: RemoveCharacter:19
+2021-11-06 10:38:31,339 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:18 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:38:31,339 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:19 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:38:31,408 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:38:32,351 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:38:33,400 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:38:33,400 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:38:34,834 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:38:34,835 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:38:38,154 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:21
+2021-11-06 10:38:38,154 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(21:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：21
+2021-11-06 10:38:38,156 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
+2021-11-06 10:38:38,156 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：19
+2021-11-06 10:38:38,158 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:38:38,637 [ 1] INFO  Unity: SetPostion:(5000, 4000, 701)
+2021-11-06 10:38:38,638 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,701) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:38:38,639 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:38:38,640 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:38:38,649 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:38:38,649 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:38:38,674 [ 1] INFO  Unity: SetPostion:(5000, 4000, 802)
+2021-11-06 10:38:38,674 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,802) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:00,747 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:41:00,747 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:41:00,852 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:41:01,313 [ 1] INFO  Unity: SetPostion:(5000, 4000, 700)
+2021-11-06 10:41:01,313 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,700) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:01,496 [ 1] INFO  Unity: SetPostion:(5000, 4000, 598)
+2021-11-06 10:41:01,497 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,598) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:01,646 [ 1] INFO  Unity: SetPostion:(5000, 4000, 490)
+2021-11-06 10:41:01,646 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,490) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:01,780 [ 1] INFO  Unity: SetPostion:(5000, 4000, 375)
+2021-11-06 10:41:01,780 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,375) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:01,896 [ 1] INFO  Unity: SetPostion:(5000, 4000, 260)
+2021-11-06 10:41:01,896 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,260) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:01,996 [ 1] INFO  Unity: SetPostion:(5000, 4000, 151)
+2021-11-06 10:41:01,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,151) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,097 [ 1] INFO  Unity: SetPostion:(5000, 4000, 32)
+2021-11-06 10:41:02,097 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,32) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,179 [ 1] INFO  Unity: SetPostion:(5000, 4000, -75)
+2021-11-06 10:41:02,179 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-75) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,262 [ 1] INFO  Unity: SetPostion:(5000, 4000, -189)
+2021-11-06 10:41:02,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-189) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,345 [ 1] INFO  Unity: SetPostion:(5000, 4000, -309)
+2021-11-06 10:41:02,345 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-309) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,412 [ 1] INFO  Unity: SetPostion:(5000, 4000, -410)
+2021-11-06 10:41:02,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-410) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,430 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:41:02,479 [ 1] INFO  Unity: SetPostion:(5000, 4000, -516)
+2021-11-06 10:41:02,479 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-516) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,546 [ 1] INFO  Unity: SetPostion:(5000, 4000, -626)
+2021-11-06 10:41:02,546 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-626) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,613 [ 1] INFO  Unity: SetPostion:(5000, 4000, -740)
+2021-11-06 10:41:02,613 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-740) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,680 [ 1] INFO  Unity: SetPostion:(5000, 4000, -859)
+2021-11-06 10:41:02,680 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-859) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,746 [ 1] INFO  Unity: SetPostion:(5000, 4000, -982)
+2021-11-06 10:41:02,746 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-982) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,812 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1109)
+2021-11-06 10:41:02,812 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1109) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,879 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1241)
+2021-11-06 10:41:02,879 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1241) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,929 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1343)
+2021-11-06 10:41:02,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1343) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:02,979 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1447)
+2021-11-06 10:41:02,979 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1447) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1554)
+2021-11-06 10:41:03,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1554) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,079 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1663)
+2021-11-06 10:41:03,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1663) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1775)
+2021-11-06 10:41:03,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1775) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,180 [ 1] INFO  Unity: SetPostion:(5000, 4000, -1889)
+2021-11-06 10:41:03,180 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-1889) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,231 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2005)
+2021-11-06 10:41:03,232 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2005) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,279 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2124)
+2021-11-06 10:41:03,280 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2124) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2246)
+2021-11-06 10:41:03,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2246) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,379 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2370)
+2021-11-06 10:41:03,379 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2370) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,429 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2496)
+2021-11-06 10:41:03,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2496) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,479 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2625)
+2021-11-06 10:41:03,479 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2625) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2756)
+2021-11-06 10:41:03,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2756) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,546 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:41:03,546 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:41:03,579 [ 1] INFO  Unity: SetPostion:(5000, 4000, -2890)
+2021-11-06 10:41:03,579 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-2890) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,628 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3026)
+2021-11-06 10:41:03,628 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3026) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,679 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3165)
+2021-11-06 10:41:03,679 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3165) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,729 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3306)
+2021-11-06 10:41:03,729 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3306) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,779 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3450)
+2021-11-06 10:41:03,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3450) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,829 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3596)
+2021-11-06 10:41:03,829 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3596) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,878 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3745)
+2021-11-06 10:41:03,878 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3745) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,928 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3896)
+2021-11-06 10:41:03,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3896) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,962 [ 1] INFO  Unity: SetPostion:(5000, 4000, -3998)
+2021-11-06 10:41:03,962 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-3998) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:03,996 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4101)
+2021-11-06 10:41:03,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4101) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,030 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4205)
+2021-11-06 10:41:04,031 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4205) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,062 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4310)
+2021-11-06 10:41:04,063 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4310) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,096 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4417)
+2021-11-06 10:41:04,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4417) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4524)
+2021-11-06 10:41:04,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4524) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,163 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4633)
+2021-11-06 10:41:04,163 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4633) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,196 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4743)
+2021-11-06 10:41:04,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4743) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,229 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4854)
+2021-11-06 10:41:04,230 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4854) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,263 [ 1] INFO  Unity: SetPostion:(5000, 4000, -4965)
+2021-11-06 10:41:04,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-4965) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,295 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5078)
+2021-11-06 10:41:04,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5078) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5193)
+2021-11-06 10:41:04,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5193) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,362 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5308)
+2021-11-06 10:41:04,362 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5308) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,396 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5424)
+2021-11-06 10:41:04,396 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5424) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,429 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5541)
+2021-11-06 10:41:04,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5541) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,462 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5660)
+2021-11-06 10:41:04,462 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5660) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,495 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5779)
+2021-11-06 10:41:04,495 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5779) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -5900)
+2021-11-06 10:41:04,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-5900) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6022)
+2021-11-06 10:41:04,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6022) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,595 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6145)
+2021-11-06 10:41:04,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6145) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,629 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6269)
+2021-11-06 10:41:04,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6269) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,662 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6394)
+2021-11-06 10:41:04,662 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6394) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,696 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6520)
+2021-11-06 10:41:04,696 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6520) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,728 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6647)
+2021-11-06 10:41:04,728 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6647) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,762 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6775)
+2021-11-06 10:41:04,762 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6775) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,795 [ 1] INFO  Unity: SetPostion:(5000, 4000, -6905)
+2021-11-06 10:41:04,795 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-6905) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,829 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7035)
+2021-11-06 10:41:04,829 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7035) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,862 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7167)
+2021-11-06 10:41:04,862 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7167) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,896 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7299)
+2021-11-06 10:41:04,896 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7299) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,929 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7433)
+2021-11-06 10:41:04,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7433) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,963 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7568)
+2021-11-06 10:41:04,963 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7568) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:04,996 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7704)
+2021-11-06 10:41:04,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7704) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7841)
+2021-11-06 10:41:05,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7841) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,063 [ 1] INFO  Unity: SetPostion:(5000, 4000, -7979)
+2021-11-06 10:41:05,063 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-7979) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,096 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8119)
+2021-11-06 10:41:05,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8119) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8259)
+2021-11-06 10:41:05,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8259) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,162 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8400)
+2021-11-06 10:41:05,162 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8400) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,195 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8543)
+2021-11-06 10:41:05,195 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8543) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,228 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8687)
+2021-11-06 10:41:05,229 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8687) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,263 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8831)
+2021-11-06 10:41:05,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8831) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,296 [ 1] INFO  Unity: SetPostion:(5000, 4000, -8977)
+2021-11-06 10:41:05,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-8977) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9124)
+2021-11-06 10:41:05,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9124) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,362 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9272)
+2021-11-06 10:41:05,362 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9272) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,395 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9421)
+2021-11-06 10:41:05,395 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9421) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,429 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9571)
+2021-11-06 10:41:05,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9571) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,463 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9723)
+2021-11-06 10:41:05,463 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9723) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,497 [ 1] INFO  Unity: SetPostion:(5000, 4000, -9875)
+2021-11-06 10:41:05,497 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-9875) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10029)
+2021-11-06 10:41:05,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10029) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10183)
+2021-11-06 10:41:05,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10183) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,595 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10339)
+2021-11-06 10:41:05,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10339) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,628 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10496)
+2021-11-06 10:41:05,628 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10496) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,662 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10653)
+2021-11-06 10:41:05,662 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10653) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,695 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10812)
+2021-11-06 10:41:05,695 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10812) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,729 [ 1] INFO  Unity: SetPostion:(5000, 4000, -10972)
+2021-11-06 10:41:05,729 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-10972) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,762 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11134)
+2021-11-06 10:41:05,762 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11134) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,796 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11296)
+2021-11-06 10:41:05,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11296) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,829 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11459)
+2021-11-06 10:41:05,829 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11459) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,862 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11624)
+2021-11-06 10:41:05,863 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11624) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,896 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11789)
+2021-11-06 10:41:05,896 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11789) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,930 [ 1] INFO  Unity: SetPostion:(5000, 4000, -11956)
+2021-11-06 10:41:05,930 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-11956) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,962 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12123)
+2021-11-06 10:41:05,962 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12123) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:05,995 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12292)
+2021-11-06 10:41:05,995 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12292) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12462)
+2021-11-06 10:41:06,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12462) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,062 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12633)
+2021-11-06 10:41:06,062 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12633) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,095 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12805)
+2021-11-06 10:41:06,095 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12805) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -12978)
+2021-11-06 10:41:06,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-12978) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,162 [ 1] INFO  Unity: SetPostion:(5000, 4000, -13153)
+2021-11-06 10:41:06,162 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-13153) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,196 [ 1] INFO  Unity: SetPostion:(5000, 4000, -13328)
+2021-11-06 10:41:06,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-13328) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,230 [ 1] INFO  Unity: SetPostion:(5000, 4000, -13504)
+2021-11-06 10:41:06,230 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-13504) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,263 [ 1] INFO  Unity: SetPostion:(5000, 4000, -13682)
+2021-11-06 10:41:06,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-13682) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,296 [ 1] INFO  Unity: SetPostion:(5000, 4000, -13861)
+2021-11-06 10:41:06,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-13861) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14040)
+2021-11-06 10:41:06,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14040) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,362 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14221)
+2021-11-06 10:41:06,362 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14221) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,400 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14403)
+2021-11-06 10:41:06,400 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14403) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,430 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14586)
+2021-11-06 10:41:06,430 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14586) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,463 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14770)
+2021-11-06 10:41:06,463 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14770) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,497 [ 1] INFO  Unity: SetPostion:(5000, 4000, -14956)
+2021-11-06 10:41:06,497 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-14956) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,528 [ 1] INFO  Unity: SetPostion:(5000, 4000, -15142)
+2021-11-06 10:41:06,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-15142) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -15329)
+2021-11-06 10:41:06,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-15329) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,597 [ 1] INFO  Unity: SetPostion:(5000, 4000, -15518)
+2021-11-06 10:41:06,597 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-15518) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,629 [ 1] INFO  Unity: SetPostion:(5000, 4000, -15707)
+2021-11-06 10:41:06,630 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-15707) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,663 [ 1] INFO  Unity: SetPostion:(5000, 4000, -15898)
+2021-11-06 10:41:06,663 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-15898) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,698 [ 1] INFO  Unity: SetPostion:(5000, 4000, -16090)
+2021-11-06 10:41:06,698 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-16090) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,732 [ 1] INFO  Unity: SetPostion:(5000, 4000, -16283)
+2021-11-06 10:41:06,732 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-16283) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,763 [ 1] INFO  Unity: SetPostion:(5000, 4000, -16477)
+2021-11-06 10:41:06,763 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-16477) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,796 [ 1] INFO  Unity: SetPostion:(5000, 4000, -16672)
+2021-11-06 10:41:06,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-16672) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,846 [ 1] INFO  Unity: SetPostion:(5000, 4000, -16868)
+2021-11-06 10:41:06,846 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-16868) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,879 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17065)
+2021-11-06 10:41:06,879 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17065) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,904 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17264)
+2021-11-06 10:41:06,904 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17264) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,939 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17463)
+2021-11-06 10:41:06,940 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17463) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:06,979 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17664)
+2021-11-06 10:41:06,979 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17664) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,012 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17865)
+2021-11-06 10:41:07,012 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17865) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -17966)
+2021-11-06 10:41:07,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-17966) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,045 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18068)
+2021-11-06 10:41:07,045 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18068) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,062 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18170)
+2021-11-06 10:41:07,062 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18170) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,079 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18272)
+2021-11-06 10:41:07,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18272) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,096 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18374)
+2021-11-06 10:41:07,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18374) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,113 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18477)
+2021-11-06 10:41:07,113 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18477) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18580)
+2021-11-06 10:41:07,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18580) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,146 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18683)
+2021-11-06 10:41:07,146 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18683) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,161 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18786)
+2021-11-06 10:41:07,161 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18786) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,179 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18890)
+2021-11-06 10:41:07,179 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18890) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,195 [ 1] INFO  Unity: SetPostion:(5000, 4000, -18994)
+2021-11-06 10:41:07,195 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-18994) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,212 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19098)
+2021-11-06 10:41:07,212 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19098) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,229 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19203)
+2021-11-06 10:41:07,229 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19203) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,247 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19307)
+2021-11-06 10:41:07,247 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19307) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,262 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19412)
+2021-11-06 10:41:07,262 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19412) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,278 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19518)
+2021-11-06 10:41:07,278 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19518) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,295 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19623)
+2021-11-06 10:41:07,295 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19623) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,313 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19729)
+2021-11-06 10:41:07,313 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19729) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -19835)
+2021-11-06 10:41:07,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-19835) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,348 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20049)
+2021-11-06 10:41:07,348 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20049) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,379 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20155)
+2021-11-06 10:41:07,379 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20155) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,396 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20263)
+2021-11-06 10:41:07,396 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20263) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,412 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20370)
+2021-11-06 10:41:07,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20370) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,430 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20478)
+2021-11-06 10:41:07,430 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20478) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,446 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20586)
+2021-11-06 10:41:07,446 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20586) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,462 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20694)
+2021-11-06 10:41:07,462 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20694) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,480 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20803)
+2021-11-06 10:41:07,480 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20803) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,496 [ 1] INFO  Unity: SetPostion:(5000, 4000, -20912)
+2021-11-06 10:41:07,496 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-20912) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,512 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21021)
+2021-11-06 10:41:07,512 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21021) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21131)
+2021-11-06 10:41:07,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21131) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,545 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21240)
+2021-11-06 10:41:07,545 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21240) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21350)
+2021-11-06 10:41:07,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21350) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,579 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21461)
+2021-11-06 10:41:07,579 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21461) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,595 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21571)
+2021-11-06 10:41:07,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21571) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,612 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21682)
+2021-11-06 10:41:07,612 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21682) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,629 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21793)
+2021-11-06 10:41:07,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21793) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,645 [ 1] INFO  Unity: SetPostion:(5000, 4000, -21904)
+2021-11-06 10:41:07,645 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-21904) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,662 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22016)
+2021-11-06 10:41:07,662 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22016) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,679 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22128)
+2021-11-06 10:41:07,679 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22128) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,696 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22240)
+2021-11-06 10:41:07,696 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22240) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,712 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22352)
+2021-11-06 10:41:07,712 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22352) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,736 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22578)
+2021-11-06 10:41:07,736 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22578) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,749 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22691)
+2021-11-06 10:41:07,749 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22691) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,779 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22805)
+2021-11-06 10:41:07,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22805) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,796 [ 1] INFO  Unity: SetPostion:(5000, 4000, -22919)
+2021-11-06 10:41:07,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-22919) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,812 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23033)
+2021-11-06 10:41:07,812 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23033) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,829 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23147)
+2021-11-06 10:41:07,829 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23147) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,846 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23262)
+2021-11-06 10:41:07,846 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23262) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,861 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23377)
+2021-11-06 10:41:07,861 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23377) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,878 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23492)
+2021-11-06 10:41:07,878 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23492) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,895 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23607)
+2021-11-06 10:41:07,895 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23607) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,911 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23723)
+2021-11-06 10:41:07,912 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23723) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,928 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23839)
+2021-11-06 10:41:07,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23839) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,945 [ 1] INFO  Unity: SetPostion:(5000, 4000, -23955)
+2021-11-06 10:41:07,945 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-23955) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,962 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24072)
+2021-11-06 10:41:07,962 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24072) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,978 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24189)
+2021-11-06 10:41:07,978 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24189) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:07,995 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24306)
+2021-11-06 10:41:07,995 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24306) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,012 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24423)
+2021-11-06 10:41:08,012 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24423) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,030 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24541)
+2021-11-06 10:41:08,030 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24541) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,045 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24659)
+2021-11-06 10:41:08,045 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24659) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,062 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24777)
+2021-11-06 10:41:08,062 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24777) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,078 [ 1] INFO  Unity: SetPostion:(5000, 4000, -24895)
+2021-11-06 10:41:08,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-24895) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,095 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25014)
+2021-11-06 10:41:08,095 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25014) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,112 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25133)
+2021-11-06 10:41:08,112 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25133) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25252)
+2021-11-06 10:41:08,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25252) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,145 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25372)
+2021-11-06 10:41:08,145 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25372) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,162 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25492)
+2021-11-06 10:41:08,162 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25492) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,179 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25612)
+2021-11-06 10:41:08,179 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25612) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,195 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25732)
+2021-11-06 10:41:08,195 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25732) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,213 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25853)
+2021-11-06 10:41:08,213 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25853) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,229 [ 1] INFO  Unity: SetPostion:(5000, 4000, -25974)
+2021-11-06 10:41:08,229 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-25974) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,245 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26095)
+2021-11-06 10:41:08,245 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26095) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,262 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26217)
+2021-11-06 10:41:08,262 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26217) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,279 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26338)
+2021-11-06 10:41:08,279 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26338) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,296 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26460)
+2021-11-06 10:41:08,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26460) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,312 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26583)
+2021-11-06 10:41:08,312 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26583) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26705)
+2021-11-06 10:41:08,330 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26705) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,346 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26828)
+2021-11-06 10:41:08,347 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26828) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,362 [ 1] INFO  Unity: SetPostion:(5000, 4000, -26951)
+2021-11-06 10:41:08,362 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-26951) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,379 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27075)
+2021-11-06 10:41:08,379 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27075) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,395 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27198)
+2021-11-06 10:41:08,395 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27198) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,412 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27322)
+2021-11-06 10:41:08,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27322) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,429 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27446)
+2021-11-06 10:41:08,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27446) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,445 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27571)
+2021-11-06 10:41:08,445 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27571) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,462 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27696)
+2021-11-06 10:41:08,462 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27696) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,478 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27821)
+2021-11-06 10:41:08,480 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27821) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,495 [ 1] INFO  Unity: SetPostion:(5000, 4000, -27946)
+2021-11-06 10:41:08,495 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-27946) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,512 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28072)
+2021-11-06 10:41:08,512 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28072) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28197)
+2021-11-06 10:41:08,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28197) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,547 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28324)
+2021-11-06 10:41:08,547 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28324) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28450)
+2021-11-06 10:41:08,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28450) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,579 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28577)
+2021-11-06 10:41:08,579 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28577) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,596 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28704)
+2021-11-06 10:41:08,596 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28704) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,612 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28831)
+2021-11-06 10:41:08,612 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28831) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,628 [ 1] INFO  Unity: SetPostion:(5000, 4000, -28958)
+2021-11-06 10:41:08,628 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-28958) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,648 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29086)
+2021-11-06 10:41:08,649 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29086) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,664 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29214)
+2021-11-06 10:41:08,664 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29214) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,678 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29342)
+2021-11-06 10:41:08,679 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29342) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,695 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29471)
+2021-11-06 10:41:08,695 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29471) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,712 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29600)
+2021-11-06 10:41:08,712 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29600) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,728 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29729)
+2021-11-06 10:41:08,728 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29729) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,745 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29858)
+2021-11-06 10:41:08,745 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29858) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,762 [ 1] INFO  Unity: SetPostion:(5000, 4000, -29988)
+2021-11-06 10:41:08,762 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-29988) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,779 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30118)
+2021-11-06 10:41:08,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30118) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,795 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30248)
+2021-11-06 10:41:08,796 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30248) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,812 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30379)
+2021-11-06 10:41:08,812 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30379) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,829 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30510)
+2021-11-06 10:41:08,829 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30510) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,845 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30641)
+2021-11-06 10:41:08,845 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30641) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,862 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30772)
+2021-11-06 10:41:08,862 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30772) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,879 [ 1] INFO  Unity: SetPostion:(5000, 4000, -30903)
+2021-11-06 10:41:08,879 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-30903) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,896 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31035)
+2021-11-06 10:41:08,896 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31035) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,913 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31168)
+2021-11-06 10:41:08,913 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31168) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,929 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31300)
+2021-11-06 10:41:08,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31300) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,946 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31433)
+2021-11-06 10:41:08,946 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31433) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,962 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31566)
+2021-11-06 10:41:08,962 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31566) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,978 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31699)
+2021-11-06 10:41:08,978 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31699) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:08,996 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31832)
+2021-11-06 10:41:08,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31832) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,013 [ 1] INFO  Unity: SetPostion:(5000, 4000, -31966)
+2021-11-06 10:41:09,013 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-31966) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32100)
+2021-11-06 10:41:09,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32100) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,046 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32235)
+2021-11-06 10:41:09,046 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32235) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,061 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32369)
+2021-11-06 10:41:09,062 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32369) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,079 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32504)
+2021-11-06 10:41:09,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32504) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,096 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32639)
+2021-11-06 10:41:09,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32639) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,113 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32775)
+2021-11-06 10:41:09,113 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32775) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -32910)
+2021-11-06 10:41:09,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-32910) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,146 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33046)
+2021-11-06 10:41:09,146 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33046) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,162 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33182)
+2021-11-06 10:41:09,162 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33182) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,179 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33319)
+2021-11-06 10:41:09,179 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33319) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,196 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33456)
+2021-11-06 10:41:09,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33456) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,212 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33593)
+2021-11-06 10:41:09,213 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33593) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,229 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33730)
+2021-11-06 10:41:09,229 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33730) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,246 [ 1] INFO  Unity: SetPostion:(5000, 4000, -33868)
+2021-11-06 10:41:09,246 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-33868) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,262 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34006)
+2021-11-06 10:41:09,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34006) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,279 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34144)
+2021-11-06 10:41:09,279 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34144) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,296 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34282)
+2021-11-06 10:41:09,296 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34282) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,313 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34421)
+2021-11-06 10:41:09,313 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34421) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34560)
+2021-11-06 10:41:09,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34560) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,346 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34699)
+2021-11-06 10:41:09,346 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34699) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,363 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34839)
+2021-11-06 10:41:09,363 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34839) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,381 [ 1] INFO  Unity: SetPostion:(5000, 4000, -34979)
+2021-11-06 10:41:09,381 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-34979) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,397 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35119)
+2021-11-06 10:41:09,397 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35119) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,414 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35259)
+2021-11-06 10:41:09,414 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35259) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,430 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35400)
+2021-11-06 10:41:09,430 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35400) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,445 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35541)
+2021-11-06 10:41:09,445 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35541) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,461 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35682)
+2021-11-06 10:41:09,462 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35682) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,480 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35823)
+2021-11-06 10:41:09,480 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35823) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,496 [ 1] INFO  Unity: SetPostion:(5000, 4000, -35965)
+2021-11-06 10:41:09,497 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-35965) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,512 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36107)
+2021-11-06 10:41:09,512 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36107) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36249)
+2021-11-06 10:41:09,530 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36249) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,546 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36392)
+2021-11-06 10:41:09,546 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36392) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,562 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36535)
+2021-11-06 10:41:09,562 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36535) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,580 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36678)
+2021-11-06 10:41:09,580 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36678) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,596 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36821)
+2021-11-06 10:41:09,596 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36821) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,613 [ 1] INFO  Unity: SetPostion:(5000, 4000, -36965)
+2021-11-06 10:41:09,613 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-36965) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,629 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37109)
+2021-11-06 10:41:09,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37109) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,647 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37253)
+2021-11-06 10:41:09,648 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37253) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,663 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37397)
+2021-11-06 10:41:09,663 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37397) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,680 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37542)
+2021-11-06 10:41:09,680 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37542) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,696 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37687)
+2021-11-06 10:41:09,696 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37687) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,713 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37832)
+2021-11-06 10:41:09,713 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37832) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,729 [ 1] INFO  Unity: SetPostion:(5000, 4000, -37978)
+2021-11-06 10:41:09,729 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-37978) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,746 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38124)
+2021-11-06 10:41:09,746 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38124) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,763 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38270)
+2021-11-06 10:41:09,763 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38270) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,779 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38416)
+2021-11-06 10:41:09,779 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38416) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,795 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38563)
+2021-11-06 10:41:09,795 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38563) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,811 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38710)
+2021-11-06 10:41:09,811 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38710) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,828 [ 1] INFO  Unity: SetPostion:(5000, 4000, -38857)
+2021-11-06 10:41:09,828 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-38857) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,845 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39004)
+2021-11-06 10:41:09,845 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39004) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,862 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39152)
+2021-11-06 10:41:09,862 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39152) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,878 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39300)
+2021-11-06 10:41:09,878 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39300) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,895 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39448)
+2021-11-06 10:41:09,895 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39448) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,912 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39597)
+2021-11-06 10:41:09,912 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39597) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,929 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39746)
+2021-11-06 10:41:09,929 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39746) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,945 [ 1] INFO  Unity: SetPostion:(5000, 4000, -39895)
+2021-11-06 10:41:09,945 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-39895) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,962 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40044)
+2021-11-06 10:41:09,962 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40044) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,979 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40194)
+2021-11-06 10:41:09,979 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40194) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:09,996 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40344)
+2021-11-06 10:41:09,996 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40344) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,012 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40494)
+2021-11-06 10:41:10,012 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40494) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,029 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40644)
+2021-11-06 10:41:10,029 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40644) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,045 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40795)
+2021-11-06 10:41:10,046 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40795) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,062 [ 1] INFO  Unity: SetPostion:(5000, 4000, -40946)
+2021-11-06 10:41:10,062 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-40946) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,079 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41097)
+2021-11-06 10:41:10,079 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41097) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,096 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41249)
+2021-11-06 10:41:10,096 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41249) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,113 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41401)
+2021-11-06 10:41:10,113 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41401) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,129 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41553)
+2021-11-06 10:41:10,129 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41553) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,146 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41705)
+2021-11-06 10:41:10,146 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41705) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,163 [ 1] INFO  Unity: SetPostion:(5000, 4000, -41858)
+2021-11-06 10:41:10,163 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-41858) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,178 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42011)
+2021-11-06 10:41:10,178 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42011) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,196 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42164)
+2021-11-06 10:41:10,196 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42164) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,212 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42318)
+2021-11-06 10:41:10,212 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42318) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,229 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42471)
+2021-11-06 10:41:10,229 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42471) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,246 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42625)
+2021-11-06 10:41:10,246 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42625) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,263 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42780)
+2021-11-06 10:41:10,263 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42780) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,279 [ 1] INFO  Unity: SetPostion:(5000, 4000, -42934)
+2021-11-06 10:41:10,279 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-42934) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,295 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43089)
+2021-11-06 10:41:10,295 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43089) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,312 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43244)
+2021-11-06 10:41:10,312 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43244) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,329 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43400)
+2021-11-06 10:41:10,329 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43400) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,345 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43555)
+2021-11-06 10:41:10,345 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43555) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,362 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43711)
+2021-11-06 10:41:10,362 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43711) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,378 [ 1] INFO  Unity: SetPostion:(5000, 4000, -43868)
+2021-11-06 10:41:10,379 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-43868) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,395 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44024)
+2021-11-06 10:41:10,395 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44024) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,412 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44181)
+2021-11-06 10:41:10,412 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44181) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,429 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44338)
+2021-11-06 10:41:10,429 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44338) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,445 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44495)
+2021-11-06 10:41:10,445 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44495) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,462 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44653)
+2021-11-06 10:41:10,462 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44653) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,478 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44811)
+2021-11-06 10:41:10,479 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44811) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,495 [ 1] INFO  Unity: SetPostion:(5000, 4000, -44969)
+2021-11-06 10:41:10,495 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-44969) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,512 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45127)
+2021-11-06 10:41:10,512 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45127) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,529 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45286)
+2021-11-06 10:41:10,529 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45286) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,546 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45445)
+2021-11-06 10:41:10,546 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45445) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,563 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45604)
+2021-11-06 10:41:10,563 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45604) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,581 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45764)
+2021-11-06 10:41:10,581 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45764) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,595 [ 1] INFO  Unity: SetPostion:(5000, 4000, -45923)
+2021-11-06 10:41:10,595 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-45923) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,613 [ 1] INFO  Unity: SetPostion:(5000, 4000, -46083)
+2021-11-06 10:41:10,614 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-46083) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,629 [ 1] INFO  Unity: SetPostion:(5000, 4000, -46244)
+2021-11-06 10:41:10,629 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:21 POS:(5000,4000,-46244) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:41:10,646 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:41:10,646 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:20
+2021-11-06 10:41:10,646 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(20:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：20
+2021-11-06 10:41:10,646 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
+2021-11-06 10:41:10,646 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：19
+2021-11-06 10:41:10,647 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:21
+2021-11-06 10:41:10,647 [ 1] INFO  Unity: RemoveCharacter:21
+2021-11-06 10:41:10,647 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:20 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:41:27,094 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:41:37,295 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:41:37,295 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:41:37,295 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:41:37,312 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:41:37,312 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:22
+2021-11-06 10:41:37,312 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(22:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：22
+2021-11-06 10:41:37,314 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
+2021-11-06 10:41:37,314 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：19
+2021-11-06 10:41:37,314 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:41:37,378 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5308),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,411 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5193),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,412 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5541),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5424),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-6022),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5779),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,465 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-5900),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,478 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-6145),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,478 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-6269),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,478 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-6775),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,478 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7035),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,494 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7167),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,511 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7568),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,511 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7704),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,511 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7841),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,512 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7979),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,512 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-7433),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8119),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8259),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8543),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8687),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,533 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8831),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,561 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-8400),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,578 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-9272),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,579 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-9875),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,601 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10029),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,601 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10183),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,601 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10339),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,601 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-9571),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,601 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10972),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,611 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-11134),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,611 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-11296),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,611 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-11624),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,634 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10496),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,634 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10653),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,634 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-10812),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,635 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-12123),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,635 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-12292),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,645 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-11956),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,661 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-12462),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,661 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-12805),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,661 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-13328),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,661 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-12978),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-13861),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-14221),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-14586),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-14040),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-14403),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,735 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-15329),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,740 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:41:37,740 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:41:37,751 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:41:37,751 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:41:37,752 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-15707),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,752 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-15898),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,752 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-16283),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,766 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-15518),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,778 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-16090),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,795 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-16868),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,795 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-17065),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,795 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-17264),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,812 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-17664),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,828 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-18683),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,828 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-18890),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-19098),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-19307),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-18477),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,845 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-20370),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,846 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-20586),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,862 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-21021),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,862 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-20155),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,862 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-20803),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,862 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-21904),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,879 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-22128),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,879 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-21461),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,879 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-21682),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-22352),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-23033),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-23262),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-23492),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-22805),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,912 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-23723),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,912 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-24659),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-25133),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-23955),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-24895),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-26338),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-26583),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-25372),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-25612),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,963 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-26095),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,964 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-26828),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,964 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-27322),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,964 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-27571),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,979 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-28072),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,995 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-27821),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:37,996 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-29086),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,013 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-28577),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,013 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-28831),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,029 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-29858),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,029 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-30118),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,029 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-30379),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,045 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-29342),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,045 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-31168),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,045 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-30903),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,062 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-31699),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,062 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-30641),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,080 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-32504),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,097 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-32775),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,114 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-33868),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,131 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-34144),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,131 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-33319),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,184 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-34699),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,214 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-34979),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,230 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-35541),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,246 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-35823),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,263 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-36107),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,279 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-37253),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,296 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-37832),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,296 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-38416),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,296 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-39597),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,312 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-39300),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,330 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-39895),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,345 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-40494),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,365 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-41401),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,365 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-42318),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,379 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-42934),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,397 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-43244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,397 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-44181),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,397 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-44811),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,413 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-44495),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,413 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-45445),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,430 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-45127),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,431 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-45764),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,431 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,446 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,462 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,479 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,479 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,495 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,496 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,496 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,496 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,512 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,529 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,529 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,546 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,563 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,563 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,581 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,581 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,581 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,597 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,613 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,613 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,613 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,629 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,629 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,647 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,647 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,647 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,647 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,697 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,713 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,713 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,713 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,730 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,746 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,746 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,763 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,763 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,763 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,779 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,779 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,798 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,798 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,798 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,813 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,813 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,813 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,829 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,847 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,847 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,863 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,880 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,880 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,896 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,913 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,930 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:38,946 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [21]evt:None entity:(21:pos:(5000,4000,-46244),dir:(100,0,0),spd:0
+
+2021-11-06 10:41:50,711 [ 1] INFO  Unity: MoveForward
+2021-11-06 10:41:50,711 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:22 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
+2021-11-06 10:41:51,195 [ 1] INFO  Unity: Stop
+2021-11-06 10:41:51,195 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:22 POS:(5145,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
+2021-11-06 10:43:02,426 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-06 10:43:02,426 [ 1] INFO  Unity: UserGameLeaveRequest
+2021-11-06 10:43:02,460 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:22
+2021-11-06 10:43:02,460 [ 1] INFO  Unity: RemoveCharacter:22
+2021-11-06 10:43:02,460 [ 1] INFO  Unity: RemoveCharacter:19
+2021-11-06 10:43:02,460 [ 1] INFO  Unity: RemoveCharacter:20
+2021-11-06 10:43:02,461 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2021-11-06 10:43:02,461 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:22 POS:(5145, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:43:02,461 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:19 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:43:02,532 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:43:05,492 [ 1] INFO  Unity: Select Char:[2]test[Warrior]
+2021-11-06 10:43:06,875 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-06 10:43:06,875 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-06 10:43:06,908 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-06 10:43:06,908 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-06 10:43:06,908 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-06 10:43:06,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-11-06 10:43:06,909 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:23
+2021-11-06 10:43:06,909 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(23:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：23
+2021-11-06 10:43:06,911 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
+2021-11-06 10:43:06,911 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：19
+2021-11-06 10:43:06,912 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-06 10:43:07,297 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:43:07,297 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-06 10:43:07,304 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-06 10:43:07,304 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-06 10:44:49,510 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00000] in <filename unknown>:0 
+
+2021-11-06 10:44:49,510 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+
+2021-11-06 10:44:49,523 [ 1] INFO  Unity: DoConnect
+2021-11-06 10:44:49,523 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-06 10:44:49,524 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-11-06 10:44:51,526 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2021-11-06 10:44:51,527 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+
+2021-11-06 10:44:51,537 [ 1] INFO  Unity: DoConnect
+2021-11-06 10:44:51,538 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-06 10:44:51,538 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2021-11-06 10:44:53,541 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2021-11-06 10:44:53,541 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+
+2021-11-06 10:44:55,117 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-11-06 10:44:55,117 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+
+2021-11-06 10:44:55,118 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:23 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-06 10:44:55,118 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:19 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

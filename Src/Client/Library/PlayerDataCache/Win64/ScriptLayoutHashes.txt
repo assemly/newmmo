@@ -97,6 +97,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 80cd80a91802e428900387f0fb1ec355 Assembly-CSharp.dll:.UITeamItem
 1d0db436872d60734773f01c387776b5 Assembly-CSharp.dll:.UITeam
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ListView
+a2d58a8ab1586fc8420eb4a9276ea023 Assembly-CSharp.dll:.UIGuildMemberItem
 1545352dd2acc65892eb3edf930b8279 Assembly-CSharp.dll:.LoadingManager
 f40d1db1322f9e40a50bc447fcb060b2 Assembly-CSharp.dll:.UIShop
 fcfbd14190db7aede8120e5401c00602 Assembly-CSharp.dll:.UIQuestSystem
@@ -129,10 +130,12 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+101ece241a1e1284790e76350f203d10 Assembly-CSharp.dll:.UIGuildList
 73a8e2414e0ce915d77edbae62e3e885 Assembly-CSharp.dll:.EntityController
 1ce907259b21149c7f5ef0c88eb93b55 Assembly-CSharp.dll:.MainPlayerCamera
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UIGuildPopNoGuild
 14cd9da540856e8fe0e1a97ed859b42f Assembly-CSharp.dll:.UIMessageBox
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 22eb2fab613933c9a026a01bdf641e72 Assembly-CSharp.dll:.UIQuestStatus
@@ -151,7 +154,9 @@ a0e740a88c583a306c579fb3f5ba6aef Assembly-CSharp.dll:.GameObjectManager
 7d2fdecc3c34f6dba1ed6ec3a2c2b7d5 Assembly-CSharp.dll:.UIFriends
 56db0660942095cd29bd58773c87eae0 Assembly-CSharp.dll:.UIRegister
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
+3ce8d131f84c6667fe90861af33d45ec Assembly-CSharp.dll:.UIGuildInfo
 d9e224e135d2cf1e143eb9241694bb4c Assembly-CSharp.dll:.TabView
+1bc3e0f036af985547ff445fab421dfe Assembly-CSharp.dll:.UIGuild
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -166,6 +171,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+f1d8d342bafad3b5c344b687e5a6c879 Assembly-CSharp.dll:.UIGuildPopCreate
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -201,6 +207,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 1f67d061567b637ffc47c9aaffe42e71 Assembly-CSharp.dll:.SpawnPoint
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+5a71f0f48b922cf416c74784eba7dc6a Assembly-CSharp.dll:.UIGuildItem
 a28522ff982f10195c1b26906a5c26be Assembly-CSharp.dll:.UIAvatarInfo
 c5011f19d861a23e0c272b8a86168be6 Assembly-CSharp.dll:.UIIconItem
 fcc82568a072a43683db830a8f3547ef Assembly-CSharp.dll:.UICharEquip
@@ -208,10 +215,3 @@ fcc82568a072a43683db830a8f3547ef Assembly-CSharp.dll:.UICharEquip
 046f90afc2b8a3f40167919cbb5a1ade Assembly-CSharp.dll:.UIWorldElement
 81ece8d42ce7dffcf3d9e705d7d4100c Assembly-CSharp.dll:.UIQuestItem
 3149e68b62b82493254e1c995849f227 Assembly-CSharp.dll:.UICharacterView
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UIGuildPopNoGuild
-f1d8d342bafad3b5c344b687e5a6c879 Assembly-CSharp.dll:.UIGuildPopCreate
-3ce8d131f84c6667fe90861af33d45ec Assembly-CSharp.dll:.UIGuildInfo
-101ece241a1e1284790e76350f203d10 Assembly-CSharp.dll:.UIGuildList
-5a71f0f48b922cf416c74784eba7dc6a Assembly-CSharp.dll:.UIGuildItem
-a2d58a8ab1586fc8420eb4a9276ea023 Assembly-CSharp.dll:.UIGuildMemberItem
-1bc3e0f036af985547ff445fab421dfe Assembly-CSharp.dll:.UIGuild
