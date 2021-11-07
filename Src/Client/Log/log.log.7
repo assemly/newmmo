@@ -1,150 +1,107 @@
-2021-11-06 10:16:37,294 [ 1] INFO  Unity: LoadingManager start
-2021-11-06 10:16:40,926 [ 1] INFO  Unity: DataManager > DataManager()
-2021-11-06 10:16:46,813 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-06 10:16:46,821 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-11-06 10:16:46,822 [ 1] INFO  Unity: DoConnect
-2021-11-06 10:16:46,824 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-06 10:16:46,827 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-11-07 10:05:29,379 [ 1] INFO  Unity: LoadingManager start
+2021-11-07 10:05:32,551 [ 1] INFO  Unity: DataManager > DataManager()
+2021-11-07 10:05:41,411 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-11-07 10:05:41,413 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-11-07 10:05:41,414 [ 1] INFO  Unity: DoConnect
+2021-11-07 10:05:41,416 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-07 10:05:41,418 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-11-06 10:16:46,835 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-11-06 10:16:58,227 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-06 10:17:22,810 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
-
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in C:\MMORPG\MMO\Src\Client\Assets\Scripts\Network\NetClient.cs:345 
-
-2021-11-06 10:17:22,811 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:359)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:439)
-
-2021-11-06 10:17:22,820 [ 1] INFO  Unity: DoConnect
-2021-11-06 10:17:22,821 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-06 10:17:22,822 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2021-11-06 10:17:24,829 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:279)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:17:24,830 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:281)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:17:24,862 [ 1] INFO  Unity: DoConnect
-2021-11-06 10:17:24,862 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-06 10:17:24,864 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2021-11-06 10:17:26,885 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:279)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:17:26,886 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:281)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:17:26,911 [ 1] INFO  Unity: DoConnect
-2021-11-06 10:17:26,913 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-06 10:17:26,915 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2021-11-06 10:17:28,553 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-11-06 10:17:42,817 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-06 10:17:43,779 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-11-06 10:17:43,785 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-06 10:17:43,893 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-06 10:17:43,965 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-06 10:17:44,005 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-11-06 10:17:44,007 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-06 10:17:44,198 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-06 10:17:44,217 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-06 10:17:45,131 [ 1] INFO  Unity: Select Char:[1]shuang[Archer]
-2021-11-06 10:17:45,911 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-11-06 10:17:45,912 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-11-06 10:17:46,158 [ 1] INFO  Unity: OnGameEnter:Success
-2021-11-06 10:17:46,167 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2021-11-06 10:17:46,168 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2021-11-06 10:17:46,210 [ 1] INFO  Unity: OnGuild:Success 1：12313啊
-2021-11-06 10:17:46,213 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-11-06 10:17:46,214 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:1
-2021-11-06 10:17:46,219 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：1
-2021-11-06 10:17:46,222 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-11-06 10:17:46,657 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-06 10:17:46,767 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-06 10:17:46,768 [ 1] WARN  Unity: UIMinimap Start -105120
+2021-11-07 10:05:41,421 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-11-07 10:05:42,525 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-11-07 10:05:42,527 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-07 10:05:42,749 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-07 10:05:43,598 [ 1] INFO  Unity: Select Char:[1]shuang[Archer]
+2021-11-07 10:05:44,216 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-07 10:05:44,217 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-07 10:05:44,555 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-07 10:05:44,557 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-07 10:05:44,558 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-07 10:05:44,568 [ 1] INFO  Unity: OnGuild:Success 1：12313啊
+2021-11-07 10:05:44,570 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-07 10:05:44,571 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:1
+2021-11-07 10:05:44,573 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：1
+2021-11-07 10:05:44,575 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-07 10:05:45,179 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-07 10:05:45,297 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-07 10:05:45,297 [ 1] WARN  Unity: UIMinimap Start -26822
 UnityEngine.Debug:LogWarning(Object)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
 
-2021-11-06 10:17:46,770 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-105120] Set
+2021-11-07 10:05:45,298 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-26822] Set
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
 
-2021-11-06 10:17:46,795 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-11-06 10:17:51,139 [ 1] INFO  Unity: MoveForward
-2021-11-06 10:17:51,144 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5000,4000,820) DIR:SkillBridge.Message.NVector3 SPD:300
-2021-11-06 10:17:51,590 [ 1] INFO  Unity: Stop
-2021-11-06 10:17:51,591 [ 1] INFO  Unity: MapEntityUpdateRequest: ID:1 POS:(5135,4000,820) DIR:SkillBridge.Message.NVector3 SPD:0
-2021-11-06 10:18:21,155 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-11-06 10:18:21,157 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 2and EntityID:2
-2021-11-06 10:18:21,158 [ 1] INFO  Unity: AddCharacter:2:test Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID：2
-2021-11-06 10:20:13,168 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
-
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in C:\MMORPG\MMO\Src\Client\Assets\Scripts\Network\NetClient.cs:345 
-
-2021-11-06 10:20:13,169 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:359)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:439)
-
-2021-11-06 10:20:13,183 [ 1] INFO  Unity: DoConnect
-2021-11-06 10:20:13,184 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-06 10:20:13,186 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2021-11-06 10:20:15,203 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:279)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:20:15,204 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:281)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:174)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:320)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:437)
-
-2021-11-06 10:20:15,204 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2021-11-06 10:22:01,285 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:1 POS:(5135, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2021-11-06 10:22:01,285 [ 1] INFO  Unity: Character_2_test OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2021-11-06 10:22:01,290 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-11-06 10:22:01,291 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-11-07 10:05:45,312 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-07 10:05:46,064 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{ArgumentException: An element with the same key already exists in the dictionary., System.Collections.Generic.Dictionary`2[System.Type,UIManager+UIElement].Add (System.Type key, .UIElement value) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:404)
+UIManager..ctor () (at Assets/Scripts/UI/UIManager.cs:30)
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:513)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:519)
+System.Reflection.MonoCMethod.Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:528)
+System.Reflection.ConstructorInfo.Invoke (System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/ConstructorInfo.cs:77)
+System.Activator.CreateInstance (System.Type type, Boolean nonPublic) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:372)
+System.Activator.CreateInstance (System.Type type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:254)
+System.Activator.CreateInstance[UIManager] () (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:248)
+Singleton`1[UIManager].get_Instance () (at Assets/Scripts/Utilities/Singleton.cs:17)
+Managers.GuildManager.ShowGuild () (at Assets/Scripts/Managers/GuildManager.cs:35)
+UIMain.OnClickGuild () (at Assets/Scripts/UI/MainCity/UIMain.cs:75)
+UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
+UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:66)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:108)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2021-11-07 10:05:53,134 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{ArgumentException: An element with the same key already exists in the dictionary., System.Collections.Generic.Dictionary`2[System.Type,UIManager+UIElement].Add (System.Type key, .UIElement value) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:404)
+UIManager..ctor () (at Assets/Scripts/UI/UIManager.cs:30)
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:513)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:519)
+System.Reflection.MonoCMethod.Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:528)
+System.Reflection.ConstructorInfo.Invoke (System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/ConstructorInfo.cs:77)
+System.Activator.CreateInstance (System.Type type, Boolean nonPublic) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:372)
+System.Activator.CreateInstance (System.Type type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:254)
+System.Activator.CreateInstance[UIManager] () (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:248)
+Singleton`1[UIManager].get_Instance () (at Assets/Scripts/Utilities/Singleton.cs:17)
+Managers.GuildManager.ShowGuild () (at Assets/Scripts/Managers/GuildManager.cs:35)
+UIMain.OnClickGuild () (at Assets/Scripts/UI/MainCity/UIMain.cs:75)
+UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
+UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:66)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:108)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2021-11-07 10:06:02,000 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{ArgumentException: An element with the same key already exists in the dictionary., System.Collections.Generic.Dictionary`2[System.Type,UIManager+UIElement].Add (System.Type key, .UIElement value) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:404)
+UIManager..ctor () (at Assets/Scripts/UI/UIManager.cs:30)
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:513)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:519)
+System.Reflection.MonoCMethod.Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:528)
+System.Reflection.ConstructorInfo.Invoke (System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/ConstructorInfo.cs:77)
+System.Activator.CreateInstance (System.Type type, Boolean nonPublic) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:372)
+System.Activator.CreateInstance (System.Type type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:254)
+System.Activator.CreateInstance[UIManager] () (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:248)
+Singleton`1[UIManager].get_Instance () (at Assets/Scripts/Utilities/Singleton.cs:17)
+Managers.GuildManager.ShowGuild () (at Assets/Scripts/Managers/GuildManager.cs:35)
+UIMain.OnClickGuild () (at Assets/Scripts/UI/MainCity/UIMain.cs:75)
+UnityEngine.Events.InvokableCall.Invoke () (at D:/unity/Runtime/Export/UnityEvent.cs:166)
+UnityEngine.Events.UnityEvent.Invoke () (at D:/unity/Runtime/Export/UnityEvent_0.cs:58)
+UnityEngine.UI.Button.Press () (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:66)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:108)
+UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at D:/unity/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update()
+}</args></log4net.Error>
+2021-11-07 10:06:10,742 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-11-07 10:06:10,743 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-11-07 10:06:10,743 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:180)

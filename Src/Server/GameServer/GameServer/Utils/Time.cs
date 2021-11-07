@@ -140,7 +140,7 @@ class TimeUtil
         lastTick = _ticks;
     }
 
-    public static int timestamp
+    public static double timestamp
     {
         get { return GetTimestamp(DateTime.Now); }
     }

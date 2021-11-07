@@ -1,0 +1,404 @@
+
+2021-11-05 20:39:10,334 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-05 20:39:12,239 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-05 20:39:13,033 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-05 20:39:13,364 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-05 20:39:13,553 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-05 20:39:13,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-05 20:39:13,794 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-05 20:39:14,453 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:14,455 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:14,462 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:14,464 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:16,365 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:39,010 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-05 20:39:40,138 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-05 20:39:41,212 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-05 20:39:41,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-05 20:39:41,379 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-05 20:39:41,386 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-05 20:39:43,859 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-05 20:39:43,868 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:43,868 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:43,869 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:43,891 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:44,865 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:45,866 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:46,863 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:47,865 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-05 20:39:47,893 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-05 20:40:48,160 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-05 20:40:48,170 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-05 20:40:48,300 [5] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-05 20:40:48,343 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-05 20:40:48,343 [5] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-05 20:40:48,344 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-05 20:40:48,344 [5] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-05 20:40:48,347 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-05 20:40:48,348 [5] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-05 20:40:48,348 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-05 20:40:48,348 [5] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-05 20:40:48,348 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-05 20:40:48,349 [5] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-05 20:40:48,349 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-05 20:40:48,350 [5] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-05 20:40:48,350 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-05 20:41:34,612 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12703]] Connected
+2021-11-05 20:41:34,697 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-05 20:41:34,851 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:tsing  Pass:123
+2021-11-05 20:41:40,617 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-05 20:41:40,621 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-05 20:41:47,136 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:25
+2021-11-05 20:42:12,125 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-05 20:42:12,134 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:32
+2021-11-05 20:42:13,196 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 29
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-11-05 20:42:13,198 [7] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.MapService.OnMapEntitySync(NetConnection`1 sender, MapEntitySyncRequest request) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\MapService.cs:行号 29
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-11-05 20:42:13,202 [9] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:test  Class:Warrior
+2021-11-05 20:42:13,203 [8] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:test  Class:Warrior
+2021-11-05 20:42:36,344 [9] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, mscorlib,    在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.TrackPromotedRelationship(RelatedEnd relatedEnd, IEntityWrapper wrappedEntity)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddToNavigationProperty(IEntityWrapper wrapper)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddToNavigationPropertyIfCompatible(RelatedEnd otherRelatedEnd)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   在 System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   在 System.Data.Entity.DbSet`1.Add(TEntity entity)
+   在 GameServer.Services.UserService.OnCreateCharacter(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 138
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-11-05 20:42:45,510 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-05 20:42:45,513 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-05 20:42:45,518 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:42:45,526 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-05 20:42:45,527 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:42:48,832 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:42:48,834 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{1, test}</args></log4net.Error>
+2021-11-05 20:42:48,858 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:42:56,617 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:42:56,620 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:-300
+2021-11-05 20:42:57,221 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:42:57,222 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4820,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:42:57,321 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:42:57,322 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(4820,4000,820),dir:(100,0,0),spd:-300
+2021-11-05 20:42:57,552 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:42:57,554 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4750,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:42:57,652 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:42:57,653 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(4750,4000,820),dir:(100,0,0),spd:-300
+2021-11-05 20:42:57,984 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:42:57,985 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4650,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:42:59,961 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:42:59,963 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4650,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:43:00,242 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:43:00,243 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4735,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:43:00,557 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:43:00,558 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4735,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:43:00,861 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:43:00,862 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4825,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:43:01,111 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:43:01,114 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4825,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:43:01,425 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:43:01,426 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(4920,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:43:02,742 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:43:02,744 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4920,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:43:02,850 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:43:02,852 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:None Entity:(9:pos:(4950,4000,820),dir:(98,-20,0),spd:300
+2021-11-05 20:43:03,183 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:43:03,185 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(5050,3980,820),dir:(100,-2,0),spd:0
+2021-11-05 20:43:03,200 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:43:03,200 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:None Entity:(9:pos:(5050,3980,820),dir:(100,-2,0),spd:0
+2021-11-05 20:43:03,252 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-05 20:43:03,253 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5050,3980,820),dir:(100,-2,0),spd:300
+2021-11-05 20:43:03,736 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:43:03,737 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(5195,3980,820),dir:(100,-2,0),spd:0
+2021-11-05 20:43:03,965 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:43:03,966 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:None Entity:(9:pos:(5195,3980,820),dir:(99,15,0),spd:0
+2021-11-05 20:43:04,202 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2021-11-05 20:43:04,207 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5195,3980,820),dir:(99,15,0),spd:300
+2021-11-05 20:43:04,286 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:43:04,287 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:None Entity:(9:pos:(5220,3985,820),dir:(100,-3,0),spd:300
+2021-11-05 20:43:05,122 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:43:05,122 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:None Entity:(9:pos:(5470,3985,820),dir:(98,-22,0),spd:300
+2021-11-05 20:43:05,521 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:43:05,521 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:9 Evt:Idle Entity:(9:pos:(5590,3961,820),dir:(98,-22,0),spd:0
+2021-11-05 20:43:09,521 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:43:09,524 [7] [INFO ] [GameServer] ：OnGuildCreate::GuildName: ssssswww character:[1]test
+2021-11-05 20:43:09,714 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:43:09,715 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 0<1636116189
+2021-11-05 20:43:38,377 [15] [INFO ] [GameServer] ：CharacterLeave： characterID:1:test
+2021-11-05 20:43:38,379 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-05 20:43:38,379 [15] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:1:test:EntityId:9
+2021-11-05 20:43:38,380 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-05 20:45:07,018 [15] [WARN ] [GameServer] ：Client[127.0.0.1:7445]] Connected
+2021-11-05 20:45:07,099 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-05 20:45:07,100 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-05 20:45:08,782 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-05 20:45:08,783 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:test Map:1
+2021-11-05 20:45:08,784 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:08,784 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 0<1636116189
+2021-11-05 20:45:08,784 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-05 20:45:08,785 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:08,785 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116189
+2021-11-05 20:45:13,902 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:45:13,903 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{1, test}</args></log4net.Error>
+2021-11-05 20:45:13,910 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:13,911 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116189
+2021-11-05 20:45:25,830 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:45:25,832 [6] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{1, test}</args></log4net.Error>
+2021-11-05 20:45:25,867 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:25,868 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116189
+2021-11-05 20:45:28,407 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:45:28,408 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{1, test}</args></log4net.Error>
+2021-11-05 20:45:28,418 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:28,418 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116189
+2021-11-05 20:45:30,936 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:45:30,937 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:45:31,506 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:45:31,507 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:None Entity:(10:pos:(5170,4000,820),dir:(98,-18,0),spd:300
+2021-11-05 20:45:31,588 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:45:31,589 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:Idle Entity:(10:pos:(5195,3995,820),dir:(98,-18,0),spd:0
+2021-11-05 20:45:31,604 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:45:31,605 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:None Entity:(10:pos:(5195,3995,820),dir:(93,-36,0),spd:0
+2021-11-05 20:45:31,705 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:45:31,708 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:None Entity:(10:pos:(5195,3995,820),dir:(84,-55,0),spd:0
+2021-11-05 20:45:31,813 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:45:31,816 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:None Entity:(10:pos:(5195,3995,820),dir:(71,-71,0),spd:0
+2021-11-05 20:45:31,903 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:45:31,904 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:test,Enity.Id:10 Evt:None Entity:(10:pos:(5195,3995,820),dir:(57,-82,0),spd:0
+2021-11-05 20:45:33,127 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:45:33,128 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{1, test}</args></log4net.Error>
+2021-11-05 20:45:33,137 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:33,138 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116189
+2021-11-05 20:45:38,075 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-11-05 20:45:38,081 [6] [INFO ] [GameServer] ：OnGuildJoinRequest::GuildId: 1 character:[1]test
+2021-11-05 20:45:38,117 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:38,117 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116189<1636116338
+2021-11-05 20:45:39,298 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:27
+2021-11-05 20:45:39,303 [7] [INFO ] [GameServer] ：OnGuildJoinRequest::GuildId: 1 character:[1]test
+2021-11-05 20:45:39,316 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:45:39,317 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116338<1636116339
+2021-11-05 20:46:35,827 [15] [WARN ] [GameServer] ：Client[127.0.0.1:5136]] Connected
+2021-11-05 20:46:35,908 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-05 20:46:35,912 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:mier  Pass:123
+2021-11-05 20:46:40,532 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-11-05 20:46:40,532 [6] [INFO ] [GameServer] ：UserLoginRequest: User:mier  Pass:123
+2021-11-05 20:46:46,846 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-11-05 20:46:46,848 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:试试  Class:Archer
+2021-11-05 20:46:52,264 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-05 20:46:52,268 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:2:试试 Map:1
+2021-11-05 20:46:52,270 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:46:52,271 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-05 20:46:52,272 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:46:52,273 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116339<1636116339
+2021-11-05 20:46:52,273 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:46:53,630 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:46:53,632 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:46:53,633 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:46:53,633 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116339<1636116339
+2021-11-05 20:46:54,063 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-05 20:46:54,064 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5130,4000,820),dir:(100,0,0),spd:0
+2021-11-05 20:46:54,065 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:46:54,066 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116339<1636116339
+2021-11-05 20:46:55,863 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:46:55,864 [6] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{2, 试试}</args></log4net.Error>
+2021-11-05 20:46:55,874 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:47:00,496 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-11-05 20:47:00,498 [7] [INFO ] [GameServer] ：OnGuildJoinRequest::GuildId: 1 character:[2]试试
+2021-11-05 20:47:00,507 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:00,508 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116339<1636116420
+2021-11-05 20:47:04,908 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:29
+2021-11-05 20:47:04,909 [6] [INFO ] [GameServer] ：OnGuildJoinRequest::GuildId: 1 character:[1]test
+2021-11-05 20:47:49,725 [6] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Services.GuildService.OnGuildJoinResponse(NetConnection`1 sender, GuildJoinResponse response) 位置 C:\MMORPG\MMO\Src\Server\GameServer\GameServer\Services\GuildService.cs:行号 117
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 C:\MMORPG\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-11-05 20:47:57,063 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-05 20:47:57,064 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5130,4000,820),dir:(100,0,0),spd:300
+2021-11-05 20:47:57,065 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,065 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116420<1636116424
+2021-11-05 20:47:57,445 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:47:57,446 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5245,4000,820),dir:(98,-18,0),spd:300
+2021-11-05 20:47:57,447 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,447 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,512 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:47:57,518 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5265,3996,820),dir:(98,-18,0),spd:0
+2021-11-05 20:47:57,520 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,520 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,629 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:57,630 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(93,-36,0),spd:0
+2021-11-05 20:47:57,631 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,632 [9] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,729 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:57,730 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(85,-53,0),spd:0
+2021-11-05 20:47:57,731 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,732 [10] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,812 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:57,813 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(74,-67,0),spd:0
+2021-11-05 20:47:57,814 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,814 [11] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,896 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:57,897 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(61,-79,0),spd:0
+2021-11-05 20:47:57,898 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,899 [12] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:57,996 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:57,996 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(43,-90,0),spd:0
+2021-11-05 20:47:57,997 [13] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:57,998 [13] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:58,096 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:47:58,097 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5265,3996,820),dir:(26,-96,0),spd:0
+2021-11-05 20:47:58,097 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:58,098 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:58,213 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-05 20:47:58,213 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5265,3996,820),dir:(26,-96,0),spd:300
+2021-11-05 20:47:58,214 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:58,215 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:58,933 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:47:58,934 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5307,3786,820),dir:(26,-96,0),spd:0
+2021-11-05 20:47:58,934 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:47:58,935 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:47:59,712 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:47:59,713 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{2, 试试}</args></log4net.Error>
+2021-11-05 20:47:59,721 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:47:59,723 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:2:试试 0<1636116424
+2021-11-05 20:48:01,362 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-05 20:48:01,363 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5307,3786,820),dir:(26,-96,0),spd:300
+2021-11-05 20:48:01,364 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:01,365 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:01,797 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:48:01,798 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5333,3656,820),dir:(9,-100,0),spd:300
+2021-11-05 20:48:01,799 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:01,800 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:01,996 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-05 20:48:01,997 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5333,3596,820),dir:(-9,-100,0),spd:300
+2021-11-05 20:48:01,998 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:01,998 [9] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:02,096 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-05 20:48:02,097 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5333,3566,820),dir:(-27,-96,0),spd:300
+2021-11-05 20:48:02,098 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:02,098 [10] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:02,129 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-05 20:48:02,130 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5332,3561,820),dir:(-27,-96,0),spd:0
+2021-11-05 20:48:02,131 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:02,132 [11] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:02,197 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-05 20:48:02,198 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5332,3561,820),dir:(-44,-90,0),spd:0
+2021-11-05 20:48:02,199 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:02,199 [12] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:02,396 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-05 20:48:02,397 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5332,3561,820),dir:(-59,-81,0),spd:0
+2021-11-05 20:48:02,398 [13] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:02,399 [13] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:04,813 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-05 20:48:04,816 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5332,3561,820),dir:(-59,-81,0),spd:300
+2021-11-05 20:48:04,817 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:04,817 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:05,396 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-05 20:48:05,399 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5227,3421,820),dir:(-59,-81,0),spd:0
+2021-11-05 20:48:05,401 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:05,402 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:08,863 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-05 20:48:08,864 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5227,3421,820),dir:(-59,-81,0),spd:300
+2021-11-05 20:48:08,864 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:08,865 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,462 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-05 20:48:09,463 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5119,3277,820),dir:(-73,-68,0),spd:300
+2021-11-05 20:48:09,464 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,464 [9] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,563 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-05 20:48:09,564 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5095,3259,820),dir:(-84,-54,0),spd:300
+2021-11-05 20:48:09,566 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,566 [10] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,612 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-05 20:48:09,613 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(5083,3250,820),dir:(-84,-54,0),spd:0
+2021-11-05 20:48:09,614 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,615 [11] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,646 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-05 20:48:09,647 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-92,-38,0),spd:0
+2021-11-05 20:48:09,648 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,648 [12] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,746 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-05 20:48:09,747 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-98,-18,0),spd:0
+2021-11-05 20:48:09,748 [13] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,749 [13] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,846 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:09,847 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-100,3,0),spd:0
+2021-11-05 20:48:09,848 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,848 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:09,946 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:09,946 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-97,23,0),spd:0
+2021-11-05 20:48:09,947 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:09,947 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:10,036 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:10,038 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-92,40,0),spd:0
+2021-11-05 20:48:10,039 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:10,040 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:10,129 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:10,131 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-82,57,0),spd:0
+2021-11-05 20:48:10,132 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:10,132 [9] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:10,295 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:10,296 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(5083,3250,820),dir:(-71,71,0),spd:0
+2021-11-05 20:48:10,297 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:10,298 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:10,613 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-05 20:48:10,614 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5083,3250,820),dir:(-71,71,0),spd:300
+2021-11-05 20:48:10,615 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:10,615 [7] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:11,312 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-05 20:48:11,314 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(4915,3418,820),dir:(-57,82,0),spd:300
+2021-11-05 20:48:11,315 [8] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:11,315 [8] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:11,345 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-05 20:48:11,347 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:Idle Entity:(11:pos:(4912,3422,820),dir:(-57,82,0),spd:0
+2021-11-05 20:48:11,348 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:11,348 [9] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:11,412 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:11,416 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(4912,3422,820),dir:(-42,91,0),spd:0
+2021-11-05 20:48:11,417 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:11,417 [10] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:11,512 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:11,513 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(4912,3422,820),dir:(-24,97,0),spd:0
+2021-11-05 20:48:11,513 [11] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:11,514 [11] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:11,662 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-05 20:48:11,663 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:试试,Enity.Id:11 Evt:None Entity:(11:pos:(4912,3422,820),dir:(-6,100,0),spd:0
+2021-11-05 20:48:11,664 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:48:11,665 [12] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:48:13,063 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:48:13,064 [13] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{2, 试试}</args></log4net.Error>
+2021-11-05 20:48:13,074 [13] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:48:13,075 [13] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:2:试试 1636116424<1636116424
+2021-11-05 20:49:03,477 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:49:03,511 [6] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{2, 试试}</args></log4net.Error>
+2021-11-05 20:49:03,673 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:49:03,682 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:2:试试 1636116424<1636116424
+2021-11-05 20:49:51,710 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-05 20:49:51,735 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:试试 Map1
+2021-11-05 20:49:51,737 [6] [INFO ] [GameServer] ：CharacterLeave： characterID:2:试试
+2021-11-05 20:49:51,738 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-11-05 20:49:51,739 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:2:试试:EntityId:11
+2021-11-05 20:49:51,740 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:49:51,742 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:49:51,742 [6] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:试试 : Map:1 CharacterID:2:试试:EntityId:11
+2021-11-05 20:49:51,743 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:49:51,743 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:2:试试 1636116424<1636116424
+2021-11-05 20:49:51,745 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:49:51,746 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:2:试试 1636116424<1636116424
+2021-11-05 20:49:53,341 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-05 20:49:53,343 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:2:试试 Map:1
+2021-11-05 20:49:53,344 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:49:53,345 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-11-05 20:49:53,345 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:49:53,345 [6] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:49:53,346 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:49:56,724 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:9
+2021-11-05 20:49:56,789 [7] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>OnGuildList::[{1}]{2}</format><args>{2, 试试}</args></log4net.Error>
+2021-11-05 20:49:57,861 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:2:试试
+2021-11-05 20:50:06,092 [23] [INFO ] [GameServer] ：CharacterLeave： characterID:2:试试
+2021-11-05 20:50:06,108 [23] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-11-05 20:50:06,108 [23] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:test : Map:1 CharacterID:2:试试:EntityId:12
+2021-11-05 20:50:06,109 [23] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:test
+2021-11-05 20:50:06,119 [23] [INFO ] [GameServer] ：PostProcess > Guild :CharacteID:1:test 1636116424<1636116424
+2021-11-05 20:50:06,121 [23] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:试试 : Map:1 CharacterID:2:试试:EntityId:12
+2021-11-05 20:50:06,158 [23] [WARN ] [GameServer] ：Client[] Disconnected
