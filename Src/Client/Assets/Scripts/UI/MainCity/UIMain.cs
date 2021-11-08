@@ -74,4 +74,9 @@ public class UIMain : MonoSingleton<UIMain>
     {
         GuildManager.Instance.ShowGuild();
     }
+
+    public void OnClickSetting()
+    {
+        UIManager.Instance.Show<UISetting>();
+    }
 }
