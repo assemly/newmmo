@@ -236,6 +236,7 @@ namespace Services
         public void SendGameEnter(int characterIdx)
         {
             Debug.LogFormat("UserGameEnterRequest::characterId :{0}",characterIdx);
+            ChatManager.Instance.Init();
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
             message.Request.gameEnter = new UserGameEnterRequest();
@@ -257,7 +258,7 @@ namespace Services
                     EquipManager.Instance.Init(response.Character.Equips);
                     QuestManager.Instance.Init(response.Character.Quests);
                     FriendManager.Instance.Init(response.Character.Friends);
-                    ChatManager.Instance.Init();
+                    GuildManager.Instance.Init(response.Character.Guild);
                     //Debug.LogFormat("OnGameEnter:{0}", User.Instance.CurrentCharacter.Class);
                 }
             }

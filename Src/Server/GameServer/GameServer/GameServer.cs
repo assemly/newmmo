@@ -37,6 +37,7 @@ namespace GameServer
             TeamService.Instance.Init();
             // MapManager.Instance.Init();
             GuildService.Instance.Init();
+            ChatService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;

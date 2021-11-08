@@ -1,62 +1,52 @@
-2021-11-08 14:13:20,610 [ 1] INFO  Unity: LoadingManager start
-2021-11-08 14:13:23,957 [ 1] INFO  Unity: DataManager > DataManager()
-2021-11-08 14:13:29,006 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
-2021-11-08 14:13:29,008 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-11-08 14:13:29,010 [ 1] INFO  Unity: DoConnect
-2021-11-08 14:13:29,012 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-11-08 14:13:29,014 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-11-08 15:18:24,251 [ 1] INFO  Unity: LoadingManager start
+2021-11-08 15:18:27,496 [ 1] INFO  Unity: DataManager > DataManager()
+2021-11-08 15:18:31,545 [ 1] INFO  Unity: UserLoginRequest::user :tsing psw:123
+2021-11-08 15:18:31,547 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-11-08 15:18:31,548 [ 1] INFO  Unity: DoConnect
+2021-11-08 15:18:31,550 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-11-08 15:18:31,552 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-11-08 14:13:29,017 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-11-08 14:13:29,167 [ 1] INFO  Unity: OnLogin:Success [None]
-2021-11-08 14:13:29,169 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-11-08 14:13:29,329 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-08 14:13:30,530 [ 1] INFO  Unity: Select Char:[1]shuang[Archer]
-2021-11-08 14:13:31,109 [ 1] INFO  Unity: selectCharacterIdx:0
-2021-11-08 14:13:31,110 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2021-11-08 14:13:31,137 [ 1] INFO  Unity: OnGameEnter:Success
-2021-11-08 14:13:31,140 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
-2021-11-08 14:13:31,140 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
-2021-11-08 14:13:31,153 [ 1] INFO  Unity: OnGuild:Success 1£º12313°¡
-2021-11-08 14:13:31,154 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-11-08 14:13:31,155 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:19
-2021-11-08 14:13:31,157 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(19:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º19
-2021-11-08 14:13:31,159 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-11-08 14:13:31,603 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-11-08 14:13:31,722 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-11-08 14:13:31,723 [ 1] WARN  Unity: UIMinimap Start -311700
+2021-11-08 15:18:31,555 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-11-08 15:18:31,713 [ 1] INFO  Unity: OnLogin:Success [None]
+2021-11-08 15:18:31,715 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-11-08 15:18:31,881 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-08 15:18:33,042 [ 1] INFO  Unity: Select Char:[1]shuang[Archer]
+2021-11-08 15:18:33,645 [ 1] INFO  Unity: selectCharacterIdx:0
+2021-11-08 15:18:33,646 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-11-08 15:18:33,676 [ 1] INFO  Unity: OnGameEnter:Success
+2021-11-08 15:18:33,678 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:20]
+2021-11-08 15:18:33,679 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:20]
+2021-11-08 15:18:33,692 [ 1] INFO  Unity: OnGuild:Success 1£º12313°¡
+2021-11-08 15:18:33,693 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-11-08 15:18:33,694 [ 1] INFO  Unity:   OnMapCharacterEnter CharacterId: 1and EntityID:28
+2021-11-08 15:18:33,696 [ 1] INFO  Unity: AddCharacter:1:shuang Map:1 Entity:(28:pos:(5000,4000,820),dir:(100,0,0),spd:0,EntityID£º28
+2021-11-08 15:18:33,698 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-11-08 15:18:34,132 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-11-08 15:18:34,249 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-11-08 15:18:34,250 [ 1] WARN  Unity: UIMinimap Start -416712
 UnityEngine.Debug:LogWarning(Object)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:18)
 
-2021-11-08 14:13:31,724 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-311700] Set
+2021-11-08 15:18:34,251 [ 1] WARN  Unity: MinimapManager.Instance.Minimap[-416712] Set
 UnityEngine.Debug:LogWarningFormat(String, Object[])
 Managers.MiniMapManager:set_Minimap(UIMinimap) (at Assets/Scripts/Managers/MiniMapManager.cs:16)
 UIMinimap:Start() (at Assets/Scripts/UI/MiniMap/UIMinimap.cs:19)
 
-2021-11-08 14:13:31,740 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
-2021-11-08 14:13:31,799 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:13:31,802 [ 1] INFO  Unity: OnSendChannelChanged: 0
-2021-11-08 14:13:31,804 [ 1] INFO  Unity: Set Channel:Local
-2021-11-08 14:13:31,806 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:13:34,713 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:13:38,019 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:14:38,619 [ 1] WARN  Unity: Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-
-2021-11-08 14:14:38,619 [ 1] WARN  Unity: To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
-
-2021-11-08 14:14:38,632 [ 1] WARN  Unity: Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-
-2021-11-08 14:14:38,632 [ 1] WARN  Unity: To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
-
-2021-11-08 14:14:38,643 [ 1] WARN  Unity: Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-
-2021-11-08 14:14:38,643 [ 1] WARN  Unity: To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
-
-2021-11-08 14:15:30,355 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:15:31,509 [ 1] INFO  Unity: UIChat RefreshUI
-2021-11-08 14:17:55,090 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:19 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2021-11-08 14:17:55,093 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-11-08 14:17:55,094 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-11-08 15:18:34,265 [ 1] INFO  Unity: minimapBoundingBox UIMapRoot
+2021-11-08 15:18:34,335 [ 1] INFO  Unity: UIChat RefreshUI
+2021-11-08 15:18:34,339 [ 1] INFO  Unity: OnSendChannelChanged: 0
+2021-11-08 15:18:34,341 [ 1] INFO  Unity: Set Channel:Local
+2021-11-08 15:18:34,343 [ 1] INFO  Unity: UIChat RefreshUI
+2021-11-08 15:18:38,282 [ 1] INFO  Unity: OnSendChannelChanged: 2
+2021-11-08 15:18:38,283 [ 1] INFO  Unity: UIChat RefreshUI
+2021-11-08 15:18:38,285 [ 1] INFO  Unity: OnSendChannelChanged: 0
+2021-11-08 15:18:41,246 [ 1] INFO  Unity: OnSendChannelChanged: 2
+2021-11-08 15:18:41,248 [ 1] INFO  Unity: UIChat RefreshUI
+2021-11-08 15:18:41,250 [ 1] INFO  Unity: OnSendChannelChanged: 0
+2021-11-08 15:19:39,917 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-11-08 15:19:39,917 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:185)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:180)
 
+2021-11-08 15:19:39,920 [ 1] INFO  Unity: Character_1_shuang OnDestroy :ID:28 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

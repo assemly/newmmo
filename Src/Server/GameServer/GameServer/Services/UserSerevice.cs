@@ -210,12 +210,13 @@ namespace GameServer.Services
             sender.Session.Response.gameLeave.Errormsg = "None";
 
             sender.SendResponse();
-            SessionManager.Instance.RemoveSession(character.Id);
+            
         }
 
         public void CharacterLeave(Character character)
         {
             Log.InfoFormat("CharacterLeave： characterID:{0}:{1}", character.Id, character.Info.Name);
+            SessionManager.Instance.RemoveSession(character.Id);
             CharacterManager.Instance.RemoveCharacter(character.Id);
             character.Clear();
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);           
