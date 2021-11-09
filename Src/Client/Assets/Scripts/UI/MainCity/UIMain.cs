@@ -79,4 +79,9 @@ public class UIMain : MonoSingleton<UIMain>
     {
         UIManager.Instance.Show<UISetting>();
     }
+
+    public void OnClckRide()
+    {
+        UIManager.Instance.Show<UIRide>();
+    }
 }

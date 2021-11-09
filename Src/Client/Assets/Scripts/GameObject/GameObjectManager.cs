@@ -83,7 +83,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         {
             ec.entity = character;
             ec.isPlayer = character.IsCurrentPlayer;
-           // ec.Ride(character.Info.Ride);
+            ec.Ride(character.Info.Ride);
         }
         PlayerInputController pc = go.GetComponent<PlayerInputController>();
         if (pc != null)
@@ -105,18 +105,18 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
     }
 
 
-    //public RideController LoadRide(int rideId, Transform parent)
-    //{
-    //    var rideDefine = DataManager.Instance.Rides[rideId];
-    //    Object obj = Resloader.Load<Object>(rideDefine.Resource);
-    //    if (obj == null)
-    //    {
-    //        Debug.LogErrorFormat("Ride[{0}] Resource[{1}] not existed.", rideDefine.ID, rideDefine.Resource);
-    //        return null;
-    //    }
-    //    GameObject go = (GameObject)Instantiate(obj, parent);
-    //    go.name = "Ride_" + rideDefine.ID + "_" + rideDefine.Name;
-    //    return go.GetComponent<RideController>();
-    //}
+    public RideController LoadRide(int rideId, Transform parent)
+    {
+        var rideDefine = DataManager.Instance.Rides[rideId];
+        Object obj = Resloader.Load<Object>(rideDefine.Resource);
+        if (obj == null)
+        {
+            Debug.LogErrorFormat("Ride[{0}] Resource[{1}] not existed.", rideDefine.ID, rideDefine.Resource);
+            return null;
+        }
+        GameObject go = (GameObject)Instantiate(obj, parent);
+        go.name = "Ride_" + rideDefine.ID + "_" + rideDefine.Name;
+        return go.GetComponent<RideController>();
+    }
 }
 

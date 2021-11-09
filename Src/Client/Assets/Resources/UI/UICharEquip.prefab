@@ -315,6 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d18244f1055c1343866d326821f6321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Root: {fileID: 0}
   title: {fileID: 4245681323915664450}
   Money: {fileID: 4394722779554339498}
   itemPrefab: {fileID: 8780254205740501641, guid: b751d6a116981724ca43b0f381f871ba,
@@ -1328,7 +1329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000040228064, y: 0.000040439136}
+  m_AnchoredPosition: {x: -0.0000039939832, y: 0.000004205055}
   m_SizeDelta: {x: -22.5, y: 552.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &4394722778611775697
@@ -2671,7 +2672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00007447306, y: 0.00004221661}
+  m_AnchoredPosition: {x: -0.0000020048954, y: 0.000024099569}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &4394722779130540142
@@ -3523,8 +3524,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4394722779128687738}
   m_HandleRect: {fileID: 4394722779128687739}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.99999976
+  m_Value: 0
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

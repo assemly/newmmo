@@ -11,5 +11,6 @@ excel2csharp\excels2csharp .\Tables .\CSharp
 @copy Data\ShopItemDefine.txt ..\Client\Data\
 @copy Data\EquipDefine.txt ..\Client\Data\
 @copy Data\QuestDefine.txt ..\Client\Data\
+@copy Data\RideDefine.txt ..\Client\Data\
 
 pause

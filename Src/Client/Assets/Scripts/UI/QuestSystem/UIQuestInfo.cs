@@ -10,6 +10,7 @@ public class UIQuestInfo : MonoBehaviour
     public Text title;
     public Text[] targets;
     public Text description;
+    public Text overview;
     public GameObject rewardItemPrefab;
     public Transform[] rewardSlots;
 
@@ -72,6 +73,7 @@ public class UIQuestInfo : MonoBehaviour
         SetRewardItem(quest, quest.Define.RewardItem3, 2);
         
         this.title.text = string.Format("[{0}]{1}", quest.Define.Type, quest.Define.Name);
+        if (this.overview != null) this.overview.text = quest.Define.Overview;
         if(quest.Info == null)
         {
             this.description.text = quest.Define.Dialog;

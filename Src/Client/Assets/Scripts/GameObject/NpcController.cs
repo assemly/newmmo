@@ -123,8 +123,8 @@ public class NpcController : MonoBehaviour
     {
         if (highlight)
         {
-            if (renderer.sharedMaterial.color != Color.white)
-                renderer.sharedMaterial.color = Color.white;
+            if (renderer.sharedMaterial.color != Color.yellow)
+                renderer.sharedMaterial.color = Color.yellow;
         }
         else
         {
