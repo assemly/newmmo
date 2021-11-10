@@ -14,6 +14,7 @@ public class UIQuestInfo : MonoBehaviour
     public GameObject rewardItemPrefab;
     public Transform[] rewardSlots;
 
+
     public Dictionary<Transform, UIIconItem> rewardsItems = new Dictionary<Transform, UIIconItem>() 
     {
         
@@ -22,6 +23,9 @@ public class UIQuestInfo : MonoBehaviour
     
     public Text rewardMoney;
     public Text rewardExp;
+
+    public Button navButton;
+    private int npc = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -89,6 +93,15 @@ public class UIQuestInfo : MonoBehaviour
         this.rewardMoney.text = quest.Define.RewardGold.ToString();
         this.rewardExp.text = quest.Define.RewardExp.ToString();
 
+        if (quest.Info == null)
+        {
+            this.npc = quest.Define.AcceptNPC;
+        }else if(quest.Info.Status == SkillBridge.Message.QuestStatus.Complated)
+        {
+            this.npc = quest.Define.SubmitNPC;
+        }
+        if(this.navButton!=null)
+            this.navButton.gameObject.SetActive(this.npc > 0);
         foreach(var fitter in this.GetComponentsInChildren<ContentSizeFitter>())
         {
             fitter.SetLayoutVertical();
@@ -98,5 +111,12 @@ public class UIQuestInfo : MonoBehaviour
     public void OnClickAbandon()
     {
 
+    }
+
+    public void OnClickNav()
+    {
+        Vector3 pos = NpcManager.Instance.GetNpcPostion(this.npc);
+        User.Instance.CurrentCharacterObject.StarNav(pos);
+        UIManager.Instance.Close<UIQuestSystem>();
     }
 }

@@ -1083,3 +1083,1257 @@
 2021-11-10 11:38:49,010 [75] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
 2021-11-10 11:38:49,011 [75] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:shuang : Map:1 CharacterID:1:shuang:EntityId:42
 2021-11-10 11:38:49,012 [75] [WARN ] [GameServer] £ºClient[] Disconnected
+2021-11-10 16:49:38,004 [1] [INFO ] [GameServer] £ºGame Server Init
+2021-11-10 16:49:38,870 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2021-11-10 16:49:39,341 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:°ÂÌØÀ¼
+2021-11-10 16:49:39,393 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:Ò°Íâ1
+2021-11-10 16:49:39,408 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:Ò°Íâ2
+2021-11-10 16:49:39,432 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:¸±±¾1
+2021-11-10 16:49:42,808 [1] [WARN ] [GameServer] £ºStarting Listener...
+2021-11-10 16:49:42,848 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:42,848 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:42,850 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:42,850 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:43,815 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:45,316 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:46,316 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:47,315 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-10 16:49:47,355 [1] [WARN ] [GameServer] £ºNetService Started
+2021-11-10 16:50:42,920 [5] [INFO ] [GameServer] £ºMap[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-10 16:50:42,929 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1001
+2021-11-10 16:50:42,929 [5] [INFO ] [GameServer] £ºMap[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-10 16:50:42,929 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1002
+2021-11-10 16:50:42,929 [5] [INFO ] [GameServer] £ºMap[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1003
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMap[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1005
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMap[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1001
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMap[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1002
+2021-11-10 16:50:42,930 [5] [INFO ] [GameServer] £ºMap[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-10 16:50:42,931 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1003
+2021-11-10 16:50:42,931 [5] [INFO ] [GameServer] £ºMap[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-10 16:50:42,932 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1005
+2021-11-10 16:50:47,246 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:10399]] Connected
+2021-11-10 16:50:47,325 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-10 16:50:47,558 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-10 16:50:51,584 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-10 16:50:51,587 [6] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:shuang Map:1
+2021-11-10 16:50:51,729 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:50:51,730 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 0<1636534182
+2021-11-10 16:50:51,784 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-10 16:50:51,785 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:50:51,785 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:50:54,126 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:50:54,132 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-10 16:50:54,300 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:54,302 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5055,3999,820),dir:(98,-17,0),spd:300
+2021-11-10 16:50:54,462 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:54,463 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5105,3988,820),dir:(94,-35,0),spd:300
+2021-11-10 16:50:54,811 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:54,812 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5209,3945,820),dir:(86,-51,0),spd:300
+2021-11-10 16:50:56,730 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:56,731 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5565,3618,812),dir:(86,-51,0),spd:300
+2021-11-10 16:50:57,077 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:57,078 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5564,3615,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:57,408 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:57,409 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5563,3615,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:57,765 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:57,766 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5563,3614,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:58,112 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:58,113 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5563,3614,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:58,467 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:58,474 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5563,3614,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:58,813 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:58,824 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5563,3614,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:59,076 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:50:59,079 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:Idle Entity:(9:pos:(5627,3566,813),dir:(86,-51,0),spd:0
+2021-11-10 16:50:59,243 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:50:59,245 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5627,3566,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:59,321 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:59,322 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5561,3615,813),dir:(86,-51,0),spd:300
+2021-11-10 16:50:59,336 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:59,337 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5565,3612,813),dir:(75,-66,0),spd:300
+2021-11-10 16:50:59,430 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:59,430 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5589,3594,813),dir:(61,-79,0),spd:300
+2021-11-10 16:50:59,555 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:59,556 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5613,3562,813),dir:(45,-89,0),spd:300
+2021-11-10 16:50:59,664 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:50:59,665 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5559,3614,813),dir:(45,-89,0),spd:300
+2021-11-10 16:50:59,771 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:50:59,772 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:Idle Entity:(9:pos:(5573,3586,813),dir:(45,-89,0),spd:0
+2021-11-10 16:51:00,693 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:00,694 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5573,3586,813),dir:(61,-79,0),spd:0
+2021-11-10 16:51:00,810 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:00,810 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5573,3586,813),dir:(75,-66,0),spd:0
+2021-11-10 16:51:00,827 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:51:00,827 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(5573,3586,813),dir:(75,-66,0),spd:-300
+2021-11-10 16:51:01,506 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:51:01,507 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5503,3662,808),dir:(75,-66,0),spd:-300
+2021-11-10 16:51:01,942 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:51:01,943 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5478,3684,808),dir:(75,-66,0),spd:-300
+2021-11-10 16:51:02,283 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:51:02,284 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:Idle Entity:(9:pos:(5398,3744,808),dir:(75,-66,0),spd:0
+2021-11-10 16:51:02,381 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:02,382 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(60,-80,0),spd:0
+2021-11-10 16:51:02,480 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:02,481 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(42,-91,0),spd:0
+2021-11-10 16:51:02,576 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:02,577 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(23,-97,0),spd:0
+2021-11-10 16:51:02,666 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:51:02,667 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(5,-100,0),spd:0
+2021-11-10 16:51:02,760 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:51:02,761 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(-13,-99,0),spd:0
+2021-11-10 16:51:05,353 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:51:05,354 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(-30,-95,0),spd:0
+2021-11-10 16:51:05,535 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:51:05,537 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(-46,-89,0),spd:0
+2021-11-10 16:51:05,667 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:51:05,668 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5398,3744,808),dir:(-62,-79,0),spd:0
+2021-11-10 16:51:07,636 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:51:07,637 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5398,3744,808),dir:(-62,-79,0),spd:300
+2021-11-10 16:51:07,743 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:07,744 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5376,3717,808),dir:(-75,-67,0),spd:300
+2021-11-10 16:51:07,852 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:07,854 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5451,3684,807),dir:(-75,-67,0),spd:300
+2021-11-10 16:51:07,934 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:07,935 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5431,3669,807),dir:(-85,-52,0),spd:300
+2021-11-10 16:51:08,233 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:08,234 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(5359,3615,807),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:10,207 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:10,208 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4783,3478,822),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:12,362 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:12,364 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4203,3296,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:12,675 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:12,676 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3292,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:12,994 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:12,995 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3291,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:13,309 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:13,310 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:13,628 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:13,629 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:13,943 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:13,944 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:14,258 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:14,259 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:14,579 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:14,580 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4203,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:14,893 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:14,894 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:15,244 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:15,245 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4197,3288,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:15,552 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:15,553 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:15,871 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:15,873 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:16,181 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:16,182 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:16,507 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:16,508 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4198,3288,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:16,816 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:16,818 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:300
+2021-11-10 16:51:17,128 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:51:17,129 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:Idle Entity:(9:pos:(4109,3252,817),dir:(-93,-37,0),spd:0
+2021-11-10 16:51:17,145 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:51:17,145 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:None Entity:(9:pos:(4204,3290,817),dir:(-93,-37,0),spd:-300
+2021-11-10 16:51:17,161 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:51:17,162 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(4209,3292,817),dir:(-93,-37,0),spd:-300
+2021-11-10 16:51:17,610 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:51:17,611 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:9 Evt:Idle Entity:(9:pos:(4344,3346,817),dir:(-93,-37,0),spd:0
+2021-11-10 16:51:21,860 [14] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:shuang
+2021-11-10 16:51:21,863 [14] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-10 16:51:21,864 [14] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:shuang : Map:1 CharacterID:1:shuang:EntityId:9
+2021-11-10 16:51:21,879 [14] [WARN ] [GameServer] £ºClient[] Disconnected
+2021-11-10 16:53:09,980 [14] [WARN ] [GameServer] £ºClient[127.0.0.1:10620]] Connected
+2021-11-10 16:53:10,059 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-10 16:53:10,065 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-10 16:53:11,869 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-10 16:53:11,870 [6] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:shuang Map:1
+2021-11-10 16:53:11,870 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:53:11,870 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 0<1636534182
+2021-11-10 16:53:11,872 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-10 16:53:11,872 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:53:11,873 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:53:14,033 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:53:14,039 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5005,4000,820),dir:(100,0,0),spd:300
+2021-11-10 16:53:14,212 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:14,231 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5060,3999,820),dir:(98,-18,0),spd:300
+2021-11-10 16:53:14,376 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:14,381 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5110,3988,820),dir:(94,-35,0),spd:300
+2021-11-10 16:53:14,739 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:14,750 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5215,3946,820),dir:(86,-51,0),spd:300
+2021-11-10 16:53:16,427 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:16,429 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(5623,3640,820),dir:(86,-51,0),spd:0
+2021-11-10 16:53:17,349 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:17,350 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(76,-65,0),spd:0
+2021-11-10 16:53:17,464 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:17,480 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(62,-78,0),spd:0
+2021-11-10 16:53:17,567 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:17,574 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(45,-89,0),spd:0
+2021-11-10 16:53:17,652 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:17,654 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(28,-96,0),spd:0
+2021-11-10 16:53:17,757 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:17,758 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(8,-100,0),spd:0
+2021-11-10 16:53:17,848 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:17,850 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(-11,-99,0),spd:0
+2021-11-10 16:53:17,998 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:18,003 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(-28,-96,0),spd:0
+2021-11-10 16:53:19,373 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:19,374 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(-45,-89,0),spd:0
+2021-11-10 16:53:19,488 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:19,489 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(-62,-78,0),spd:0
+2021-11-10 16:53:19,615 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:19,616 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5623,3640,820),dir:(-76,-65,0),spd:0
+2021-11-10 16:53:19,632 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:53:19,633 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5623,3640,820),dir:(-76,-65,0),spd:300
+2021-11-10 16:53:20,303 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:53:20,304 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(5459,3517,820),dir:(-76,-65,0),spd:0
+2021-11-10 16:53:21,440 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:21,441 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5459,3517,820),dir:(-86,-51,0),spd:0
+2021-11-10 16:53:21,604 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:21,605 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5459,3517,820),dir:(-94,-33,0),spd:0
+2021-11-10 16:53:21,660 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:53:21,668 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5459,3517,820),dir:(-94,-33,0),spd:300
+2021-11-10 16:53:21,710 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:53:21,710 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5444,3511,820),dir:(-99,-14,0),spd:300
+2021-11-10 16:53:21,830 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:21,836 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5409,3504,820),dir:(-100,5,0),spd:300
+2021-11-10 16:53:22,425 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:22,434 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(5244,3504,820),dir:(-100,5,0),spd:0
+2021-11-10 16:53:23,964 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:23,970 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5244,3504,820),dir:(-97,26,0),spd:0
+2021-11-10 16:53:23,981 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:23,982 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5239,3505,820),dir:(-97,26,0),spd:300
+2021-11-10 16:53:24,099 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:24,100 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5204,3513,820),dir:(-90,43,0),spd:300
+2021-11-10 16:53:24,223 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:24,224 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5169,3527,820),dir:(-81,59,0),spd:300
+2021-11-10 16:53:24,385 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:24,386 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5130,3558,820),dir:(-69,72,0),spd:300
+2021-11-10 16:53:24,927 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:24,930 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(5034,3686,820),dir:(-56,83,0),spd:300
+2021-11-10 16:53:27,277 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:27,278 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4704,4285,808),dir:(-56,83,0),spd:300
+2021-11-10 16:53:27,484 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:27,485 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4664,4337,808),dir:(-70,72,0),spd:300
+2021-11-10 16:53:27,749 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:27,751 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4699,4377,815),dir:(-70,72,0),spd:300
+2021-11-10 16:53:27,973 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:27,975 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4647,4428,815),dir:(-81,58,0),spd:300
+2021-11-10 16:53:28,163 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:28,164 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4703,4439,819),dir:(-81,58,0),spd:300
+2021-11-10 16:53:28,584 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:28,585 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4703,4497,821),dir:(-81,58,0),spd:300
+2021-11-10 16:53:28,773 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:28,774 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4654,4532,821),dir:(-90,43,0),spd:300
+2021-11-10 16:53:30,380 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:30,382 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4174,4724,821),dir:(-90,43,0),spd:0
+2021-11-10 16:53:34,384 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:34,385 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(4174,4724,821),dir:(-90,43,0),spd:-300
+2021-11-10 16:53:35,013 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:35,014 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4256,4653,807),dir:(-90,43,0),spd:-300
+2021-11-10 16:53:35,087 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:35,088 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4281,4643,807),dir:(-90,43,0),spd:0
+2021-11-10 16:53:36,452 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:36,453 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4281,4643,807),dir:(-80,60,0),spd:0
+2021-11-10 16:53:36,552 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:36,553 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4281,4643,807),dir:(-66,75,0),spd:0
+2021-11-10 16:53:36,634 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:36,636 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4281,4643,807),dir:(-52,86,0),spd:0
+2021-11-10 16:53:36,722 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:36,723 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4281,4643,807),dir:(-36,93,0),spd:0
+2021-11-10 16:53:36,812 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:36,813 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4281,4643,807),dir:(-19,98,0),spd:0
+2021-11-10 16:53:36,840 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:36,841 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4281,4643,807),dir:(-19,98,0),spd:300
+2021-11-10 16:53:36,907 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:36,908 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4277,4663,807),dir:(-1,100,0),spd:300
+2021-11-10 16:53:37,264 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:37,266 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4257,4668,807),dir:(-1,100,0),spd:300
+2021-11-10 16:53:37,665 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:37,667 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4257,4688,809),dir:(-1,100,0),spd:300
+2021-11-10 16:53:37,824 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:53:37,825 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4257,4738,809),dir:(17,99,0),spd:300
+2021-11-10 16:53:38,006 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:53:38,007 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4268,4793,809),dir:(34,94,0),spd:300
+2021-11-10 16:53:38,064 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:53:38,065 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4257,4706,814),dir:(34,94,0),spd:300
+2021-11-10 16:53:38,171 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:53:38,172 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4271,4741,814),dir:(51,86,0),spd:300
+2021-11-10 16:53:38,412 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:35
+2021-11-10 16:53:38,413 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4313,4797,814),dir:(51,86,0),spd:0
+2021-11-10 16:53:39,875 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:53:39,876 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(33,94,0),spd:0
+2021-11-10 16:53:39,975 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:53:39,976 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(14,99,0),spd:0
+2021-11-10 16:53:40,080 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:40,081 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(-7,100,0),spd:0
+2021-11-10 16:53:40,178 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:40,179 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(-27,96,0),spd:0
+2021-11-10 16:53:40,260 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:40,262 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(-44,90,0),spd:0
+2021-11-10 16:53:40,359 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:40,360 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(-60,80,0),spd:0
+2021-11-10 16:53:40,520 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:40,522 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4313,4797,814),dir:(-73,68,0),spd:0
+2021-11-10 16:53:46,208 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:46,209 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(4313,4797,814),dir:(-73,68,0),spd:-300
+2021-11-10 16:53:46,225 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:46,225 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4317,4794,814),dir:(-73,68,0),spd:0
+2021-11-10 16:53:46,522 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:46,523 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(4317,4794,814),dir:(-73,68,0),spd:-300
+2021-11-10 16:53:47,495 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:47,497 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4549,4620,814),dir:(-59,81,0),spd:-300
+2021-11-10 16:53:47,544 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:47,546 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4558,4608,814),dir:(-59,81,0),spd:0
+2021-11-10 16:53:47,594 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:47,595 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4608,814),dir:(-42,91,0),spd:0
+2021-11-10 16:53:47,695 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:47,702 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4608,814),dir:(-23,97,0),spd:0
+2021-11-10 16:53:47,843 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:47,844 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4608,814),dir:(-6,100,0),spd:0
+2021-11-10 16:53:49,865 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:49,866 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4558,4608,814),dir:(-6,100,0),spd:300
+2021-11-10 16:53:50,583 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:50,584 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4558,4823,814),dir:(-6,100,0),spd:0
+2021-11-10 16:53:50,981 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:50,982 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4823,814),dir:(-25,97,0),spd:0
+2021-11-10 16:53:51,081 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:51,082 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4823,814),dir:(-43,90,0),spd:0
+2021-11-10 16:53:51,163 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:51,164 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4823,814),dir:(-58,81,0),spd:0
+2021-11-10 16:53:51,263 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:51,264 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4558,4823,814),dir:(-72,70,0),spd:0
+2021-11-10 16:53:51,574 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:51,577 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4554,4827,814),dir:(-72,70,0),spd:300
+2021-11-10 16:53:51,590 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:51,592 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4550,4830,814),dir:(-83,56,0),spd:300
+2021-11-10 16:53:51,739 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:51,741 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4513,4856,814),dir:(-91,41,0),spd:300
+2021-11-10 16:53:51,796 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:51,797 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4453,4772,821),dir:(-91,41,0),spd:300
+2021-11-10 16:53:51,880 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:51,886 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4428,4782,821),dir:(-97,25,0),spd:300
+2021-11-10 16:53:52,073 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:52,074 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4368,4794,821),dir:(-100,7,0),spd:300
+2021-11-10 16:53:52,700 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:53:52,702 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4178,4793,821),dir:(-99,-11,0),spd:300
+2021-11-10 16:53:52,758 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:53:52,760 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4267,4780,821),dir:(-99,-11,0),spd:300
+2021-11-10 16:53:52,908 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:53:52,909 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4222,4771,821),dir:(-99,-11,0),spd:0
+2021-11-10 16:53:53,009 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:53:53,011 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4222,4771,821),dir:(-96,-28,0),spd:0
+2021-11-10 16:53:54,701 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:53:54,702 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4222,4771,821),dir:(-96,-28,0),spd:300
+2021-11-10 16:53:54,840 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:53:54,841 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4177,4762,821),dir:(-99,-10,0),spd:300
+2021-11-10 16:53:54,933 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:53:54,934 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4225,4827,808),dir:(-99,-10,0),spd:300
+2021-11-10 16:53:54,952 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:54,953 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4220,4826,808),dir:(-100,9,0),spd:300
+2021-11-10 16:53:55,110 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:55,119 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4180,4828,808),dir:(-94,33,0),spd:300
+2021-11-10 16:53:55,326 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:55,327 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4111,4856,808),dir:(-87,49,0),spd:300
+2021-11-10 16:53:55,847 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:55,848 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(3987,4918,808),dir:(-87,49,0),spd:0
+2021-11-10 16:53:55,864 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:53:55,865 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(3987,4918,808),dir:(-87,49,0),spd:-300
+2021-11-10 16:53:56,012 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:53:56,013 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4006,4999,811),dir:(-87,49,0),spd:-300
+2021-11-10 16:53:56,261 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:53:56,263 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4066,4969,811),dir:(-87,49,0),spd:0
+2021-11-10 16:53:57,108 [20] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:57,109 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4066,4969,811),dir:(-77,64,0),spd:0
+2021-11-10 16:53:57,298 [20] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:53:57,299 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4066,4969,811),dir:(-64,77,0),spd:0
+2021-11-10 16:54:04,684 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:04,686 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4063,4973,811),dir:(-64,77,0),spd:300
+2021-11-10 16:54:04,763 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:04,764 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4047,4992,811),dir:(-77,64,0),spd:300
+2021-11-10 16:54:04,854 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:04,855 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4027,5007,811),dir:(-88,48,0),spd:300
+2021-11-10 16:54:04,945 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:04,946 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4007,5017,811),dir:(-95,31,0),spd:300
+2021-11-10 16:54:05,036 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:05,037 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(3977,5028,811),dir:(-99,12,0),spd:300
+2021-11-10 16:54:05,052 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:05,053 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4035,4951,807),dir:(-99,12,0),spd:300
+2021-11-10 16:54:05,127 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,128 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4015,4955,807),dir:(-100,-7,0),spd:300
+2021-11-10 16:54:05,217 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,218 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(3985,4954,807),dir:(-97,-25,0),spd:300
+2021-11-10 16:54:05,244 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,246 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4070,4901,819),dir:(-97,-25,0),spd:300
+2021-11-10 16:54:05,303 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,304 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4050,4896,819),dir:(-91,-42,0),spd:300
+2021-11-10 16:54:05,394 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,395 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4025,4886,819),dir:(-82,-58,0),spd:300
+2021-11-10 16:54:05,469 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,469 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4101,4839,817),dir:(-82,-58,0),spd:300
+2021-11-10 16:54:05,485 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:05,485 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4098,4835,817),dir:(-69,-72,0),spd:300
+2021-11-10 16:54:05,502 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:54:05,503 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4095,4831,817),dir:(-69,-72,0),spd:0
+2021-11-10 16:54:05,568 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:05,569 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4095,4831,817),dir:(-55,-84,0),spd:0
+2021-11-10 16:54:05,652 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:05,653 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4095,4831,817),dir:(-39,-92,0),spd:0
+2021-11-10 16:54:05,743 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:05,744 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4095,4831,817),dir:(-22,-97,0),spd:0
+2021-11-10 16:54:06,435 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:54:06,436 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(4095,4831,817),dir:(-22,-97,0),spd:-300
+2021-11-10 16:54:07,473 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:07,474 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4157,5141,817),dir:(-4,-100,0),spd:-300
+2021-11-10 16:54:07,628 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:07,629 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4157,5186,817),dir:(16,-99,0),spd:-300
+2021-11-10 16:54:07,648 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:07,650 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4156,5191,817),dir:(16,-99,0),spd:0
+2021-11-10 16:54:07,756 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:07,757 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4156,5191,817),dir:(34,-94,0),spd:0
+2021-11-10 16:54:15,662 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:15,663 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4156,5191,817),dir:(34,-94,0),spd:300
+2021-11-10 16:54:16,036 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:16,038 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4201,5076,817),dir:(17,-99,0),spd:300
+2021-11-10 16:54:16,863 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:16,865 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4155,4868,813),dir:(17,-99,0),spd:300
+2021-11-10 16:54:17,122 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:17,123 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4171,4788,813),dir:(17,-99,0),spd:0
+2021-11-10 16:54:17,139 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:17,140 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveBack Entity:(10:pos:(4171,4788,813),dir:(17,-99,0),spd:-300
+2021-11-10 16:54:18,091 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:18,092 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4114,5073,813),dir:(34,-94,0),spd:-300
+2021-11-10 16:54:18,173 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:18,174 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4104,5098,813),dir:(34,-94,0),spd:0
+2021-11-10 16:54:18,190 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:18,190 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4104,5098,813),dir:(52,-85,0),spd:0
+2021-11-10 16:54:18,271 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:18,272 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4104,5098,813),dir:(66,-75,0),spd:0
+2021-11-10 16:54:18,360 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:18,361 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4104,5098,813),dir:(78,-62,0),spd:0
+2021-11-10 16:54:18,461 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:18,462 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4104,5098,813),dir:(78,-62,0),spd:300
+2021-11-10 16:54:18,478 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:18,479 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4108,5095,813),dir:(89,-46,0),spd:300
+2021-11-10 16:54:18,909 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:18,910 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4212,5043,813),dir:(89,-46,0),spd:0
+2021-11-10 16:54:18,960 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:18,961 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4216,5041,813),dir:(89,-46,0),spd:300
+2021-11-10 16:54:19,102 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,103 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4248,5025,813),dir:(79,-61,0),spd:300
+2021-11-10 16:54:19,193 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,194 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4271,5006,813),dir:(67,-75,0),spd:300
+2021-11-10 16:54:19,275 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,276 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4286,4986,813),dir:(52,-85,0),spd:300
+2021-11-10 16:54:19,292 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,293 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4187,4976,811),dir:(52,-85,0),spd:300
+2021-11-10 16:54:19,367 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,367 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4199,4960,811),dir:(36,-93,0),spd:300
+2021-11-10 16:54:19,483 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,484 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4213,4925,811),dir:(19,-98,0),spd:300
+2021-11-10 16:54:19,709 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:19,713 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4226,4855,811),dir:(1,-100,0),spd:300
+2021-11-10 16:54:20,049 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:20,069 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4225,4755,811),dir:(-17,-99,0),spd:300
+2021-11-10 16:54:20,086 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:20,087 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4201,4847,810),dir:(-17,-99,0),spd:300
+2021-11-10 16:54:20,163 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:54:20,165 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:Idle Entity:(10:pos:(4196,4822,810),dir:(-17,-99,0),spd:0
+2021-11-10 16:54:20,305 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:20,306 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:10 Evt:None Entity:(10:pos:(4196,4822,810),dir:(-34,-94,0),spd:0
+2021-11-10 16:54:22,532 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-10 16:54:22,546 [10] [INFO ] [GameServer] £ºUserGameLeaveRequest: characterID:1:shuang Map1
+2021-11-10 16:54:22,546 [10] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:shuang
+2021-11-10 16:54:22,546 [10] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-10 16:54:22,547 [10] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:shuang : Map:1 CharacterID:1:shuang:EntityId:10
+2021-11-10 16:54:22,547 [10] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:54:22,549 [10] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:54:22,550 [10] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:54:22,552 [10] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:54:24,000 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-10 16:54:24,002 [11] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:shuang Map:1
+2021-11-10 16:54:24,002 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:54:24,002 [11] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 0<1636534182
+2021-11-10 16:54:24,003 [11] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-10 16:54:24,003 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:54:24,004 [11] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:54:25,837 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:25,838 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(98,19,0),spd:0
+2021-11-10 16:54:25,937 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:25,938 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(93,37,0),spd:0
+2021-11-10 16:54:26,029 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,032 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(85,53,0),spd:0
+2021-11-10 16:54:26,121 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,122 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(72,69,0),spd:0
+2021-11-10 16:54:26,209 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,211 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(59,81,0),spd:0
+2021-11-10 16:54:26,309 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,311 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(41,91,0),spd:0
+2021-11-10 16:54:26,392 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,393 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(24,97,0),spd:0
+2021-11-10 16:54:26,493 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:26,495 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(4,100,0),spd:0
+2021-11-10 16:54:26,574 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:26,575 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(-14,99,0),spd:0
+2021-11-10 16:54:26,678 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:26,679 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(-34,94,0),spd:0
+2021-11-10 16:54:26,789 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:26,790 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(5000,4000,820),dir:(-50,87,0),spd:0
+2021-11-10 16:54:28,247 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:28,249 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(-50,87,0),spd:300
+2021-11-10 16:54:28,767 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:28,768 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4972,4048,809),dir:(-50,87,0),spd:300
+2021-11-10 16:54:28,866 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:28,867 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4954,4072,809),dir:(-50,87,0),spd:0
+2021-11-10 16:54:29,395 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:29,396 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4954,4072,809),dir:(-50,87,0),spd:300
+2021-11-10 16:54:29,556 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:29,557 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4927,4108,809),dir:(-33,94,0),spd:300
+2021-11-10 16:54:29,663 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:29,665 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4913,4143,809),dir:(-16,99,0),spd:300
+2021-11-10 16:54:29,805 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:29,806 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4954,4093,809),dir:(-16,99,0),spd:300
+2021-11-10 16:54:30,240 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:30,241 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4928,4223,809),dir:(-33,94,0),spd:300
+2021-11-10 16:54:30,289 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:30,290 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4946,4139,809),dir:(-33,94,0),spd:300
+2021-11-10 16:54:30,331 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:30,332 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4940,4154,809),dir:(-51,86,0),spd:300
+2021-11-10 16:54:30,466 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:30,467 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4916,4186,809),dir:(-66,75,0),spd:300
+2021-11-10 16:54:30,601 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:30,602 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4892,4218,809),dir:(-66,75,0),spd:0
+2021-11-10 16:54:32,238 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:32,239 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4892,4218,809),dir:(-66,75,0),spd:300
+2021-11-10 16:54:32,412 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:32,414 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4920,4174,808),dir:(-66,75,0),spd:300
+2021-11-10 16:54:32,884 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:32,885 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4894,4203,808),dir:(-66,75,0),spd:300
+2021-11-10 16:54:33,333 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:33,334 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4871,4229,808),dir:(-66,75,0),spd:300
+2021-11-10 16:54:33,350 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:33,350 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4868,4233,808),dir:(-51,86,0),spd:300
+2021-11-10 16:54:33,439 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:33,440 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4850,4257,808),dir:(-32,95,0),spd:300
+2021-11-10 16:54:33,538 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:33,539 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4838,4287,808),dir:(-12,99,0),spd:300
+2021-11-10 16:54:33,628 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:33,629 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4833,4312,808),dir:(6,100,0),spd:300
+2021-11-10 16:54:33,723 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:33,724 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4833,4342,808),dir:(26,97,0),spd:300
+2021-11-10 16:54:33,786 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:33,787 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4865,4261,808),dir:(26,97,0),spd:300
+2021-11-10 16:54:33,810 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:33,811 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4867,4271,808),dir:(43,91,0),spd:300
+2021-11-10 16:54:33,926 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:33,927 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4881,4306,808),dir:(59,81,0),spd:300
+2021-11-10 16:54:34,390 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:34,391 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4965,4418,808),dir:(44,90,0),spd:300
+2021-11-10 16:54:34,489 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:34,490 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4977,4448,808),dir:(24,97,0),spd:300
+2021-11-10 16:54:34,587 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:34,588 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4478,808),dir:(4,100,0),spd:300
+2021-11-10 16:54:34,681 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:34,683 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4983,4503,808),dir:(-14,99,0),spd:0
+2021-11-10 16:54:34,700 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:34,704 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4503,808),dir:(-14,99,0),spd:0
+2021-11-10 16:54:34,774 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:34,775 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4503,808),dir:(-34,94,0),spd:0
+2021-11-10 16:54:34,857 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:34,859 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4503,808),dir:(-50,87,0),spd:0
+2021-11-10 16:54:34,961 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:34,962 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4503,808),dir:(-66,75,0),spd:0
+2021-11-10 16:54:35,095 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:35,096 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4983,4503,808),dir:(-79,62,0),spd:0
+2021-11-10 16:54:37,867 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:37,868 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4979,4506,808),dir:(-79,62,0),spd:300
+2021-11-10 16:54:38,120 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:38,121 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4919,4551,808),dir:(-88,47,0),spd:300
+2021-11-10 16:54:38,625 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:38,627 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4808,4512,820),dir:(-88,47,0),spd:300
+2021-11-10 16:54:40,601 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:54:40,603 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4332,4750,820),dir:(-88,47,0),spd:0
+2021-11-10 16:54:41,279 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:41,280 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4433,4762,821),dir:(-88,47,0),spd:0
+2021-11-10 16:54:41,540 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:41,541 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4534,4776,820),dir:(-88,47,0),spd:0
+2021-11-10 16:54:41,783 [22] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:41,784 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4635,4791,819),dir:(-88,47,0),spd:0
+2021-11-10 16:54:44,266 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:44,267 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4635,4791,819),dir:(-88,47,0),spd:300
+2021-11-10 16:54:44,317 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:44,318 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4623,4797,819),dir:(-95,31,0),spd:300
+2021-11-10 16:54:44,384 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:44,385 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4703,4800,818),dir:(-95,31,0),spd:300
+2021-11-10 16:54:44,543 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:44,545 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4653,4819,818),dir:(-99,14,0),spd:300
+2021-11-10 16:54:44,892 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:54:44,894 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4548,4839,818),dir:(-100,-4,0),spd:300
+2021-11-10 16:54:45,979 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:54:45,980 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4223,4839,818),dir:(-100,-4,0),spd:0
+2021-11-10 16:54:46,112 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,113 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-100,-4,0),spd:0
+2021-11-10 16:54:46,378 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,379 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-98,-22,0),spd:0
+2021-11-10 16:54:46,487 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,488 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-92,-39,0),spd:0
+2021-11-10 16:54:46,586 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,587 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-82,-57,0),spd:0
+2021-11-10 16:54:46,678 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,679 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-68,-73,0),spd:0
+2021-11-10 16:54:46,785 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,786 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-52,-86,0),spd:0
+2021-11-10 16:54:46,878 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,879 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-33,-94,0),spd:0
+2021-11-10 16:54:46,967 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:54:46,968 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(-16,-99,0),spd:0
+2021-11-10 16:54:47,063 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:47,065 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(5,-100,0),spd:0
+2021-11-10 16:54:47,163 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:47,165 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(26,-97,0),spd:0
+2021-11-10 16:54:47,265 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:47,266 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(45,-89,0),spd:0
+2021-11-10 16:54:47,370 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:47,371 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(62,-78,0),spd:0
+2021-11-10 16:54:47,502 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:47,503 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4258,4745,822),dir:(75,-66,0),spd:0
+2021-11-10 16:54:47,915 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:54:47,916 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4258,4745,822),dir:(75,-66,0),spd:300
+2021-11-10 16:54:48,572 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:48,573 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4414,4628,822),dir:(86,-51,0),spd:300
+2021-11-10 16:54:48,689 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:48,690 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4442,4607,822),dir:(94,-34,0),spd:300
+2021-11-10 16:54:48,773 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:54:48,774 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4467,4597,822),dir:(99,-17,0),spd:300
+2021-11-10 16:54:48,872 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:48,873 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4497,4591,822),dir:(100,2,0),spd:300
+2021-11-10 16:54:49,021 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:49,022 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4542,4591,822),dir:(98,20,0),spd:300
+2021-11-10 16:54:49,486 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:49,487 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4682,4619,822),dir:(93,37,0),spd:300
+2021-11-10 16:54:49,602 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:49,602 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4717,4633,822),dir:(84,54,0),spd:300
+2021-11-10 16:54:49,683 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 16:54:49,686 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4737,4648,822),dir:(73,68,0),spd:300
+2021-11-10 16:54:49,734 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:35
+2021-11-10 16:54:49,734 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:Idle Entity:(11:pos:(4749,4657,822),dir:(73,68,0),spd:0
+2021-11-10 16:54:49,792 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:49,793 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4749,4657,822),dir:(58,82,0),spd:0
+2021-11-10 16:54:49,874 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:49,876 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4749,4657,822),dir:(42,91,0),spd:0
+2021-11-10 16:54:49,968 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:49,969 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4749,4657,822),dir:(23,97,0),spd:0
+2021-11-10 16:54:50,111 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:54:50,112 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4749,4657,822),dir:(6,100,0),spd:0
+2021-11-10 16:54:50,693 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:54:50,694 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:11 Evt:None Entity:(11:pos:(4749,4657,822),dir:(-12,99,0),spd:0
+2021-11-10 16:54:54,252 [17] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:shuang
+2021-11-10 16:54:54,253 [17] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-10 16:54:54,253 [17] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:shuang : Map:1 CharacterID:1:shuang:EntityId:11
+2021-11-10 16:54:54,254 [17] [WARN ] [GameServer] £ºClient[] Disconnected
+2021-11-10 16:56:43,521 [17] [WARN ] [GameServer] £ºClient[127.0.0.1:11066]] Connected
+2021-11-10 16:56:43,607 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-10 16:56:43,607 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-10 16:56:47,317 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2021-11-10 16:56:47,321 [6] [INFO ] [GameServer] £ºUserCreateCharacterRequest: Name:ÊÔÊÔ  Class:Warrior
+2021-11-10 16:56:49,681 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2021-11-10 16:56:49,683 [7] [INFO ] [GameServer] £ºUserGameRequest: characterID:4:ÊÔÊÔ Map:1
+2021-11-10 16:56:49,684 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:4:ÊÔÊÔ
+2021-11-10 16:56:49,684 [7] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:4
+2021-11-10 16:56:49,684 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:4:ÊÔÊÔ
+2021-11-10 16:56:51,874 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:51,876 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(98,18,0),spd:0
+2021-11-10 16:56:51,972 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:51,974 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(93,36,0),spd:0
+2021-11-10 16:56:52,056 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,057 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(86,52,0),spd:0
+2021-11-10 16:56:52,143 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,144 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(75,66,0),spd:0
+2021-11-10 16:56:52,241 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,243 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(60,80,0),spd:0
+2021-11-10 16:56:52,321 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,323 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(45,89,0),spd:0
+2021-11-10 16:56:52,407 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,408 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(29,96,0),spd:0
+2021-11-10 16:56:52,494 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:56:52,495 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(12,99,0),spd:0
+2021-11-10 16:56:52,572 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:56:52,573 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(-6,100,0),spd:0
+2021-11-10 16:56:52,674 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:56:52,676 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(5000,4000,820),dir:(-26,97,0),spd:0
+2021-11-10 16:56:52,794 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:56:52,796 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:MoveFwd Entity:(12:pos:(5000,4000,820),dir:(-43,90,0),spd:300
+2021-11-10 16:56:52,811 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:52,811 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4998,4005,820),dir:(-43,90,0),spd:300
+2021-11-10 16:56:53,092 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:56:53,094 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:Idle Entity:(12:pos:(4964,4090,820),dir:(-43,90,0),spd:0
+2021-11-10 16:56:54,438 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:56:54,440 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:MoveFwd Entity:(12:pos:(4964,4090,820),dir:(-43,90,0),spd:300
+2021-11-10 16:56:55,153 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:55,155 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4904,4202,808),dir:(-43,90,0),spd:300
+2021-11-10 16:56:55,496 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:56:55,497 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:Idle Entity:(12:pos:(4862,4307,808),dir:(-43,90,0),spd:0
+2021-11-10 16:56:55,583 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:56:55,584 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:MoveFwd Entity:(12:pos:(4862,4307,808),dir:(-43,90,0),spd:300
+2021-11-10 16:56:56,314 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:56:56,315 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:Idle Entity:(12:pos:(4774,4527,808),dir:(-43,90,0),spd:0
+2021-11-10 16:56:56,916 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:56:56,918 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:MoveFwd Entity:(12:pos:(4772,4532,808),dir:(-43,90,0),spd:300
+2021-11-10 16:56:56,960 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:56,968 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4765,4546,808),dir:(-58,81,0),spd:300
+2021-11-10 16:56:57,070 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:57,075 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4767,4471,819),dir:(-58,81,0),spd:300
+2021-11-10 16:56:57,140 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:57,154 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4755,4487,819),dir:(-72,70,0),spd:300
+2021-11-10 16:56:57,331 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:57,332 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4707,4534,819),dir:(-83,56,0),spd:300
+2021-11-10 16:56:57,783 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:56:57,784 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4598,4614,819),dir:(-91,41,0),spd:300
+2021-11-10 16:56:59,116 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:56:59,119 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:Idle Entity:(12:pos:(4198,4774,819),dir:(-91,41,0),spd:0
+2021-11-10 16:57:02,114 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:57:02,115 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:None Entity:(12:pos:(4290,4815,821),dir:(-91,41,0),spd:0
+2021-11-10 16:57:02,291 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:57:02,292 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:MoveBack Entity:(12:pos:(4290,4815,821),dir:(-91,41,0),spd:-300
+2021-11-10 16:57:03,073 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:57:03,074 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:4:ÊÔÊÔ,Enity.Id:12 Evt:Idle Entity:(12:pos:(4525,4721,821),dir:(-91,41,0),spd:0
+2021-11-10 16:57:38,410 [26] [INFO ] [GameServer] £ºCharacterLeave£º characterID:4:ÊÔÊÔ
+2021-11-10 16:57:38,425 [26] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:4
+2021-11-10 16:57:38,426 [26] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 4:ÊÔÊÔ : Map:1 CharacterID:4:ÊÔÊÔ:EntityId:12
+2021-11-10 16:57:38,427 [26] [WARN ] [GameServer] £ºClient[] Disconnected
+2021-11-10 16:58:29,029 [26] [WARN ] [GameServer] £ºClient[127.0.0.1:11225]] Connected
+2021-11-10 16:58:29,109 [26] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-10 16:58:29,110 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-10 16:58:30,729 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-10 16:58:30,730 [6] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:shuang Map:1
+2021-11-10 16:58:30,730 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:58:30,731 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 0<1636534182
+2021-11-10 16:58:30,732 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-10 16:58:30,732 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:58:30,733 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:58:32,833 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:32,834 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(98,18,0),spd:0
+2021-11-10 16:58:32,932 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:32,933 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(93,36,0),spd:0
+2021-11-10 16:58:33,030 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,031 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(84,55,0),spd:0
+2021-11-10 16:58:33,134 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,135 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(71,71,0),spd:0
+2021-11-10 16:58:33,214 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,215 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(57,82,0),spd:0
+2021-11-10 16:58:33,316 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,317 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(39,92,0),spd:0
+2021-11-10 16:58:33,398 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,399 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(22,97,0),spd:0
+2021-11-10 16:58:33,498 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:58:33,499 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(2,100,0),spd:0
+2021-11-10 16:58:33,598 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:58:33,599 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(-18,98,0),spd:0
+2021-11-10 16:58:33,730 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:58:33,731 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(5000,4000,820),dir:(-35,94,0),spd:0
+2021-11-10 16:59:33,097 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 16:59:33,109 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(4998,4005,820),dir:(-35,94,0),spd:300
+2021-11-10 16:59:33,197 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:33,198 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4985,4034,820),dir:(-51,86,0),spd:300
+2021-11-10 16:59:33,478 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:33,479 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4937,4098,820),dir:(-65,76,0),spd:300
+2021-11-10 16:59:34,916 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:34,916 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4703,4345,812),dir:(-65,76,0),spd:300
+2021-11-10 16:59:34,964 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:34,965 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4694,4357,812),dir:(-77,63,0),spd:300
+2021-11-10 16:59:35,343 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:35,345 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4703,4417,818),dir:(-77,63,0),spd:300
+2021-11-10 16:59:35,757 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:35,758 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4703,4478,820),dir:(-77,63,0),spd:300
+2021-11-10 16:59:35,783 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:35,784 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4699,4481,820),dir:(-87,49,0),spd:300
+2021-11-10 16:59:35,811 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 16:59:35,813 [11] [INFO ] [GameServer] £ºQuestAcceptRequest::character:1:QuestId1001
+2021-11-10 16:59:35,843 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:59:35,843 [11] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:59:37,692 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:59:37,693 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(4239,4711,820),dir:(-87,49,0),spd:0
+2021-11-10 16:59:38,642 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:38,643 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-94,33,0),spd:0
+2021-11-10 16:59:38,793 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:38,794 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-99,16,0),spd:0
+2021-11-10 16:59:38,892 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:38,893 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-100,-4,0),spd:0
+2021-11-10 16:59:38,991 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:38,994 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-97,-25,0),spd:0
+2021-11-10 16:59:39,093 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,093 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-90,-44,0),spd:0
+2021-11-10 16:59:39,174 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,175 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-81,-59,0),spd:0
+2021-11-10 16:59:39,267 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,269 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-69,-72,0),spd:0
+2021-11-10 16:59:39,347 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,348 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-56,-83,0),spd:0
+2021-11-10 16:59:39,428 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,429 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-40,-92,0),spd:0
+2021-11-10 16:59:39,530 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,531 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-23,-97,0),spd:0
+2021-11-10 16:59:39,729 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 16:59:39,730 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4239,4711,820),dir:(-6,-100,0),spd:0
+2021-11-10 16:59:40,162 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:59:40,163 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveBack Entity:(13:pos:(4239,4711,820),dir:(-6,-100,0),spd:-300
+2021-11-10 16:59:40,520 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:40,522 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4257,4713,814),dir:(-6,-100,0),spd:-300
+2021-11-10 16:59:40,778 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 16:59:40,779 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(4257,4793,814),dir:(-6,-100,0),spd:0
+2021-11-10 16:59:44,430 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-10 16:59:44,432 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(4257,4793,814),dir:(-6,-100,0),spd:300
+2021-11-10 16:59:44,544 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:44,545 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4257,4758,814),dir:(-24,-97,0),spd:300
+2021-11-10 16:59:44,636 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:44,638 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4250,4728,814),dir:(-41,-91,0),spd:300
+2021-11-10 16:59:44,728 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:44,729 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4240,4703,814),dir:(-56,-83,0),spd:300
+2021-11-10 16:59:44,827 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:44,828 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4222,4679,814),dir:(-70,-71,0),spd:300
+2021-11-10 16:59:44,950 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:44,951 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4194,4651,814),dir:(-82,-58,0),spd:300
+2021-11-10 16:59:45,149 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:45,151 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4146,4615,814),dir:(-91,-42,0),spd:300
+2021-11-10 16:59:46,173 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:46,174 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3837,4490,814),dir:(-82,-57,0),spd:300
+2021-11-10 16:59:46,297 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:46,298 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3872,4547,818),dir:(-82,-57,0),spd:300
+2021-11-10 16:59:46,395 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:46,396 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3848,4528,818),dir:(-71,-71,0),spd:300
+2021-11-10 16:59:46,726 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:46,727 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3769,4448,818),dir:(-57,-82,0),spd:300
+2021-11-10 16:59:46,743 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:46,743 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3797,4542,823),dir:(-57,-82,0),spd:300
+2021-11-10 16:59:47,155 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:47,156 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3749,4546,822),dir:(-57,-82,0),spd:300
+2021-11-10 16:59:47,172 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:47,172 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3747,4541,822),dir:(-42,-91,0),spd:300
+2021-11-10 16:59:47,487 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:47,489 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3719,4546,822),dir:(-42,-91,0),spd:300
+2021-11-10 16:59:47,751 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:47,752 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3687,4466,822),dir:(-25,-97,0),spd:300
+2021-11-10 16:59:47,819 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:47,820 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3698,4546,821),dir:(-25,-97,0),spd:300
+2021-11-10 16:59:48,174 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:48,175 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3677,4544,821),dir:(-25,-97,0),spd:300
+2021-11-10 16:59:48,488 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-10 16:59:48,489 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3658,4449,821),dir:(-8,-100,0),spd:300
+2021-11-10 16:59:50,989 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:50,990 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3658,3699,821),dir:(10,-99,0),spd:300
+2021-11-10 16:59:51,104 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,106 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3664,821),dir:(27,-96,0),spd:300
+2021-11-10 16:59:51,203 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,205 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3672,3634,821),dir:(44,-90,0),spd:300
+2021-11-10 16:59:51,357 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,358 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3690,3589,821),dir:(60,-80,0),spd:300
+2021-11-10 16:59:51,423 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,424 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3641,3655,823),dir:(60,-80,0),spd:300
+2021-11-10 16:59:51,638 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,639 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3681,3604,823),dir:(73,-68,0),spd:300
+2021-11-10 16:59:51,910 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:51,911 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3642,3569,822),dir:(73,-68,0),spd:300
+2021-11-10 16:59:52,157 [33] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:52,158 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3702,3524,822),dir:(84,-54,0),spd:300
+2021-11-10 16:59:53,764 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 16:59:53,765 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4013,3305,813),dir:(84,-54,0),spd:300
+2021-11-10 16:59:53,805 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 16:59:53,806 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(4025,3296,813),dir:(84,-54,0),spd:0
+2021-11-10 16:59:53,880 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:53,882 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(92,-39,0),spd:0
+2021-11-10 16:59:56,312 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:56,313 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(83,-56,0),spd:0
+2021-11-10 16:59:56,446 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:56,447 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(71,-70,0),spd:0
+2021-11-10 16:59:58,265 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 16:59:58,267 [11] [INFO ] [GameServer] £ºQuestSubmitRequest::Character:1:QuestId1001
+2021-11-10 16:59:58,278 [11] [INFO ] [GameServer] £º[1]AddItem[ID:3,Count:5] addCount5
+2021-11-10 16:59:58,288 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 16:59:58,290 [11] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 16:59:59,581 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:59,582 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(83,-55,0),spd:0
+2021-11-10 16:59:59,688 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:59,690 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(93,-37,0),spd:0
+2021-11-10 16:59:59,788 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 16:59:59,792 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(99,-17,0),spd:0
+2021-11-10 16:59:59,872 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2021-11-10 16:59:59,877 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(100,0,0),spd:0
+2021-11-10 16:59:59,966 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 16:59:59,968 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(98,18,0),spd:0
+2021-11-10 17:00:00,050 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,051 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(93,38,0),spd:0
+2021-11-10 17:00:00,136 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,137 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(85,53,0),spd:0
+2021-11-10 17:00:00,236 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,243 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(74,67,0),spd:0
+2021-11-10 17:00:00,302 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,313 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(61,79,0),spd:0
+2021-11-10 17:00:00,406 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,406 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(45,89,0),spd:0
+2021-11-10 17:00:00,571 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:00,572 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(28,96,0),spd:0
+2021-11-10 17:00:01,358 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:01,359 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(9,100,0),spd:0
+2021-11-10 17:00:01,458 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:01,459 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(-10,100,0),spd:0
+2021-11-10 17:00:01,558 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:01,559 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(-30,95,0),spd:0
+2021-11-10 17:00:01,655 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:01,656 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(-49,87,0),spd:0
+2021-11-10 17:00:01,736 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:01,737 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(-64,77,0),spd:0
+2021-11-10 17:00:01,843 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:01,844 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4025,3296,813),dir:(-78,62,0),spd:0
+2021-11-10 17:00:01,865 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:01,868 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(4025,3296,813),dir:(-78,62,0),spd:300
+2021-11-10 17:00:01,945 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:01,945 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4005,3311,813),dir:(-88,47,0),spd:300
+2021-11-10 17:00:02,795 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:02,798 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3801,3413,813),dir:(-95,31,0),spd:300
+2021-11-10 17:00:02,985 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:02,987 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3746,3435,813),dir:(-99,13,0),spd:300
+2021-11-10 17:00:03,075 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-10 17:00:03,076 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3716,3441,813),dir:(-100,-5,0),spd:0
+2021-11-10 17:00:03,092 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,092 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-100,-5,0),spd:0
+2021-11-10 17:00:03,158 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,159 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-97,-22,0),spd:0
+2021-11-10 17:00:03,241 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,247 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-92,-39,0),spd:0
+2021-11-10 17:00:03,332 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,334 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-84,-54,0),spd:0
+2021-11-10 17:00:03,412 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,413 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-73,-68,0),spd:0
+2021-11-10 17:00:03,495 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,496 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-60,-80,0),spd:0
+2021-11-10 17:00:03,593 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,594 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-42,-91,0),spd:0
+2021-11-10 17:00:03,696 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,698 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-23,-97,0),spd:0
+2021-11-10 17:00:03,781 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:03,782 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(-5,-100,0),spd:0
+2021-11-10 17:00:03,897 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:03,898 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(14,-99,0),spd:0
+2021-11-10 17:00:04,331 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,332 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(32,-95,0),spd:0
+2021-11-10 17:00:04,462 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,463 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(48,-88,0),spd:0
+2021-11-10 17:00:04,562 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,563 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(64,-77,0),spd:0
+2021-11-10 17:00:04,652 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,663 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(77,-64,0),spd:0
+2021-11-10 17:00:04,747 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,749 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(88,-47,0),spd:0
+2021-11-10 17:00:04,830 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,831 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(95,-31,0),spd:0
+2021-11-10 17:00:04,911 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:04,912 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(99,-14,0),spd:0
+2021-11-10 17:00:04,994 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:04,995 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(100,4,0),spd:0
+2021-11-10 17:00:05,099 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:05,101 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(97,24,0),spd:0
+2021-11-10 17:00:05,178 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:05,179 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(91,41,0),spd:0
+2021-11-10 17:00:05,277 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:05,278 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(81,59,0),spd:0
+2021-11-10 17:00:05,378 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:05,379 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(69,73,0),spd:0
+2021-11-10 17:00:05,578 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:05,579 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3716,3441,813),dir:(55,84,0),spd:0
+2021-11-10 17:00:06,189 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:40
+2021-11-10 17:00:06,190 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(3716,3441,813),dir:(55,84,0),spd:300
+2021-11-10 17:00:06,322 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:06,323 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3740,3473,813),dir:(39,92,0),spd:300
+2021-11-10 17:00:06,437 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:06,438 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3754,3508,813),dir:(22,98,0),spd:300
+2021-11-10 17:00:06,568 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:06,569 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3761,3548,813),dir:(4,100,0),spd:300
+2021-11-10 17:00:06,653 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:06,655 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3707,3485,822),dir:(4,100,0),spd:300
+2021-11-10 17:00:06,826 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:06,827 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3707,3535,822),dir:(-14,99,0),spd:300
+2021-11-10 17:00:07,008 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:07,009 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3685,3485,822),dir:(-14,99,0),spd:300
+2021-11-10 17:00:07,896 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 17:00:07,897 [6] [INFO ] [GameServer] £ºQuestAcceptRequest::character:1:QuestId3001
+2021-11-10 17:00:07,904 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 17:00:07,904 [6] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 17:00:08,268 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:08,269 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3609,3865,822),dir:(-14,99,0),spd:0
+2021-11-10 17:00:08,285 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:08,286 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveBack Entity:(13:pos:(3609,3865,822),dir:(-14,99,0),spd:-300
+2021-11-10 17:00:08,387 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:08,388 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3615,3835,822),dir:(-14,99,0),spd:0
+2021-11-10 17:00:08,886 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:08,888 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveBack Entity:(13:pos:(3615,3835,822),dir:(-14,99,0),spd:-300
+2021-11-10 17:00:09,261 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:09,262 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3637,3828,807),dir:(-14,99,0),spd:-300
+2021-11-10 17:00:09,555 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:09,555 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3655,3738,807),dir:(5,100,0),spd:-300
+2021-11-10 17:00:09,627 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-10 17:00:09,628 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3818,807),dir:(5,100,0),spd:-300
+2021-11-10 17:00:09,703 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:35
+2021-11-10 17:00:09,705 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3638,3793,807),dir:(24,97,0),spd:0
+2021-11-10 17:00:09,726 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:09,727 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(24,97,0),spd:0
+2021-11-10 17:00:09,829 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:09,830 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(43,90,0),spd:0
+2021-11-10 17:00:09,891 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:09,892 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(58,81,0),spd:0
+2021-11-10 17:00:09,990 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:09,991 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(74,67,0),spd:0
+2021-11-10 17:00:10,096 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:10,097 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(86,51,0),spd:0
+2021-11-10 17:00:10,179 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:10,180 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(94,35,0),spd:0
+2021-11-10 17:00:10,263 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:10,264 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(98,18,0),spd:0
+2021-11-10 17:00:10,351 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:10,352 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(100,1,0),spd:0
+2021-11-10 17:00:10,422 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,423 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(99,-17,0),spd:0
+2021-11-10 17:00:10,531 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,532 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(93,-37,0),spd:0
+2021-11-10 17:00:10,622 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,623 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(83,-55,0),spd:0
+2021-11-10 17:00:10,708 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,709 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(72,-69,0),spd:0
+2021-11-10 17:00:10,807 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,807 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(56,-83,0),spd:0
+2021-11-10 17:00:10,910 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:10,911 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(40,-92,0),spd:0
+2021-11-10 17:00:11,076 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:11,078 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3638,3793,807),dir:(22,-97,0),spd:0
+2021-11-10 17:00:11,783 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:11,785 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(3638,3793,807),dir:(22,-97,0),spd:300
+2021-11-10 17:00:12,049 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,050 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3654,3713,807),dir:(4,-100,0),spd:300
+2021-11-10 17:00:12,317 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,319 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3654,3633,807),dir:(22,-98,0),spd:300
+2021-11-10 17:00:12,401 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,402 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3641,3707,820),dir:(22,-98,0),spd:300
+2021-11-10 17:00:12,418 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,418 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3642,3702,820),dir:(39,-92,0),spd:300
+2021-11-10 17:00:12,541 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,542 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3659,3663,820),dir:(55,-84,0),spd:300
+2021-11-10 17:00:12,759 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,761 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3698,3611,820),dir:(69,-73,0),spd:300
+2021-11-10 17:00:12,989 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:12,990 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3641,3596,822),dir:(69,-73,0),spd:300
+2021-11-10 17:00:13,179 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:13,180 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3678,3549,822),dir:(80,-60,0),spd:300
+2021-11-10 17:00:13,230 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 17:00:13,231 [7] [INFO ] [GameServer] £ºQuestAcceptRequest::character:1:QuestId1002
+2021-11-10 17:00:13,237 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 17:00:13,237 [7] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 17:00:13,454 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:13,455 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3643,3521,822),dir:(80,-60,0),spd:300
+2021-11-10 17:00:13,986 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:13,988 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3771,3425,822),dir:(89,-45,0),spd:300
+2021-11-10 17:00:14,399 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:14,401 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3871,3375,822),dir:(89,-45,0),spd:0
+2021-11-10 17:00:14,630 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:14,631 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(80,-60,0),spd:0
+2021-11-10 17:00:14,746 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:14,747 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(67,-74,0),spd:0
+2021-11-10 17:00:14,850 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:14,851 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(51,-86,0),spd:0
+2021-11-10 17:00:14,966 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:14,967 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(34,-94,0),spd:0
+2021-11-10 17:00:15,148 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:15,150 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(15,-99,0),spd:0
+2021-11-10 17:00:15,264 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,275 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-5,-100,0),spd:0
+2021-11-10 17:00:15,347 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,348 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-22,-97,0),spd:0
+2021-11-10 17:00:15,431 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,434 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-39,-92,0),spd:0
+2021-11-10 17:00:15,531 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,533 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-57,-82,0),spd:0
+2021-11-10 17:00:15,619 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,620 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-71,-71,0),spd:0
+2021-11-10 17:00:15,718 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,718 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-84,-55,0),spd:0
+2021-11-10 17:00:15,805 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,806 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-92,-39,0),spd:0
+2021-11-10 17:00:15,905 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:15,907 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-98,-19,0),spd:0
+2021-11-10 17:00:15,999 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:16,001 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-100,2,0),spd:0
+2021-11-10 17:00:16,097 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:16,098 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-98,22,0),spd:0
+2021-11-10 17:00:16,214 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:16,218 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3871,3375,822),dir:(-92,39,0),spd:0
+2021-11-10 17:00:17,008 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:17,009 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(3871,3375,822),dir:(-92,39,0),spd:300
+2021-11-10 17:00:17,126 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:17,127 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3837,3390,822),dir:(-84,55,0),spd:300
+2021-11-10 17:00:17,176 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:17,176 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3921,3369,814),dir:(-84,55,0),spd:300
+2021-11-10 17:00:17,330 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:17,331 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3885,3396,814),dir:(-73,69,0),spd:300
+2021-11-10 17:00:17,770 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:17,774 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3778,3478,814),dir:(-60,80,0),spd:300
+2021-11-10 17:00:18,150 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:18,152 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3773,3485,822),dir:(-60,80,0),spd:300
+2021-11-10 17:00:18,233 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 17:00:18,234 [8] [INFO ] [GameServer] £ºQuestSubmitRequest::Character:1:QuestId1002
+2021-11-10 17:00:18,242 [8] [INFO ] [GameServer] £º[1]AddItem[ID:4,Count:10] addCount10
+2021-11-10 17:00:18,250 [8] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 17:00:18,251 [8] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 17:00:18,309 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:18,310 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3744,3525,822),dir:(-45,89,0),spd:300
+2021-11-10 17:00:18,568 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:18,569 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3727,3485,822),dir:(-45,89,0),spd:300
+2021-11-10 17:00:18,922 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:18,923 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3684,3574,822),dir:(-29,96,0),spd:300
+2021-11-10 17:00:18,980 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:18,988 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3695,3485,822),dir:(-29,96,0),spd:300
+2021-11-10 17:00:19,471 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:19,472 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3665,3635,822),dir:(-29,96,0),spd:0
+2021-11-10 17:00:19,654 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:19,655 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-10,99,0),spd:0
+2021-11-10 17:00:19,798 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:19,799 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(10,100,0),spd:0
+2021-11-10 17:00:19,895 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:19,896 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(28,96,0),spd:0
+2021-11-10 17:00:19,978 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:19,979 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(44,90,0),spd:0
+2021-11-10 17:00:20,074 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:20,075 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(60,80,0),spd:0
+2021-11-10 17:00:20,222 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:20,223 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(73,68,0),spd:0
+2021-11-10 17:00:20,646 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:20,647 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(85,53,0),spd:0
+2021-11-10 17:00:20,762 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:20,763 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(94,35,0),spd:0
+2021-11-10 17:00:20,845 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:20,846 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(98,18,0),spd:0
+2021-11-10 17:00:20,930 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:31
+2021-11-10 17:00:20,931 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(100,0,0),spd:0
+2021-11-10 17:00:21,034 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,035 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(98,-20,0),spd:0
+2021-11-10 17:00:21,111 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,112 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(93,-37,0),spd:0
+2021-11-10 17:00:21,217 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,218 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(84,-55,0),spd:0
+2021-11-10 17:00:21,349 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,350 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(73,-69,0),spd:0
+2021-11-10 17:00:21,844 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,845 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(58,-81,0),spd:0
+2021-11-10 17:00:21,960 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:21,961 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(42,-91,0),spd:0
+2021-11-10 17:00:22,042 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:22,043 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(25,-97,0),spd:0
+2021-11-10 17:00:22,148 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:22,150 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(4,-100,0),spd:0
+2021-11-10 17:00:22,252 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,254 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-16,-99,0),spd:0
+2021-11-10 17:00:22,332 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,333 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-33,-94,0),spd:0
+2021-11-10 17:00:22,411 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,412 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-49,-87,0),spd:0
+2021-11-10 17:00:22,496 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,497 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-64,-77,0),spd:0
+2021-11-10 17:00:22,594 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,595 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-78,-62,0),spd:0
+2021-11-10 17:00:22,694 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,695 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-89,-45,0),spd:0
+2021-11-10 17:00:22,784 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,785 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-96,-29,0),spd:0
+2021-11-10 17:00:22,864 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:51
+2021-11-10 17:00:22,864 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-99,-11,0),spd:0
+2021-11-10 17:00:22,964 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:22,965 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-100,9,0),spd:0
+2021-11-10 17:00:23,049 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:23,050 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-96,27,0),spd:0
+2021-11-10 17:00:23,145 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:23,146 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-89,46,0),spd:0
+2021-11-10 17:00:23,246 [35] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:23,247 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3665,3635,822),dir:(-79,61,0),spd:0
+2021-11-10 17:00:23,950 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:23,951 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(3661,3638,822),dir:(-79,61,0),spd:300
+2021-11-10 17:00:23,966 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:23,967 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3658,3642,822),dir:(-67,74,0),spd:300
+2021-11-10 17:00:24,168 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:24,169 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3622,3690,822),dir:(-53,85,0),spd:300
+2021-11-10 17:00:24,375 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:24,376 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3586,3738,822),dir:(-37,93,0),spd:300
+2021-11-10 17:00:25,028 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:11
+2021-11-10 17:00:25,029 [10] [INFO ] [GameServer] £ºQuestAcceptRequest::character:1:QuestId1003
+2021-11-10 17:00:25,036 [10] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:shuang
+2021-11-10 17:00:25,037 [10] [INFO ] [GameServer] £ºPostProcess > Guild :CharacteID:1:shuang 1636534182<1636534182
+2021-11-10 17:00:25,362 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:25,363 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3536,3959,823),dir:(-37,93,0),spd:300
+2021-11-10 17:00:25,376 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:25,376 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(3534,3964,823),dir:(-37,93,0),spd:0
+2021-11-10 17:00:25,450 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:25,452 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(-19,98,0),spd:0
+2021-11-10 17:00:25,740 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:25,741 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(-1,100,0),spd:0
+2021-11-10 17:00:26,359 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,360 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(18,98,0),spd:0
+2021-11-10 17:00:26,459 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,461 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(36,93,0),spd:0
+2021-11-10 17:00:26,541 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,542 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(52,85,0),spd:0
+2021-11-10 17:00:26,646 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,646 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(69,73,0),spd:0
+2021-11-10 17:00:26,747 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,748 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(82,57,0),spd:0
+2021-11-10 17:00:26,826 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,827 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(91,42,0),spd:0
+2021-11-10 17:00:26,909 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:26,910 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(97,25,0),spd:0
+2021-11-10 17:00:27,007 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-10 17:00:27,009 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(100,5,0),spd:0
+2021-11-10 17:00:27,092 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,092 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(99,-13,0),spd:0
+2021-11-10 17:00:27,188 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,189 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(94,-33,0),spd:0
+2021-11-10 17:00:27,287 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,288 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(85,-52,0),spd:0
+2021-11-10 17:00:27,399 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,403 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(73,-69,0),spd:0
+2021-11-10 17:00:27,494 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,510 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(57,-82,0),spd:0
+2021-11-10 17:00:27,616 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:27,627 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3534,3964,823),dir:(41,-91,0),spd:0
+2021-11-10 17:00:35,716 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:35,717 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveFwd Entity:(13:pos:(3536,3959,823),dir:(41,-91,0),spd:300
+2021-11-10 17:00:35,898 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:35,899 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3529,4003,823),dir:(41,-91,0),spd:300
+2021-11-10 17:00:37,487 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:37,488 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3640,3591,822),dir:(41,-91,0),spd:300
+2021-11-10 17:00:38,682 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:38,683 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(3785,3232,822),dir:(56,-83,0),spd:300
+2021-11-10 17:00:41,039 [24] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:41,041 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4207,2667,822),dir:(40,-92,0),spd:300
+2021-11-10 17:00:42,245 [24] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:42,246 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4260,2349,816),dir:(40,-92,0),spd:300
+2021-11-10 17:00:43,306 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:43,307 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4387,2029,816),dir:(23,-97,0),spd:300
+2021-11-10 17:00:43,562 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:43,563 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4340,1974,892),dir:(23,-97,0),spd:300
+2021-11-10 17:00:44,065 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:44,066 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4349,1832,991),dir:(23,-97,0),spd:300
+2021-11-10 17:00:44,558 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:44,559 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4359,1685,1089),dir:(23,-97,0),spd:300
+2021-11-10 17:00:45,044 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:45,045 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4368,1544,1187),dir:(23,-97,0),spd:300
+2021-11-10 17:00:46,066 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-10 17:00:46,067 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4386,1247,1277),dir:(23,-97,0),spd:300
+2021-11-10 17:00:47,662 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:47,663 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(4482,767,1277),dir:(23,-97,0),spd:0
+2021-11-10 17:00:47,679 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-10 17:00:47,680 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:None Entity:(13:pos:(4416,774,1352),dir:(23,-97,0),spd:0
+2021-11-10 17:00:47,986 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-10 17:00:47,988 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:MoveBack Entity:(13:pos:(4416,774,1352),dir:(23,-97,0),spd:-300
+2021-11-10 17:00:48,653 [30] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-10 17:00:48,655 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:shuang,Enity.Id:13 Evt:Idle Entity:(13:pos:(4376,974,1352),dir:(23,-97,0),spd:0
+2021-11-10 17:00:52,800 [24] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:shuang
+2021-11-10 17:00:52,805 [24] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-10 17:00:52,806 [24] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:shuang : Map:1 CharacterID:1:shuang:EntityId:13
+2021-11-10 17:00:52,808 [24] [WARN ] [GameServer] £ºClient[] Disconnected
