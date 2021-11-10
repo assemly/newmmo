@@ -41,7 +41,7 @@ public class LoadingManager : MonoBehaviour {
         //Init basic services
         MapService.Instance.Init();
         UserService.Instance.Init();
-        TestManager.Instance.Init();
+        //TestManager.Instance.Init();
         ItemService.Instance.Init();
         QuestService.Instance.Init();
         StatusService.Instance.Init();
@@ -50,7 +50,7 @@ public class LoadingManager : MonoBehaviour {
         TeamService.Instance.Init();
         GuildService.Instance.Init();
         ChatService.Instance.Init();
-
+        AudioManager.Instance.PlayMusic(SoundDefine.Music_Login);
         // Fake Loading Simulate
         for (float i = 50; i < 100;)
         {

@@ -68,6 +68,10 @@
     <Compile Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Demo magiс circles Vol 2\CameraHolder.cs" />
     <Compile Include="Assets\Login.cs" />
     <Compile Include="Assets\Scripts\Assets\Resloader.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\AuidoPreafabSO.cs" />
+    <Compile Include="Assets\Scripts\Audio\Config.cs" />
+    <Compile Include="Assets\Scripts\Audio\SoundDefine.cs" />
     <Compile Include="Assets\Scripts\Entities\Character.cs" />
     <Compile Include="Assets\Scripts\Entities\Entity.cs" />
     <Compile Include="Assets\Scripts\GameObject\EntityController.cs" />
@@ -113,6 +117,7 @@
     <Compile Include="Assets\Scripts\Services\StatusService.cs" />
     <Compile Include="Assets\Scripts\Services\TeamService.cs" />
     <Compile Include="Assets\Scripts\Services\UserService.cs" />
+    <Compile Include="Assets\Scripts\UI\Audio\UIAduioSetting.cs" />
     <Compile Include="Assets\Scripts\UI\Bag\UIBag.cs" />
     <Compile Include="Assets\Scripts\UI\CharEquip\UICharEquip.cs" />
     <Compile Include="Assets\Scripts\UI\CharEquip\UIEquipItem.cs" />

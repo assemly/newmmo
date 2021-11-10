@@ -16,6 +16,7 @@ namespace Common.Data
 		public bool PKMode { get; set;} 	// PK模式
 		public string Resource { get; set;} 	// 图像名称
 		public string MiniMap { get; set;} 	// 小地图资源
+		public string Music { get; set;} 	// 音乐资源
 		public string Description { get; set;} 	// 技能描述
 	}
 }

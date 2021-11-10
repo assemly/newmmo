@@ -21,7 +21,7 @@ public class TabView : MonoBehaviour
             tabButtons[i].tabIndex = i;
         }
         yield return new WaitForEndOfFrame();
-        SelectTab(1);
+        SelectTab(0);
     }
 
     public void SelectTab(int index)
