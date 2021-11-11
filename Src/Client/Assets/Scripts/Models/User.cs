@@ -1,4 +1,5 @@
 ﻿using Common.Data;
+using Entities;
 using SkillBridge.Message;
 
 
@@ -15,13 +16,14 @@ namespace Models
         {
             this.userInfo = info;
         }
-        public NCharacterInfo CurrentCharacter { get; set; }
+        public Character CurrentCharacter { get; set; }
+        public NCharacterInfo CurrentCharacterInfo { get; set; }
         public PlayerInputController CurrentCharacterObject { get; set; }
         public NTeamInfo TeamInfo { get; set; }
         public MapDefine CurrentMapData { get; set; }
         internal void AddGold(int gold)
         {
-            this.CurrentCharacter.Gold += gold;
+            this.CurrentCharacterInfo.Gold += gold;
         }
 
         public int CurrentRide = 0;

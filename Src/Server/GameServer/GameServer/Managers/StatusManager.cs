@@ -63,5 +63,15 @@ namespace GameServer.Managers
             }
             this.Status.Clear();
         }
+
+        public void AddExpChange(int expDelta)
+        {
+            this.AddStatus(StatusType.Exp, 0, expDelta, StatusAction.Add);
+        }
+
+        internal void AddLevelUp(int levelDelta)
+        {
+            this.AddStatus(StatusType.Level, 0, levelDelta, StatusAction.Add);
+        }
     }
 }

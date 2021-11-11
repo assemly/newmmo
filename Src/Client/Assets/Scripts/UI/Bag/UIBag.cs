@@ -28,7 +28,7 @@ public class UIBag : UIWindow
 
     IEnumerator InitBags()
     {
-        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+        this.money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
         for (int i = 0; i < BagManager.Instance.Items.Length; i++)
         {
             var item = BagManager.Instance.Items[i];
@@ -49,7 +49,7 @@ public class UIBag : UIWindow
 
     public void SetTitle(string title)
     {
-        this.money.text = User.Instance.CurrentCharacter.Id.ToString();
+        this.money.text = User.Instance.CurrentCharacterInfo.Id.ToString();
     }
     // Update is called once per frame
     void Update()

@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using Common.Battle;
+using Managers;
 using Models;
 using SkillBridge.Message;
 using System;
@@ -19,6 +20,17 @@ public class UICharEquip : UIWindow
 
     public List<Transform> slots;
 
+    public Text characterName;
+    public Text level;
+
+    public Text hp;
+    public Slider hpBar;
+
+    public Text mp;
+    public Slider mpBar;
+
+    public Text[] attrs;
+
     private void Start()
     {
         RefreshUI();
@@ -37,14 +49,37 @@ public class UICharEquip : UIWindow
         InitAllEquipItems();
         ClearEquipedList();
         InitEquipedItems();
-        this.Money.text = User.Instance.CurrentCharacter.Gold.ToString();
+        this.Money.text = User.Instance.CurrentCharacterInfo.Gold.ToString();
+
+        InitAttributes();
+    }
+
+    private void InitAttributes()
+    {
+        this.characterName.text = User.Instance.CurrentCharacter.Name;
+        this.level.text = User.Instance.CurrentCharacter.Info.Level.ToString();
+        var charattr = User.Instance.CurrentCharacter.Attributes;
+        this.hp.text = string.Format("{0}/{1}", charattr.HP, charattr.MaxHP);
+        this.mp.text = string.Format("{0}/{1}", charattr.MP, charattr.MaxMP);
+        this.hpBar.maxValue = charattr.MaxHP;
+        this.hpBar.value = charattr.HP;
+        this.mpBar.maxValue = charattr.MaxMP;
+        this.mpBar.value = charattr.MP;
+
+        for (int i = (int)AttributeType.STR; i < (int)AttributeType.MAX; i++)
+        {
+            if (i == (int)AttributeType.CRI)
+                this.attrs[i - 2].text = string.Format("{0:f2}%", charattr.Final.Data[i] * 100);
+            else
+                this.attrs[i - 2].text = ((int)charattr.Final.Data[i]).ToString();
+        }
     }
 
     void InitAllEquipItems()
     {
         foreach(var kv in ItemManager.Instance.Items)
         {
-            if(kv.Value.Define.Type == ItemType.Equip && kv.Value.Define.LimitClass == User.Instance.CurrentCharacter.Class)
+            if(kv.Value.Define.Type == ItemType.Equip && kv.Value.Define.LimitClass == User.Instance.CurrentCharacterInfo.Class)
             {
                 if (EquipManager.Instance.Contains(kv.Key))
                     continue;
