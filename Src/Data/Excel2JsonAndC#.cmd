@@ -12,5 +12,9 @@ excel2csharp\excels2csharp .\Tables .\CSharp
 @copy Data\EquipDefine.txt ..\Client\Data\
 @copy Data\QuestDefine.txt ..\Client\Data\
 @copy Data\RideDefine.txt ..\Client\Data\
+@copy Data\SkillDefine.txt ..\Client\Data\
+@copy Data\BuffDefine.txt ..\Client\Data\
 
+@copy Data\SkillDefine.txt ..\Server\GameServer\GameServer\bin\Debug\Data\
+@copy Data\BuffDefine.txt ..\Server\GameServer\GameServer\bin\Debug\Data\
 pause

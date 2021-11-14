@@ -84,4 +84,9 @@ public class UIMain : MonoSingleton<UIMain>
     {
         UIManager.Instance.Show<UIRide>();
     }
+
+    public void OnSkill()
+    {
+        UIManager.Instance.Show<UISkill>();
+    }
 }

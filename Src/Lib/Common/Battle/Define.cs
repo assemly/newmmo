@@ -21,4 +21,11 @@ namespace Common.Battle
         CRI = 10,
         MAX
     }
+
+    public enum SkillType
+    {
+        
+        Normal = 0,
+        Skill = 1,
+    }
 }

@@ -797,3 +797,24 @@ message ChatResponse
 	repeated ChatMessage teamMessages = 7;
 	repeated ChatMessage guildMessage = 8;
 }
+
+// skill
+// enum SkillType
+// {
+// 	Normal = 0;
+// 	Skill = 1;
+// }
+
+enum TargetType
+{
+	None = 0;
+	Self = 1;
+	Target = 2;
+	Position = 3;
+}
+
+enum BuffEffect
+{
+	None = 0;
+	Stun = 1;
+}

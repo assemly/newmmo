@@ -1740,6 +1740,24 @@ namespace SkillBridge.Message
         Guild = 32,
     }
 
+
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum TargetType
+    {
+        None = 0,
+        Self = 1,
+        Target = 2,
+        Position = 3,
+    }
+
+    [global::ProtoBuf.ProtoContract()]
+    public enum BuffEffect
+    {
+        None = 0,
+        Stun = 1,
+    }
+
 }
 
 #pragma warning restore CS1591, CS0612, CS3021, IDE1006
