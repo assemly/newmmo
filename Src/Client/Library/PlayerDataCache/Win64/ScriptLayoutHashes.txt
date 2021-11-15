@@ -97,6 +97,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 80cd80a91802e428900387f0fb1ec355 Assembly-CSharp.dll:.UITeamItem
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AuidoPreafabSO
 1d0db436872d60734773f01c387776b5 Assembly-CSharp.dll:.UITeam
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ListView
 a2d58a8ab1586fc8420eb4a9276ea023 Assembly-CSharp.dll:.UIGuildMemberItem
@@ -137,6 +138,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 6da3fc7ff6bf890675287c4c5f22da57 Assembly-CSharp.dll:.UISetting
 af714bb2e378165519d2842921f0a937 Assembly-CSharp.dll:.EntityController
 1ce907259b21149c7f5ef0c88eb93b55 Assembly-CSharp.dll:.MainPlayerCamera
+3029d6ff143baed4182a06ac538fceea Assembly-CSharp.dll:.UISkillItem
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 9284060a8185a4a63e59932caf63b018 Assembly-CSharp.dll:Candlelight.KeywordsTextDocument
@@ -150,6 +152,7 @@ f4d21d1840f766eb3cd40d6e33fd5a96 Assembly-CSharp.dll:.UICharacterSelect
 35cb1e8f8bb8abfd1c28c0ee0eba6625 Assembly-CSharp.dll:.UIEquipItem
 22af5a089d85e877325c1aebef192a32 Assembly-CSharp.dll:.UIGuildApplyList
 693d60b04c7cd1c12ec338071a9ac03d Assembly-CSharp.dll:.UIInputBox
+049dfebee89de27371031f50aabac96f Assembly-CSharp.dll:.UISkill
 06155f60d2eb3e14f6e691589bbe02d2 Assembly-CSharp.dll:.UIWorldElementManager
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 237764f3f1b6c757626f4b548a98e0b8 Assembly-CSharp.dll:.UICharInfo
@@ -160,6 +163,7 @@ a0e740a88c583a306c579fb3f5ba6aef Assembly-CSharp.dll:.GameObjectManager
 eb49af3caaee509ac913d2fa0de5cd14 Assembly-CSharp.dll:.UIFriends
 24827b4306696e2ee8efc0eb5bafd0f1 Assembly-CSharp.dll:Candlelight.UI.LocalizableText
 56db0660942095cd29bd58773c87eae0 Assembly-CSharp.dll:.UIRegister
+b358cb04e5c587f8c64a5142d823310f Assembly-CSharp.dll:.AudioManager
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 2a1b05b69d07cbe5381de42122f256cf Assembly-CSharp.dll:Candlelight.KeywordsGlossary
 3ce8d131f84c6667fe90861af33d45ec Assembly-CSharp.dll:.UIGuildInfo
@@ -179,6 +183,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+2cc7263a1a271b6fedc192e652df8082 Assembly-CSharp.dll:.UIAduioSetting
 c4c7170cd3c9bae72b4f30ab2e70b296 Assembly-CSharp.dll:.UIGuildPopCreate
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
@@ -201,7 +206,9 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 4d5f87be09c7a42340ac79ad96391bdf Assembly-CSharp.dll:.SpriteManager
 73e89d86dcfaeadeef11844d9e46b74f Assembly-CSharp.dll:Candlelight.UI.HyperTextStyles
-6bb0fe11b597160b7fc9536104bb8927 Assembly-CSharp.dll:.UIQuestInfo
+a0e740a88c583a306c579fb3f5ba6aef Assembly-CSharp.dll:.NavPathRenderer
+9c38157887b36fd0ef1ed7e726073ff4 Assembly-CSharp.dll:.UISkillSlots
+eed6b40016fc2daddddc69399fa3c19c Assembly-CSharp.dll:.UIQuestInfo
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 b06ac6096cc21ffd9fb42ae04920c2ba Assembly-CSharp.dll:.UIMain
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
@@ -220,10 +227,11 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 1f67d061567b637ffc47c9aaffe42e71 Assembly-CSharp.dll:.SpawnPoint
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 5a71f0f48b922cf416c74784eba7dc6a Assembly-CSharp.dll:.UIGuildItem
+020f7f21713d6633dff7257eefb89447 Assembly-CSharp.dll:.UISkillSlot
 a28522ff982f10195c1b26906a5c26be Assembly-CSharp.dll:.UIAvatarInfo
 c5011f19d861a23e0c272b8a86168be6 Assembly-CSharp.dll:.UIIconItem
 e829d22ffb5a4937d03cf3f8e75a6683 Assembly-CSharp.dll:Candlelight.UI.HyperText
-c097344aab25018eaa5220e6938c5960 Assembly-CSharp.dll:.UICharEquip
+b0c8f75982c0d31a13d3c3fa0c196135 Assembly-CSharp.dll:.UICharEquip
 6802693cca31960f0b43440e5cc85bec Assembly-CSharp.dll:.UINameBar
 046f90afc2b8a3f40167919cbb5a1ade Assembly-CSharp.dll:.UIWorldElement
 81ece8d42ce7dffcf3d9e705d7d4100c Assembly-CSharp.dll:.UIQuestItem

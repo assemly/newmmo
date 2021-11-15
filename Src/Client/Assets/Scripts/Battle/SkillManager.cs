@@ -1,5 +1,6 @@
 ﻿using Battle;
 using Entities;
+using System;
 using System.Collections.Generic;
 
 namespace Managers
@@ -29,6 +30,24 @@ namespace Managers
         public void AddSkill(Skill skill)
         {
             this.Skills.Add(skill);
+        }
+
+        public Skill GetSkill(int skillId)
+        {
+            for(int i = 0; i < this.Skills.Count; i++)
+            {
+                if (this.Skills[i].Define.ID == skillId)
+                    return this.Skills[i];
+            }
+            return null;
+        }
+
+        public void OnUpdate(float deltea)
+        {
+            for(int i = 0; i < this.Skills.Count; i++)
+            {
+                this.Skills[i].OnUpdate(deltea);
+            }
         }
     }
 }

@@ -61,7 +61,24 @@ namespace GameServer.Services
             {
                 sender.Session.Response.Chat = new ChatResponse();
                 sender.Session.Response.Chat.Result = Result.Success;
-                
+                //switch (request.Message.Channel)
+                //{
+                //    case ChatChannel.Local:
+                //        sender.Session.Response.Chat.localMessages.Add(request.Message);
+                //        break;
+                //    case ChatChannel.World:
+                //        sender.Session.Response.Chat.worldMessages.Add(request.Message);
+                //        break;
+                //    case ChatChannel.System:
+                //        sender.Session.Response.Chat.systemMessages.Add(request.Message);
+                //        break;
+                //    case ChatChannel.Team:
+                //        sender.Session.Response.Chat.teamMessages.Add(request.Message);
+                //        break;
+                //    case ChatChannel.Guild:
+                //        sender.Session.Response.Chat.guildMessages.Add(request.Message);
+                //        break;
+                //}
                 ChatManager.Instance.AddMessage(character, request.Message);
                 sender.SendResponse();
             }

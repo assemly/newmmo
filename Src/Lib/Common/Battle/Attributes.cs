@@ -112,6 +112,7 @@ namespace Common.Battle
         private void LoadEquipAttributes(AttributeData equipAttr,List<EquipDefine> equips)
         {
             equipAttr.Reset();
+            if (equips == null) return;
             foreach(var define in equips)
             {
                 equipAttr.MaxHP += define.MaxHP;

@@ -184,8 +184,9 @@ namespace GameServer.Entities
                     GuildUpdateTS = Guild.timestamp;
                     this.Guild.PostProcess(this, message);
                 }
-                this.Chat.PostProcess(message);
+                
             }
+            this.Chat.PostProcess(message);
         }
 
         public void Clear()

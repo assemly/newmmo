@@ -48,9 +48,6 @@ namespace GameServer.Models
 
         public MonsterManager MonsterManager = new MonsterManager();
 
-
-        
-
         internal Map(MapDefine define)
         {
             this.Define = define;
@@ -193,5 +190,15 @@ namespace GameServer.Models
                 this.AddCharacterEnterMap(kv.Value.connection, monster.Info);
             }
         }
+
+        public void BroadcastBattleResponse(NetMessageResponse response)
+        {
+            foreach (var kv in this.MapCharacters)
+            {
+                kv.Value.connection.Session.Response.skillCast = response.skillCast;
+                kv.Value.connection.SendResponse();
+            }
+        }
+
     }
 }

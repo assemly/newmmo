@@ -27,6 +27,7 @@ public class UIChat : MonoBehaviour
     {
         this.channelTab.OnTabSelect -= OnDisplayChannelSelected;
         ChatManager.Instance.OnChat -= RefreshUI;
+        this.channelSelect.onValueChanged.RemoveListener(OnSendChannelChanged);
     }
 
     // Update is called once per frame
@@ -38,6 +39,7 @@ public class UIChat : MonoBehaviour
 
     private void OnDisplayChannelSelected(int idx)
     {
+        Debug.LogFormat("OnDisplayChannelSelected:{0}",idx);
         ChatManager.Instance.displayChannel = (ChatManager.LocalChannel)idx;
         RefreshUI();
     }

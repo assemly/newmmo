@@ -43,11 +43,5 @@ namespace Common.Battle
         Stun = 1,
     }
 
-    public enum SkillResult
-    {
-        OK = 0,
-        InvalidTarget = 1,
-        OutOfMP = 2,
-        Cooldown = 3,
-    }
+  
 }

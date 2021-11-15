@@ -1,9 +1,7 @@
 ﻿using Battle;
-using Common.Battle;
-using Common.Data;
+using Managers;
+using SkillBridge.Message;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -20,16 +18,19 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (!overlay.enabled) overlay.enabled = false;
+        if (!cdText.enabled) cdText.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (overlay.fillAmount > 0)
+        if (this.skill.CD>0)
         {
-            overlay.fillAmount = this.cdRemian / this.skill.Define.CD;
-            this.cdText.text = ((int)Math.Ceiling(this.cdRemian)).ToString();
+            if (!overlay.enabled) overlay.enabled = true;
+            if (!cdText.enabled) cdText.enabled = true;
+            overlay.fillAmount = this.skill.CD / this.skill.Define.CD;
+            this.cdText.text = ((int)Math.Ceiling(this.skill.CD)).ToString();
             this.cdRemian -= Time.deltaTime;
         }
         else
@@ -48,7 +49,7 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        SkillResult result = this.skill.CanCast();
+        SkillResult result = this.skill.CanCast(BattleManager.Instance.CurrentTarget);
         switch (result)
         {
             case SkillResult.InvalidTarget:
@@ -62,9 +63,9 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
                 return;
         }
        
-            MessageBox.Show("释放技能:" + this.skill.Define.Name );
-            this.SetCD(this.skill.Define.CD);
-        this.skill.Cast();
+       // MessageBox.Show("释放技能:" + this.skill.Define.Name );
+        //this.SetCD(this.skill.Define.CD);
+        BattleManager.Instance.CastSkill(this.skill);
     }
 
     public void SetCD(float cd)
