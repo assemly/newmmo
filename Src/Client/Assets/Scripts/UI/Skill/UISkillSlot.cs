@@ -1,4 +1,6 @@
-﻿using Common.Data;
+﻿using Battle;
+using Common.Battle;
+using Common.Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,7 +13,7 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
     public Image icon;
     public Image overlay;
     public Text cdText;
-    SkillDefine skill;
+    Skill skill;
 
     float overlaySpeed = 0;
     float cdRemian = 0;
@@ -26,7 +28,7 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
     {
         if (overlay.fillAmount > 0)
         {
-            overlay.fillAmount = this.cdRemian / this.skill.CD;
+            overlay.fillAmount = this.cdRemian / this.skill.Define.CD;
             this.cdText.text = ((int)Math.Ceiling(this.cdRemian)).ToString();
             this.cdRemian -= Time.deltaTime;
         }
@@ -37,24 +39,32 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
         }
     }
 
-    public void SetSkill(SkillDefine value)
+    public void SetSkill(Skill value)
     {
         this.skill = value;
-        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Icon);
-        this.SetCD(this.skill.CD);
+        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Define.Icon);
+        this.SetCD(this.skill.Define.CD);
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (this.overlay.fillAmount > 0)
+        SkillResult result = this.skill.CanCast();
+        switch (result)
         {
-            MessageBox.Show("技能:" + this.skill.Name + "正在冷却");
+            case SkillResult.InvalidTarget:
+                MessageBox.Show("技能:" + this.skill.Define.Name + "目标无效");
+                return;
+            case SkillResult.OutOfMP:
+                MessageBox.Show("技能:" + this.skill.Define.Name + "MP 不足");
+                return;
+            case SkillResult.Cooldown:
+                MessageBox.Show("技能:" + this.skill.Define.Name + "正在冷却");
+                return;
         }
-        else
-        {
-            MessageBox.Show("释放技能:" + this.skill.Name );
-            this.SetCD(this.skill.CD);
-        }
+       
+            MessageBox.Show("释放技能:" + this.skill.Define.Name );
+            this.SetCD(this.skill.Define.CD);
+        this.skill.Cast();
     }
 
     public void SetCD(float cd)

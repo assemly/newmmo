@@ -5,7 +5,6 @@
 
 // Generate From SkillDefine.xlsx
 
-using SkillBridge.Message;
 using Common.Battle;
 using System.Collections.Generic;
 

@@ -9,7 +9,7 @@ public class UINameBar : MonoBehaviour
 {
     public Image avatar;
     public Text CharacterName;
-    public Character character;
+    public Entities.Creature character;
     // Start is called before the first frame update
     void Start()
     {

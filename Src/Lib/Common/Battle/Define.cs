@@ -28,4 +28,26 @@ namespace Common.Battle
         Normal = 0,
         Skill = 1,
     }
+
+    public enum TargetType
+    {
+        None = 0,
+        Self = 1,
+        Target = 2,
+        Position = 3,
+    }
+
+    public enum BuffEffect
+    {
+        None = 0,
+        Stun = 1,
+    }
+
+    public enum SkillResult
+    {
+        OK = 0,
+        InvalidTarget = 1,
+        OutOfMP = 2,
+        Cooldown = 3,
+    }
 }

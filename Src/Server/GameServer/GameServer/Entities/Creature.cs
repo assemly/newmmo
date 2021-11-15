@@ -1,4 +1,5 @@
 ﻿using Common.Data;
+using GameServer.Battle;
 using GameServer.Core;
 using GameServer.Managers;
 using SkillBridge.Message;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
-    class CharacterBase : Entity
+    class Creature : Entity
     {
 
         public int Id
@@ -22,24 +23,27 @@ namespace GameServer.Entities
         public string Name { get { return this.Info.Name; } }
         public NCharacterInfo Info;
         public CharacterDefine Define;
-
-        public CharacterBase(Vector3Int pos, Vector3Int dir):base(pos,dir)
-        {
-
-        }
-
-        public CharacterBase(CharacterType type, int configId, int level, Vector3Int pos, Vector3Int dir) :
+        public SkillManager SkillMgr;
+        public Creature(CharacterType type, int configId, int level, Vector3Int pos, Vector3Int dir) :
            base(pos, dir)
         {
+            this.Define = DataManager.Instance.Characters[configId];
             this.Info = new NCharacterInfo();
             this.Info.Type = type;
             this.Info.Level = level;
             this.Info.ConfigId = configId;
             this.Info.Entity = this.EntityData;
-            //this.Info.EntityId = this.entityId;
-            this.Info.Id = configId;
-            this.Define = DataManager.Instance.Characters[this.Info.ConfigId];
+            this.Info.EntityId = this.entityId;
+            //this.Info.Id = configId;
+            this.Define = DataManager.Instance.Characters[configId];
             this.Info.Name = this.Define.Name;
+            this.InitSkills();
+        }
+
+        private void InitSkills()
+        {
+            SkillMgr = new SkillManager(this);
+            this.Info.Skills.AddRange(this.SkillMgr.Infos);
         }
     }
 }

@@ -1,0 +1,635 @@
+
+2021-11-15 10:04:39,194 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 10:04:40,083 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 10:04:40,767 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 10:04:40,772 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 10:04:40,772 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 10:04:40,796 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 10:04:43,342 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 10:04:43,356 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:43,356 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:43,357 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:43,357 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:44,352 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:45,353 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:46,353 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:47,354 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:04:47,373 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 10:05:47,547 [6] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 10:05:47,559 [6] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-15 10:05:47,560 [6] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 10:05:47,560 [6] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-15 10:05:47,560 [6] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 10:05:47,560 [6] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-15 10:05:47,561 [6] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 10:05:47,561 [6] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-15 10:05:47,562 [6] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 10:05:47,562 [6] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-15 10:05:47,562 [6] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 10:05:47,562 [6] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-15 10:05:47,563 [6] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 10:05:47,563 [6] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-15 10:05:47,565 [6] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 10:05:47,565 [6] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-15 10:14:49,942 [4] [WARN ] [GameServer] ：Client[127.0.0.1:11351]] Connected
+2021-11-15 10:14:50,022 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 10:14:50,178 [7] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 10:14:53,236 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 10:14:53,239 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 10:14:53,380 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:14:53,393 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 10:14:53,393 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:14:54,866 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 10:14:54,869 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 10:14:54,872 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:14:54,872 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 10:14:54,873 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:00,212 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 10:15:00,222 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:450
+2021-11-15 10:15:00,679 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-11-15 10:15:00,680 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5132,4000,808),dir:(100,0,0),spd:450
+2021-11-15 10:15:00,869 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 10:15:00,870 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5220,4000,808),dir:(100,0,0),spd:0
+2021-11-15 10:15:00,904 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:00,907 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(98,-18,0),spd:0
+2021-11-15 10:15:01,011 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:01,012 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(94,-35,0),spd:0
+2021-11-15 10:15:01,119 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:01,120 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(86,-52,0),spd:0
+2021-11-15 10:15:02,205 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:02,205 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(75,-66,0),spd:0
+2021-11-15 10:15:02,337 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:02,338 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(62,-79,0),spd:0
+2021-11-15 10:15:02,438 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:02,439 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(45,-89,0),spd:0
+2021-11-15 10:15:02,520 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:02,521 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(29,-96,0),spd:0
+2021-11-15 10:15:02,611 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:02,612 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(12,-99,0),spd:0
+2021-11-15 10:15:02,688 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 10:15:02,690 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(-6,-100,0),spd:0
+2021-11-15 10:15:02,786 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 10:15:02,788 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(-26,-96,0),spd:0
+2021-11-15 10:15:02,877 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 10:15:02,878 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(-43,-90,0),spd:0
+2021-11-15 10:15:02,984 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 10:15:02,985 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5220,4000,808),dir:(-60,-80,0),spd:0
+2021-11-15 10:15:15,311 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-15 10:15:15,312 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5220,4000,808),dir:(-60,-80,0),spd:450
+2021-11-15 10:15:15,802 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:15,803 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5107,3925,807),dir:(-60,-80,0),spd:450
+2021-11-15 10:15:16,041 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:16,042 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5032,3835,807),dir:(-43,-90,0),spd:450
+2021-11-15 10:15:16,126 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:16,127 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5017,3800,807),dir:(-27,-96,0),spd:450
+2021-11-15 10:15:16,209 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:16,210 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5007,3765,807),dir:(-9,-100,0),spd:450
+2021-11-15 10:15:16,317 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:16,318 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5001,3717,807),dir:(12,-99,0),spd:450
+2021-11-15 10:15:16,416 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:16,417 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5007,3675,807),dir:(32,-95,0),spd:450
+2021-11-15 10:15:16,513 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:16,514 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5019,3633,807),dir:(49,-87,0),spd:450
+2021-11-15 10:15:16,555 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:16,556 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5063,3713,809),dir:(49,-87,0),spd:450
+2021-11-15 10:15:16,661 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:16,662 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5091,3664,809),dir:(63,-77,0),spd:450
+2021-11-15 10:15:16,845 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 10:15:16,846 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5146,3598,809),dir:(63,-77,0),spd:0
+2021-11-15 10:15:17,635 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 10:15:17,636 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5146,3598,809),dir:(63,-77,0),spd:450
+2021-11-15 10:15:17,764 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:17,765 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5123,3632,809),dir:(63,-77,0),spd:450
+2021-11-15 10:15:18,300 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 10:15:18,302 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5283,3440,809),dir:(63,-77,0),spd:0
+2021-11-15 10:15:23,644 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 10:15:23,645 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5283,3440,809),dir:(63,-77,0),spd:450
+2021-11-15 10:15:24,218 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:24,219 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5385,3312,810),dir:(63,-77,0),spd:450
+2021-11-15 10:15:24,345 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:24,346 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5425,3264,810),dir:(48,-88,0),spd:450
+2021-11-15 10:15:24,428 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:24,429 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5445,3229,810),dir:(32,-95,0),spd:450
+2021-11-15 10:15:24,510 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:24,511 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5455,3194,810),dir:(15,-99,0),spd:450
+2021-11-15 10:15:24,630 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:24,631 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5462,3145,810),dir:(-4,-100,0),spd:450
+2021-11-15 10:15:24,721 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:24,723 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5427,3203,807),dir:(-4,-100,0),spd:450
+2021-11-15 10:15:24,911 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-15 10:15:24,912 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5427,3107,807),dir:(-4,-100,0),spd:0
+2021-11-15 10:15:27,746 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 10:15:27,748 [9] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:nice Map1
+2021-11-15 10:15:27,749 [9] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 10:15:27,752 [9] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 10:15:27,754 [9] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:10
+2021-11-15 10:15:27,755 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:27,757 [9] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:30,933 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 10:15:30,935 [10] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 10:15:30,937 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:30,939 [10] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 10:15:30,939 [10] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:32,529 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 10:15:32,531 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:450
+2021-11-15 10:15:32,996 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-11-15 10:15:32,998 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5124,4000,808),dir:(100,0,0),spd:450
+2021-11-15 10:15:33,193 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,195 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5220,4000,808),dir:(98,-18,0),spd:450
+2021-11-15 10:15:33,293 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,294 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5262,3994,808),dir:(93,-35,0),spd:450
+2021-11-15 10:15:33,375 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,376 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5297,3979,808),dir:(86,-51,0),spd:450
+2021-11-15 10:15:33,402 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,404 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5203,3990,807),dir:(86,-51,0),spd:450
+2021-11-15 10:15:33,462 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,464 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5227,3974,807),dir:(76,-65,0),spd:450
+2021-11-15 10:15:33,540 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,541 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5257,3949,807),dir:(63,-77,0),spd:450
+2021-11-15 10:15:33,633 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,635 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5282,3919,807),dir:(49,-87,0),spd:450
+2021-11-15 10:15:33,705 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,707 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5302,3884,807),dir:(33,-94,0),spd:450
+2021-11-15 10:15:33,789 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,790 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5248,3935,808),dir:(33,-94,0),spd:450
+2021-11-15 10:15:33,806 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:33,807 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5251,3921,808),dir:(16,-99,0),spd:450
+2021-11-15 10:15:33,895 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:33,896 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5256,3886,808),dir:(-5,-100,0),spd:450
+2021-11-15 10:15:34,001 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:34,002 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5256,3838,808),dir:(-26,-97,0),spd:450
+2021-11-15 10:15:34,095 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:34,096 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5244,3796,808),dir:(-43,-90,0),spd:450
+2021-11-15 10:15:34,244 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:34,245 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5217,3733,808),dir:(-58,-81,0),spd:450
+2021-11-15 10:15:34,516 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:34,517 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5177,3736,810),dir:(-58,-81,0),spd:450
+2021-11-15 10:15:34,833 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-15 10:15:34,835 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:Idle Entity:(11:pos:(5101,3622,810),dir:(-58,-81,0),spd:0
+2021-11-15 10:15:34,933 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-15 10:15:34,934 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(5101,3622,810),dir:(-58,-81,0),spd:450
+2021-11-15 10:15:35,033 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:35,034 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5077,3586,810),dir:(-72,-69,0),spd:450
+2021-11-15 10:15:35,115 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:35,117 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(5108,3645,808),dir:(-72,-69,0),spd:450
+2021-11-15 10:15:35,915 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:35,918 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4868,3405,808),dir:(-58,-81,0),spd:450
+2021-11-15 10:15:36,013 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:36,014 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4844,3369,808),dir:(-40,-91,0),spd:450
+2021-11-15 10:15:36,115 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 10:15:36,117 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4826,3327,808),dir:(-20,-98,0),spd:450
+2021-11-15 10:15:36,212 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-15 10:15:36,213 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4814,3285,808),dir:(0,-100,0),spd:450
+2021-11-15 10:15:36,327 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:36,328 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4814,3229,808),dir:(18,-98,0),spd:450
+2021-11-15 10:15:36,662 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 10:15:36,669 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:Idle Entity:(11:pos:(4834,3089,808),dir:(18,-98,0),spd:0
+2021-11-15 10:15:36,884 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 10:15:36,886 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:MoveFwd Entity:(11:pos:(4834,3089,808),dir:(18,-98,0),spd:450
+2021-11-15 10:15:37,440 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:37,441 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4883,2957,809),dir:(18,-98,0),spd:450
+2021-11-15 10:15:37,533 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:37,534 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4889,2915,809),dir:(36,-93,0),spd:450
+2021-11-15 10:15:37,666 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 10:15:37,667 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4913,2859,809),dir:(54,-84,0),spd:450
+2021-11-15 10:15:37,825 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 10:15:37,826 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:Idle Entity:(11:pos:(4949,2805,809),dir:(68,-73,0),spd:0
+2021-11-15 10:15:37,840 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 10:15:37,841 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:11 Evt:None Entity:(11:pos:(4949,2805,809),dir:(68,-73,0),spd:0
+2021-11-15 10:15:38,886 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 10:15:38,888 [12] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:nice Map1
+2021-11-15 10:15:38,888 [12] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 10:15:38,889 [12] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 10:15:38,889 [12] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:11
+2021-11-15 10:15:38,890 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:38,891 [12] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 10:15:39,301 [4] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 10:15:39,302 [4] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 10:15:39,302 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-15 10:32:23,848 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 10:32:24,350 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 10:32:24,883 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 10:32:24,995 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 10:32:25,068 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 10:32:25,070 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 10:32:27,795 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 10:32:27,830 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:27,830 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:27,830 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:27,830 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:28,802 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:29,802 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:30,803 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:31,808 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 10:32:31,829 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 10:33:31,976 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 10:33:31,985 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-15 10:33:31,986 [5] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 10:33:31,986 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-15 10:33:31,986 [5] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 10:33:31,986 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-15 10:33:31,996 [5] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 10:33:32,008 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-15 10:33:32,009 [5] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 10:33:32,009 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-15 10:33:32,010 [5] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 10:33:32,010 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-15 10:33:32,010 [5] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 10:33:32,011 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-15 10:33:32,018 [5] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 10:33:32,018 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-15 11:07:21,030 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:07:22,883 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:07:23,365 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:07:23,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:07:23,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:07:23,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:07:25,385 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:07:25,394 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:25,394 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:25,400 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:25,400 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:26,391 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:27,392 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:28,391 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:29,392 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:07:29,425 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:07:58,646 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9194]] Connected
+2021-11-15 11:07:58,734 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:07:58,878 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:08:13,208 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:08:13,212 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:08:13,363 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:13,374 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:08:13,375 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:14,778 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:08:14,779 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:08:14,780 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:14,780 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:08:14,780 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:16,147 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:08:16,149 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:08:16,149 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:16,149 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:08:16,150 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:08:21,332 [14] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 11:08:21,434 [14] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 11:08:21,549 [14] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:3
+2021-11-15 11:08:21,555 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-15 11:08:29,627 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:09:37,951 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:09:38,687 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:09:39,353 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:09:39,400 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:09:39,401 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:09:39,432 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:09:42,141 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:09:42,151 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:42,157 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:42,159 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:42,164 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:43,147 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:44,147 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:45,146 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:46,147 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:09:46,174 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:09:53,024 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9438]] Connected
+2021-11-15 11:09:53,122 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:09:53,268 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:10:46,289 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:17:13,870 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:17:14,581 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:17:15,340 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:17:15,366 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:17:15,406 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:17:15,424 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:17:18,005 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:17:18,014 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:18,014 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:18,037 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:18,037 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:19,011 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:20,011 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:21,012 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:22,035 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:17:22,037 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:17:22,037 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9993]] Connected
+2021-11-15 11:17:22,102 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:17:22,239 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:26:23,565 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:26:24,079 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:26:24,833 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:26:24,844 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:26:24,852 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:26:24,856 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:26:27,062 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:26:27,095 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:27,096 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:27,097 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:27,097 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:28,070 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:29,070 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:30,072 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:31,071 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:26:31,096 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:26:55,552 [3] [WARN ] [GameServer] ：Client[127.0.0.1:11697]] Connected
+2021-11-15 11:26:55,754 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:26:55,898 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:27:31,254 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:29:56,512 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:29:57,208 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:29:57,722 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:29:57,750 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:29:57,775 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:29:57,829 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:30:00,596 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:30:00,613 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:00,614 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:00,616 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:00,620 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:01,604 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:02,602 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:03,602 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:04,603 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:30:04,629 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:30:18,151 [3] [WARN ] [GameServer] ：Client[127.0.0.1:11980]] Connected
+2021-11-15 11:30:18,358 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:30:18,506 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:30:25,168 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:30:25,171 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:30:25,339 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:30:25,348 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:30:25,349 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:30:31,248 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:30:31,255 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:450
+2021-11-15 11:30:31,652 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 11:30:31,652 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5200,4000,820),dir:(100,0,0),spd:0
+2021-11-15 11:30:31,952 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 11:30:31,954 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5200,4000,820),dir:(98,-18,0),spd:0
+2021-11-15 11:30:32,069 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 11:30:32,071 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5200,4000,820),dir:(98,-18,0),spd:450
+2021-11-15 11:30:32,086 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:32,087 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5207,3999,820),dir:(93,-36,0),spd:450
+2021-11-15 11:30:32,144 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:32,145 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5126,3995,808),dir:(93,-36,0),spd:450
+2021-11-15 11:30:32,486 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 11:30:32,487 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5273,3932,808),dir:(93,-36,0),spd:0
+2021-11-15 11:30:32,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 11:30:32,516 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5273,3932,808),dir:(93,-36,0),spd:450
+2021-11-15 11:30:32,532 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:32,533 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5280,3929,808),dir:(85,-52,0),spd:450
+2021-11-15 11:30:32,558 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:32,559 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5194,3968,807),dir:(85,-52,0),spd:450
+2021-11-15 11:30:32,732 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:32,733 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5260,3924,807),dir:(75,-66,0),spd:450
+2021-11-15 11:30:32,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 11:30:32,875 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5308,3884,807),dir:(75,-66,0),spd:0
+2021-11-15 11:30:36,519 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:49
+2021-11-15 11:30:36,521 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5314,3879,807),dir:(75,-66,0),spd:450
+2021-11-15 11:30:36,553 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:36,556 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5242,3933,808),dir:(75,-66,0),spd:450
+2021-11-15 11:30:36,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-15 11:30:36,921 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5295,3885,810),dir:(75,-66,0),spd:450
+2021-11-15 11:30:37,748 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-15 11:30:37,749 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5595,3635,810),dir:(75,-66,0),spd:0
+2021-11-15 11:30:38,369 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 11:30:38,370 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(62,-79,0),spd:0
+2021-11-15 11:30:38,465 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 11:30:38,466 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(46,-89,0),spd:0
+2021-11-15 11:30:38,565 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 11:30:38,566 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(27,-96,0),spd:0
+2021-11-15 11:30:38,644 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-15 11:30:38,645 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(10,-100,0),spd:0
+2021-11-15 11:30:38,738 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 11:30:38,739 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(-8,-100,0),spd:0
+2021-11-15 11:30:38,841 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 11:30:38,851 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(-28,-96,0),spd:0
+2021-11-15 11:30:38,932 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 11:30:38,941 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(-44,-90,0),spd:0
+2021-11-15 11:30:39,001 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-15 11:30:39,002 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5595,3635,810),dir:(-59,-81,0),spd:0
+2021-11-15 11:30:39,063 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:58
+2021-11-15 11:30:39,066 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5591,3629,810),dir:(-59,-81,0),spd:450
+2021-11-15 11:30:39,114 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2021-11-15 11:30:39,124 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5579,3611,810),dir:(-72,-69,0),spd:450
+2021-11-15 11:30:40,351 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-15 11:30:40,352 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5209,3241,810),dir:(-72,-69,0),spd:0
+2021-11-15 11:30:50,421 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 11:30:50,427 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 11:30:50,431 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:1
+2021-11-15 11:30:50,431 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-15 11:31:04,782 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:32:44,172 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:32:45,243 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:32:45,916 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:32:46,029 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:32:46,035 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:32:46,037 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:32:48,405 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:32:48,439 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:48,439 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:48,439 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:48,439 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:49,411 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:50,411 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:51,410 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:52,410 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:32:52,437 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:32:52,944 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12198]] Connected
+2021-11-15 11:32:53,146 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:32:53,294 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:32:56,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:32:56,613 [7] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:32:56,759 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:32:56,770 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:32:56,771 [7] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:33:52,586 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:34:51,929 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:34:52,567 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:34:53,539 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:34:53,555 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:34:53,562 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:34:53,562 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:34:56,299 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:34:56,305 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:56,305 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:56,329 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:56,331 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:57,304 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:58,072 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12429]] Connected
+2021-11-15 11:34:58,270 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:34:58,332 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:34:58,509 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:34:59,805 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:35:00,804 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:35:00,859 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:35:02,149 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:35:02,151 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:35:02,306 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:35:02,319 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:35:02,319 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:36:00,966 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:36:08,380 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:36:09,062 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:36:09,789 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:36:10,047 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:36:10,150 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:36:10,172 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:36:13,706 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:36:13,737 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:13,738 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:13,738 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:13,741 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:14,719 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:15,714 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:16,714 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:17,715 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:36:17,743 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:37:00,517 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12599]] Connected
+2021-11-15 11:37:00,598 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 11:37:00,739 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 11:37:03,572 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 11:37:03,575 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 11:37:03,726 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:37:03,739 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 11:37:03,740 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 11:37:05,875 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:05,884 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:450
+2021-11-15 11:37:06,347 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-11-15 11:37:06,348 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5124,4000,808),dir:(100,0,0),spd:450
+2021-11-15 11:37:06,456 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 11:37:06,457 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5180,4000,808),dir:(100,0,0),spd:0
+2021-11-15 11:37:06,608 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 11:37:06,610 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5180,4000,808),dir:(98,18,0),spd:0
+2021-11-15 11:37:06,700 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 11:37:06,702 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5180,4000,808),dir:(94,35,0),spd:0
+2021-11-15 11:37:06,833 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-15 11:37:06,835 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5180,4000,808),dir:(86,52,0),spd:0
+2021-11-15 11:37:08,190 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2021-11-15 11:37:08,191 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5180,4000,808),dir:(86,52,0),spd:450
+2021-11-15 11:37:08,617 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:08,619 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5239,4056,810),dir:(86,52,0),spd:450
+2021-11-15 11:37:08,843 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:08,844 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5323,4112,810),dir:(75,66,0),spd:450
+2021-11-15 11:37:08,959 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:08,962 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5365,4147,810),dir:(62,79,0),spd:450
+2021-11-15 11:37:09,043 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:09,049 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5390,4177,810),dir:(47,88,0),spd:450
+2021-11-15 11:37:09,134 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:09,135 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5410,4212,810),dir:(31,95,0),spd:450
+2021-11-15 11:37:09,241 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:09,242 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5424,4261,810),dir:(12,99,0),spd:450
+2021-11-15 11:37:09,662 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2021-11-15 11:37:09,664 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5449,4436,810),dir:(12,99,0),spd:0
+2021-11-15 11:37:13,240 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2021-11-15 11:37:13,241 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5449,4436,810),dir:(12,99,0),spd:450
+2021-11-15 11:37:13,530 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:13,531 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5404,4475,810),dir:(12,99,0),spd:450
+2021-11-15 11:37:14,299 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2021-11-15 11:37:14,300 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5451,4804,810),dir:(12,99,0),spd:0
+2021-11-15 11:37:16,004 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2021-11-15 11:37:16,010 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5451,4804,810),dir:(12,99,0),spd:450
+2021-11-15 11:37:16,112 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:16,113 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5437,4747,811),dir:(12,99,0),spd:450
+2021-11-15 11:37:16,763 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:16,764 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5458,4921,808),dir:(12,99,0),spd:450
+2021-11-15 11:37:16,870 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2021-11-15 11:37:16,872 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:Idle Entity:(1:pos:(5465,4970,808),dir:(12,99,0),spd:0
+2021-11-15 11:37:17,281 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:40
+2021-11-15 11:37:17,282 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:MoveFwd Entity:(1:pos:(5465,4970,808),dir:(12,99,0),spd:450
+2021-11-15 11:37:17,635 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2021-11-15 11:37:17,636 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:nice,Enity.Id:1 Evt:None Entity:(1:pos:(5470,5016,807),dir:(12,99,0),spd:450
+2021-11-15 11:37:17,886 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:43:05,908 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:43:06,439 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:43:06,794 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:43:06,797 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:43:06,798 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:43:06,798 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:43:09,282 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:43:09,312 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:09,312 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:09,312 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:09,312 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:10,287 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:11,288 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:12,288 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:13,289 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:43:13,313 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:44:13,492 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:45:56,044 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 11:45:56,523 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 11:45:57,064 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 11:45:57,213 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 11:45:57,217 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 11:45:57,219 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 11:45:59,836 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 11:45:59,870 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:45:59,870 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:45:59,870 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:45:59,871 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:46:00,844 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:46:01,843 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:46:02,842 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:46:03,858 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 11:46:03,931 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 11:47:04,064 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:47:04,072 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-15 11:47:04,073 [5] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 11:47:04,074 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-15 11:47:04,075 [5] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 11:47:04,075 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-15 11:47:04,076 [5] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 11:47:04,077 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-15 11:47:04,077 [5] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 11:47:04,078 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-15 12:08:45,755 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-15 12:08:48,184 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-15 12:08:50,009 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-11-15 12:08:50,084 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-11-15 12:08:50,091 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-11-15 12:08:50,130 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-11-15 12:08:52,956 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-15 12:08:52,997 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:53,002 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:53,003 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:53,003 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:53,981 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:54,980 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:55,980 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:56,984 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-15 12:08:57,028 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-15 12:08:58,624 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2419]] Connected
+2021-11-15 12:08:58,682 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-11-15 12:08:58,824 [6] [INFO ] [GameServer] ：UserLoginRequest: User:tsing  Pass:123
+2021-11-15 12:09:02,033 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-15 12:09:02,037 [6] [INFO ] [GameServer] ：UserGameRequest: characterID:1:nice Map:1
+2021-11-15 12:09:02,199 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 12:09:02,209 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-11-15 12:09:02,213 [6] [INFO ] [GameServer] ：Character PostProcess > FriendManager :CharacteID:1:nice
+2021-11-15 12:09:57,175 [5] [INFO ] [GameServer] ：Map[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 12:09:57,177 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1001
+2021-11-15 12:09:57,177 [5] [INFO ] [GameServer] ：Map[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 12:09:57,177 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1002
+2021-11-15 12:09:57,178 [5] [INFO ] [GameServer] ：Map[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 12:09:57,178 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1003
+2021-11-15 12:09:57,179 [5] [INFO ] [GameServer] ：Map[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 12:09:57,180 [5] [INFO ] [GameServer] ：MonsterEnter: Map:2 monsterId:1005
+2021-11-15 12:09:57,180 [5] [INFO ] [GameServer] ：Map[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-15 12:09:57,180 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1001
+2021-11-15 12:09:57,181 [5] [INFO ] [GameServer] ：Map[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-15 12:09:57,181 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1002
+2021-11-15 12:09:57,182 [5] [INFO ] [GameServer] ：Map[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-15 12:09:57,182 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1003
+2021-11-15 12:09:57,183 [5] [INFO ] [GameServer] ：Map[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-15 12:09:57,183 [5] [INFO ] [GameServer] ：MonsterEnter: Map:3 monsterId:1005
+2021-11-15 12:10:14,833 [3] [INFO ] [GameServer] ：CharacterLeave： characterID:1:nice
+2021-11-15 12:10:14,835 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2021-11-15 12:10:14,835 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:1
+2021-11-15 12:10:14,836 [3] [WARN ] [GameServer] ：Client[] Disconnected

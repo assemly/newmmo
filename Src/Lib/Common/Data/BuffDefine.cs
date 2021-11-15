@@ -5,7 +5,10 @@
 
 // Generate From BuffDefine.xlsx
 
-using SkillBridge.Message;
+
+
+using Common.Battle;
+
 
 namespace Common.Data
 {

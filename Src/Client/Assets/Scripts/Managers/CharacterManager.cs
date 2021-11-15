@@ -12,10 +12,10 @@ namespace Managers
 {
     class CharacterManager : Singleton<CharacterManager>, IDisposable
     {
-        public Dictionary<int, Character> Characters = new Dictionary<int, Character>();
+        public Dictionary<int, Entities.Character> Characters = new Dictionary<int, Entities.Character>();
 
-        public UnityAction<Character> OnCharacterEnter;
-        public UnityAction<Character> OnCharacterLeave;
+        public UnityAction<Entities.Character> OnCharacterEnter;
+        public UnityAction<Entities.Character> OnCharacterLeave;
 
         public CharacterManager()
         {
@@ -45,7 +45,7 @@ namespace Managers
         public void AddCharacter(NCharacterInfo cha)
         {
             Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.EntityId);
-            Character character = new Character(cha);
+            Entities.Character character = new Entities.Character(cha);
             this.Characters[cha.EntityId] = character;
             EntityManager.Instance.AddEntity(character);
             if(OnCharacterEnter!=null)
@@ -73,9 +73,9 @@ namespace Managers
             }
         }
 
-        public Character GetCharacter(int id)
+        public Entities.Character GetCharacter(int id)
         {
-            Character character;
+            Entities.Character character;
             this.Characters.TryGetValue(id, out character);
             return character;
         }

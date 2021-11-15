@@ -1,6 +1,8 @@
-﻿using Common.Data;
+﻿using Battle;
+using Common.Data;
 using Managers;
 using Models;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,7 +23,7 @@ public class UISkillItem : ListView.ListViewItem
     }
 
 
-    public SkillDefine item;
+    public Skill item;
 
 
     // Start is called before the first frame update
@@ -36,14 +38,13 @@ public class UISkillItem : ListView.ListViewItem
 
     }
 
-    internal void SetEquipItem(SkillDefine item, UISkill owner,bool equiped)
+    internal void SetEquipItem(Skill item, UISkill owner,bool equiped)
     {
         this.item = item;
         
-        if (this.title != null) this.title.text = this.item.Name;
-        if (this.level != null) this.level.text = item.UnlockLevel.ToString();
-        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.item.Icon);
+        if (this.title != null) this.title.text = this.item.Define.Name;
+        if (this.level != null) this.level.text = item.skillInfo.Level.ToString();
+        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.item.Define.Icon);
     }
 
-    
 }

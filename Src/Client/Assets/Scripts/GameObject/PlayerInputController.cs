@@ -13,7 +13,7 @@ public class PlayerInputController : MonoBehaviour {
     public Rigidbody rb;
     SkillBridge.Message.CharacterState state;
 
-    public Character character;
+    public Entities.Creature character;
 
     public float rotateSpeed = 2.0f;
 
@@ -46,7 +46,7 @@ public class PlayerInputController : MonoBehaviour {
             cinfo.Entity.Direction.Y = 100;
             cinfo.Entity.Direction.Z = 0;
             cinfo.attrDynamic = new NAttributeDynamic();
-            this.character = new Character(cinfo);
+            this.character = new Entities.Character(cinfo);
 
             if (entityController != null) entityController.entity = this.character;
         }

@@ -16,7 +16,7 @@ namespace Models
         {
             this.userInfo = info;
         }
-        public Character CurrentCharacter { get; set; }
+        public Entities.Creature CurrentCharacter { get; set; }
         public NCharacterInfo CurrentCharacterInfo { get; set; }
         public PlayerInputController CurrentCharacterObject { get; set; }
         public NTeamInfo TeamInfo { get; set; }

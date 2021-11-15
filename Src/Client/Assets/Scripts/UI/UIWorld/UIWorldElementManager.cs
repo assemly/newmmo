@@ -25,7 +25,7 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager>
         
     }
 
-    public void AddCharacterNameBar(Transform owner,Character character)
+    public void AddCharacterNameBar(Transform owner, Entities.Creature character)
     {
         GameObject goNameBar = Instantiate(nameBarPrefab, this.transform);
         goNameBar.name = "NameBar" + character.entityId;
