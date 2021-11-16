@@ -1,4 +1,5 @@
-﻿using Common.Data;
+﻿using Common.Battle;
+using Common.Data;
 using GameServer.Battle;
 using GameServer.Core;
 using GameServer.Managers;
@@ -23,6 +24,7 @@ namespace GameServer.Entities
         public string Name { get { return this.Info.Name; } }
         public NCharacterInfo Info;
         public CharacterDefine Define;
+        public Attributes Attributes;
         public SkillManager SkillMgr;
         public Creature(CharacterType type, int configId, int level, Vector3Int pos, Vector3Int dir) :
            base(pos, dir)
@@ -38,6 +40,15 @@ namespace GameServer.Entities
             this.Define = DataManager.Instance.Characters[configId];
             this.Info.Name = this.Define.Name;
             this.InitSkills();
+
+            this.Attributes = new Attributes();
+            this.Attributes.Init(this.Define, this.Info.Level, this.GetEquips(), this.Info.attrDynamic);
+            this.Info.attrDynamic = this.Attributes.DynamicAttr;
+        }
+
+        public virtual List<EquipDefine> GetEquips()
+        {
+            return null;
         }
 
         private void InitSkills()

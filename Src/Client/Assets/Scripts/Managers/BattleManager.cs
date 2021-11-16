@@ -12,6 +12,8 @@ namespace Managers
 {
     class BattleManager:Singleton<BattleManager>
     {
+        public delegate void TargetChangeHandler(Creature target);
+        public event TargetChangeHandler OnTargetChanged;
         private Creature currentTarget;
         public Creature CurrentTarget 
         { 
@@ -38,6 +40,9 @@ namespace Managers
         }
         public void SetTarget(Creature target)
         {
+            
+            if (OnTargetChanged != null && this.currentTarget!= target)
+                OnTargetChanged.Invoke(target);
             this.currentTarget = target;
             Debug.LogFormat("BattleManager::SetTarget:[{0}:{1}]", target.entityId, target.Name);
         }

@@ -42,20 +42,20 @@ namespace Managers
             this.Characters.Clear();
         }
 
-        public void AddCharacter(NCharacterInfo cha)
+        public void AddCharacter(Character cha)
         {
-            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3},EntityID：{4}", cha.Id, cha.Name, cha.mapId, cha.Entity.String(),cha.EntityId);
-            Entities.Creature character = new Entities.Creature(cha);
-            this.Characters[cha.EntityId] = character;
-            EntityManager.Instance.AddEntity(character);
+            Debug.LogFormat("AddCharacter:{0}:{1} Map:{2} Entity:{3}", cha.Id, cha.Name, cha.Info.mapId, cha.Info.Entity);
+            //Entities.Creature character = new Entities.Creature(cha);
+            this.Characters[cha.entityId] = cha;
+            EntityManager.Instance.AddEntity(cha);
             if(OnCharacterEnter!=null)
             {
-                OnCharacterEnter(character);
+                OnCharacterEnter(cha);
             }
-            if (cha.EntityId == User.Instance.CurrentCharacterInfo.EntityId)
-            {
-                User.Instance.CurrentCharacter = character;
-            }
+            //if (cha.EntityId == User.Instance.CurrentCharacterInfo.EntityId)
+            //{
+            //    User.Instance.CurrentCharacter = character;
+            //}
         }
 
 

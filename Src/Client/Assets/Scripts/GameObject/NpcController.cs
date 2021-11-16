@@ -104,6 +104,7 @@ public class NpcController : MonoBehaviour
     {
         if (Vector3.Distance(this.transform.position, User.Instance.CurrentCharacterObject.transform.position) > 2f)
         {
+            //User.Instance.CurrentCharacterObject.age
             User.Instance.CurrentCharacterObject.StarNav(this.transform.position);
         }
         Interactive();

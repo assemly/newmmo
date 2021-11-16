@@ -168,6 +168,7 @@
     <Compile Include="Assets\Scripts\UI\UICharacterSelect.cs" />
     <Compile Include="Assets\Scripts\UI\UICharacterView.cs" />
     <Compile Include="Assets\Scripts\UI\UICharInfo.cs" />
+    <Compile Include="Assets\Scripts\UI\UICreatureInfo.cs" />
     <Compile Include="Assets\Scripts\UI\UIFriends.cs" />
     <Compile Include="Assets\Scripts\UI\UIIconItem.cs" />
     <Compile Include="Assets\Scripts\UI\UIInputBox.cs" />

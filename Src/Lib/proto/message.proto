@@ -840,7 +840,8 @@ enum SkillResult
 	OK = 0;
 	OutOfMP = 1;
 	Cooldown = 2;
-	InvalidTarget = 3;	
+	InvalidTarget = 3;
+	OutOfRange =4;	
 }
 
 message NSkillCastInfo

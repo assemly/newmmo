@@ -19,17 +19,17 @@ namespace Common.Battle
 
         int level;
 
-        private NAttributeDynamic dynamic;
+        public NAttributeDynamic DynamicAttr;
 
         public float HP
         { 
-            get { return dynamic.Hp; }
-            set { dynamic.Hp = (int)Math.Min(MaxHP, value); }
+            get { return DynamicAttr.Hp; }
+            set { DynamicAttr.Hp = (int)Math.Min(MaxHP, value); }
         }
         public float MP
         {
-            get { return dynamic.Hp; }
-            set { dynamic.Hp = (int)Math.Min(MaxMP, value); }
+            get { return DynamicAttr.Mp; }
+            set { DynamicAttr.Mp = (int)Math.Min(MaxMP, value); }
         }
         public float MaxHP { get { return this.Final.MaxHP; } }
         public float MaxMP { get { return this.Final.MaxMP; } }
@@ -71,7 +71,7 @@ namespace Common.Battle
         }
         public void Init(CharacterDefine define,int level,List<EquipDefine> equips,NAttributeDynamic dynamicAttr)
         {
-            this.dynamic = dynamicAttr;
+            this.DynamicAttr = dynamicAttr;
             this.LoadInitAttribute(this.Initial, define);
             this.LoadGrowthAttribute(this.Growth, define);
             this.LoadEquipAttributes(this.Equip, equips);
@@ -80,10 +80,18 @@ namespace Common.Battle
             this.InitSecondaryAttributes();
 
             this.InitFinalAttributes();
-            if (this.dynamic == null)
-                this.dynamic = new NAttributeDynamic();
-            this.HP = this.dynamic.Hp;
-            this.MP = this.dynamic.Mp;
+            if (this.DynamicAttr == null)
+            {
+                this.DynamicAttr = new NAttributeDynamic();
+                this.HP = this.MaxHP;
+                this.MP = this.MaxMP;
+            }
+            else
+            {
+                this.HP = this.DynamicAttr.Hp;
+                this.MP = this.DynamicAttr.Mp;
+            }    
+            
         }
 
         private void LoadInitAttribute(AttributeData initial, CharacterDefine define)

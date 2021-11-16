@@ -54,11 +54,13 @@ public class PlayerInputController : MonoBehaviour {
         {
             agent = this.gameObject.AddComponent<NavMeshAgent>();
             agent.stoppingDistance = 0.3f;
+            agent.enabled = false;
         }
     }
 
     public void StarNav(Vector3 target)
     {
+        agent.enabled = true;
         StartCoroutine(BeginNav(target));
     }
 

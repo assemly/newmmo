@@ -46,14 +46,14 @@ namespace Entities
             entityData.Direction.FromVector3Int(this.direction);
             entityData.Speed = this.speed;
         }
-        private void SetEntityData(NEntity entity)
+        public void SetEntityData(NEntity entity)
         {
             this.position = this.position.FromNVector3(entity.Position);
             this.direction = this.direction.FromNVector3(entity.Direction);
             this.speed = entity.Speed;
         }
 
-        private void UpdateEntityData()
+        public void UpdateEntityData()
         {
             entityData.Position.FromVector3Int(this.position);
             entityData.Direction.FromVector3Int(this.direction);

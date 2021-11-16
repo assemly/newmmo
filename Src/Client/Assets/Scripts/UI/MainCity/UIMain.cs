@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using Entities;
+using Managers;
 using Models;
 using Services;
 using System;
@@ -10,6 +11,8 @@ public class UIMain : MonoSingleton<UIMain>
     public Text avatarName;
     public Text avatarLevel;
     public UITeam TeamWindow;
+
+    public UICreatureInfo targetUI;
     // Start is called before the first frame update
     public void OnCharacterLeaveMap()
     {
@@ -25,6 +28,8 @@ public class UIMain : MonoSingleton<UIMain>
     protected override void OnStart()
     {
         this.UpdateAvatar();
+        this.targetUI.gameObject.SetActive(false);
+        BattleManager.Instance.OnTargetChanged += OnTargetChanged;
     }
 
     private void UpdateAvatar()
@@ -89,4 +94,18 @@ public class UIMain : MonoSingleton<UIMain>
     {
         UIManager.Instance.Show<UISkill>();
     }
+
+    private void OnTargetChanged(Creature target)
+    {
+        if (target != null)
+        {
+            if (!targetUI.isActiveAndEnabled) targetUI.gameObject.SetActive(true);
+            targetUI.Target = target;
+        }
+        else
+        {
+            targetUI.gameObject.SetActive(false);
+        }
+    }
+
 }

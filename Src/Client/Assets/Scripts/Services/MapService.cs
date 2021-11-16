@@ -8,6 +8,7 @@ using UnityEngine;
 using Models;
 using Common.Data;
 using Managers;
+using Entities;
 
 namespace Services
 {
@@ -43,9 +44,15 @@ namespace Services
                 if((cha.Type == CharacterType.Player && User.Instance.CurrentCharacterInfo.Id == cha.Id) || User.Instance.CurrentCharacterInfo == null)
                 {
                     User.Instance.CurrentCharacterInfo = cha;
+                    if (User.Instance.CurrentCharacter == null)
+                        User.Instance.CurrentCharacter = new Character(cha);
+                    else
+                        User.Instance.CurrentCharacter.UpdateInfo(cha);
+                    CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacter);
+                    continue;
                 }
-                Debug.Log("  OnMapCharacterEnter CharacterId: " +cha.Id +"and EntityID:"+cha.EntityId);
-                CharacterManager.Instance.AddCharacter(cha);
+               // Debug.Log("  OnMapCharacterEnter CharacterId: " +cha.Id +"and EntityID:"+cha.EntityId);
+                CharacterManager.Instance.AddCharacter(new Character(cha));
             }
             if(CurrentMapId != response.mapId)
             {

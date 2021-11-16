@@ -1824,6 +1824,7 @@ namespace SkillBridge.Message
         OutOfMP = 1,
         Cooldown = 2,
         InvalidTarget = 3,
+        OutOfRange = 4,
     }
 
 }

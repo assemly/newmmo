@@ -61,6 +61,9 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
             case SkillResult.Cooldown:
                 MessageBox.Show("技能:" + this.skill.Define.Name + "正在冷却");
                 return;
+            case SkillResult.OutOfRange:
+                MessageBox.Show("技能:" + this.skill.Define.Name + "目标超出范围");
+                return;
         }
        
        // MessageBox.Show("释放技能:" + this.skill.Define.Name );

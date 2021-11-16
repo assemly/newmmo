@@ -35,13 +35,13 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
     void OnCharacterLeave(Entities.Creature character)
     {
-        if (!Characters.ContainsKey(character.Id))
+        if (!Characters.ContainsKey(character.entityId))
             return;
 
-        if (Characters[character.Id] != null)
+        if (Characters[character.entityId] != null)
         {
-            Destroy(Characters[character.Id]);
-            this.Characters.Remove(character.Id);
+            Destroy(Characters[character.entityId]);
+            this.Characters.Remove(character.entityId);
         }
     }
 
@@ -56,7 +56,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
     private void CreateCharacterObject(Entities.Creature character)
     {
-        if (!Characters.ContainsKey(character.Id) || Characters[character.Id] == null)
+        if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
         {
             Object obj = Resloader.Load<Object>(character.Define.Resource);
             if (obj == null)
@@ -65,11 +65,11 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
                 return;
             }
             GameObject go = (GameObject)Instantiate(obj, this.transform);
-            go.name = "Character_" + character.Id + "_" + character.Name;
-            Characters[character.Id] = go;
+            go.name = "Character_" + character.entityId + "_" + character.Name;
+            Characters[character.entityId] = go;
 
         }
-        this.InitGameObject(Characters[character.Id], character);
+        this.InitGameObject(Characters[character.entityId], character);
     }
 
     private void InitGameObject(GameObject go, Entities.Creature character)

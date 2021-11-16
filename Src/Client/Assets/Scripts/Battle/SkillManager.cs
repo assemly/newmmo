@@ -8,6 +8,8 @@ namespace Managers
     public class SkillManager
     {
         Creature Owner;
+        public delegate void SkillInfoUpdateHandle();
+        public event SkillInfoUpdateHandle OnSkillInfoUpdate;
         public List<Skill> Skills { get; private set; }
 
         public SkillManager(Creature owner)
@@ -25,6 +27,8 @@ namespace Managers
                 Skill skill = new Skill(skillInfo, this.Owner);
                 this.AddSkill(skill);
             }
+            if (OnSkillInfoUpdate != null)
+                OnSkillInfoUpdate();
         }
 
         public void AddSkill(Skill skill)
@@ -46,8 +50,23 @@ namespace Managers
         {
             for(int i = 0; i < this.Skills.Count; i++)
             {
-                this.Skills[i].OnUpdate(deltea);
+                if(Skills[i]!=null)
+                    this.Skills[i].OnUpdate(deltea);
             }
+        }
+
+        public void UpdateSkills()
+        {
+            foreach(var skillInfo in this.Owner.Info.Skills)
+            {
+                Skill skill = this.GetSkill(skillInfo.Id);
+                if (skill != null)
+                    skill.skillInfo = skillInfo;
+                else
+                    this.AddSkill(skill);
+            }
+            if (OnSkillInfoUpdate != null)
+                OnSkillInfoUpdate();
         }
     }
 }
