@@ -17,9 +17,11 @@ namespace Battle
         public Creature Owner;
         public SkillDefine Define;
         private float cd = 0;
+        private NDamageInfo Damage;
         private float castTime = 0;
-
+        private float skillTime;
         public bool IsCasting = false;
+        private int hit;
 
         public float CD
         {
@@ -66,15 +68,38 @@ namespace Battle
         {
             if (this.IsCasting)
             {
-
+                this.skillTime += deltea;
+                if(this.skillTime > 0.5 && this.hit == 0)
+                {
+                    this.DoHit();
+                }
+                if(this.skillTime >= this.Define.CD)
+                {
+                    this.skillTime = 0;
+                }
             }
             UpdateCD(deltea);
+        }
+
+        private void DoHit()
+        {
+            if (this.Damage != null)
+            {
+                var cha = CharacterManager.Instance.GetCharacter(this.Damage.entityId);
+                cha.DoDamage(this.Damage);
+            }
+            this.hit++;
+
         }
 
         private void UpdateCD(float delta)
         {
             if (this.cd > 0) this.cd -= delta;
-            if (this.cd < 0) this.cd = 0;
+            if (this.cd < 0) 
+            { 
+                this.cd = 0;
+                this.hit = 0;
+            }
         }
 
         //public void Cast()
@@ -82,11 +107,13 @@ namespace Battle
             
         //}
 
-        public void BeginCast()
+        public void BeginCast(NDamageInfo damage)
         {
             this.IsCasting = true;
             this.castTime = 0;
+            this.skillTime = 0;
             this.cd = this.Define.CD;
+            this.Damage = damage;
             this.Owner.PlayAnim(this.Define.SkillAnim);
         }
     }

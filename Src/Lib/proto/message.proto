@@ -852,6 +852,13 @@ message NSkillCastInfo
 	NVector3 position = 4;
 }
 
+message NDamageInfo
+{
+	int32 entityId = 1;
+	int32 damage = 2;
+	bool will_dead = 3;
+}
+
 message SkillCastRequest
 {
 	NSkillCastInfo castInfo = 1;
@@ -862,4 +869,5 @@ message SkillCastResponse
 	RESULT result = 1;
 	string errormsg = 2;
 	NSkillCastInfo castInfo = 3;
+	NDamageInfo damage = 4;
 }
