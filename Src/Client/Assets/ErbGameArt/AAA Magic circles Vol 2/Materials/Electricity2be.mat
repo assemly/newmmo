@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Electricity2be
-  m_Shader: {fileID: 4800000, guid: d890af244f7f1ee499b7b772b784d572, type: 3}
-  m_ShaderKeywords: _CUTTED_ON _USEDEPTH_ON
+  m_Shader: {fileID: 4800000, guid: 86b3f0465bcb0c941893722f46ef6eeb, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -41,6 +41,7 @@ Material:
     m_Floats:
     - _2Uspeed: -0.2
     - _2Vspeed: -0.05
+    - _CullMode: 2
     - _Cutoff: 0.5
     - _Cutted: 1
     - _Cutvalue: 0.5

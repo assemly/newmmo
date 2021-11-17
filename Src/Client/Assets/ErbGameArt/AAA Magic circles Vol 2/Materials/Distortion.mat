@@ -22,6 +22,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: 950e9e23ceae56c48a25ba32f408d964, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -31,7 +39,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _CullMode: 2
+    - _Depthpower: 1
     - _Distortionpower: 100
+    - _Emission: 2
     - _InvFade: 2
-    m_Colors:
-    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Colors: []

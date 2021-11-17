@@ -8,6 +8,7 @@ public class CameraHolder : MonoBehaviour
 {
     //camera holder
     public Transform Holder;
+    public Vector3 cameraPos = new Vector3(0, 0, 0);
     public float currDistance = 5.0f;
     public float xRotate = 250.0f;
     public float yRotate = 120.0f;
@@ -128,7 +129,7 @@ public class CameraHolder : MonoBehaviour
             y -= (float)(Input.GetAxis("Mouse Y") * yRotate * 0.02);
             y = ClampAngle(y, yMinLimit, yMaxLimit);
             var rotation = Quaternion.Euler(y, x, 0);
-            var position = rotation * new Vector3(0, 0, -currDistance) + Holder.position;
+            var position = rotation * new Vector3(0, 0, -currDistance) + Holder.position + cameraPos;
             transform.rotation = rotation;
             transform.position = position;
         }
@@ -142,7 +143,7 @@ public class CameraHolder : MonoBehaviour
         {
             prevDistance = currDistance;
             var rot = Quaternion.Euler(y, x, 0);
-            var po = rot * new Vector3(0, 0, -currDistance) + Holder.position;
+            var po = rot * new Vector3(0, 0, -currDistance) + Holder.position + cameraPos;
             transform.rotation = rot;
             transform.position = po;
         }

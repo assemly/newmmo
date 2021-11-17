@@ -1,4 +1,4 @@
-Shader "EGA/Particles/Distortion"
+Shader "Hovl/Particles/Distortion"
 {
 	Properties
 	{
