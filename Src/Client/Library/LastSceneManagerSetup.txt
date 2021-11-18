@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Hovl Studio/RPG VFX Bundle/Demo scenes/Demo projectiles/Demo projectiles(Standard).unity
+- path: Assets/Levels/Loading.unity
   isLoaded: 1
   isActive: 1

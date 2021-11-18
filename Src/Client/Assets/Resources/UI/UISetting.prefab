@@ -998,6 +998,7 @@ MonoBehaviour:
   - {fileID: 0}
   rewardMoney: {fileID: 0}
   rewardExp: {fileID: 0}
+  navButton: {fileID: 0}
 --- !u!1 &8363452164748139016
 GameObject:
   m_ObjectHideFlags: 0

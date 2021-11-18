@@ -841,7 +841,15 @@ enum SkillResult
 	OutOfMP = 1;
 	Cooldown = 2;
 	InvalidTarget = 3;
-	OutOfRange =4;	
+	OutOfRange = 4;	
+	CASTING = 5 ;
+}
+
+enum SKILL_STATUS
+{
+	NONE = 0;
+	CASTING = 1; //施法中
+	RUNNING = 2; // 执行中
 }
 
 message NSkillCastInfo
