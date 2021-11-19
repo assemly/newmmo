@@ -9,11 +9,12 @@ public class UISkillSlots : MonoBehaviour
     public UISkillSlot[] slots;
     void Start()
     {
-        RefreshUI();
+        
     }
 
-    private void RefreshUI()
+    public void UpdateSkills()
     {
+        if (User.Instance.CurrentCharacter == null) return;
         var Skills = User.Instance.CurrentCharacter.SkillMgr.Skills;//DataManager.Instance.Skills[(int)User.Instance.CurrentCharacterInfo.Class];
         int skillIdx = 0;
         foreach(var skill in Skills)

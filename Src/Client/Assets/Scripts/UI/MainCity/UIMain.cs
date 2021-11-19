@@ -13,6 +13,7 @@ public class UIMain : MonoSingleton<UIMain>
     public UITeam TeamWindow;
 
     public UICreatureInfo targetUI;
+    public UISkillSlots skillSlots;
     // Start is called before the first frame update
     public void OnCharacterLeaveMap()
     {
@@ -30,6 +31,8 @@ public class UIMain : MonoSingleton<UIMain>
         this.UpdateAvatar();
         this.targetUI.gameObject.SetActive(false);
         BattleManager.Instance.OnTargetChanged += OnTargetChanged;
+        User.Instance.OnCharacterInit += this.skillSlots.UpdateSkills;
+        this.skillSlots.UpdateSkills();
     }
 
     private void UpdateAvatar()

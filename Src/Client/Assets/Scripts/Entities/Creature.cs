@@ -67,6 +67,11 @@ namespace Entities
             }
         }
 
+        public int Distance(Creature target)
+        {
+            return (int)Vector3Int.Distance(this.position, target.position);
+        }
+
         public Creature(NCharacterInfo info) : base(info.Entity)
         {
             this.Info = info;
@@ -118,7 +123,6 @@ namespace Entities
             Debug.LogFormat("SetPostion:{0}", position);
             this.position = position;
         }
-
         public void CastSkill(int skillId, Creature target, NVector3 position,NDamageInfo damage)
         {
             this.SetStandby(true);
@@ -148,5 +152,12 @@ namespace Entities
             this.Attributes.HP -= damage.Damage;
             this.PlayAnim("Hurt");
         }
+        public void DoSkillHit(int skillId, int hitId, List<NDamageInfo> damages)
+        {
+            Debug.LogFormat("Creature.DoSkillHit: count{0} ", damages.Count);
+            var skill = this.SkillMgr.GetSkill(skillId);
+            skill.DoHit(hitId, damages);
+        }
+
     }
 }

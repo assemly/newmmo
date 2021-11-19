@@ -25,6 +25,7 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
     // Update is called once per frame
     void Update()
     {
+        if (this.skill == null) return;
         if (this.skill.CD>0)
         {
             if (!overlay.enabled) overlay.enabled = true;
@@ -40,12 +41,7 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
         }
     }
 
-    public void SetSkill(Skill value)
-    {
-        this.skill = value;
-        if (this.icon != null) this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Define.Icon);
-        this.SetCD(this.skill.Define.CD);
-    }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -79,5 +75,16 @@ public class UISkillSlot : MonoBehaviour,IPointerClickHandler
         overlay.fillAmount = 1f;
         overlaySpeed = 1f / cd;
         cdRemian = cd;
+    }
+
+    public void SetSkill(Skill value)
+    {
+        this.skill = value;
+        if (this.icon != null)
+        {
+            this.icon.overrideSprite = Resloader.Load<Sprite>(this.skill.Define.Icon);
+            this.icon.SetAllDirty();
+        }
+        //this.SetCD(this.skill.Define.CD);
     }
 }

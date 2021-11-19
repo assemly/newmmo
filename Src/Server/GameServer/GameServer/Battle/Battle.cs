@@ -1,4 +1,5 @@
-﻿using GameServer.Entities;
+﻿using GameServer.Core;
+using GameServer.Entities;
 using GameServer.Managers;
 using GameServer.Models;
 using Network;
@@ -16,6 +17,7 @@ namespace GameServer.Battle
         public Map Map;
         Dictionary<int, Creature> AllUnits = new Dictionary<int, Creature>();
         Queue<NSkillCastInfo> Actions = new Queue<NSkillCastInfo>();
+        List<NSkillHitInfo> Hits = new List<NSkillHitInfo>();
         List<Creature> DeathPool = new List<Creature>();
 
         public Battle(Map map)
@@ -36,13 +38,18 @@ namespace GameServer.Battle
 
         public void Update()
         {
+            this.Hits.Clear();
             if (this.Actions.Count > 0)
             {
                 NSkillCastInfo skillCast = this.Actions.Dequeue();
                 this.ExecuteAction(skillCast);
             }
             this.UpdateUnits();
+            this.BoradcastHitMessage();
         }
+
+        
+
         public void JoinBattle(Creature unit)
         {
             this.AllUnits[unit.entityId] = unit;
@@ -72,6 +79,18 @@ namespace GameServer.Battle
             message.skillCast.Errormsg = context.Result.ToString();
             this.Map.BroadcastBattleResponse(message);
         }
+
+        private void BoradcastHitMessage()
+        {
+            if (this.Hits.Count == 0) return;
+            NetMessageResponse message = new NetMessageResponse();
+            message.skillHits = new SkillHitResponse();
+            message.skillHits.Hits.AddRange(this.Hits);
+            message.skillHits.Result = Result.Success;
+            message.skillHits.Errormsg = "";
+          
+            this.Map.BroadcastBattleResponse(message);
+        }
         private void UpdateUnits()
         {
             this.DeathPool.Clear();
@@ -87,6 +106,22 @@ namespace GameServer.Battle
             }
         }
 
-        
+        public List<Creature> FindUnitsInRange(Vector3Int pos, int range)
+        {
+            List<Creature> result = new List<Creature>();
+            foreach(var unit in this.AllUnits)
+            {
+                if (unit.Value.Distance(pos) < range)
+                {
+                    result.Add(unit.Value);
+                }
+            }
+            return result;
+        }
+
+        public void AddHitInfo(NSkillHitInfo hit)
+        {
+            this.Hits.Add(hit);
+        }
     }
 }
