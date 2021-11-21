@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Audio\AuidoPreafabSO.cs" />
     <Compile Include="Assets\Scripts\Audio\Config.cs" />
     <Compile Include="Assets\Scripts\Audio\SoundDefine.cs" />
+    <Compile Include="Assets\Scripts\Battle\Bullet.cs" />
     <Compile Include="Assets\Scripts\Battle\Skill.cs" />
     <Compile Include="Assets\Scripts\Battle\SkillManager.cs" />
     <Compile Include="Assets\Scripts\Entities\Character.cs" />

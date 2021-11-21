@@ -15,16 +15,18 @@ namespace Battle
     {
         public NSkillInfo skillInfo;
         public Creature Owner;
+        public Creature Target;
         public SkillDefine Define;
         private float cd = 0;
-        private NDamageInfo Damage;
+        //private NDamageInfo Damage;
         private float castTime = 0;
         private float skillTime;
         public bool IsCasting = false;
-        private int Hit=0;
+        public int Hit=0;
         private SkillStatus Status;
 
         Dictionary<int, List<NDamageInfo>> HitMap = new Dictionary<int, List<NDamageInfo>>();
+        List<Bullet> Bullets = new List<Bullet>();
 
         public float CD
         {
@@ -67,6 +69,26 @@ namespace Battle
             return SkillResult.Ok;
         }
 
+        public void BeginCast(Creature target)
+        {
+            this.IsCasting = true;
+            this.castTime = 0;
+            this.skillTime = 0;
+            this.cd = this.Define.CD;
+            this.Target = target;
+            //this.Damage = damage;
+            this.Owner.PlayAnim(this.Define.SkillAnim);
+            this.Bullets.Clear();
+            this.HitMap.Clear();
+            if (this.Define.CastTime > 0)
+            {
+                this.Status = SkillStatus.Casting;
+            }
+            else
+            {
+                this.Status = SkillStatus.Running;
+            }
+        }
         public void OnUpdate(float deltea)
         {
             UpdateCD(deltea);
@@ -121,6 +143,24 @@ namespace Battle
                 }
                 else
                 {
+                    if (!this.Define.Bullet)
+                    {
+                        this.Status = SkillStatus.None;
+                        this.IsCasting = false;
+                        Debug.LogFormat("Skill[{0}].UpdateSkill Finish", this.Define.Name);
+                    }                
+                }
+            }
+            if (this.Define.Bullet)
+            {
+                bool finish = true;
+                foreach(Bullet bullet in this.Bullets)
+                {
+                    bullet.Update();
+                    if (!bullet.Stoped) finish = false;
+                }
+                if(finish &&this.Hit >= this.Define.HitTimes.Count)
+                {
                     this.Status = SkillStatus.None;
                     this.IsCasting = false;
                     Debug.LogFormat("Skill[{0}].UpdateSkill Finish", this.Define.Name);
@@ -130,16 +170,35 @@ namespace Battle
 
         private void DoHit()
         {
-            List<NDamageInfo> damages;
-            if(this.HitMap.TryGetValue(this.Hit,out damages))
+            //List<NDamageInfo> damages;
+            //if(this.HitMap.TryGetValue(this.Hit,out damages))
+            //{
+            //    DoHitDamages(damages);
+            //}
+            if (this.Define.Bullet)
             {
-                DoHitDamages(damages);
+                this.CastBullet();
             }
-            
+            else
+                this.DoHitDamages(this.Hit);
             this.Hit++;
 
         }
 
+        private void CastBullet()
+        {
+            Bullet bullet = new Bullet(this);
+            //Debug.LogFormat("Skill[{0}].CastBullet[{1}] Target:{2}", this.Define.);
+            this.Bullets.Add(bullet);
+        }
+        public void DoHitDamages(int hit)
+        {
+            List<NDamageInfo> damages;
+            if(this.HitMap.TryGetValue(hit,out damages))
+            {
+                DoHitDamages(damages);
+            }
+        }
         private void DoHitDamages(List<NDamageInfo> damages)
         {
             Debug.LogFormat("Skill.DoHitDamages count:{0}", damages.Count);
@@ -166,22 +225,11 @@ namespace Battle
             
         //}
 
-        public void BeginCast(NDamageInfo damage)
+        public void DoHit(NSkillHitInfo hit)
         {
-            this.IsCasting = true;
-            this.castTime = 0;
-            this.skillTime = 0;
-            this.cd = this.Define.CD;
-            this.Damage = damage;
-            this.Owner.PlayAnim(this.Define.SkillAnim);
-
-            if (this.Define.CastTime > 0)
+            if (hit.isBullet || !this.Define.Bullet)
             {
-                this.Status = SkillStatus.Casting;
-            }
-            else
-            {
-                this.Status = SkillStatus.Running;
+                this.DoHit(hit.hitId, hit.Damages);
             }
         }
 
