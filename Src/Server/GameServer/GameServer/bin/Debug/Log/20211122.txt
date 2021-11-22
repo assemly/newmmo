@@ -1,0 +1,1239 @@
+
+2021-11-22 20:35:34,027 [1] [INFO ] [GameServer] £ºGame Server Init
+2021-11-22 20:35:36,255 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2021-11-22 20:35:36,817 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:°ÂÌØÀ¼
+2021-11-22 20:35:36,822 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:Ò°Íâ1
+2021-11-22 20:35:36,822 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:Ò°Íâ2
+2021-11-22 20:35:36,823 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:¸±±¾1
+2021-11-22 20:35:41,820 [1] [WARN ] [GameServer] £ºStarting Listener...
+2021-11-22 20:35:41,859 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:41,859 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:41,862 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:41,862 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:42,834 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:47,835 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:48,832 [4] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:49,832 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 20:35:49,858 [1] [WARN ] [GameServer] £ºNetService Started
+2021-11-22 20:35:56,050 [6] [INFO ] [GameServer] £ºMap[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-22 20:35:56,064 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1001
+2021-11-22 20:36:01,611 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:11899]] Connected
+2021-11-22 20:36:01,690 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 20:36:01,826 [7] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-22 20:36:05,383 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-22 20:36:05,385 [7] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:nice Map:1
+2021-11-22 20:36:05,526 [7] [INFO ] [GameServer] £º1:nice GetFriendInfo:1:test Status:0
+2021-11-22 20:36:05,529 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:05,545 [7] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-22 20:36:05,546 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:08,325 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 20:36:08,335 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5008,4000,820),dir:(100,0,0),spd:450
+2021-11-22 20:36:08,490 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:08,491 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5087,3999,820),dir:(98,-18,0),spd:450
+2021-11-22 20:36:08,524 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-22 20:36:08,537 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(5094,3998,820),dir:(98,-18,0),spd:0
+2021-11-22 20:36:08,556 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-22 20:36:08,559 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5108,3996,820),dir:(98,-18,0),spd:450
+2021-11-22 20:36:08,816 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:08,829 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5220,3978,820),dir:(94,-35,0),spd:450
+2021-11-22 20:36:09,000 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,031 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5296,3944,820),dir:(85,-53,0),spd:450
+2021-11-22 20:36:09,099 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,102 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5332,3919,820),dir:(74,-68,0),spd:450
+2021-11-22 20:36:09,182 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,190 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5361,3893,820),dir:(61,-79,0),spd:450
+2021-11-22 20:36:09,265 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,290 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5384,3862,820),dir:(46,-89,0),spd:450
+2021-11-22 20:36:09,371 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,383 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5401,3820,820),dir:(28,-96,0),spd:450
+2021-11-22 20:36:09,520 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:09,548 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5418,3756,820),dir:(10,-100,0),spd:450
+2021-11-22 20:36:10,799 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:10,802 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5496,3141,820),dir:(28,-96,0),spd:450
+2021-11-22 20:36:10,911 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:10,913 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5510,3099,820),dir:(47,-88,0),spd:450
+2021-11-22 20:36:10,947 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:10,948 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5432,3120,807),dir:(47,-88,0),spd:450
+2021-11-22 20:36:10,999 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,006 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5445,3100,807),dir:(64,-77,0),spd:450
+2021-11-22 20:36:11,082 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,084 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5471,3071,807),dir:(76,-65,0),spd:450
+2021-11-22 20:36:11,165 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,172 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5501,3047,807),dir:(86,-50,0),spd:450
+2021-11-22 20:36:11,282 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,284 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5538,3025,807),dir:(95,-31,0),spd:450
+2021-11-22 20:36:11,397 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,398 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5587,3012,807),dir:(99,-12,0),spd:450
+2021-11-22 20:36:11,696 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,698 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5615,3018,807),dir:(99,-12,0),spd:450
+2021-11-22 20:36:11,944 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:11,951 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5615,3018,807),dir:(99,-12,0),spd:450
+2021-11-22 20:36:12,159 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,160 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5706,3004,807),dir:(95,-30,0),spd:450
+2021-11-22 20:36:12,192 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,203 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5615,3017,807),dir:(95,-30,0),spd:450
+2021-11-22 20:36:12,242 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,251 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5636,3010,807),dir:(89,-46,0),spd:450
+2021-11-22 20:36:12,324 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,325 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5670,2993,807),dir:(79,-61,0),spd:450
+2021-11-22 20:36:12,442 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,470 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5618,3007,807),dir:(65,-76,0),spd:450
+2021-11-22 20:36:12,475 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,475 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5628,2995,807),dir:(65,-76,0),spd:450
+2021-11-22 20:36:12,508 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,510 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5637,2983,807),dir:(51,-86,0),spd:450
+2021-11-22 20:36:12,591 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,604 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5656,2952,807),dir:(35,-94,0),spd:450
+2021-11-22 20:36:12,658 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,671 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5611,3012,807),dir:(35,-94,0),spd:450
+2021-11-22 20:36:12,690 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,703 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5613,2998,807),dir:(18,-98,0),spd:450
+2021-11-22 20:36:12,756 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:12,757 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5616,2969,807),dir:(1,-100,0),spd:450
+2021-11-22 20:36:12,839 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:12,840 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5615,2930,807),dir:(-17,-99,0),spd:450
+2021-11-22 20:36:12,938 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:12,939 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5607,2888,807),dir:(-37,-93,0),spd:450
+2021-11-22 20:36:13,038 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:13,040 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5588,2847,807),dir:(-54,-84,0),spd:450
+2021-11-22 20:36:13,287 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:13,287 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5529,2756,807),dir:(-38,-92,0),spd:450
+2021-11-22 20:36:13,385 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:13,393 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5512,2714,807),dir:(-21,-98,0),spd:450
+2021-11-22 20:36:13,485 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 20:36:13,486 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5504,2678,807),dir:(-3,-100,0),spd:450
+2021-11-22 20:36:13,585 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,592 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5505,2631,807),dir:(17,-98,0),spd:450
+2021-11-22 20:36:13,668 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,669 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5512,2596,807),dir:(34,-94,0),spd:450
+2021-11-22 20:36:13,751 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,756 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5528,2561,807),dir:(50,-87,0),spd:450
+2021-11-22 20:36:13,818 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,819 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5542,2634,807),dir:(50,-87,0),spd:450
+2021-11-22 20:36:13,849 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,850 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5552,2622,807),dir:(64,-77,0),spd:450
+2021-11-22 20:36:13,916 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:13,922 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5573,2599,807),dir:(77,-64,0),spd:450
+2021-11-22 20:36:14,001 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-22 20:36:14,002 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(5597,2579,807),dir:(77,-64,0),spd:0
+2021-11-22 20:36:14,031 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 20:36:14,032 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5597,2579,807),dir:(88,-47,0),spd:0
+2021-11-22 20:36:14,098 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 20:36:14,099 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5597,2579,807),dir:(95,-31,0),spd:0
+2021-11-22 20:36:14,182 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 20:36:14,183 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5597,2579,807),dir:(99,-14,0),spd:0
+2021-11-22 20:36:14,265 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:33
+2021-11-22 20:36:14,266 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5597,2579,807),dir:(100,3,0),spd:0
+2021-11-22 20:36:14,297 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:40
+2021-11-22 20:36:14,299 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5605,2579,807),dir:(100,3,0),spd:450
+2021-11-22 20:36:14,347 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 20:36:14,349 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5628,2581,807),dir:(98,21,0),spd:450
+2021-11-22 20:36:14,462 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 20:36:14,465 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5677,2596,807),dir:(92,39,0),spd:450
+2021-11-22 20:36:15,076 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 20:36:15,077 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5936,2706,807),dir:(98,21,0),spd:450
+2021-11-22 20:36:15,175 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 20:36:15,175 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5979,2716,807),dir:(100,2,0),spd:450
+2021-11-22 20:36:15,308 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:15,309 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(6042,2715,807),dir:(99,-16,0),spd:450
+2021-11-22 20:36:16,086 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 20:36:16,087 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(6265,2653,807),dir:(99,-16,0),spd:450
+2021-11-22 20:36:17,710 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2021-11-22 20:36:17,715 [11] [INFO ] [GameServer] £ºOnMapTeleport: CharacterId:1:System.Data.Entity.DynamicProxies.TCharacter_028C1AAF285F1833C035934409DC6685C502491A6A8DBACBBA5EE06212CF9890 TeleporterId:2
+2021-11-22 20:36:17,717 [11] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-22 20:36:17,718 [11] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:2
+2021-11-22 20:36:17,719 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:17,721 [11] [INFO ] [GameServer] £ºCharacterEnter: Map:3 characterId:1
+2021-11-22 20:36:17,721 [11] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:18,834 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 20:36:18,835 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(2987,4086,25),dir:(100,2,0),spd:450
+2021-11-22 20:36:18,951 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:34
+2021-11-22 20:36:18,952 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(2987,4086,25),dir:(100,2,0),spd:0
+2021-11-22 20:36:19,307 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 20:36:19,308 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(3003,4086,25),dir:(100,2,0),spd:450
+2021-11-22 20:36:20,094 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,096 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3378,4085,25),dir:(99,-16,0),spd:450
+2021-11-22 20:36:20,195 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,196 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3420,4078,25),dir:(94,-33,0),spd:450
+2021-11-22 20:36:20,277 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,279 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3455,4066,25),dir:(87,-49,0),spd:450
+2021-11-22 20:36:20,359 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,360 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3489,4045,25),dir:(77,-64,0),spd:450
+2021-11-22 20:36:20,476 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,481 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3524,4014,25),dir:(62,-78,0),spd:450
+2021-11-22 20:36:20,575 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,576 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3552,3977,25),dir:(45,-89,0),spd:450
+2021-11-22 20:36:20,658 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,659 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3566,3942,25),dir:(28,-96,0),spd:450
+2021-11-22 20:36:20,758 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:20,760 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3577,3899,25),dir:(8,-100,0),spd:450
+2021-11-22 20:36:20,857 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:55
+2021-11-22 20:36:20,858 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3581,3852,25),dir:(-12,-99,0),spd:450
+2021-11-22 20:36:21,006 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:55
+2021-11-22 20:36:21,012 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3571,3789,25),dir:(-30,-95,0),spd:450
+2021-11-22 20:36:21,138 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:52
+2021-11-22 20:36:21,139 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(3557,3740,25),dir:(-30,-95,0),spd:0
+2021-11-22 20:36:26,807 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:26,808 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(-12,-99,0),spd:0
+2021-11-22 20:36:26,907 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:26,908 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(8,-100,0),spd:0
+2021-11-22 20:36:27,022 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,023 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(28,-96,0),spd:0
+2021-11-22 20:36:27,105 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,106 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(44,-90,0),spd:0
+2021-11-22 20:36:27,188 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,195 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(59,-81,0),spd:0
+2021-11-22 20:36:27,271 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,277 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(72,-69,0),spd:0
+2021-11-22 20:36:27,354 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,356 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(83,-55,0),spd:0
+2021-11-22 20:36:27,453 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,454 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(93,-37,0),spd:0
+2021-11-22 20:36:27,535 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,536 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(98,-20,0),spd:0
+2021-11-22 20:36:27,635 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:27,637 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3557,3740,25),dir:(100,-1,0),spd:0
+2021-11-22 20:36:27,751 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 20:36:27,752 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(3565,3740,25),dir:(100,-1,0),spd:450
+2021-11-22 20:36:27,801 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:27,802 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3588,3741,25),dir:(99,17,0),spd:450
+2021-11-22 20:36:28,745 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:28,747 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(3988,3797,25),dir:(100,-1,0),spd:450
+2021-11-22 20:36:28,894 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:28,896 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4059,3796,25),dir:(98,-19,0),spd:450
+2021-11-22 20:36:29,656 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:29,657 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4374,3749,25),dir:(93,-37,0),spd:450
+2021-11-22 20:36:30,319 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:30,320 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4653,3628,25),dir:(85,-53,0),spd:450
+2021-11-22 20:36:30,468 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:30,470 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4707,3591,25),dir:(74,-68,0),spd:450
+2021-11-22 20:36:30,568 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:30,569 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4741,3560,25),dir:(59,-81,0),spd:450
+2021-11-22 20:36:30,667 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:30,668 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4764,3523,25),dir:(42,-91,0),spd:450
+2021-11-22 20:36:30,800 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:30,801 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4787,3467,25),dir:(25,-97,0),spd:450
+2021-11-22 20:36:31,562 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:31,563 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4878,3152,25),dir:(44,-90,0),spd:450
+2021-11-22 20:36:31,661 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:31,663 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4898,3111,25),dir:(61,-79,0),spd:450
+2021-11-22 20:36:31,761 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:31,763 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4929,3076,25),dir:(76,-65,0),spd:450
+2021-11-22 20:36:31,859 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:31,861 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(4966,3047,25),dir:(88,-48,0),spd:450
+2021-11-22 20:36:31,992 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:31,994 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5022,3017,25),dir:(95,-31,0),spd:450
+2021-11-22 20:36:32,457 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:32,458 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5218,2962,25),dir:(99,-13,0),spd:450
+2021-11-22 20:36:32,571 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:32,572 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5268,2956,25),dir:(100,6,0),spd:450
+2021-11-22 20:36:32,671 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:32,672 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5315,2958,25),dir:(97,26,0),spd:450
+2021-11-22 20:36:32,754 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:32,755 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5350,2969,25),dir:(91,42,0),spd:450
+2021-11-22 20:36:32,837 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:32,838 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5384,2985,25),dir:(82,58,0),spd:450
+2021-11-22 20:36:32,937 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:32,938 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5419,3010,25),dir:(68,73,0),spd:450
+2021-11-22 20:36:33,020 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:33,023 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5443,3036,25),dir:(54,84,0),spd:450
+2021-11-22 20:36:33,119 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:33,119 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5466,3073,25),dir:(36,93,0),spd:450
+2021-11-22 20:36:33,218 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:33,220 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5479,3108,25),dir:(19,98,0),spd:450
+2021-11-22 20:36:33,301 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 20:36:33,310 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5483,3144,25),dir:(2,100,0),spd:450
+2021-11-22 20:36:33,384 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,393 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5482,3183,25),dir:(-16,99,0),spd:450
+2021-11-22 20:36:33,483 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,492 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5474,3225,25),dir:(-36,93,0),spd:450
+2021-11-22 20:36:33,582 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,584 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5455,3266,25),dir:(-55,84,0),spd:450
+2021-11-22 20:36:33,683 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,685 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5430,3301,25),dir:(-71,71,0),spd:450
+2021-11-22 20:36:33,765 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,767 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5404,3325,25),dir:(-82,57,0),spd:450
+2021-11-22 20:36:33,864 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,865 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5367,3348,25),dir:(-92,39,0),spd:450
+2021-11-22 20:36:33,947 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:33,950 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5332,3362,25),dir:(-97,22,0),spd:450
+2021-11-22 20:36:34,046 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:36:34,047 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5289,3372,25),dir:(-100,2,0),spd:450
+2021-11-22 20:36:34,129 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:55
+2021-11-22 20:36:34,131 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5250,3371,25),dir:(-99,-16,0),spd:450
+2021-11-22 20:36:34,236 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:55
+2021-11-22 20:36:34,238 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5208,3363,25),dir:(-93,-36,0),spd:450
+2021-11-22 20:36:34,337 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:55
+2021-11-22 20:36:34,338 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5167,3344,25),dir:(-85,-52,0),spd:450
+2021-11-22 20:36:34,469 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:52
+2021-11-22 20:36:34,470 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(5125,3316,25),dir:(-85,-52,0),spd:0
+2021-11-22 20:36:34,518 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:34,519 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-75,-66,0),spd:0
+2021-11-22 20:36:44,711 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:44,712 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-61,-79,0),spd:0
+2021-11-22 20:36:44,811 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:44,812 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-46,-89,0),spd:0
+2021-11-22 20:36:44,894 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:44,895 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-30,-95,0),spd:0
+2021-11-22 20:36:44,977 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:44,978 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-13,-99,0),spd:0
+2021-11-22 20:36:45,060 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,061 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(5,-100,0),spd:0
+2021-11-22 20:36:45,175 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,177 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(25,-97,0),spd:0
+2021-11-22 20:36:45,259 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,260 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(42,-91,0),spd:0
+2021-11-22 20:36:45,358 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,360 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(60,-80,0),spd:0
+2021-11-22 20:36:45,457 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,458 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(75,-66,0),spd:0
+2021-11-22 20:36:45,540 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,541 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(85,-52,0),spd:0
+2021-11-22 20:36:45,623 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,624 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(93,-36,0),spd:0
+2021-11-22 20:36:45,722 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:45,735 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(99,-16,0),spd:0
+2021-11-22 20:36:45,821 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:45,822 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(100,5,0),spd:0
+2021-11-22 20:36:45,921 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:45,929 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(97,25,0),spd:0
+2021-11-22 20:36:46,004 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,005 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(91,42,0),spd:0
+2021-11-22 20:36:46,104 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,105 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(80,60,0),spd:0
+2021-11-22 20:36:46,203 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,204 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(66,75,0),spd:0
+2021-11-22 20:36:46,286 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,286 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(52,85,0),spd:0
+2021-11-22 20:36:46,368 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,369 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(36,93,0),spd:0
+2021-11-22 20:36:46,468 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 20:36:46,469 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(16,99,0),spd:0
+2021-11-22 20:36:46,567 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:46,568 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-5,100,0),spd:0
+2021-11-22 20:36:46,667 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:46,667 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-25,97,0),spd:0
+2021-11-22 20:36:46,749 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:46,750 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-42,91,0),spd:0
+2021-11-22 20:36:46,849 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:46,851 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-60,80,0),spd:0
+2021-11-22 20:36:46,949 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:46,955 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-75,66,0),spd:0
+2021-11-22 20:36:47,031 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:47,032 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-85,52,0),spd:0
+2021-11-22 20:36:47,114 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:47,115 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-93,36,0),spd:0
+2021-11-22 20:36:47,213 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:47,213 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-99,16,0),spd:0
+2021-11-22 20:36:47,329 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,331 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-100,-5,0),spd:0
+2021-11-22 20:36:47,428 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,430 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-97,-25,0),spd:0
+2021-11-22 20:36:47,512 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,513 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-91,-42,0),spd:0
+2021-11-22 20:36:47,610 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,615 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-80,-60,0),spd:0
+2021-11-22 20:36:47,710 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,711 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-66,-75,0),spd:0
+2021-11-22 20:36:47,793 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,795 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-52,-85,0),spd:0
+2021-11-22 20:36:47,876 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,878 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-36,-93,0),spd:0
+2021-11-22 20:36:47,976 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:36:47,977 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(-16,-99,0),spd:0
+2021-11-22 20:36:48,074 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:48,076 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(5,-100,0),spd:0
+2021-11-22 20:36:48,174 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:48,176 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(25,-97,0),spd:0
+2021-11-22 20:36:48,261 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:48,263 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(42,-91,0),spd:0
+2021-11-22 20:36:48,377 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:48,379 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(57,-82,0),spd:0
+2021-11-22 20:36:50,004 [6] [INFO ] [GameServer] £ºMap[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-22 20:36:50,005 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1002
+2021-11-22 20:36:50,008 [6] [INFO ] [GameServer] £ºMap[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-22 20:36:50,008 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1003
+2021-11-22 20:36:50,009 [6] [INFO ] [GameServer] £ºMap[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-22 20:36:50,009 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1005
+2021-11-22 20:36:50,010 [6] [INFO ] [GameServer] £ºMap[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-22 20:36:50,010 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1001
+2021-11-22 20:36:50,011 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:50,011 [6] [INFO ] [GameServer] £ºMap[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-22 20:36:50,012 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1002
+2021-11-22 20:36:50,012 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:50,013 [6] [INFO ] [GameServer] £ºMap[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-22 20:36:50,013 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1003
+2021-11-22 20:36:50,015 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:50,016 [6] [INFO ] [GameServer] £ºMap[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-22 20:36:50,016 [6] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1005
+2021-11-22 20:36:50,017 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:52,442 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:52,443 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(41,-91,0),spd:0
+2021-11-22 20:36:52,542 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:52,543 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(22,-98,0),spd:0
+2021-11-22 20:36:52,673 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:52,674 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3316,25),dir:(3,-100,0),spd:0
+2021-11-22 20:36:54,313 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 20:36:54,323 [10] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:2 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 20:36:54,324 [10] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:2 target:8 pos:(0,0,0)
+2021-11-22 20:36:54,355 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 20:36:54,356 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:55,066 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 20:36:55,068 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:36:55,069 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:570
+2021-11-22 20:36:55,071 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:55,679 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 20:36:55,682 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[Ð¡¶ñÄ§] Damage:46 Crit:False
+2021-11-22 20:36:55,683 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 20:36:55,683 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:56,952 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 20:36:56,953 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveBack Entity:(2:pos:(5125,3321,25),dir:(3,-100,0),spd:-300
+2021-11-22 20:36:57,762 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 20:36:57,764 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(5125,3561,25),dir:(3,-100,0),spd:0
+2021-11-22 20:36:58,062 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,065 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(21,-98,0),spd:0
+2021-11-22 20:36:58,176 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,179 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(41,-91,0),spd:0
+2021-11-22 20:36:58,276 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,278 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(59,-81,0),spd:0
+2021-11-22 20:36:58,376 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,377 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(74,-67,0),spd:0
+2021-11-22 20:36:58,475 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,475 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(86,-51,0),spd:0
+2021-11-22 20:36:58,508 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 20:36:58,509 [10] [INFO ] [GameServer] £ºOnSkillCast::skill :304 caster:2 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 20:36:58,509 [10] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:304 caster:2 target:8 pos:(0,0,0)
+2021-11-22 20:36:58,612 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].Cast Result:[Ok] Status:Casting
+2021-11-22 20:36:58,613 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:58,641 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:58,642 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(94,-35,0),spd:0
+2021-11-22 20:36:59,118 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].UpdateCasting Finish
+2021-11-22 20:36:59,470 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,471 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(86,-51,0),spd:0
+2021-11-22 20:36:59,569 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,570 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(75,-66,0),spd:0
+2021-11-22 20:36:59,652 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,653 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(62,-78,0),spd:0
+2021-11-22 20:36:59,722 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[0]
+2021-11-22 20:36:59,723 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:36:59,723 [6] [INFO ] [GameServer] £ºBullet[Á¬Éä].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:779
+2021-11-22 20:36:59,726 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:36:59,734 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,735 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(48,-88,0),spd:0
+2021-11-22 20:36:59,836 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,837 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(30,-95,0),spd:0
+2021-11-22 20:36:59,985 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:36:59,987 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(13,-99,0),spd:0
+2021-11-22 20:37:00,433 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[1]
+2021-11-22 20:37:00,440 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:37:00,441 [6] [INFO ] [GameServer] £ºBullet[Á¬Éä].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:779
+2021-11-22 20:37:00,442 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:00,644 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[0] IsBullet:True
+2021-11-22 20:37:00,645 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].HitTarget Result:[Ð¡¶ñÄ§] Damage:34 Crit:False
+2021-11-22 20:37:00,645 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:00,796 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:00,798 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-5,-100,0),spd:0
+2021-11-22 20:37:00,896 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:00,897 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-25,-97,0),spd:0
+2021-11-22 20:37:00,996 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:00,997 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-44,-90,0),spd:0
+2021-11-22 20:37:01,077 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:01,079 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-59,-81,0),spd:0
+2021-11-22 20:37:01,150 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[2]
+2021-11-22 20:37:01,150 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:37:01,151 [6] [INFO ] [GameServer] £ºBullet[Á¬Éä].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:779
+2021-11-22 20:37:01,152 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:01,161 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:01,161 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-72,-69,0),spd:0
+2021-11-22 20:37:01,278 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:01,279 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-84,-55,0),spd:0
+2021-11-22 20:37:01,355 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[1] IsBullet:True
+2021-11-22 20:37:01,356 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].HitTarget Result:[Ð¡¶ñÄ§] Damage:70 Crit:True
+2021-11-22 20:37:01,357 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:02,065 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].DoHit[2] IsBullet:True
+2021-11-22 20:37:02,066 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].HitTarget Result:[Ð¡¶ñÄ§] Damage:36 Crit:False
+2021-11-22 20:37:02,067 [6] [INFO ] [GameServer] £ºSkill[Á¬Éä].UpdateSkill Finish
+2021-11-22 20:37:02,067 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:04,055 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 20:37:04,057 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:2 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 20:37:04,058 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:2 target:8 pos:(0,0,0)
+2021-11-22 20:37:04,087 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 20:37:04,087 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:04,793 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 20:37:04,794 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:37:04,795 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:779
+2021-11-22 20:37:04,796 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:05,708 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 20:37:05,709 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[Ð¡¶ñÄ§] Damage:49 Crit:False
+2021-11-22 20:37:05,709 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 20:37:05,710 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:06,659 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:06,661 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-72,-69,0),spd:0
+2021-11-22 20:37:06,806 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:06,807 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-57,-82,0),spd:0
+2021-11-22 20:37:06,905 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:06,907 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-41,-91,0),spd:0
+2021-11-22 20:37:07,187 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 20:37:07,189 [10] [INFO ] [GameServer] £ºOnSkillCast::skill :302 caster:2 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 20:37:07,190 [10] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:302 caster:2 target:8 pos:(0,0,0)
+2021-11-22 20:37:07,229 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].Cast Result:[Ok] Status:Casting
+2021-11-22 20:37:07,230 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:07,734 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].UpdateCasting Finish
+2021-11-22 20:37:08,037 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].DoHit[0]
+2021-11-22 20:37:08,039 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 20:37:08,040 [6] [INFO ] [GameServer] £ºBullet[Á÷Ñª¼ý].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:779
+2021-11-22 20:37:08,041 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:08,948 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].DoHit[0] IsBullet:True
+2021-11-22 20:37:08,949 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].HitTarget Result:[Ð¡¶ñÄ§] Damage:31 Crit:False
+2021-11-22 20:37:08,949 [6] [INFO ] [GameServer] £ºSkill[Á÷Ñª¼ý].UpdateSkill Finish
+2021-11-22 20:37:08,950 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 20:37:10,239 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:10,240 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-24,-97,0),spd:0
+2021-11-22 20:37:10,437 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:10,438 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(-5,-100,0),spd:0
+2021-11-22 20:37:10,536 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:10,537 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(14,-99,0),spd:0
+2021-11-22 20:37:10,619 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:10,620 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(31,-95,0),spd:0
+2021-11-22 20:37:10,719 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:10,720 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(47,-88,0),spd:0
+2021-11-22 20:37:10,818 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:10,819 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5125,3561,25),dir:(63,-78,0),spd:0
+2021-11-22 20:37:10,851 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 20:37:10,853 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:MoveFwd Entity:(2:pos:(5130,3555,25),dir:(63,-78,0),spd:450
+2021-11-22 20:37:11,017 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:37:11,024 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5181,3496,25),dir:(76,-66,0),spd:450
+2021-11-22 20:37:11,530 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 20:37:11,531 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5366,3340,25),dir:(61,-79,0),spd:450
+2021-11-22 20:37:11,615 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 20:37:11,616 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:Idle Entity:(2:pos:(5386,3316,25),dir:(61,-79,0),spd:0
+2021-11-22 20:37:11,647 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:11,648 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(45,-89,0),spd:0
+2021-11-22 20:37:11,714 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:11,715 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(29,-96,0),spd:0
+2021-11-22 20:37:11,796 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 20:37:11,797 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(12,-99,0),spd:0
+2021-11-22 20:37:11,879 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:11,880 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(-6,-100,0),spd:0
+2021-11-22 20:37:11,978 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:11,979 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(-26,-96,0),spd:0
+2021-11-22 20:37:12,078 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:50
+2021-11-22 20:37:12,079 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:2 Evt:None Entity:(2:pos:(5386,3316,25),dir:(-43,-90,0),spd:0
+2021-11-22 20:37:17,560 [3] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:nice
+2021-11-22 20:37:17,587 [3] [INFO ] [GameServer] £ºCharacterLeave: Map:3 characterId:1
+2021-11-22 20:37:17,595 [3] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:nice : Map:3 CharacterID:1:nice:EntityId:2
+2021-11-22 20:37:17,596 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2021-11-22 21:42:32,239 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:7911]] Connected
+2021-11-22 21:42:32,321 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 21:42:32,323 [7] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-22 21:42:34,878 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-22 21:42:34,880 [7] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:nice Map:1
+2021-11-22 21:42:34,881 [7] [INFO ] [GameServer] £º1:nice GetFriendInfo:1:test Status:0
+2021-11-22 21:42:34,882 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:42:34,884 [7] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-22 21:42:34,885 [7] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:42:37,067 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 21:42:37,068 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+2021-11-22 21:42:37,165 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 21:42:37,166 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(93,-37,0),spd:0
+2021-11-22 21:42:37,241 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-22 21:42:37,277 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5007,3997,820),dir:(93,-37,0),spd:450
+2021-11-22 21:42:37,279 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:37,284 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5013,3993,820),dir:(85,-53,0),spd:450
+2021-11-22 21:42:37,348 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:37,349 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5048,3968,820),dir:(73,-69,0),spd:450
+2021-11-22 21:42:37,502 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:37,503 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5092,3922,820),dir:(59,-81,0),spd:450
+2021-11-22 21:42:39,023 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-22 21:42:39,025 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5452,3382,820),dir:(59,-81,0),spd:0
+2021-11-22 21:42:39,269 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 21:42:39,270 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5452,3382,820),dir:(43,-90,0),spd:0
+2021-11-22 21:42:39,387 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:42
+2021-11-22 21:42:39,389 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5452,3382,820),dir:(24,-97,0),spd:0
+2021-11-22 21:42:39,459 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-22 21:42:39,460 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5454,3375,820),dir:(24,-97,0),spd:450
+2021-11-22 21:42:39,485 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:39,487 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5456,3360,820),dir:(3,-100,0),spd:450
+2021-11-22 21:42:39,584 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:56
+2021-11-22 21:42:39,585 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5455,3313,820),dir:(-16,-99,0),spd:450
+2021-11-22 21:42:39,719 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:53
+2021-11-22 21:42:39,720 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5448,3264,820),dir:(-16,-99,0),spd:0
+2021-11-22 21:42:39,736 [51] [WARN ] [GameServer] £ºClient[] DataReceived Len:58
+2021-11-22 21:42:39,737 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5447,3257,820),dir:(-16,-99,0),spd:450
+2021-11-22 21:42:40,673 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:40,675 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5392,2864,820),dir:(3,-100,0),spd:450
+2021-11-22 21:42:40,756 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:40,758 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5394,2825,820),dir:(21,-98,0),spd:450
+2021-11-22 21:42:40,867 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:40,868 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5407,2783,820),dir:(41,-91,0),spd:450
+2021-11-22 21:42:40,962 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:40,963 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5426,2742,820),dir:(59,-81,0),spd:450
+2021-11-22 21:42:41,060 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:41,061 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5451,2707,820),dir:(72,-69,0),spd:450
+2021-11-22 21:42:41,270 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:41,271 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5517,2643,820),dir:(83,-55,0),spd:450
+2021-11-22 21:42:41,484 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:44
+2021-11-22 21:42:41,485 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5583,2599,820),dir:(83,-55,0),spd:0
+2021-11-22 21:42:41,521 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:49
+2021-11-22 21:42:41,522 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5589,2595,820),dir:(83,-55,0),spd:450
+2021-11-22 21:42:42,225 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:42,226 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5842,2428,820),dir:(92,-39,0),spd:450
+2021-11-22 21:42:42,324 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:42,331 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5884,2411,820),dir:(98,-22,0),spd:450
+2021-11-22 21:42:42,408 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:42,410 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5920,2403,820),dir:(100,-5,0),spd:450
+2021-11-22 21:42:42,493 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 21:42:42,494 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5959,2404,820),dir:(99,13,0),spd:450
+2021-11-22 21:42:42,592 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 21:42:42,597 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6001,2411,820),dir:(94,33,0),spd:450
+2021-11-22 21:42:42,708 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 21:42:42,709 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6049,2427,820),dir:(86,50,0),spd:450
+2021-11-22 21:42:43,362 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 21:42:43,363 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6284,2581,820),dir:(94,33,0),spd:450
+2021-11-22 21:42:43,461 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 21:42:43,462 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6326,2592,820),dir:(99,13,0),spd:450
+2021-11-22 21:42:43,593 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:43,595 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6383,2599,820),dir:(100,-5,0),spd:450
+2021-11-22 21:42:44,074 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 21:42:44,075 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(6513,2631,807),dir:(100,-5,0),spd:450
+2021-11-22 21:42:45,030 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2021-11-22 21:42:45,031 [9] [INFO ] [GameServer] £ºOnMapTeleport: CharacterId:1:System.Data.Entity.DynamicProxies.TCharacter_028C1AAF285F1833C035934409DC6685C502491A6A8DBACBBA5EE06212CF9890 TeleporterId:2
+2021-11-22 21:42:45,031 [9] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-22 21:42:45,031 [9] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:10
+2021-11-22 21:42:45,032 [9] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:42:45,032 [9] [INFO ] [GameServer] £ºCharacterEnter: Map:3 characterId:1
+2021-11-22 21:42:45,033 [9] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:42:46,213 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 21:42:46,213 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(2987,4086,25),dir:(100,2,0),spd:450
+2021-11-22 21:42:46,308 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:34
+2021-11-22 21:42:46,309 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(2987,4086,25),dir:(100,2,0),spd:0
+2021-11-22 21:42:46,390 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 21:42:46,392 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(2995,4086,25),dir:(100,2,0),spd:450
+2021-11-22 21:42:46,960 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:46,961 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3274,4085,25),dir:(98,-18,0),spd:450
+2021-11-22 21:42:47,065 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:47,066 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3316,4077,25),dir:(93,-36,0),spd:450
+2021-11-22 21:42:47,164 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:47,165 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3357,4058,25),dir:(85,-53,0),spd:450
+2021-11-22 21:42:47,328 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:47,330 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3417,4017,25),dir:(74,-67,0),spd:450
+2021-11-22 21:42:47,985 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:47,986 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3651,3823,25),dir:(86,-52,0),spd:450
+2021-11-22 21:42:48,084 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:48,086 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3688,3800,25),dir:(94,-34,0),spd:450
+2021-11-22 21:42:48,178 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:48,184 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3730,3784,25),dir:(99,-15,0),spd:450
+2021-11-22 21:42:48,680 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:48,681 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(3940,3753,25),dir:(94,-33,0),spd:450
+2021-11-22 21:42:48,781 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:42:48,782 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(3975,3743,25),dir:(94,-33,0),spd:0
+2021-11-22 21:42:51,102 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:42:51,103 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(3982,3741,25),dir:(94,-33,0),spd:450
+2021-11-22 21:42:51,639 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:42:51,641 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(4199,3679,25),dir:(94,-33,0),spd:0
+2021-11-22 21:42:53,918 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:42:53,919 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:42:53,920 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4975,2764,15)
+2021-11-22 21:42:53,984 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:42:53,984 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:42:56,065 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:42:56,076 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4206,3677,25),dir:(94,-33,0),spd:450
+2021-11-22 21:42:56,483 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:42:56,486 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(4381,3625,25),dir:(87,-50,0),spd:450
+2021-11-22 21:42:56,551 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:42:56,552 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(4402,3613,25),dir:(87,-50,0),spd:0
+2021-11-22 21:42:56,669 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 21:42:56,671 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(4402,3613,25),dir:(76,-65,0),spd:0
+2021-11-22 21:42:58,444 [49] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:42:58,445 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:42:58,445 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4871,2652,13)
+2021-11-22 21:42:58,454 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:42:58,454 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:00,698 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:43:00,699 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:00,700 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4682,2987,3)
+2021-11-22 21:43:00,778 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:00,778 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:06,659 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:43:06,662 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:06,666 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4505,3143,0)
+2021-11-22 21:43:06,738 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:06,741 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:07,840 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:43:07,841 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4408,3608,25),dir:(76,-65,0),spd:450
+2021-11-22 21:43:08,936 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:43:08,937 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(4798,3283,25),dir:(76,-65,0),spd:0
+2021-11-22 21:43:10,648 [49] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:43:10,649 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:10,650 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4782,3081,0)
+2021-11-22 21:43:10,677 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:10,677 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:12,226 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:43:12,228 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:12,230 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4997,2562,22)
+2021-11-22 21:43:12,293 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:12,293 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:13,027 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:43:13,032 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:13,032 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:10 target:8 pos:(4997,2562,22)
+2021-11-22 21:43:13,103 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 21:43:13,103 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:13,811 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 21:43:13,812 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§
+2021-11-22 21:43:13,812 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:Ð¡¶ñÄ§ Distance:8 Time:418
+2021-11-22 21:43:13,814 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:14,319 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 21:43:14,319 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[Ð¡¶ñÄ§] Damage:49 Crit:False
+2021-11-22 21:43:14,320 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 21:43:14,320 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:16,539 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:43:16,540 [9] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:16,541 [9] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:8 pos:(4841,2854,7)
+2021-11-22 21:43:16,561 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:16,561 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:21,567 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:43:21,569 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(4804,3278,25),dir:(76,-65,0),spd:450
+2021-11-22 21:43:22,433 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:43:22,434 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5117,3019,25),dir:(87,-50,0),spd:450
+2021-11-22 21:43:22,689 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:43:22,690 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5215,2963,25),dir:(87,-50,0),spd:0
+2021-11-22 21:43:23,570 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:43:23,575 [4] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5222,2959,25),dir:(87,-50,0),spd:450
+2021-11-22 21:43:24,186 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:43:24,187 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5474,2815,25),dir:(87,-50,0),spd:0
+2021-11-22 21:43:25,681 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:43:25,681 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:25,682 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:7 pos:(5590,1823,7)
+2021-11-22 21:43:25,754 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:25,755 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:43:41,710 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:43:41,711 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 21:43:41,711 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:7 pos:(5680,1768,0)
+2021-11-22 21:43:41,812 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:43:41,812 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:46:17,540 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 21:46:17,541 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 21:46:17,542 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:7 pos:(5446,2443,5)
+2021-11-22 21:46:17,593 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:46:17,594 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:46:23,101 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:46:23,102 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5481,2811,25),dir:(87,-50,0),spd:450
+2021-11-22 21:46:23,573 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:46:23,574 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5677,2699,25),dir:(87,-50,0),spd:0
+2021-11-22 21:46:23,623 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 21:46:23,624 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5677,2699,25),dir:(76,-65,0),spd:0
+2021-11-22 21:46:23,757 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 21:46:23,758 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5677,2699,25),dir:(63,-78,0),spd:0
+2021-11-22 21:46:23,923 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 21:46:23,925 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5677,2699,25),dir:(48,-88,0),spd:0
+2021-11-22 21:46:25,559 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:46:25,560 [12] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 21:46:25,561 [12] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:7 pos:(5588,1772,0)
+2021-11-22 21:46:25,588 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:46:25,588 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:39,894 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 21:47:39,895 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:MoveFwd Entity:(10:pos:(5681,2692,25),dir:(48,-88,0),spd:450
+2021-11-22 21:47:40,369 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 21:47:40,370 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:None Entity:(10:pos:(5696,2518,9),dir:(48,-88,0),spd:450
+2021-11-22 21:47:40,393 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 21:47:40,394 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:10 Evt:Idle Entity:(10:pos:(5700,2511,9),dir:(48,-88,0),spd:0
+2021-11-22 21:47:41,134 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:47:41,135 [10] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:10 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 21:47:41,136 [10] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:10 target:7 pos:(5588,1772,0)
+2021-11-22 21:47:41,142 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 21:47:41,143 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:41,857 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 21:47:41,858 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:É½Çð¾ÞÈË
+2021-11-22 21:47:41,861 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:É½Çð¾ÞÈË Distance:7 Time:844
+2021-11-22 21:47:41,861 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:42,871 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 21:47:42,871 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[É½Çð¾ÞÈË] Damage:65 Crit:False
+2021-11-22 21:47:42,872 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 21:47:42,872 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:46,226 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:47:46,228 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:47:46,229 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:10 target:6 pos:(5588,1772,0)
+2021-11-22 21:47:46,294 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 21:47:46,295 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:47,002 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 21:47:47,002 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í
+2021-11-22 21:47:47,003 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í Distance:6 Time:956
+2021-11-22 21:47:47,006 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:48,118 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 21:47:48,119 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[¶ñ¹í] Damage:82 Crit:False
+2021-11-22 21:47:48,119 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 21:47:48,120 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:49,994 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:47:49,996 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:47:49,998 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5721,1691,0)
+2021-11-22 21:47:50,047 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:47:50,049 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:54,679 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:47:54,681 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:47:54,682 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5721,1656,0)
+2021-11-22 21:47:54,693 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:47:54,693 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:47:57,860 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:47:57,861 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:47:57,862 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5713,1702,0)
+2021-11-22 21:47:57,916 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:47:57,917 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:50:17,245 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:50:17,248 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:50:17,249 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5701,1772,0)
+2021-11-22 21:50:17,307 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:50:17,308 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:50:41,094 [23] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:50:41,096 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:50:41,097 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5729,1662,0)
+2021-11-22 21:50:41,146 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:50:41,150 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:50:42,845 [23] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:50:42,846 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:50:42,847 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:10 target:6 pos:(5729,1662,0)
+2021-11-22 21:50:54,557 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 21:50:54,558 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:50:54,659 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 21:50:54,659 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í
+2021-11-22 21:50:54,660 [6] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í Distance:6 Time:956
+2021-11-22 21:50:54,660 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 21:50:54,661 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[¶ñ¹í] Damage:79 Crit:False
+2021-11-22 21:50:54,661 [6] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 21:50:54,661 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:51:14,426 [23] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:51:14,427 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:51:14,428 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5787,1527,0)
+2021-11-22 21:52:06,064 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:52:06,066 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:55:43,072 [25] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:55:43,074 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:55:43,075 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5779,1604,0)
+2021-11-22 21:55:50,587 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:55:50,588 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:56:28,058 [25] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 21:56:28,070 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:10 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 21:56:28,072 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:10 target:6 pos:(5783,1607,0)
+2021-11-22 21:56:30,471 [6] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[OutOfRange] Status:None
+2021-11-22 21:56:30,471 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 21:58:43,629 [1] [INFO ] [GameServer] £ºGame Server Init
+2021-11-22 21:58:44,012 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2021-11-22 21:58:44,729 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:1:°ÂÌØÀ¼
+2021-11-22 21:58:44,762 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:2:Ò°Íâ1
+2021-11-22 21:58:44,763 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:3:Ò°Íâ2
+2021-11-22 21:58:44,763 [1] [INFO ] [GameServer] £ºMapManager.Init > Map:4:¸±±¾1
+2021-11-22 21:58:50,490 [1] [WARN ] [GameServer] £ºStarting Listener...
+2021-11-22 21:58:50,531 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:58:50,531 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:58:50,531 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:58:50,531 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:58:54,533 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:59:00,017 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:59:06,194 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:59:13,632 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2021-11-22 21:59:13,821 [1] [WARN ] [GameServer] £ºNetService Started
+2021-11-22 21:59:19,930 [5] [INFO ] [GameServer] £ºMap[2]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-22 21:59:19,958 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1001
+2021-11-22 22:00:13,944 [5] [INFO ] [GameServer] £ºMap[2]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-22 22:00:13,945 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1002
+2021-11-22 22:00:13,945 [5] [INFO ] [GameServer] £ºMap[2]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-22 22:00:13,945 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1003
+2021-11-22 22:00:13,945 [5] [INFO ] [GameServer] £ºMap[2]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-22 22:00:13,946 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:2 monsterId:1005
+2021-11-22 22:00:13,946 [5] [INFO ] [GameServer] £ºMap[3]Spawn[1]:Mon:1001,Lv:1 At Point:1
+2021-11-22 22:00:13,946 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1001
+2021-11-22 22:00:13,946 [5] [INFO ] [GameServer] £ºMap[3]Spawn[2]:Mon:1002,Lv:1 At Point:2
+2021-11-22 22:00:13,946 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1002
+2021-11-22 22:00:13,947 [5] [INFO ] [GameServer] £ºMap[3]Spawn[3]:Mon:1003,Lv:1 At Point:3
+2021-11-22 22:00:13,947 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1003
+2021-11-22 22:00:13,947 [5] [INFO ] [GameServer] £ºMap[3]Spawn[4]:Mon:1005,Lv:1 At Point:4
+2021-11-22 22:00:13,948 [5] [INFO ] [GameServer] £ºMonsterEnter: Map:3 monsterId:1005
+2021-11-22 22:00:48,710 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:2776]] Connected
+2021-11-22 22:00:48,787 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2021-11-22 22:00:48,926 [6] [INFO ] [GameServer] £ºUserLoginRequest: User:tsing  Pass:123
+2021-11-22 22:00:52,610 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:8
+2021-11-22 22:00:52,613 [6] [INFO ] [GameServer] £ºUserGameRequest: characterID:1:nice Map:1
+2021-11-22 22:00:52,742 [6] [INFO ] [GameServer] £º1:nice GetFriendInfo:1:test Status:0
+2021-11-22 22:00:52,746 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:00:52,765 [6] [INFO ] [GameServer] £ºCharacterEnter: Map:1 characterId:1
+2021-11-22 22:00:52,767 [6] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:00:55,965 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 22:00:55,973 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5008,4000,820),dir:(100,0,0),spd:450
+2021-11-22 22:00:56,296 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,298 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5167,3999,820),dir:(98,-18,0),spd:450
+2021-11-22 22:00:56,396 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,397 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5209,3991,820),dir:(94,-35,0),spd:450
+2021-11-22 22:00:56,478 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,479 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5243,3975,820),dir:(86,-51,0),spd:450
+2021-11-22 22:00:56,578 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,579 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5279,3950,820),dir:(74,-68,0),spd:450
+2021-11-22 22:00:56,661 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,663 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5308,3924,820),dir:(61,-79,0),spd:450
+2021-11-22 22:00:56,760 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,761 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5336,3887,820),dir:(44,-90,0),spd:450
+2021-11-22 22:00:56,926 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:56,928 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5365,3817,820),dir:(27,-96,0),spd:450
+2021-11-22 22:00:58,467 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:58,468 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5548,3172,820),dir:(8,-100,0),spd:450
+2021-11-22 22:00:59,063 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,064 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5585,2885,820),dir:(28,-96,0),spd:450
+2021-11-22 22:00:59,163 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,164 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5599,2843,820),dir:(47,-88,0),spd:450
+2021-11-22 22:00:59,245 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,247 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5620,2809,820),dir:(62,-79,0),spd:450
+2021-11-22 22:00:59,328 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,329 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5646,2780,820),dir:(75,-67,0),spd:450
+2021-11-22 22:00:59,428 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,429 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5683,2751,820),dir:(87,-50,0),spd:450
+2021-11-22 22:00:59,510 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,512 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5718,2732,820),dir:(94,-34,0),spd:450
+2021-11-22 22:00:59,626 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:00:59,628 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5767,2715,820),dir:(99,-15,0),spd:450
+2021-11-22 22:00:59,759 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 22:00:59,761 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5817,2709,820),dir:(100,3,0),spd:450
+2021-11-22 22:01:00,239 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:01:00,240 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6048,2708,820),dir:(99,-17,0),spd:450
+2021-11-22 22:01:00,389 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:01:00,390 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6111,2697,820),dir:(94,-35,0),spd:450
+2021-11-22 22:01:00,918 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:47
+2021-11-22 22:01:00,920 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6335,2603,820),dir:(99,-17,0),spd:450
+2021-11-22 22:01:01,068 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:38
+2021-11-22 22:01:01,069 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6399,2595,820),dir:(100,1,0),spd:450
+2021-11-22 22:01:02,245 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:10
+2021-11-22 22:01:02,247 [12] [INFO ] [GameServer] £ºOnMapTeleport: CharacterId:1:System.Data.Entity.DynamicProxies.TCharacter_028C1AAF285F1833C035934409DC6685C502491A6A8DBACBBA5EE06212CF9890 TeleporterId:2
+2021-11-22 22:01:02,249 [12] [INFO ] [GameServer] £ºCharacterLeave: Map:1 characterId:1
+2021-11-22 22:01:02,251 [12] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:nice : Map:1 CharacterID:1:nice:EntityId:9
+2021-11-22 22:01:02,252 [12] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:02,253 [12] [INFO ] [GameServer] £ºCharacterEnter: Map:3 characterId:1
+2021-11-22 22:01:02,253 [12] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:03,563 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 22:01:03,565 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(2987,4086,25),dir:(100,2,0),spd:450
+2021-11-22 22:01:03,642 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:34
+2021-11-22 22:01:03,643 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(2987,4086,25),dir:(100,2,0),spd:0
+2021-11-22 22:01:03,763 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 22:01:03,766 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(2995,4086,25),dir:(100,2,0),spd:450
+2021-11-22 22:01:04,154 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:04,157 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(3178,4085,25),dir:(99,-15,0),spd:450
+2021-11-22 22:01:04,243 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:04,244 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(3220,4078,25),dir:(95,-33,0),spd:450
+2021-11-22 22:01:04,344 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:04,345 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(3261,4064,25),dir:(86,-51,0),spd:450
+2021-11-22 22:01:04,513 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:04,514 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(3321,4023,25),dir:(75,-66,0),spd:450
+2021-11-22 22:01:06,684 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:01:06,685 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(4095,3378,25),dir:(75,-66,0),spd:0
+2021-11-22 22:01:07,246 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 22:01:07,251 [13] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 22:01:07,253 [13] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:7 pos:(4985,2708,14)
+2021-11-22 22:01:31,181 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:01:31,184 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:31,388 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:01:32,202 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:01:32,203 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:01:32,207 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[Ð¡¶ñÄ§] Damage:38 Crit:False
+2021-11-22 22:01:32,208 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:32,319 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:01:38,877 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:01:38,881 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4101,3373,25),dir:(75,-66,0),spd:450
+2021-11-22 22:01:39,456 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:01:39,457 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(4299,3208,25),dir:(75,-66,0),spd:0
+2021-11-22 22:01:41,113 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:29
+2021-11-22 22:01:41,115 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:7 pos:SkillBridge.Message.NVector3
+2021-11-22 22:01:41,115 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:7 pos:(5059,2286,134)
+2021-11-22 22:01:41,185 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:01:41,188 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:42,397 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:01:43,204 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:01:43,204 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:01:43,205 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:43,307 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:01:44,593 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:44,594 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(85,-52,0),spd:0
+2021-11-22 22:01:44,709 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:44,710 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(94,-34,0),spd:0
+2021-11-22 22:01:44,808 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:44,809 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(99,-14,0),spd:0
+2021-11-22 22:01:44,906 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:44,912 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(100,7,0),spd:0
+2021-11-22 22:01:45,006 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:45,007 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(96,27,0),spd:0
+2021-11-22 22:01:45,089 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:45,090 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(90,44,0),spd:0
+2021-11-22 22:01:45,195 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:45,197 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4299,3208,25),dir:(79,61,0),spd:0
+2021-11-22 22:01:45,227 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 22:01:45,228 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(4311,3218,25),dir:(79,61,0),spd:450
+2021-11-22 22:01:45,310 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:45,311 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4340,3244,25),dir:(66,75,0),spd:450
+2021-11-22 22:01:45,956 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:45,958 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4536,3477,25),dir:(79,61,0),spd:450
+2021-11-22 22:01:46,040 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:46,041 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4567,3500,25),dir:(89,46,0),spd:450
+2021-11-22 22:01:46,139 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:46,140 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4609,3517,25),dir:(96,27,0),spd:450
+2021-11-22 22:01:46,221 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:46,222 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4645,3526,25),dir:(100,10,0),spd:450
+2021-11-22 22:01:46,303 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:46,305 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4685,3529,25),dir:(100,-8,0),spd:450
+2021-11-22 22:01:46,420 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:46,422 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4732,3522,25),dir:(96,-28,0),spd:450
+2021-11-22 22:01:46,504 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:46,505 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4767,3511,25),dir:(89,-45,0),spd:450
+2021-11-22 22:01:46,602 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:46,603 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4808,3491,25),dir:(79,-61,0),spd:450
+2021-11-22 22:01:46,768 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:46,771 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(4867,3440,25),dir:(67,-75,0),spd:450
+2021-11-22 22:01:48,227 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:01:48,228 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(5302,2918,25),dir:(67,-75,0),spd:0
+2021-11-22 22:01:49,319 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 22:01:49,321 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 22:01:49,322 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:6 pos:(5662,1773,36)
+2021-11-22 22:01:49,348 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:01:49,348 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:50,558 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:01:51,365 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:01:51,366 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:01:51,367 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[É½Çð¾ÞÈË] Damage:54 Crit:False
+2021-11-22 22:01:51,368 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:01:51,469 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:01:53,775 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:53,776 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5302,2918,25),dir:(79,-62,0),spd:0
+2021-11-22 22:01:53,873 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:53,874 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5302,2918,25),dir:(89,-45,0),spd:0
+2021-11-22 22:01:53,973 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:53,974 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5302,2918,25),dir:(97,-26,0),spd:0
+2021-11-22 22:01:54,022 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:01:54,023 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5309,2916,25),dir:(97,-26,0),spd:450
+2021-11-22 22:01:54,072 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:54,074 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5331,2912,25),dir:(100,-6,0),spd:450
+2021-11-22 22:01:54,221 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:01:54,223 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5402,2913,25),dir:(99,13,0),spd:450
+2021-11-22 22:01:54,588 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:01:54,588 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(100,-5,0),spd:450
+2021-11-22 22:01:54,619 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:01:54,620 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(5550,2933,25),dir:(100,-5,0),spd:0
+2021-11-22 22:01:54,701 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:54,702 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(97,-24,0),spd:0
+2021-11-22 22:01:54,950 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:54,951 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(100,-7,0),spd:0
+2021-11-22 22:01:55,051 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:55,057 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(99,12,0),spd:0
+2021-11-22 22:01:55,149 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:55,150 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(96,30,0),spd:0
+2021-11-22 22:01:55,348 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:55,349 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(89,46,0),spd:0
+2021-11-22 22:01:55,662 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:55,663 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(96,28,0),spd:0
+2021-11-22 22:01:55,761 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:01:55,763 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(100,9,0),spd:0
+2021-11-22 22:01:55,861 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:55,862 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(99,-12,0),spd:0
+2021-11-22 22:01:55,960 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:55,962 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(95,-32,0),spd:0
+2021-11-22 22:01:56,044 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:56,045 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(88,-48,0),spd:0
+2021-11-22 22:01:56,127 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:56,128 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(78,-63,0),spd:0
+2021-11-22 22:01:56,225 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:56,227 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(63,-78,0),spd:0
+2021-11-22 22:01:56,330 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:56,339 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(46,-89,0),spd:0
+2021-11-22 22:01:56,462 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:01:56,463 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(29,-96,0),spd:0
+2021-11-22 22:01:58,994 [16] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 22:01:58,996 [6] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 22:01:58,997 [6] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:6 pos:(5761,1752,6)
+2021-11-22 22:01:59,028 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:01:59,028 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:00,242 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:02:01,049 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:02:01,050 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:02:01,050 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[É½Çð¾ÞÈË] Damage:53 Crit:False
+2021-11-22 22:02:01,050 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:01,154 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:02:02,758 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:02,760 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(47,-88,0),spd:0
+2021-11-22 22:02:02,858 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:02,859 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(64,-77,0),spd:0
+2021-11-22 22:02:02,940 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:02,941 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(76,-65,0),spd:0
+2021-11-22 22:02:03,023 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:03,024 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5550,2933,25),dir:(86,-50,0),spd:0
+2021-11-22 22:02:03,107 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:02:03,109 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5556,2929,25),dir:(86,-50,0),spd:450
+2021-11-22 22:02:03,140 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,141 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5570,2925,25),dir:(94,-33,0),spd:450
+2021-11-22 22:02:03,272 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,273 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5626,2910,25),dir:(99,-16,0),spd:450
+2021-11-22 22:02:03,669 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,670 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5787,2885,25),dir:(94,-34,0),spd:450
+2021-11-22 22:02:03,769 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,773 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5828,2866,25),dir:(86,-51,0),spd:450
+2021-11-22 22:02:03,868 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,875 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5864,2841,25),dir:(74,-68,0),spd:450
+2021-11-22 22:02:03,968 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:03,969 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5898,2810,25),dir:(58,-81,0),spd:450
+2021-11-22 22:02:04,050 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:04,052 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5917,2779,25),dir:(43,-90,0),spd:450
+2021-11-22 22:02:04,133 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:04,134 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5931,2744,25),dir:(27,-96,0),spd:450
+2021-11-22 22:02:04,216 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:04,217 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5940,2708,25),dir:(10,-100,0),spd:450
+2021-11-22 22:02:04,497 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:02:04,499 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(5956,2580,25),dir:(10,-100,0),spd:0
+2021-11-22 22:02:04,630 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:04,632 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(28,-96,0),spd:0
+2021-11-22 22:02:04,713 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:04,714 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(44,-90,0),spd:0
+2021-11-22 22:02:04,795 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:04,797 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(59,-81,0),spd:0
+2021-11-22 22:02:04,912 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:04,913 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(73,-68,0),spd:0
+2021-11-22 22:02:07,446 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 22:02:07,447 [9] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:6 pos:SkillBridge.Message.NVector3
+2021-11-22 22:02:07,448 [9] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:6 pos:(5832,1641,0)
+2021-11-22 22:02:07,502 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:02:07,503 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:08,713 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:02:09,520 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:02:09,521 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:02:09,521 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[É½Çð¾ÞÈË] Damage:50 Crit:False
+2021-11-22 22:02:09,523 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:09,625 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:02:11,290 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:11,291 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(85,-53,0),spd:0
+2021-11-22 22:02:11,423 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:11,424 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(93,-37,0),spd:0
+2021-11-22 22:02:11,523 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:11,524 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(99,-17,0),spd:0
+2021-11-22 22:02:11,622 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:11,625 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(100,4,0),spd:0
+2021-11-22 22:02:12,036 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,037 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(99,-16,0),spd:0
+2021-11-22 22:02:12,119 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,121 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(94,-33,0),spd:0
+2021-11-22 22:02:12,202 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,203 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(87,-49,0),spd:0
+2021-11-22 22:02:12,301 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,304 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(75,-66,0),spd:0
+2021-11-22 22:02:12,401 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,402 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(60,-80,0),spd:0
+2021-11-22 22:02:12,549 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:12,550 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5956,2580,25),dir:(44,-90,0),spd:0
+2021-11-22 22:02:14,777 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:02:14,785 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5959,2573,25),dir:(44,-90,0),spd:450
+2021-11-22 22:02:15,622 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:15,624 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6111,2216,25),dir:(27,-96,0),spd:450
+2021-11-22 22:02:15,655 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:26
+2021-11-22 22:02:15,656 [8] [INFO ] [GameServer] £ºOnSkillCast::skill :301 caster:9 target:5 pos:SkillBridge.Message.NVector3
+2021-11-22 22:02:15,657 [8] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:301 caster:9 target:5 pos:(5832,1641,0)
+2021-11-22 22:02:15,673 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].Cast Result:[Ok] Status:Running
+2021-11-22 22:02:15,673 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:15,755 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:02:15,756 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(6125,2167,25),dir:(27,-96,0),spd:0
+2021-11-22 22:02:16,380 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0]
+2021-11-22 22:02:16,381 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].CastBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í
+2021-11-22 22:02:16,382 [5] [INFO ] [GameServer] £ºBullet[ÆÕÍ¨¹¥»÷].CasterBullet[EFX_Archer_AtkA_B_dandao_prefab] Target:¶ñ¹í Distance:5 Time:640
+2021-11-22 22:02:16,384 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:17,090 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].DoHit[0] IsBullet:True
+2021-11-22 22:02:17,090 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].HitTarget Result:[¶ñ¹í] Damage:80 Crit:False
+2021-11-22 22:02:17,091 [5] [INFO ] [GameServer] £ºSkill[ÆÕÍ¨¹¥»÷].UpdateSkill Finish
+2021-11-22 22:02:17,091 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:17,097 [18] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:02:17,098 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(6124,2172,25),dir:(27,-96,0),spd:-300
+2021-11-22 22:02:19,202 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:02:19,203 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(5999,2797,25),dir:(27,-96,0),spd:0
+2021-11-22 22:02:20,942 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 22:02:20,943 [7] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:5 pos:SkillBridge.Message.NVector3
+2021-11-22 22:02:20,943 [7] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:5 pos:(5719,1630,5)
+2021-11-22 22:02:21,022 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:02:21,023 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:22,241 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:02:23,048 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:02:23,049 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:02:23,049 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[É½Çð¾ÞÈË] Damage:51 Crit:False
+2021-11-22 22:02:23,050 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[¶ñ¹í] Damage:67 Crit:False
+2021-11-22 22:02:23,050 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:23,151 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:02:25,371 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:48
+2021-11-22 22:02:25,372 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveBack Entity:(9:pos:(5998,2802,25),dir:(27,-96,0),spd:-300
+2021-11-22 22:02:26,149 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:26,150 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5951,3031,25),dir:(45,-89,0),spd:-300
+2021-11-22 22:02:26,250 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:46
+2021-11-22 22:02:26,251 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(62,-78,0),spd:-300
+2021-11-22 22:02:26,281 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:43
+2021-11-22 22:02:26,282 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(5938,3055,25),dir:(62,-78,0),spd:0
+2021-11-22 22:02:26,347 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:26,348 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(77,-64,0),spd:0
+2021-11-22 22:02:26,431 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:26,432 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(87,-49,0),spd:0
+2021-11-22 22:02:26,531 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:26,533 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(95,-30,0),spd:0
+2021-11-22 22:02:26,631 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:26,632 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(100,-10,0),spd:0
+2021-11-22 22:02:26,713 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:26,715 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(100,8,0),spd:0
+2021-11-22 22:02:26,812 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:26,814 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(96,28,0),spd:0
+2021-11-22 22:02:26,896 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:26,896 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(90,44,0),spd:0
+2021-11-22 22:02:26,979 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:26,980 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(80,59,0),spd:0
+2021-11-22 22:02:27,078 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:27,078 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(66,75,0),spd:0
+2021-11-22 22:02:27,177 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:27,178 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(49,87,0),spd:0
+2021-11-22 22:02:27,276 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:27,277 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(30,95,0),spd:0
+2021-11-22 22:02:27,375 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:27,376 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(10,100,0),spd:0
+2021-11-22 22:02:27,458 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:27,459 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-8,100,0),spd:0
+2021-11-22 22:02:27,558 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:27,559 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-28,96,0),spd:0
+2021-11-22 22:02:27,641 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:27,642 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-44,90,0),spd:0
+2021-11-22 22:02:27,761 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:27,763 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-60,80,0),spd:0
+2021-11-22 22:02:28,804 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:28
+2021-11-22 22:02:28,805 [12] [INFO ] [GameServer] £ºOnSkillCast::skill :303 caster:9 target:8 pos:SkillBridge.Message.NVector3
+2021-11-22 22:02:28,806 [12] [INFO ] [GameServer] £ºBattleManager.ProcessBattleMessage:Skill:303 caster:9 target:8 pos:(5665,4222,78)
+2021-11-22 22:02:28,906 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].Cast Result:[Ok] Status:Casting
+2021-11-22 22:02:28,906 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:30,116 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateCasting Finish
+2021-11-22 22:02:30,922 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0]
+2021-11-22 22:02:30,922 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].DoHit[0] IsBullet:False
+2021-11-22 22:02:30,923 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].HitTarget Result:[ËÀÉñ] Damage:48 Crit:True
+2021-11-22 22:02:30,923 [5] [INFO ] [GameServer] £ºCharacter PostProcess > FriendManager :CharacteID:1:nice
+2021-11-22 22:02:31,025 [5] [INFO ] [GameServer] £ºSkill[¶¾¼ýÓê].UpdateSkill Finish
+2021-11-22 22:02:32,947 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:32,948 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-43,90,0),spd:0
+2021-11-22 22:02:33,045 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:33,048 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-23,97,0),spd:0
+2021-11-22 22:02:33,145 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:33,147 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(-3,100,0),spd:0
+2021-11-22 22:02:33,228 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:33,229 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(15,99,0),spd:0
+2021-11-22 22:02:33,327 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:32
+2021-11-22 22:02:33,329 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5938,3055,25),dir:(33,94,0),spd:0
+2021-11-22 22:02:33,444 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:39
+2021-11-22 22:02:33,445 [11] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:MoveFwd Entity:(9:pos:(5940,3062,25),dir:(33,94,0),spd:450
+2021-11-22 22:02:33,476 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:02:33,477 [12] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5946,3076,25),dir:(49,87,0),spd:450
+2021-11-22 22:02:34,023 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:02:34,025 [13] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(5991,3260,9),dir:(49,87,0),spd:450
+2021-11-22 22:02:34,155 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:02:34,157 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6021,3316,9),dir:(31,95,0),spd:450
+2021-11-22 22:02:34,256 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:37
+2021-11-22 22:02:34,258 [7] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6032,3358,9),dir:(12,99,0),spd:450
+2021-11-22 22:02:34,289 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:34
+2021-11-22 22:02:34,290 [8] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:Idle Entity:(9:pos:(6032,3358,9),dir:(12,99,0),spd:0
+2021-11-22 22:02:34,338 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:34,339 [9] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6032,3358,9),dir:(-6,100,0),spd:0
+2021-11-22 22:02:34,437 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:34,439 [10] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6032,3358,9),dir:(-25,97,0),spd:0
+2021-11-22 22:02:34,569 [14] [WARN ] [GameServer] £ºClient[] DataReceived Len:41
+2021-11-22 22:02:34,571 [6] [INFO ] [GameServer] £ºOnMapEntitySync: characterID:1:nice,Enity.Id:9 Evt:None Entity:(9:pos:(6032,3358,9),dir:(-42,91,0),spd:0
+2021-11-22 22:02:46,895 [14] [INFO ] [GameServer] £ºCharacterLeave£º characterID:1:nice
+2021-11-22 22:02:46,898 [14] [INFO ] [GameServer] £ºCharacterLeave: Map:3 characterId:1
+2021-11-22 22:02:46,899 [14] [INFO ] [GameServer] £ºSendCharacterLeaveMap To 1:nice : Map:3 CharacterID:1:nice:EntityId:9
+2021-11-22 22:02:46,900 [14] [WARN ] [GameServer] £ºClient[] Disconnected

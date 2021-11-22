@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\GameObject\PlayerInputController.cs" />
     <Compile Include="Assets\Scripts\GameObject\RideController.cs" />
     <Compile Include="Assets\Scripts\GameObject\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\GameObject\TargetSelector.cs" />
     <Compile Include="Assets\Scripts\GameObject\TeleporterObjecet.cs" />
     <Compile Include="Assets\Scripts\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\Log\UnityLogger.cs" />
@@ -231,6 +232,7 @@
     <Compile Include="Assets\ThirdParty\Candlelight\Library\Visuals\ColorHSV.cs" />
     <Compile Include="Assets\ThirdParty\Candlelight\Library\Visuals\ColorTween.cs" />
     <Compile Include="Assets\ThirdParty\Candlelight\Library\Visuals\TextureX.cs" />
+    <None Include="Assets\Shader\Projector.shader" />
     <None Include="Assets\Shader\UITest.shader" />
     <None Include="Assets\Shader\Lightmap\Lightmap.shader" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Demo scenes\Demo scene lasers\Readme.txt" />
@@ -244,6 +246,7 @@
     <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Electricity.shader" />
     <None Include="Assets\Resources\log4net.xml" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Shaders\Blend_Normals.shader" />
+    <None Include="Assets\FX\Shader\ParticlesAlphaBlended.shader" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Shaders\SmoothSmoke.shader" />
     <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Demo scenes\Demo projectiles\Readme.txt" />
@@ -258,6 +261,7 @@
     <None Include="Assets\ThirdParty\Candlelight\Asset Store Products\HyperText\Documentation\Changelog.txt" />
     <None Include="Assets\JsonDotNet\link.xml" />
     <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Demo magiс circles Vol 2\Readme.txt" />
+    <None Include="Assets\FX\Shader\ParticlesAlphaBlendedMask.shader" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Demo scenes\Demo scene lasers\If you want to use lasers in 2D.txt" />
     <None Include="Assets\ErbGameArt\AAA Magic circles Vol 2\Shaders\Blend_TwoSides.shader" />
     <None Include="Assets\Hovl Studio\RPG VFX Bundle\Demo scenes\Demo magic circles Vol 1\Readme.txt" />

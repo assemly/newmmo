@@ -63,6 +63,7 @@ namespace GameServer.Battle
             BattleContext context = new BattleContext(this);
             context.Caster = EntityManager.Instance.GetCreature(cast.casterId);
             context.Target = EntityManager.Instance.GetCreature(cast.targetId);
+            context.Position = cast.Position;
             context.CastSkill = cast;
             if (context.Caster != null)
                 this.JoinBattle(context.Caster);
