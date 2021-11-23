@@ -9,11 +9,11 @@ namespace Common.Battle
 {
     public class Attributes
     {
-        AttributeData Initial = new AttributeData();
-        AttributeData Growth = new AttributeData();
-        AttributeData Equip = new AttributeData();
-        AttributeData Basic = new AttributeData();
-        AttributeData Buff = new AttributeData();
+       public AttributeData Initial = new AttributeData();
+       public AttributeData Growth = new AttributeData();
+       public AttributeData Equip = new AttributeData();
+       public AttributeData Basic = new AttributeData();
+       public AttributeData Buff = new AttributeData();
 
         public AttributeData Final = new AttributeData();
 
@@ -165,7 +165,7 @@ namespace Common.Battle
             this.Basic.CRI = this.Basic.DEX * 0.0002f + this.Initial.CRI + this.Equip.CRI;
         }
 
-        private void InitFinalAttributes()
+        public void InitFinalAttributes()
         {
             for(int i = (int)AttributeType.MaxHP; i < (int)AttributeType.MAX; i++)
             {

@@ -41,7 +41,13 @@ namespace Common.Battle
     {
         None = 0,
         Stun = 1,
+        Invincible = 2, //无敌
     }
 
-  
+    public enum TrigegerType
+    {
+        None = 0,
+        SkillCast = 1, //技能释放
+        SkillHit = 2,  //技能命中
+    }
 }

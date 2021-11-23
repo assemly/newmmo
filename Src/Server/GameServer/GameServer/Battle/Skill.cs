@@ -1,4 +1,5 @@
 ﻿using Common;
+using Common.Battle;
 using Common.Data;
 using Common.Utils;
 using GameServer.Core;
@@ -91,7 +92,7 @@ namespace GameServer.Battle
                 this.Context = context;
                 this.Hit = 0;
                 this.Bullets.Clear();
-                
+                this.AddBuff(TrigegerType.SkillCast);
                 if (this.Instant)
                 {
                     this.DoHit();
@@ -127,7 +128,7 @@ namespace GameServer.Battle
             {
                 pos = this.Owner.Position;
             }
-            List<Creature> units = this.Context.Battle.FindUnitsInRange(pos, this.Define.AOERange);
+            List<Creature> units = this.Context.Battle.FindUnitsInMapRange(pos, this.Define.AOERange);
             foreach(var target in units)
             {
                 this.HitTarget(target,hit);
@@ -144,6 +145,27 @@ namespace GameServer.Battle
             target.DoDamage(damge);
             hit.Damages.Add(damge);
 
+            this.AddBuff(TrigegerType.SkillHit);
+
+        }
+
+        private void AddBuff(TrigegerType trigger)
+        {
+            if (this.Define.Buff == null || this.Define.Buff.Count == 0) return;
+
+            foreach(var buffId in this.Define.Buff)
+            {
+                var buffDefine = DataManager.Instance.Buffs[buffId];
+                if (buffDefine.Trigger != trigger) continue;
+                if(buffDefine.Target == Common.Battle.TargetType.Self)
+                {
+                    this.Owner.AddBuff(this.Context, buffDefine);
+                }else if(buffDefine.Target == Common.Battle.TargetType.Target)
+                {
+                    this.Context.Target.AddBuff(this.Context, buffDefine);
+                }
+
+            }
         }
 
         private NDamageInfo CalcSkillDamage(Creature caster, Creature target)

@@ -19,7 +19,7 @@ namespace Common.Data
 		public string Description { get; set;} 	// 描述
 		public string Icon { get; set;} 	// 图标
 		public TargetType Target { get; set;} 	// 目标类型
-		public string Trigger { get; set;} 	// 触发时机
+		public TrigegerType Trigger { get; set;} 	// 触发时机
 		public BuffEffect Effect { get; set;} 	// Column7
 		public int CD { get; set;} 	// CD
 		public float Duration { get; set;} 	// 持续时间
